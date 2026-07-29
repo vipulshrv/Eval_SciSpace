@@ -255,9 +255,14 @@ def _classify_report(panel: dict, claim: str) -> str:
 
 
 def fold_into_step5(query: str, judge: Judge, workers: int = 6) -> dict:
-    """Verify a query's non-SUPPORTED cited report sentences against their cited
-    table rows; recompute citation precision + report contradictions as verified."""
-    from .step5_report import build_table_reference
+    """Verify a query's adjudicable flagged cited report sentences against the cited
+    paper's FULL TEXT (∪ table row), then recompute citation faithfulness split by
+    claim kind (empirical vs background) as verified.
+
+    Only adjudicable flags are re-checked: context-limited UNSUPPORTED sentences
+    (support may live in full text we don't hold) are excluded from the metric and
+    not re-verified."""
+    from .step5_report import build_paper_reference
     ds = load_query(query)
     if ds.citation_confidence != "high":
         return {"skipped": "citation mapping unreliable"}
@@ -266,10 +271,11 @@ def fold_into_step5(query: str, judge: Judge, workers: int = 6) -> dict:
     sents = data["sentences"]
 
     graded = [s for s in sents if s["kind"] == "cited" and s.get("verdict")]
-    flagged = [s for s in graded if s["verdict"] in ("UNSUPPORTED", "CONTRADICTED")]
+    flagged = [s for s in graded
+               if s["verdict"] in ("UNSUPPORTED", "CONTRADICTED") and not s.get("context_limited")]
 
     def do(s):
-        ref = "\n\n".join(build_table_reference(ds, n) for n in s["citations"] if ds.citation_row(n))
+        ref = "\n\n".join(build_paper_reference(ds, n)[0] for n in s["citations"] if ds.citation_row(n))
         panel = verify_finding(judge, s["text"], ref)
         s["verified_state"] = _classify_report(panel, s["text"])
         s["verified_panel"] = {k: panel[k] for k in ("supporter_verdict", "skeptic_verdict")}
@@ -278,19 +284,49 @@ def fold_into_step5(query: str, judge: Judge, workers: int = 6) -> dict:
     with ThreadPoolExecutor(max_workers=workers) as ex:
         list(ex.map(do, flagged))
 
-    orig_supported = sum(1 for s in graded if s["verdict"] == "SUPPORTED")
-    regained = sum(1 for s in flagged if s["verified_state"] == "supported")
-    contradictions = sum(1 for s in flagged if s["verified_state"] == "contradiction")
-    unsupported = sum(1 for s in flagged if s["verified_state"] == "unsupported")
-    supported = orig_supported + regained
-    n = len(graded) or 1
+    def _eff(s: dict) -> str:
+        """Effective post-verification verdict for a graded sentence."""
+        st = s.get("verified_state")
+        if st == "supported":
+            return "SUPPORTED"          # first pass cited the wrong span
+        if st == "contradiction":
+            return "CONTRADICTED"
+        if st == "unsupported":
+            return "UNSUPPORTED"
+        if st in ("not_a_claim", "uncertain"):
+            return "EXCLUDE"            # not a scoreable attribution
+        return s["verdict"]             # not re-flagged -> keep original verdict
+
+    def bucket(group: list[dict]) -> dict:
+        effs = []
+        for s in group:
+            if s.get("context_limited"):
+                continue
+            ev = _eff(s)
+            if ev == "EXCLUDE":
+                continue
+            effs.append(ev)
+        sup = sum(1 for e in effs if e == "SUPPORTED")
+        con = sum(1 for e in effs if e == "CONTRADICTED")
+        return {"adjudicable": len(effs), "supported": sup, "contradicted": con,
+                "precision": round(sup / len(effs), 4) if effs else None}
+
+    emp = bucket([s for s in graded if s.get("claim_kind") == "empirical"])
+    bg = bucket([s for s in graded if s.get("claim_kind") == "background"])
+    allb = bucket(graded)
+
     verified = {
         "graded_cited": len(graded),
         "flagged_rechecked": len(flagged),
-        "supported": supported,
-        "report_contradictions": contradictions,
-        "unsupported": unsupported,
-        "citation_precision": round(supported / n, 4),
+        # HEADLINE = empirical-claim faithfulness
+        "citation_precision": emp["precision"],
+        "citation_precision_empirical": emp["precision"],
+        "citation_precision_background": bg["precision"],
+        "empirical": emp,
+        "background": bg,
+        "all_cited": allb,
+        "report_contradictions": allb["contradicted"],
+        "context_limited_excluded": sum(1 for s in graded if s.get("context_limited")),
         "first_pass_citation_precision": data["summary"].get("citation_precision"),
         "first_pass_contradictions": data["summary"].get("verdict_breakdown", {}).get("CONTRADICTED"),
     }

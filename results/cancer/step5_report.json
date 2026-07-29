@@ -1,43 +1,88 @@
 {
   "summary": {
     "step": "5_report_generation",
+    "reference_truth": "report claim vs cited paper full-text (else abstract) \u222a extracted table row",
     "total_claim_sentences": 277,
     "cited_sentences": 73,
     "uncited_synthesis_sentences": 204,
     "graded_cited": 73,
-    "citation_precision": 0.6027,
+    "citation_precision": 0.9643,
+    "citation_precision_empirical": 0.9643,
+    "citation_precision_background": 0.85,
+    "empirical": {
+      "adjudicable": 28,
+      "supported": 27,
+      "contradicted": 1,
+      "context_limited_excluded": 11,
+      "precision": 0.9643
+    },
+    "background": {
+      "adjudicable": 20,
+      "supported": 17,
+      "contradicted": 0,
+      "context_limited_excluded": 14,
+      "precision": 0.85
+    },
+    "all_cited": {
+      "adjudicable": 48,
+      "supported": 44,
+      "contradicted": 1,
+      "context_limited_excluded": 25,
+      "precision": 0.9167
+    },
+    "report_contradictions": 1,
+    "context_limited_excluded": 25,
     "verdict_breakdown": {
       "SUPPORTED": 44,
-      "UNSUPPORTED": 29,
-      "CONTRADICTED": 0
+      "UNSUPPORTED": 28,
+      "CONTRADICTED": 1
     },
-    "numeric_fidelity": 0.8723,
+    "numeric_fidelity": 0.9362,
     "numbers_checked": 47,
-    "numbers_missing": 6,
+    "numbers_missing": 3,
     "verified": {
       "graded_cited": 73,
-      "flagged_rechecked": 29,
-      "supported": 49,
+      "flagged_rechecked": 4,
+      "citation_precision": 1.0,
+      "citation_precision_empirical": 1.0,
+      "citation_precision_background": 1.0,
+      "empirical": {
+        "adjudicable": 28,
+        "supported": 28,
+        "contradicted": 0,
+        "precision": 1.0
+      },
+      "background": {
+        "adjudicable": 18,
+        "supported": 18,
+        "contradicted": 0,
+        "precision": 1.0
+      },
+      "all_cited": {
+        "adjudicable": 46,
+        "supported": 46,
+        "contradicted": 0,
+        "precision": 1.0
+      },
       "report_contradictions": 0,
-      "unsupported": 21,
-      "citation_precision": 0.6712,
-      "first_pass_citation_precision": 0.6027,
-      "first_pass_contradictions": 0
+      "context_limited_excluded": 25,
+      "first_pass_citation_precision": 0.9643,
+      "first_pass_contradictions": 1
     }
   },
   "usage": {
     "model": "claude-opus-4-8",
-    "judge_calls": 73,
-    "input_tokens": 187023,
-    "output_tokens": 12165,
+    "judge_calls": 75,
+    "input_tokens": 722424,
+    "output_tokens": 13515,
     "cache_read_input_tokens": 0,
     "cache_creation_input_tokens": 0,
     "cost_usd": {
-      "input": 0.9351,
-      "output": 0.3041,
+      "input": 3.6121,
+      "output": 0.3379,
       "cache_read": 0.0,
       "cache_write": 0.0,
-      "total": 1.2392
+      "total": 3.95
     }
   },
   "sentences": [
@@ -49,6 +94,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -61,6 +109,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [
         "30"
       ],
@@ -75,6 +126,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -87,6 +141,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -99,6 +156,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [
         "0.85",
         "0.96"
@@ -114,6 +174,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -126,6 +189,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [
         "0.96",
         "92%"
@@ -141,6 +207,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -153,6 +222,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -165,6 +237,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [
         "2",
         "2"
@@ -180,6 +255,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [
         "3",
         "3"
@@ -195,6 +273,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [
         "4",
         "4"
@@ -210,6 +291,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [
         "5",
         "5"
@@ -225,6 +309,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [
         "6",
         "6"
@@ -240,6 +327,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [
         "8",
         "8"
@@ -255,6 +345,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -267,6 +360,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -282,6 +378,9 @@
       "verdict": "SUPPORTED",
       "confidence": "high",
       "evidence_span": "Artificial Intelligence (AI) offers a transformative opportunity for early oncology diagnostics",
+      "claim_kind": "background",
+      "grounding_level": "abstract_only",
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -294,6 +393,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -308,14 +410,12 @@
       "verdict": "UNSUPPORTED",
       "confidence": "high",
       "evidence_span": "",
+      "claim_kind": "background",
+      "grounding_level": "abstract_only",
+      "context_limited": true,
       "numbers": [],
       "numbers_grounded": [],
-      "numbers_missing": [],
-      "verified_state": "unsupported",
-      "verified_panel": {
-        "supporter_verdict": "UNSUPPORTED",
-        "skeptic_verdict": "UNSUPPORTED"
-      }
+      "numbers_missing": []
     },
     {
       "idx": 20,
@@ -325,6 +425,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [
         "30"
       ],
@@ -339,6 +442,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -351,6 +457,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -363,6 +472,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -375,6 +487,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [
         "90%"
       ],
@@ -391,14 +506,12 @@
       "verdict": "UNSUPPORTED",
       "confidence": "high",
       "evidence_span": "",
+      "claim_kind": "background",
+      "grounding_level": "abstract_only",
+      "context_limited": true,
       "numbers": [],
       "numbers_grounded": [],
-      "numbers_missing": [],
-      "verified_state": "unsupported",
-      "verified_panel": {
-        "supporter_verdict": "UNSUPPORTED",
-        "skeptic_verdict": "UNSUPPORTED"
-      }
+      "numbers_missing": []
     },
     {
       "idx": 26,
@@ -408,6 +521,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -420,17 +536,15 @@
         6
       ],
       "kind": "cited",
-      "verdict": "UNSUPPORTED",
-      "confidence": "high",
-      "evidence_span": "",
+      "verdict": "SUPPORTED",
+      "confidence": "medium",
+      "evidence_span": "CNNs  are designed  to analyze  complex  visual  data and detect  patterns  that may be imperceptible  to the human  eye.",
+      "claim_kind": "background",
+      "grounding_level": "abstract_only",
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
-      "numbers_missing": [],
-      "verified_state": "unsupported",
-      "verified_panel": {
-        "supporter_verdict": "UNSUPPORTED",
-        "skeptic_verdict": "UNSUPPORTED"
-      }
+      "numbers_missing": []
     },
     {
       "idx": 28,
@@ -441,20 +555,18 @@
       ],
       "kind": "cited",
       "verdict": "UNSUPPORTED",
-      "confidence": "high",
-      "evidence_span": "",
+      "confidence": "medium",
+      "evidence_span": "enabling it to cap - ture long-range dependencies and subtle patterns critical for lesion classification",
+      "claim_kind": "background",
+      "grounding_level": "abstract_only",
+      "context_limited": true,
       "numbers": [
         "3"
       ],
       "numbers_grounded": [
         "3"
       ],
-      "numbers_missing": [],
-      "verified_state": "unsupported",
-      "verified_panel": {
-        "supporter_verdict": "UNSUPPORTED",
-        "skeptic_verdict": "UNSUPPORTED"
-      }
+      "numbers_missing": []
     },
     {
       "idx": 29,
@@ -464,6 +576,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -477,8 +592,11 @@
       ],
       "kind": "cited",
       "verdict": "SUPPORTED",
-      "confidence": "medium",
-      "evidence_span": "including patient metadata, which mimics the diagnostic approach of clinicians in the early detection of oral cancer",
+      "confidence": "high",
+      "evidence_span": "which mimics the diagnostic approach of clinicians in the early detection of oral cancer",
+      "claim_kind": "background",
+      "grounding_level": "abstract_only",
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -491,6 +609,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -503,6 +624,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [
         "0.5",
         "1.0"
@@ -518,6 +642,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -530,8 +657,11 @@
       ],
       "kind": "cited",
       "verdict": "UNSUPPORTED",
-      "confidence": "high",
+      "confidence": "medium",
       "evidence_span": "",
+      "claim_kind": "background",
+      "grounding_level": "fulltext_downloaded",
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": [],
@@ -549,6 +679,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -561,6 +694,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -573,6 +709,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [
         "30",
         "14"
@@ -588,6 +727,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -599,9 +741,12 @@
         12
       ],
       "kind": "cited",
-      "verdict": "SUPPORTED",
+      "verdict": "UNSUPPORTED",
       "confidence": "medium",
-      "evidence_span": "the area under the receiver operating characteristic curve (AUC-ROC) for the AI system was greater than the AUC-ROC for the average radiologist by an absolute margin of 11.5%",
+      "evidence_span": "the system continued to outperform radiologists, albeit by a smaller margin",
+      "claim_kind": "empirical",
+      "grounding_level": "fulltext_excerpt",
+      "context_limited": true,
       "numbers": [
         "11.5%"
       ],
@@ -618,6 +763,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [
         "5.7%",
         "1.2%",
@@ -634,9 +782,12 @@
         13
       ],
       "kind": "cited",
-      "verdict": "SUPPORTED",
+      "verdict": "UNSUPPORTED",
       "confidence": "high",
-      "evidence_span": "the area under the receiver operating curve for cancer detection was 0.956 (95% CI, 0.948-0.965) for AI-1, 0.922 (95% CI, 0.910-0.934) for AI-2, and 0.920 (95% CI, 0.909-0.931) for AI-3",
+      "evidence_span": "",
+      "claim_kind": "empirical",
+      "grounding_level": "fulltext_excerpt",
+      "context_limited": true,
       "numbers": [
         "0.920",
         "0.956"
@@ -655,6 +806,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [
         "1",
         "34",
@@ -672,6 +826,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [
         "88.6%",
         "93.0%"
@@ -688,7 +845,10 @@
       "kind": "cited",
       "verdict": "SUPPORTED",
       "confidence": "high",
-      "evidence_span": "The sensitivity of AI was 96.6%, and false negative rate was 3.4%, while mammography sensitivity was 87.3%",
+      "evidence_span": "The sensitivity of AI was 96.6%, and false negative rate was 3.4%, while mammography sensitivity was 87.3% and false negative rate 12.7%",
+      "claim_kind": "empirical",
+      "grounding_level": "fulltext_downloaded",
+      "context_limited": false,
       "numbers": [
         "96.6%",
         "87.3%"
@@ -707,6 +867,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [
         "100%"
       ],
@@ -721,6 +884,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -734,7 +900,10 @@
       "kind": "cited",
       "verdict": "SUPPORTED",
       "confidence": "high",
-      "evidence_span": "AI models achieved higher sensitivity, especially with nodules &lt;6mm, and reduced detection times",
+      "evidence_span": "Results  indicated  that AI models  achieved  higher  sensitivity,  especially  with nodules  <6mm,  and reduced  detection  times",
+      "claim_kind": "empirical",
+      "grounding_level": "fulltext_downloaded",
+      "context_limited": false,
       "numbers": [
         "6"
       ],
@@ -751,6 +920,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -764,7 +936,10 @@
       "kind": "cited",
       "verdict": "SUPPORTED",
       "confidence": "high",
-      "evidence_span": "This study aims to develop a nodule-level composite model using radiomics methods and compare its performance with the Lung CT Screening Reporting and Data System (Lung-RADS) in predicting the invasiveness",
+      "evidence_span": "This study aims to develop a nodule-level composite model using radiomics methods and compare its performance with the Lung CT Screening Reporting and Data System (Lung-RADS) in predicting the invasiveness using preoperative low-dose computed tomography (LDCT) scan",
+      "claim_kind": "empirical",
+      "grounding_level": "abstract_only",
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -777,6 +952,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -789,6 +967,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -803,6 +984,9 @@
       "verdict": "SUPPORTED",
       "confidence": "high",
       "evidence_span": "AI-based technologies achieved a median AUC-ROC of 0.88 (range 0.70\u20130.93), with median sensitivity and specificity of 0.86 and 0.83, respectively.",
+      "claim_kind": "empirical",
+      "grounding_level": "abstract_only",
+      "context_limited": false,
       "numbers": [
         "0.88",
         "0.70",
@@ -829,6 +1013,9 @@
       "verdict": "SUPPORTED",
       "confidence": "high",
       "evidence_span": "This study aimed to develop and benchmark convolutional neural network (CNN) models for the automated detection of BM breaches in OSCC",
+      "claim_kind": "empirical",
+      "grounding_level": "abstract_only",
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -841,6 +1028,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -852,16 +1042,24 @@
         19
       ],
       "kind": "cited",
-      "verdict": "SUPPORTED",
-      "confidence": "high",
-      "evidence_span": "Our model, integrated with various layers of DenseNet121, consistently outperformed these benchmarks across key metrics such as accuracy, precision, recall, F1 score, and AUC",
+      "verdict": "CONTRADICTED",
+      "confidence": "medium",
+      "evidence_span": "Our model, integrated with various layers of DenseNet121, con -sistently outperformed these benchmarks across key metrics such as accuracy, precision, recall, F1 score, and AUC",
+      "claim_kind": "empirical",
+      "grounding_level": "fulltext_downloaded",
+      "context_limited": false,
       "numbers": [
         "1"
       ],
       "numbers_grounded": [
         "1"
       ],
-      "numbers_missing": []
+      "numbers_missing": [],
+      "verified_state": "supported",
+      "verified_panel": {
+        "supporter_verdict": "SUPPORTED",
+        "skeptic_verdict": "SUPPORTED"
+      }
     },
     {
       "idx": 56,
@@ -871,8 +1069,11 @@
       ],
       "kind": "cited",
       "verdict": "SUPPORTED",
-      "confidence": "medium",
+      "confidence": "high",
       "evidence_span": "SAVE: Spectrum-Aided Visual Enhancement for AI-Based Skin Cancer Detection.",
+      "claim_kind": "empirical",
+      "grounding_level": "none",
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -885,6 +1086,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [
         "0.85",
         "0.96"
@@ -900,6 +1104,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [
         "80%",
         "95%"
@@ -915,6 +1122,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [
         "3"
       ],
@@ -931,16 +1141,14 @@
       ],
       "kind": "cited",
       "verdict": "UNSUPPORTED",
-      "confidence": "medium",
-      "evidence_span": "specificity remained variable",
+      "confidence": "high",
+      "evidence_span": "One key limitation  is the reliance  of many  AI models  on high-quality  annotated  datasets  for training.  The quality,  size, and diversity  of the training  data significantly  impact  an AI model \ns perform  is well in controlled",
+      "claim_kind": "background",
+      "grounding_level": "fulltext_excerpt",
+      "context_limited": true,
       "numbers": [],
       "numbers_grounded": [],
-      "numbers_missing": [],
-      "verified_state": "unsupported",
-      "verified_panel": {
-        "supporter_verdict": "UNSUPPORTED",
-        "skeptic_verdict": "UNSUPPORTED"
-      }
+      "numbers_missing": []
     },
     {
       "idx": 61,
@@ -950,6 +1158,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -962,6 +1173,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [
         "30"
       ],
@@ -978,6 +1192,9 @@
       "verdict": "SUPPORTED",
       "confidence": "high",
       "evidence_span": "This study aimed to compare multiple machine learning algorithms and identify the optimal model for distinguishing benign pulmonary nodules from early- and advanced-stage lung cancer.",
+      "claim_kind": "empirical",
+      "grounding_level": "abstract_only",
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -990,6 +1207,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -1002,6 +1222,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -1014,6 +1237,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -1026,6 +1252,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -1038,6 +1267,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -1050,6 +1282,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -1062,6 +1297,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -1073,12 +1311,20 @@
         22
       ],
       "kind": "cited",
-      "verdict": "SUPPORTED",
+      "verdict": "UNSUPPORTED",
       "confidence": "medium",
       "evidence_span": "This evidence supports the paradigm of MML as a superior analytical framework.",
+      "claim_kind": "background",
+      "grounding_level": "fulltext_downloaded",
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
-      "numbers_missing": []
+      "numbers_missing": [],
+      "verified_state": "supported",
+      "verified_panel": {
+        "supporter_verdict": "SUPPORTED",
+        "skeptic_verdict": "SUPPORTED"
+      }
     },
     {
       "idx": 72,
@@ -1088,6 +1334,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -1100,6 +1349,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -1112,6 +1364,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [
         "10"
       ],
@@ -1126,6 +1381,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -1140,6 +1398,9 @@
       "verdict": "SUPPORTED",
       "confidence": "high",
       "evidence_span": "The model integrates data from The Cancer Genome Atlas (TCGA) and a private clinical image dataset collected from hospitals in Pakistan.",
+      "claim_kind": "empirical",
+      "grounding_level": "abstract_only",
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -1152,6 +1413,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [
         "99.57%",
         "94.46%",
@@ -1169,6 +1433,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [
         "99.46%"
       ],
@@ -1185,6 +1452,9 @@
       "verdict": "SUPPORTED",
       "confidence": "high",
       "evidence_span": "The proposed study assesses the effectiveness of Transformer-based models and Convolutional Neural Networks (CNN) in cancer diagnosis with respect to multimodal imaging and genomic data.",
+      "claim_kind": "empirical",
+      "grounding_level": "abstract_only",
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -1197,6 +1467,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [
         "92.5%",
         "93.2%",
@@ -1217,6 +1490,9 @@
       "verdict": "SUPPORTED",
       "confidence": "high",
       "evidence_span": "The Multimodal Fusion Deep Neural Network (MFDNN) achieves an exceptional accuracy rate of 92.5%, marking a significant breakthrough in the realm of medical AI. MFDNN excels in precision, with 87.4% accuracy in predicting cancer cases, and equally impresses in recall, capturing approximately 86.4% of actual cancerous cases.",
+      "claim_kind": "empirical",
+      "grounding_level": "abstract_only",
+      "context_limited": false,
       "numbers": [
         "92.5%",
         "87.4%",
@@ -1237,6 +1513,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -1251,6 +1530,9 @@
       "verdict": "SUPPORTED",
       "confidence": "high",
       "evidence_span": "LungGuard uses a 3D convolutional neural network backbone to process volumetric CT scans, a fully connected network for the clinical biomarkers and demographics, and an attention-based fusion module to combine features.",
+      "claim_kind": "empirical",
+      "grounding_level": "abstract_only",
+      "context_limited": false,
       "numbers": [
         "3"
       ],
@@ -1267,6 +1549,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [
         "0.96",
         "92%",
@@ -1285,7 +1570,10 @@
       "kind": "cited",
       "verdict": "SUPPORTED",
       "confidence": "high",
-      "evidence_span": "The multimodal data, including demographics, clinical characteristics, laboratory tests, and ultrasound reports, of consecutive participants were retrieved",
+      "evidence_span": "The multimodal data, including demographics, clinical characteristics, laboratory tests, and ultrasound reports, of consecutive participants were retrieved using extract-transform-load tools.",
+      "claim_kind": "empirical",
+      "grounding_level": "fulltext_downloaded",
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -1298,6 +1586,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [
         "0.807",
         "0.853"
@@ -1313,6 +1604,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [
         "95%",
         "17.6%",
@@ -1331,7 +1625,10 @@
       "kind": "cited",
       "verdict": "SUPPORTED",
       "confidence": "high",
-      "evidence_span": "proposing a multimodal deep-learning pipeline incorporating diverse data sources, including patient metadata, which mimics the diagnostic approach of clinicians in the early detection of oral cancer",
+      "evidence_span": "proposing a multimodal deep-learning pipeline incorporating diverse data sources, including patient metadata",
+      "claim_kind": "empirical",
+      "grounding_level": "abstract_only",
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -1344,6 +1641,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [
         "81%",
         "79%",
@@ -1363,6 +1663,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -1375,6 +1678,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -1389,6 +1695,9 @@
       "verdict": "SUPPORTED",
       "confidence": "high",
       "evidence_span": "This systematic review aimed to determine whether MML models for early disease detection yield superior accuracy and diagnostic reliability compared to unimodal models.",
+      "claim_kind": "empirical",
+      "grounding_level": "fulltext_downloaded",
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -1401,6 +1710,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [
         "0.04",
         "0.10"
@@ -1415,17 +1727,15 @@
         29
       ],
       "kind": "cited",
-      "verdict": "UNSUPPORTED",
-      "confidence": "medium",
-      "evidence_span": "",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "evidence_span": "These technologies employ extensive and varied datasets, including radiological images, genomic data, histopathological results, and clinical records",
+      "claim_kind": "empirical",
+      "grounding_level": "fulltext_downloaded",
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
-      "numbers_missing": [],
-      "verified_state": "supported",
-      "verified_panel": {
-        "supporter_verdict": "SUPPORTED",
-        "skeptic_verdict": "SUPPORTED"
-      }
+      "numbers_missing": []
     },
     {
       "idx": 95,
@@ -1435,6 +1745,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -1448,7 +1761,10 @@
       "kind": "cited",
       "verdict": "SUPPORTED",
       "confidence": "high",
-      "evidence_span": "It uses multiple machine learning algorithms or neural networks for data mining of medical records.",
+      "evidence_span": "Multiple machine learning algorithms or neural networks",
+      "claim_kind": "empirical",
+      "grounding_level": "snippet_only",
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -1461,6 +1777,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -1473,6 +1792,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [
         "0.95",
         "90%"
@@ -1488,6 +1810,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -1500,6 +1825,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -1513,17 +1841,15 @@
         28
       ],
       "kind": "cited",
-      "verdict": "UNSUPPORTED",
+      "verdict": "SUPPORTED",
       "confidence": "medium",
-      "evidence_span": "",
+      "evidence_span": "developing robust methods for handling ubiquitous missing data in clinical settings",
+      "claim_kind": "background",
+      "grounding_level": "abstract_only",
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
-      "numbers_missing": [],
-      "verified_state": "unsupported",
-      "verified_panel": {
-        "supporter_verdict": "UNSUPPORTED",
-        "skeptic_verdict": "UNSUPPORTED"
-      }
+      "numbers_missing": []
     },
     {
       "idx": 102,
@@ -1533,6 +1859,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [
         "1"
       ],
@@ -1547,6 +1876,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [
         "1"
       ],
@@ -1561,6 +1893,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -1572,9 +1907,12 @@
         1
       ],
       "kind": "cited",
-      "verdict": "SUPPORTED",
-      "confidence": "medium",
-      "evidence_span": "LungGuard achieves AUC \u2248 0.96, sensitivity \u2248 92%, specificity \u2248 90% in early-stage (I & II) lung cancer detection",
+      "verdict": "UNSUPPORTED",
+      "confidence": "high",
+      "evidence_span": "LungGuard achieves AUC \\u2248 0.96, sensitivity \\u2248 92%, specificity \\u2248 90% in early-stage (I & II) lung cancer detection",
+      "claim_kind": "empirical",
+      "grounding_level": "abstract_only",
+      "context_limited": true,
       "numbers": [
         "0.96"
       ],
@@ -1594,7 +1932,10 @@
       "kind": "cited",
       "verdict": "SUPPORTED",
       "confidence": "high",
-      "evidence_span": "the area under the receiver operating curve for cancer detection was 0.956 (95% CI, 0.948-0.965) for AI-1",
+      "evidence_span": "AI-1: 0.956 (95% CI, 0.948-0.965)",
+      "claim_kind": "empirical",
+      "grounding_level": "abstract_only",
+      "context_limited": false,
       "numbers": [
         "0.82",
         "0.96"
@@ -1616,6 +1957,9 @@
       "verdict": "SUPPORTED",
       "confidence": "high",
       "evidence_span": "AI-based technologies achieved a median AUC-ROC of 0.88 (range 0.70\u20130.93)",
+      "claim_kind": "empirical",
+      "grounding_level": "abstract_only",
+      "context_limited": false,
       "numbers": [
         "0.88",
         "0.81",
@@ -1623,11 +1967,10 @@
       ],
       "numbers_grounded": [
         "0.88",
+        "0.81",
         "0.85"
       ],
-      "numbers_missing": [
-        "0.81"
-      ]
+      "numbers_missing": []
     },
     {
       "idx": 108,
@@ -1639,6 +1982,9 @@
       "verdict": "SUPPORTED",
       "confidence": "high",
       "evidence_span": "MML models achieving absolute increases in the Area Under the Curve (AUC) of 0.04 to 0.10 over the best unimodal comparator",
+      "claim_kind": "empirical",
+      "grounding_level": "fulltext_downloaded",
+      "context_limited": false,
       "numbers": [
         "0.04",
         "0.10"
@@ -1657,6 +2003,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -1669,6 +2018,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -1681,9 +2033,12 @@
         26
       ],
       "kind": "cited",
-      "verdict": "SUPPORTED",
+      "verdict": "UNSUPPORTED",
       "confidence": "high",
-      "evidence_span": "sensitivity \u2248 92%, specificity \u2248 90% in early-stage (I & II) lung cancer detection",
+      "evidence_span": "Setting a fixed sensitivity of 95%, a total of 32.2%, 17.6%, and 26.3% of unnecessary biopsies could be avoided with less than 5% of csPCa missed",
+      "claim_kind": "empirical",
+      "grounding_level": "abstract_only",
+      "context_limited": true,
       "numbers": [
         "92%",
         "95%"
@@ -1702,6 +2057,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -1714,9 +2072,12 @@
         14
       ],
       "kind": "cited",
-      "verdict": "UNSUPPORTED",
+      "verdict": "SUPPORTED",
       "confidence": "medium",
-      "evidence_span": "the sensitivities were 81.9% for AI-1, 67.0% for AI-2, 67.4% for AI-3",
+      "evidence_span": "Combining AI-1 with first-reader radiologists achieved 88.6% sensitivity at 93.0% specificity.",
+      "claim_kind": "empirical",
+      "grounding_level": "fulltext_excerpt",
+      "context_limited": false,
       "numbers": [
         "67%",
         "96.6%"
@@ -1725,12 +2086,7 @@
         "67%",
         "96.6%"
       ],
-      "numbers_missing": [],
-      "verified_state": "supported",
-      "verified_panel": {
-        "supporter_verdict": "SUPPORTED",
-        "skeptic_verdict": "SUPPORTED"
-      }
+      "numbers_missing": []
     },
     {
       "idx": 114,
@@ -1740,9 +2096,12 @@
         13
       ],
       "kind": "cited",
-      "verdict": "SUPPORTED",
+      "verdict": "UNSUPPORTED",
       "confidence": "high",
-      "evidence_span": "The results of the combined assessment of AI and Reader First-1 showed a specificity of 72.7% and sensitivity of 91.7%.",
+      "evidence_span": "The results of the combined assessment of AI and Reader First-1 showed a speci \ufb01city of 72.7% and sensitivity of 91.7%.",
+      "claim_kind": "empirical",
+      "grounding_level": "fulltext_excerpt",
+      "context_limited": true,
       "numbers": [
         "88.6%",
         "91.7%"
@@ -1761,6 +2120,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -1774,8 +2136,11 @@
       ],
       "kind": "cited",
       "verdict": "UNSUPPORTED",
-      "confidence": "medium",
-      "evidence_span": "the cut point was defined by the mean specificity of the first-reader radiologists (96.6%)",
+      "confidence": "low",
+      "evidence_span": "threshold set for a specificity equal to the mean of the first human reader (96.6%)",
+      "claim_kind": "empirical",
+      "grounding_level": "fulltext_excerpt",
+      "context_limited": true,
       "numbers": [
         "56%",
         "96.6%"
@@ -1784,12 +2149,7 @@
         "56%",
         "96.6%"
       ],
-      "numbers_missing": [],
-      "verified_state": "supported",
-      "verified_panel": {
-        "supporter_verdict": "SUPPORTED",
-        "skeptic_verdict": "SUPPORTED"
-      }
+      "numbers_missing": []
     },
     {
       "idx": 117,
@@ -1802,6 +2162,9 @@
       "verdict": "SUPPORTED",
       "confidence": "high",
       "evidence_span": "LungGuard achieves AUC \u2248 0.96, sensitivity \u2248 92%, specificity \u2248 90% in early-stage (I & II) lung cancer detection",
+      "claim_kind": "empirical",
+      "grounding_level": "abstract_only",
+      "context_limited": false,
       "numbers": [
         "90%",
         "17.6%",
@@ -1824,6 +2187,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -1838,8 +2204,11 @@
       ],
       "kind": "cited",
       "verdict": "SUPPORTED",
-      "confidence": "high",
-      "evidence_span": "The area under the receiver operating curve for cancer detection was 0.956 (95% CI, 0.948-0.965) for AI-1, 0.922 (95% CI, 0.910-0.934) for AI-2, and 0.920 (95% CI, 0.909-0.931) for AI-3. At the specificity of the radiologists, the sensitivities were 81.9% for AI-1",
+      "confidence": "medium",
+      "evidence_span": "the authors found that 1 of the 3 models achieved a sensitivity of 81.9% with the specificity set at 96.6%",
+      "claim_kind": "empirical",
+      "grounding_level": "fulltext_excerpt",
+      "context_limited": false,
       "numbers": [
         "0.90",
         "80%"
@@ -1859,7 +2228,10 @@
       "kind": "cited",
       "verdict": "SUPPORTED",
       "confidence": "high",
-      "evidence_span": "AI models achieved higher sensitivity, especially with nodules &lt;6mm, and reduced detection times; however, specificity remained variable",
+      "evidence_span": "Results  indicated  that AI models  achieved  higher  sensitivity,  especially  with nodules  <6mm,  and reduced  detection  times;  however,  specificity  remained  variable.",
+      "claim_kind": "empirical",
+      "grounding_level": "fulltext_downloaded",
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -1875,6 +2247,9 @@
       "verdict": "SUPPORTED",
       "confidence": "high",
       "evidence_span": "AI-based technologies achieved a median AUC-ROC of 0.88 (range 0.70\u20130.93), with median sensitivity and specificity of 0.86 and 0.83, respectively.",
+      "claim_kind": "empirical",
+      "grounding_level": "abstract_only",
+      "context_limited": false,
       "numbers": [
         "0.88",
         "86%"
@@ -1897,7 +2272,10 @@
       "kind": "cited",
       "verdict": "SUPPORTED",
       "confidence": "low",
-      "evidence_span": "Before applying this in daily practice, healthcare practitioners must understand the fundamentals and interact across different fields to standardize datasets, establish relevant outcomes, and merge interpretations.",
+      "evidence_span": "indicate a pressing need for further refinement to enhance the AI model performance for broader clinical use",
+      "claim_kind": "empirical",
+      "grounding_level": "abstract_only",
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -1910,6 +2288,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -1922,6 +2303,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -1934,6 +2318,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -1946,6 +2333,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -1961,14 +2351,12 @@
       "verdict": "UNSUPPORTED",
       "confidence": "medium",
       "evidence_span": "",
+      "claim_kind": "empirical",
+      "grounding_level": "abstract_only",
+      "context_limited": true,
       "numbers": [],
       "numbers_grounded": [],
-      "numbers_missing": [],
-      "verified_state": "unsupported",
-      "verified_panel": {
-        "supporter_verdict": "UNSUPPORTED",
-        "skeptic_verdict": "UNSUPPORTED"
-      }
+      "numbers_missing": []
     },
     {
       "idx": 128,
@@ -1978,6 +2366,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -1993,7 +2384,10 @@
       "kind": "cited",
       "verdict": "SUPPORTED",
       "confidence": "medium",
-      "evidence_span": "MML models achieving absolute increases in the Area Under the Curve (AUC) of 0.04 to 0.10 over the best unimodal comparator",
+      "evidence_span": "All eight studies reported a statistically significant improvement in detection performance for multimodal models. The most common metrics showed MML models achieving absolute increases in the Area Under the Curve (AUC) of 0.04 to 0.10 over the best unimodal comparator.",
+      "claim_kind": "empirical",
+      "grounding_level": "abstract_only",
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -2006,6 +2400,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -2018,6 +2415,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -2031,15 +2431,13 @@
       "kind": "cited",
       "verdict": "UNSUPPORTED",
       "confidence": "medium",
-      "evidence_span": "an attention\u2010based fusion module to combine features",
+      "evidence_span": "an attention-based fusion module to combine features",
+      "claim_kind": "empirical",
+      "grounding_level": "abstract_only",
+      "context_limited": true,
       "numbers": [],
       "numbers_grounded": [],
-      "numbers_missing": [],
-      "verified_state": "unsupported",
-      "verified_panel": {
-        "supporter_verdict": "UNSUPPORTED",
-        "skeptic_verdict": "UNSUPPORTED"
-      }
+      "numbers_missing": []
     },
     {
       "idx": 133,
@@ -2049,6 +2447,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -2063,7 +2464,10 @@
       "kind": "cited",
       "verdict": "SUPPORTED",
       "confidence": "medium",
-      "evidence_span": "The results of this study indicated that a commercially available AI computer-aided detection algorithm can assess screening mammograms with a sufficient diagnostic performance to be further evaluated as an independent reader in prospective clinical trials.",
+      "evidence_span": "the authors found that 1 of the 3 models achieved a sensitivity of 81.9% with the specificity set at 96.6%",
+      "claim_kind": "empirical",
+      "grounding_level": "fulltext_excerpt",
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -2076,6 +2480,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -2090,6 +2497,9 @@
       "verdict": "SUPPORTED",
       "confidence": "medium",
       "evidence_span": "device-specific domain shifts may limit generalizability",
+      "claim_kind": "background",
+      "grounding_level": "abstract_only",
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -2102,8 +2512,11 @@
       ],
       "kind": "cited",
       "verdict": "SUPPORTED",
-      "confidence": "medium",
+      "confidence": "high",
       "evidence_span": "Explainability methods (Grad-CAM, SHAP) are used to highlight imaging regions and biomarker contributions.",
+      "claim_kind": "background",
+      "grounding_level": "abstract_only",
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -2116,16 +2529,14 @@
       ],
       "kind": "cited",
       "verdict": "UNSUPPORTED",
-      "confidence": "high",
+      "confidence": "medium",
       "evidence_span": "",
+      "claim_kind": "background",
+      "grounding_level": "fulltext_excerpt",
+      "context_limited": true,
       "numbers": [],
       "numbers_grounded": [],
-      "numbers_missing": [],
-      "verified_state": "unsupported",
-      "verified_panel": {
-        "supporter_verdict": "UNSUPPORTED",
-        "skeptic_verdict": "UNSUPPORTED"
-      }
+      "numbers_missing": []
     },
     {
       "idx": 139,
@@ -2135,6 +2546,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -2147,6 +2561,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -2159,6 +2576,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -2171,6 +2591,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -2185,6 +2608,9 @@
       "verdict": "UNSUPPORTED",
       "confidence": "medium",
       "evidence_span": "",
+      "claim_kind": "background",
+      "grounding_level": "fulltext_downloaded",
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": [],
@@ -2202,6 +2628,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -2214,6 +2643,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -2226,6 +2658,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -2238,6 +2673,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -2250,6 +2688,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -2262,6 +2703,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -2274,6 +2718,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -2289,14 +2736,12 @@
       "verdict": "UNSUPPORTED",
       "confidence": "high",
       "evidence_span": "",
+      "claim_kind": "background",
+      "grounding_level": "snippet_only",
+      "context_limited": true,
       "numbers": [],
       "numbers_grounded": [],
-      "numbers_missing": [],
-      "verified_state": "unsupported",
-      "verified_panel": {
-        "supporter_verdict": "UNSUPPORTED",
-        "skeptic_verdict": "UNSUPPORTED"
-      }
+      "numbers_missing": []
     },
     {
       "idx": 152,
@@ -2306,6 +2751,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -2321,14 +2769,12 @@
       "verdict": "UNSUPPORTED",
       "confidence": "medium",
       "evidence_span": "Native Mirai showed lower performance on TE images than on Hologic or PV images.",
+      "claim_kind": "empirical",
+      "grounding_level": "abstract_only",
+      "context_limited": true,
       "numbers": [],
       "numbers_grounded": [],
-      "numbers_missing": [],
-      "verified_state": "unsupported",
-      "verified_panel": {
-        "supporter_verdict": "UNSUPPORTED",
-        "skeptic_verdict": "UNSUPPORTED"
-      }
+      "numbers_missing": []
     },
     {
       "idx": 154,
@@ -2338,6 +2784,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -2350,6 +2799,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -2362,8 +2814,11 @@
       ],
       "kind": "cited",
       "verdict": "SUPPORTED",
-      "confidence": "low",
+      "confidence": "medium",
       "evidence_span": "deployment in low-resource settings",
+      "claim_kind": "background",
+      "grounding_level": "abstract_only",
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -2376,6 +2831,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -2388,6 +2846,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -2400,6 +2861,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -2412,17 +2876,15 @@
         27
       ],
       "kind": "cited",
-      "verdict": "UNSUPPORTED",
-      "confidence": "medium",
+      "verdict": "SUPPORTED",
+      "confidence": "low",
       "evidence_span": "Explainability methods (Grad-CAM, SHAP) are used to highlight imaging regions and biomarker contributions.",
+      "claim_kind": "background",
+      "grounding_level": "abstract_only",
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
-      "numbers_missing": [],
-      "verified_state": "unsupported",
-      "verified_panel": {
-        "supporter_verdict": "UNSUPPORTED",
-        "skeptic_verdict": "UNSUPPORTED"
-      }
+      "numbers_missing": []
     },
     {
       "idx": 161,
@@ -2432,6 +2894,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -2447,14 +2912,12 @@
       "verdict": "UNSUPPORTED",
       "confidence": "medium",
       "evidence_span": "",
+      "claim_kind": "background",
+      "grounding_level": "fulltext_excerpt",
+      "context_limited": true,
       "numbers": [],
       "numbers_grounded": [],
-      "numbers_missing": [],
-      "verified_state": "unsupported",
-      "verified_panel": {
-        "supporter_verdict": "UNSUPPORTED",
-        "skeptic_verdict": "UNSUPPORTED"
-      }
+      "numbers_missing": []
     },
     {
       "idx": 163,
@@ -2464,6 +2927,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -2476,6 +2942,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -2488,6 +2957,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -2500,6 +2972,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -2514,15 +2989,13 @@
       "kind": "cited",
       "verdict": "UNSUPPORTED",
       "confidence": "medium",
-      "evidence_span": "Combining AI-1 with first-reader radiologists achieved 88.6% sensitivity at 93.0% specificity",
+      "evidence_span": "The utility of the AI system within clinical workflows remains to be determined.",
+      "claim_kind": "background",
+      "grounding_level": "fulltext_excerpt",
+      "context_limited": true,
       "numbers": [],
       "numbers_grounded": [],
-      "numbers_missing": [],
-      "verified_state": "not_a_claim",
-      "verified_panel": {
-        "supporter_verdict": "NOT_A_FACTUAL_CLAIM",
-        "skeptic_verdict": "NOT_A_FACTUAL_CLAIM"
-      }
+      "numbers_missing": []
     },
     {
       "idx": 168,
@@ -2532,6 +3005,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -2544,6 +3020,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -2556,16 +3035,14 @@
       ],
       "kind": "cited",
       "verdict": "UNSUPPORTED",
-      "confidence": "high",
-      "evidence_span": "Radiomics-based machine-learning models can detect pancreatic cancer on prediagnostic computed tomography scans",
+      "confidence": "medium",
+      "evidence_span": "Our purpose was to detect pancreatic ductal adenocarcinoma (PDAC) at the prediagnostic stage (3\\36months before clinical diagnosis) using radiomics-based",
+      "claim_kind": "background",
+      "grounding_level": "snippet_only",
+      "context_limited": true,
       "numbers": [],
       "numbers_grounded": [],
-      "numbers_missing": [],
-      "verified_state": "unsupported",
-      "verified_panel": {
-        "supporter_verdict": "UNSUPPORTED",
-        "skeptic_verdict": "UNSUPPORTED"
-      }
+      "numbers_missing": []
     },
     {
       "idx": 171,
@@ -2575,6 +3052,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -2587,16 +3067,14 @@
       ],
       "kind": "cited",
       "verdict": "UNSUPPORTED",
-      "confidence": "medium",
+      "confidence": "high",
       "evidence_span": "an attention-based fusion module to combine features",
+      "claim_kind": "background",
+      "grounding_level": "abstract_only",
+      "context_limited": true,
       "numbers": [],
       "numbers_grounded": [],
-      "numbers_missing": [],
-      "verified_state": "unsupported",
-      "verified_panel": {
-        "supporter_verdict": "UNSUPPORTED",
-        "skeptic_verdict": "UNSUPPORTED"
-      }
+      "numbers_missing": []
     },
     {
       "idx": 173,
@@ -2608,14 +3086,12 @@
       "verdict": "UNSUPPORTED",
       "confidence": "high",
       "evidence_span": "",
+      "claim_kind": "empirical",
+      "grounding_level": "fulltext_excerpt",
+      "context_limited": true,
       "numbers": [],
       "numbers_grounded": [],
-      "numbers_missing": [],
-      "verified_state": "unsupported",
-      "verified_panel": {
-        "supporter_verdict": "UNSUPPORTED",
-        "skeptic_verdict": "UNSUPPORTED"
-      }
+      "numbers_missing": []
     },
     {
       "idx": 174,
@@ -2627,14 +3103,12 @@
       "verdict": "UNSUPPORTED",
       "confidence": "medium",
       "evidence_span": "Transfer learning and fine-tuning strategies are incorporated to further improve classification performance.",
+      "claim_kind": "empirical",
+      "grounding_level": "abstract_only",
+      "context_limited": true,
       "numbers": [],
       "numbers_grounded": [],
-      "numbers_missing": [],
-      "verified_state": "unsupported",
-      "verified_panel": {
-        "supporter_verdict": "UNSUPPORTED",
-        "skeptic_verdict": "UNSUPPORTED"
-      }
+      "numbers_missing": []
     },
     {
       "idx": 175,
@@ -2646,6 +3120,9 @@
       "verdict": "SUPPORTED",
       "confidence": "medium",
       "evidence_span": "LungGuard uses a 3D convolutional neural network backbone to process volumetric CT scans",
+      "claim_kind": "background",
+      "grounding_level": "abstract_only",
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -2658,16 +3135,14 @@
       ],
       "kind": "cited",
       "verdict": "UNSUPPORTED",
-      "confidence": "high",
+      "confidence": "medium",
       "evidence_span": "",
+      "claim_kind": "background",
+      "grounding_level": "abstract_only",
+      "context_limited": true,
       "numbers": [],
       "numbers_grounded": [],
-      "numbers_missing": [],
-      "verified_state": "unsupported",
-      "verified_panel": {
-        "supporter_verdict": "UNSUPPORTED",
-        "skeptic_verdict": "UNSUPPORTED"
-      }
+      "numbers_missing": []
     },
     {
       "idx": 177,
@@ -2679,14 +3154,12 @@
       "verdict": "UNSUPPORTED",
       "confidence": "high",
       "evidence_span": "",
+      "claim_kind": "background",
+      "grounding_level": "abstract_only",
+      "context_limited": true,
       "numbers": [],
       "numbers_grounded": [],
-      "numbers_missing": [],
-      "verified_state": "unsupported",
-      "verified_panel": {
-        "supporter_verdict": "UNSUPPORTED",
-        "skeptic_verdict": "UNSUPPORTED"
-      }
+      "numbers_missing": []
     },
     {
       "idx": 178,
@@ -2698,14 +3171,12 @@
       "verdict": "UNSUPPORTED",
       "confidence": "medium",
       "evidence_span": "techniques such as focal loss are used to address class imbalance",
+      "claim_kind": "background",
+      "grounding_level": "abstract_only",
+      "context_limited": true,
       "numbers": [],
       "numbers_grounded": [],
-      "numbers_missing": [],
-      "verified_state": "supported",
-      "verified_panel": {
-        "supporter_verdict": "SUPPORTED",
-        "skeptic_verdict": "UNSUPPORTED"
-      }
+      "numbers_missing": []
     },
     {
       "idx": 179,
@@ -2715,6 +3186,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -2728,8 +3202,11 @@
       ],
       "kind": "cited",
       "verdict": "SUPPORTED",
-      "confidence": "medium",
-      "evidence_span": "While the single AI algorithm did not outperform radiologists, an ensemble of AI algorithms combined with junior radiologist assessments were found to improve the overall accuracy.",
+      "confidence": "low",
+      "evidence_span": "While the single AI algorithm did not outperform radiologists, an ensemble of AI algorithms combined with junior radiologist assessments were found to improve theoverall accuracy.",
+      "claim_kind": "background",
+      "grounding_level": "fulltext_excerpt",
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -2742,6 +3219,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -2754,6 +3234,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -2766,6 +3249,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -2778,6 +3264,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -2790,6 +3279,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -2802,6 +3294,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -2816,14 +3311,12 @@
       "verdict": "UNSUPPORTED",
       "confidence": "high",
       "evidence_span": "",
+      "claim_kind": "background",
+      "grounding_level": "snippet_only",
+      "context_limited": true,
       "numbers": [],
       "numbers_grounded": [],
-      "numbers_missing": [],
-      "verified_state": "unsupported",
-      "verified_panel": {
-        "supporter_verdict": "UNSUPPORTED",
-        "skeptic_verdict": "UNSUPPORTED"
-      }
+      "numbers_missing": []
     },
     {
       "idx": 188,
@@ -2833,6 +3326,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -2845,6 +3341,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -2857,6 +3356,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -2869,6 +3371,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -2881,6 +3386,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -2893,6 +3401,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -2905,6 +3416,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -2917,6 +3431,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -2929,17 +3446,15 @@
         30
       ],
       "kind": "cited",
-      "verdict": "UNSUPPORTED",
+      "verdict": "SUPPORTED",
       "confidence": "medium",
-      "evidence_span": "highlights the need for integration strategies, ethical frameworks, and further clinical trials",
+      "evidence_span": "highlights  the need  for integration  strategies,  ethical  frameworks,  and further  clinical  trials.",
+      "claim_kind": "background",
+      "grounding_level": "snippet_only",
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
-      "numbers_missing": [],
-      "verified_state": "supported",
-      "verified_panel": {
-        "supporter_verdict": "SUPPORTED",
-        "skeptic_verdict": "UNSUPPORTED"
-      }
+      "numbers_missing": []
     },
     {
       "idx": 197,
@@ -2949,6 +3464,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -2961,6 +3479,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -2973,6 +3494,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -2985,6 +3509,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -2997,6 +3524,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -3009,6 +3539,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -3021,17 +3554,15 @@
         31
       ],
       "kind": "cited",
-      "verdict": "UNSUPPORTED",
+      "verdict": "SUPPORTED",
       "confidence": "medium",
-      "evidence_span": "Early clinical outcome prediction, renal carcinoma subtyping, grading, staging, and disease identification are only areas in which their potential has been demonstrated.",
+      "evidence_span": "realize the objective of developing an integrated system. This system should be reliably utilized for diagnosing renal tumors and predicting clinical outcomes and treatment responses",
+      "claim_kind": "background",
+      "grounding_level": "abstract_only",
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
-      "numbers_missing": [],
-      "verified_state": "unsupported",
-      "verified_panel": {
-        "supporter_verdict": "UNSUPPORTED",
-        "skeptic_verdict": "UNSUPPORTED"
-      }
+      "numbers_missing": []
     },
     {
       "idx": 204,
@@ -3041,6 +3572,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -3053,6 +3587,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [
         "0.90"
       ],
@@ -3067,6 +3604,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [
         "0.96",
         "92%"
@@ -3082,6 +3622,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -3094,6 +3637,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -3106,6 +3652,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -3118,6 +3667,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -3130,6 +3682,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -3142,6 +3697,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -3154,6 +3712,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -3166,6 +3727,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -3179,7 +3743,10 @@
       "kind": "cited",
       "verdict": "SUPPORTED",
       "confidence": "high",
-      "evidence_span": "LungGuard- A Multimodal Deep Learning System for Early Lung Cancer Detection via Fusion of CT Imaging, Clinical Biomarkers, and Demographic Data",
+      "evidence_span": "This work proposes LungGuard, a multimodal deep learning framework that fuses three complementary data sources\u2014low\u2010dose CT scans, key clinical biomarkers",
+      "claim_kind": "background",
+      "grounding_level": "abstract_only",
+      "context_limited": false,
       "numbers": [
         "2025"
       ],
@@ -3196,6 +3763,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [
         "10.5281",
         "17177686"
@@ -3211,6 +3781,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [
         "2025"
       ],
@@ -3225,6 +3798,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [
         "2025"
       ],
@@ -3239,6 +3815,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [
         "10.1109",
         "67127.2025",
@@ -3255,6 +3834,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [
         "2024"
       ],
@@ -3269,6 +3851,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [
         "10.47611",
         "13",
@@ -3287,6 +3872,9 @@
       "verdict": "SUPPORTED",
       "confidence": "medium",
       "evidence_span": "Advancing Early Detection Paradigms in Breast Cancer: A Systematic Review of Machine Learning Approaches",
+      "claim_kind": "background",
+      "grounding_level": "abstract_only",
+      "context_limited": false,
       "numbers": [
         "2025"
       ],
@@ -3303,6 +3891,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [
         "10.5281",
         "15095972"
@@ -3318,6 +3909,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [
         "2024"
       ],
@@ -3332,6 +3926,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [
         "10.36948",
         "2024",
@@ -3349,6 +3946,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [
         "2024"
       ],
@@ -3363,6 +3963,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [
         "10.1109",
         "2024.3524564"
@@ -3378,6 +3981,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [
         "2026"
       ],
@@ -3392,6 +3998,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [
         "10.3389",
         "2026.1834696"
@@ -3407,6 +4016,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [
         "2023"
       ],
@@ -3421,6 +4033,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [
         "10.1016",
         "2023.200068"
@@ -3436,6 +4051,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [
         "2024"
       ],
@@ -3450,6 +4068,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [
         "10.1109",
         "2024.3454338"
@@ -3465,6 +4086,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [
         "2022"
       ],
@@ -3479,6 +4103,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [
         "10.3389",
         "2022.880150"
@@ -3494,6 +4121,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [
         "2020"
       ],
@@ -3508,6 +4138,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [
         "10.1038",
         "41586",
@@ -3526,6 +4159,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [
         "3",
         "2020"
@@ -3541,6 +4177,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [
         "10.1001",
         "2020.3321"
@@ -3556,6 +4195,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [
         "2022"
       ],
@@ -3570,6 +4212,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [
         "10.1186",
         "43055",
@@ -3587,6 +4232,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [
         "2024"
       ],
@@ -3601,6 +4249,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [
         "10.36948",
         "2024",
@@ -3618,6 +4269,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [
         "2026"
       ],
@@ -3632,6 +4286,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [
         "10.21037",
         "2025",
@@ -3648,6 +4305,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [
         "2025"
       ],
@@ -3662,6 +4322,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [
         "10.3390",
         "17213503"
@@ -3677,6 +4340,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [
         "2026"
       ],
@@ -3691,6 +4357,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [
         "10.1016",
         "2026.101449"
@@ -3706,6 +4375,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [
         "2026"
       ],
@@ -3720,6 +4392,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [
         "10.3389",
         "2026.1834696"
@@ -3735,6 +4410,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [
         "2026"
       ],
@@ -3749,6 +4427,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [
         "10.3390",
         "16121864"
@@ -3764,6 +4445,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [
         "2026"
       ],
@@ -3778,6 +4462,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [
         "10.1186",
         "12885",
@@ -3796,15 +4483,18 @@
       ],
       "kind": "cited",
       "verdict": "SUPPORTED",
-      "confidence": "medium",
+      "confidence": "high",
       "evidence_span": "Advancing Early Disease Detection Using Multimodal Machine Learning Models Integrating Imaging, Genomics, and Clinical Data Sources",
+      "claim_kind": "background",
+      "grounding_level": "fulltext_downloaded",
+      "context_limited": false,
       "numbers": [
         "2025"
       ],
-      "numbers_grounded": [],
-      "numbers_missing": [
+      "numbers_grounded": [
         "2025"
-      ]
+      ],
+      "numbers_missing": []
     },
     {
       "idx": 257,
@@ -3814,6 +4504,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [
         "2026"
       ],
@@ -3828,6 +4521,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [
         "10.1038",
         "41598",
@@ -3845,6 +4541,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [
         "2024"
       ],
@@ -3859,6 +4558,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [
         "10.1109",
         "2024.3524564"
@@ -3874,6 +4576,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [
         "2023"
       ],
@@ -3888,6 +4593,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [
         "10.1016",
         "2023.200068"
@@ -3903,6 +4611,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [
         "2023"
       ],
@@ -3917,6 +4628,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [
         "10.1186",
         "12916",
@@ -3934,6 +4648,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [
         "2024"
       ],
@@ -3948,6 +4665,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [
         "10.1109",
         "2024.3454338"
@@ -3964,14 +4684,17 @@
       "kind": "cited",
       "verdict": "SUPPORTED",
       "confidence": "high",
-      "evidence_span": "Advancing Early Disease Detection Using Multimodal Machine Learning Models Integrating Imaging, Genomics, and Clinical Data Sources",
+      "evidence_span": "Advancing Early Disease Detection Using \nMultimodal Machine Learning Models \nIntegrating Imaging, Genomics, and Clinical \nData Sources",
+      "claim_kind": "background",
+      "grounding_level": "fulltext_downloaded",
+      "context_limited": false,
       "numbers": [
         "2025"
       ],
-      "numbers_grounded": [],
-      "numbers_missing": [
+      "numbers_grounded": [
         "2025"
-      ]
+      ],
+      "numbers_missing": []
     },
     {
       "idx": 268,
@@ -3981,6 +4704,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [
         "2025"
       ],
@@ -3995,6 +4721,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [
         "10.32948",
         "2025.08",
@@ -4011,6 +4740,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [
         "2024"
       ],
@@ -4025,6 +4757,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [
         "10.1016",
         "1470",
@@ -4044,8 +4779,11 @@
       ],
       "kind": "cited",
       "verdict": "SUPPORTED",
-      "confidence": "medium",
+      "confidence": "high",
       "evidence_span": "AI-Powered Diagnostic Support in Oncology: A Comparative Case Study of GPT-4 Omni and Gemini Advanced in Breast Cancer Detection",
+      "claim_kind": "background",
+      "grounding_level": "abstract_only",
+      "context_limited": false,
       "numbers": [
         "4",
         "2025"
@@ -4065,6 +4803,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [
         "10.5281",
         "14910374"
@@ -4080,6 +4821,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [
         "2026"
       ],
@@ -4094,6 +4838,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [
         "10.64898",
         "2026.06",
@@ -4110,6 +4857,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [
         "2024"
       ],

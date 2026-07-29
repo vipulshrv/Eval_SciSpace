@@ -1,43 +1,88 @@
 {
   "summary": {
     "step": "5_report_generation",
+    "reference_truth": "report claim vs cited paper full-text (else abstract) \u222a extracted table row",
     "total_claim_sentences": 174,
     "cited_sentences": 73,
     "uncited_synthesis_sentences": 101,
     "graded_cited": 73,
-    "citation_precision": 0.4521,
-    "verdict_breakdown": {
-      "SUPPORTED": 33,
-      "UNSUPPORTED": 36,
-      "CONTRADICTED": 4
+    "citation_precision": 0.6585,
+    "citation_precision_empirical": 0.6585,
+    "citation_precision_background": 0.8,
+    "empirical": {
+      "adjudicable": 41,
+      "supported": 27,
+      "contradicted": 4,
+      "context_limited_excluded": 25,
+      "precision": 0.6585
     },
-    "numeric_fidelity": 0.8027,
+    "background": {
+      "adjudicable": 5,
+      "supported": 4,
+      "contradicted": 1,
+      "context_limited_excluded": 2,
+      "precision": 0.8
+    },
+    "all_cited": {
+      "adjudicable": 46,
+      "supported": 31,
+      "contradicted": 5,
+      "context_limited_excluded": 27,
+      "precision": 0.6739
+    },
+    "report_contradictions": 5,
+    "context_limited_excluded": 27,
+    "verdict_breakdown": {
+      "SUPPORTED": 31,
+      "UNSUPPORTED": 37,
+      "CONTRADICTED": 5
+    },
+    "numeric_fidelity": 0.8595,
     "numbers_checked": 299,
-    "numbers_missing": 59,
+    "numbers_missing": 42,
     "verified": {
       "graded_cited": 73,
-      "flagged_rechecked": 40,
-      "supported": 46,
-      "report_contradictions": 2,
-      "unsupported": 25,
-      "citation_precision": 0.6301,
-      "first_pass_citation_precision": 0.4521,
-      "first_pass_contradictions": 4
+      "flagged_rechecked": 15,
+      "citation_precision": 0.878,
+      "citation_precision_empirical": 0.878,
+      "citation_precision_background": 0.8,
+      "empirical": {
+        "adjudicable": 41,
+        "supported": 36,
+        "contradicted": 2,
+        "precision": 0.878
+      },
+      "background": {
+        "adjudicable": 5,
+        "supported": 4,
+        "contradicted": 1,
+        "precision": 0.8
+      },
+      "all_cited": {
+        "adjudicable": 46,
+        "supported": 40,
+        "contradicted": 3,
+        "precision": 0.8696
+      },
+      "report_contradictions": 3,
+      "context_limited_excluded": 27,
+      "first_pass_citation_precision": 0.6585,
+      "first_pass_contradictions": 5
     }
   },
   "usage": {
     "model": "claude-opus-4-8",
-    "judge_calls": 73,
-    "input_tokens": 182027,
-    "output_tokens": 11963,
+    "judge_calls": 239,
+    "input_tokens": 4943738,
+    "output_tokens": 44278,
     "cache_read_input_tokens": 0,
     "cache_creation_input_tokens": 0,
     "cost_usd": {
-      "input": 0.9101,
-      "output": 0.2991,
+      "input": 24.7187,
+      "output": 1.1069,
       "cache_read": 0.0,
       "cache_write": 0.0,
-      "total": 1.2092
+      "total": 25.8256
     }
   },
   "sentences": [
@@ -49,6 +94,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [
         "1",
         "1"
@@ -64,6 +112,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [
         "3",
         "15.0",
@@ -86,6 +137,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [
         "26%"
       ],
@@ -100,6 +154,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -112,6 +169,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [
         "1"
       ],
@@ -126,6 +186,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [
         "1"
       ],
@@ -140,6 +203,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [
         "2",
         "2"
@@ -155,6 +221,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [
         "3",
         "3"
@@ -170,6 +239,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [
         "4",
         "4"
@@ -185,6 +257,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [
         "5",
         "5"
@@ -200,6 +275,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [
         "6",
         "6"
@@ -215,6 +293,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [
         "8",
         "8"
@@ -230,6 +311,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [
         "650",
         "2"
@@ -245,6 +329,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [
         "3",
         "5%"
@@ -260,6 +347,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [
         "1"
       ],
@@ -274,6 +364,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [
         "1",
         "2.4",
@@ -292,6 +385,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -304,6 +400,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [
         "1",
         "1"
@@ -319,16 +418,14 @@
       ],
       "kind": "cited",
       "verdict": "UNSUPPORTED",
-      "confidence": "medium",
-      "evidence_span": "GLP-1RAs work by reducing the appetite and feelings of hunger, slowing the release of food from the stomach, and increasing feelings of fullness after eating",
+      "confidence": "high",
+      "evidence_span": "",
+      "claim_kind": "background",
+      "grounding_level": "fulltext_excerpt",
+      "context_limited": true,
       "numbers": [],
       "numbers_grounded": [],
-      "numbers_missing": [],
-      "verified_state": "supported",
-      "verified_panel": {
-        "supporter_verdict": "SUPPORTED",
-        "skeptic_verdict": "SUPPORTED"
-      }
+      "numbers_missing": []
     },
     {
       "idx": 19,
@@ -338,6 +435,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [
         "1"
       ],
@@ -352,21 +452,19 @@
         22
       ],
       "kind": "cited",
-      "verdict": "UNSUPPORTED",
-      "confidence": "high",
-      "evidence_span": "",
+      "verdict": "SUPPORTED",
+      "confidence": "medium",
+      "evidence_span": "GIP also helps to improve the function of white adipose tissue while exerting a potent anorexigenic effect by combining the activation signals of the above two receptor pathways inside the brain",
+      "claim_kind": "background",
+      "grounding_level": "abstract_only",
+      "context_limited": false,
       "numbers": [
         "1"
       ],
       "numbers_grounded": [
         "1"
       ],
-      "numbers_missing": [],
-      "verified_state": "unsupported",
-      "verified_panel": {
-        "supporter_verdict": "UNSUPPORTED",
-        "skeptic_verdict": "UNSUPPORTED"
-      }
+      "numbers_missing": []
     },
     {
       "idx": 21,
@@ -376,6 +474,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -388,6 +489,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [
         "1",
         "5"
@@ -405,18 +509,16 @@
       "verdict": "UNSUPPORTED",
       "confidence": "high",
       "evidence_span": "",
+      "claim_kind": "empirical",
+      "grounding_level": "fulltext_excerpt",
+      "context_limited": true,
       "numbers": [
         "13"
       ],
       "numbers_grounded": [],
       "numbers_missing": [
         "13"
-      ],
-      "verified_state": "unsupported",
-      "verified_panel": {
-        "supporter_verdict": "UNSUPPORTED",
-        "skeptic_verdict": "UNSUPPORTED"
-      }
+      ]
     },
     {
       "idx": 24,
@@ -426,6 +528,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -438,6 +543,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [
         "3"
       ],
@@ -452,6 +560,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [
         "5%",
         "10%",
@@ -468,6 +579,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -480,6 +594,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -492,6 +609,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [
         "2.4"
       ],
@@ -508,6 +628,9 @@
       "verdict": "UNSUPPORTED",
       "confidence": "high",
       "evidence_span": "",
+      "claim_kind": "empirical",
+      "grounding_level": "fulltext_excerpt",
+      "context_limited": true,
       "numbers": [
         "1",
         "2",
@@ -523,22 +646,17 @@
       "numbers_grounded": [
         "1",
         "2",
-        "68",
-        "5%",
-        "10%"
+        "5%"
       ],
       "numbers_missing": [
         "14.9%",
+        "68",
         "86.4%",
         "69.1%",
+        "10%",
         "50.5%",
         "15%"
-      ],
-      "verified_state": "unsupported",
-      "verified_panel": {
-        "supporter_verdict": "UNSUPPORTED",
-        "skeptic_verdict": "UNSUPPORTED"
-      }
+      ]
     },
     {
       "idx": 31,
@@ -547,9 +665,12 @@
         4
       ],
       "kind": "cited",
-      "verdict": "SUPPORTED",
+      "verdict": "UNSUPPORTED",
       "confidence": "medium",
-      "evidence_span": "the estimated mean body weight change from baseline was -16.0% for semaglutide vs -5.7% for placebo (difference, -10.3 percentage points [95% CI, -12.0 to -8.6]",
+      "evidence_span": "the estimated mean weight change from baseline was \u221216.0% with semaglutide",
+      "claim_kind": "empirical",
+      "grounding_level": "fulltext_excerpt",
+      "context_limited": true,
       "numbers": [
         "3",
         "16.0%",
@@ -587,7 +708,10 @@
       "kind": "cited",
       "verdict": "SUPPORTED",
       "confidence": "high",
-      "evidence_span": "The proportion of patients achieving weight loss from baseline at week 104 was 77.1% for \u22655%, 61.8% for \u226510%, and 52.1% for \u226515%.",
+      "evidence_span": "the estimated mean (standard error (s.e.)) change in body weight from baseline to week 104 was \u201315.2% (0.9) with semaglutide",
+      "claim_kind": "empirical",
+      "grounding_level": "fulltext_downloaded",
+      "context_limited": false,
       "numbers": [
         "5",
         "104",
@@ -628,6 +752,9 @@
       "verdict": "SUPPORTED",
       "confidence": "high",
       "evidence_span": "Three RCTs (n=2,783, 6.0% overweight [BMI 27 to 29.9 kg/m",
+      "claim_kind": "empirical",
+      "grounding_level": "abstract_only",
+      "context_limited": false,
       "numbers": [
         "2",
         "783",
@@ -664,6 +791,9 @@
       "verdict": "SUPPORTED",
       "confidence": "high",
       "evidence_span": "At 208 weeks, semaglutide was associated with mean reduction in weight (\u221210.2%)",
+      "claim_kind": "empirical",
+      "grounding_level": "fulltext_downloaded",
+      "context_limited": false,
       "numbers": [
         "10.2%",
         "208",
@@ -684,6 +814,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -696,9 +829,12 @@
         26
       ],
       "kind": "cited",
-      "verdict": "SUPPORTED",
+      "verdict": "UNSUPPORTED",
       "confidence": "high",
-      "evidence_span": "Mean percentage changes were -15.0% (5 mg), -19.5% (10 mg), and -20.9% (15 mg), compared to -3.1% for placebo.",
+      "evidence_span": "the mean change in body weight at week 72 was \u2212 15.0% (95% CI \u2212 15.9 to \u2212 14.2) with tirzepatide 5 mg, \u2212 19.5% (95% CI \u2212 20. 4 to \u2212 18.5) with tirzepa \u2011tide 10 mg and \u2212 20.9% (95% CI \u2212 21.8 to \u2212 19.9) with tirzepatide 15  mg compared to -3.1% (95% CI \u2212  4.3 to \u2212  1.9) with placebo",
+      "claim_kind": "empirical",
+      "grounding_level": "fulltext_downloaded",
+      "context_limited": false,
       "numbers": [
         "1",
         "72",
@@ -721,7 +857,12 @@
         "15",
         "3.1%"
       ],
-      "numbers_missing": []
+      "numbers_missing": [],
+      "verified_state": "supported",
+      "verified_panel": {
+        "supporter_verdict": "SUPPORTED",
+        "skeptic_verdict": "SUPPORTED"
+      }
     },
     {
       "idx": 37,
@@ -731,6 +872,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [
         "5%",
         "85%",
@@ -750,9 +894,12 @@
         22
       ],
       "kind": "cited",
-      "verdict": "SUPPORTED",
+      "verdict": "UNSUPPORTED",
       "confidence": "high",
-      "evidence_span": "Proportion achieving \u226520% weight loss: 48% (5 mg), 67% (10 mg), 71% (15 mg).",
+      "evidence_span": "Percentage weight reduction of \u226520% (5 mg, not controlled for type 1 error) 48%, (10 mg) 67%, and (15 mg) 71%",
+      "claim_kind": "empirical",
+      "grounding_level": "fulltext_downloaded",
+      "context_limited": false,
       "numbers": [
         "48%",
         "5",
@@ -771,7 +918,12 @@
         "15",
         "20%"
       ],
-      "numbers_missing": []
+      "numbers_missing": [],
+      "verified_state": "supported",
+      "verified_panel": {
+        "supporter_verdict": "SUPPORTED",
+        "skeptic_verdict": "SUPPORTED"
+      }
     },
     {
       "idx": 39,
@@ -782,7 +934,10 @@
       "kind": "cited",
       "verdict": "SUPPORTED",
       "confidence": "high",
-      "evidence_span": "The mean difference (MD) in the percentage change in body weight (BW) was \u22128.07% (95% CI \u221211.01, \u22125.13; p &lt; 0.00001), \u221210.79% (95% CI \u221213.86, \u22127.71; p &lt; 0.00001), and \u221211.83% (95% CI \u221214.52, \u22129.14; p &lt; 0.00001), respectively.",
+      "evidence_span": "The mean difference (MD) in the percentage change in body weight (BW) was \u22128.07% (95% CI \u221211.01,\u22125.13; p < 0.00001), \u221210.79% (95% CI\u221213.86,\u22127.71; p < 0.00001), and \u221211.83% (95% CI \u221214.52,\u22129.14; p < 0.00001), respectively.",
+      "claim_kind": "empirical",
+      "grounding_level": "fulltext_downloaded",
+      "context_limited": false,
       "numbers": [
         "2",
         "8.07%",
@@ -814,9 +969,12 @@
         32
       ],
       "kind": "cited",
-      "verdict": "CONTRADICTED",
+      "verdict": "UNSUPPORTED",
       "confidence": "high",
-      "evidence_span": "excluding diabetes",
+      "evidence_span": "or 27 or more and at least one weight-related complication, excluding diabetes",
+      "claim_kind": "empirical",
+      "grounding_level": "abstract_only",
+      "context_limited": true,
       "numbers": [
         "2",
         "2",
@@ -834,12 +992,7 @@
       "numbers_missing": [
         "12.8%",
         "14.7%"
-      ],
-      "verified_state": "unsupported",
-      "verified_panel": {
-        "supporter_verdict": "UNSUPPORTED",
-        "skeptic_verdict": "UNSUPPORTED"
-      }
+      ]
     },
     {
       "idx": 41,
@@ -851,6 +1004,9 @@
       "verdict": "SUPPORTED",
       "confidence": "high",
       "evidence_span": "tirzepatide showed greater reductions in weight (\u201316.3% [95% CI, \u201316.7 to \u201315.9] vs. \u201311.4% [\u201311.6 to \u201311.2])",
+      "claim_kind": "empirical",
+      "grounding_level": "abstract_only",
+      "context_limited": false,
       "numbers": [
         "16.3%",
         "95%",
@@ -875,6 +1031,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [
         "3.0"
       ],
@@ -892,6 +1051,9 @@
       "verdict": "UNSUPPORTED",
       "confidence": "high",
       "evidence_span": "",
+      "claim_kind": "empirical",
+      "grounding_level": "abstract_only",
+      "context_limited": true,
       "numbers": [
         "8.4",
         "7.3",
@@ -902,21 +1064,15 @@
         "6.7%"
       ],
       "numbers_grounded": [
-        "7.3",
-        "2.8"
-      ],
-      "numbers_missing": [
         "8.4",
+        "7.3",
+        "2.8",
         "6.5",
         "56",
         "8.0",
         "6.7%"
       ],
-      "verified_state": "unsupported",
-      "verified_panel": {
-        "supporter_verdict": "UNSUPPORTED",
-        "skeptic_verdict": "UNSUPPORTED"
-      }
+      "numbers_missing": []
     },
     {
       "idx": 44,
@@ -928,6 +1084,9 @@
       "verdict": "UNSUPPORTED",
       "confidence": "high",
       "evidence_span": "",
+      "claim_kind": "empirical",
+      "grounding_level": "abstract_only",
+      "context_limited": true,
       "numbers": [
         "5%",
         "63.2%",
@@ -939,12 +1098,7 @@
       "numbers_missing": [
         "63.2%",
         "27.1%"
-      ],
-      "verified_state": "unsupported",
-      "verified_panel": {
-        "supporter_verdict": "UNSUPPORTED",
-        "skeptic_verdict": "UNSUPPORTED"
-      }
+      ]
     },
     {
       "idx": 45,
@@ -956,6 +1110,9 @@
       "verdict": "UNSUPPORTED",
       "confidence": "high",
       "evidence_span": "",
+      "claim_kind": "empirical",
+      "grounding_level": "abstract_only",
+      "context_limited": true,
       "numbers": [
         "2",
         "3.0"
@@ -965,12 +1122,7 @@
       ],
       "numbers_missing": [
         "3.0"
-      ],
-      "verified_state": "unsupported",
-      "verified_panel": {
-        "supporter_verdict": "UNSUPPORTED",
-        "skeptic_verdict": "UNSUPPORTED"
-      }
+      ]
     },
     {
       "idx": 46,
@@ -981,7 +1133,10 @@
       "kind": "cited",
       "verdict": "SUPPORTED",
       "confidence": "medium",
-      "evidence_span": "One-year weight reduction with semaglutide or liraglutide in clinical practice",
+      "evidence_span": "This cohort study examines weight outcomes at 1 year in patients with obesity who received injectable forms of liraglutide or semaglutide",
+      "claim_kind": "empirical",
+      "grounding_level": "abstract_only",
+      "context_limited": false,
       "numbers": [
         "12"
       ],
@@ -998,6 +1153,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -1010,6 +1168,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [
         "15",
         "5%",
@@ -1028,6 +1189,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [
         "7%"
       ],
@@ -1042,6 +1206,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -1055,8 +1222,11 @@
       ],
       "kind": "cited",
       "verdict": "UNSUPPORTED",
-      "confidence": "high",
-      "evidence_span": "In SUSTAIN 6, subcutaneous semaglutide reduced the risk of MACE (CV death, nonfatal myocardial infarction, and nonfatal stroke) compared with placebo (HR 0.74; 95% CI 0.58\u20130.95)",
+      "confidence": "medium",
+      "evidence_span": "In SUSTAIN 6, subcutaneous semaglutide reduced the risk of MACE (CV death, nonfatal myocardial infarction, and nonfatal stroke) compared with placebo (HR 0.74; 95% CI 0.58\u20130.95).",
+      "claim_kind": "empirical",
+      "grounding_level": "fulltext_excerpt",
+      "context_limited": true,
       "numbers": [
         "6",
         "0.5",
@@ -1071,21 +1241,16 @@
       "numbers_grounded": [
         "6",
         "0.5",
+        "1.0",
+        "26%",
         "0.74",
         "95%",
         "0.58",
         "0.95"
       ],
       "numbers_missing": [
-        "1.0",
-        "26%",
         "0.02"
-      ],
-      "verified_state": "supported",
-      "verified_panel": {
-        "supporter_verdict": "SUPPORTED",
-        "skeptic_verdict": "SUPPORTED"
-      }
+      ]
     },
     {
       "idx": 52,
@@ -1094,9 +1259,12 @@
         15
       ],
       "kind": "cited",
-      "verdict": "UNSUPPORTED",
+      "verdict": "SUPPORTED",
       "confidence": "medium",
-      "evidence_span": "semaglutide showed a 20% reduction in major adverse cardiovascular events in 17,604 adults with preexisting cardiovascular disease, overweight or obesity, without diabetes",
+      "evidence_span": "In the SELECT cardiovascular outcomes trial, semaglutide showed a 20% reduction in major adverse cardiovascular events in 17,604 adults with preexisting cardiovascular disease, overweight or obesity, without diabetes.",
+      "claim_kind": "empirical",
+      "grounding_level": "fulltext_downloaded",
+      "context_limited": false,
       "numbers": [
         "17",
         "604",
@@ -1107,17 +1275,11 @@
       "numbers_grounded": [
         "17",
         "604",
+        "2.4",
         "20%",
         "40"
       ],
-      "numbers_missing": [
-        "2.4"
-      ],
-      "verified_state": "supported",
-      "verified_panel": {
-        "supporter_verdict": "SUPPORTED",
-        "skeptic_verdict": "SUPPORTED"
-      }
+      "numbers_missing": []
     },
     {
       "idx": 53,
@@ -1126,9 +1288,12 @@
         14
       ],
       "kind": "cited",
-      "verdict": "SUPPORTED",
+      "verdict": "CONTRADICTED",
       "confidence": "high",
-      "evidence_span": "Semaglutide reduced composite major CV events by 14% (HR, 0.86; 95% CI, 0.80 to 0.93), myocardial infarction by 13% (HR, 0.87; 95% CI, 0.77 to 0.98), stroke by 18% (HR, 0.82; 95% CI, 0.73 to 0.92), and death from CV disease by 13% (HR, 0.87; 95% CI, 0.81 to 0.94) in a meta-analysis.",
+      "evidence_span": "In a meta-analysis of major RCTs, GLP-1RAs reduced composite major CV events by 14% (hazard ratio [HR], 0.86; 95% confidence inter val [CI], 0.80 to 0.93), myocardial infarction by 13% (HR, 0.87; 95% CI, 0.77 to 0.98), stroke by 18% (HR, 0.82; 95% CI, 0.73 to 0.92), and death from CV disease by 13% (HR, 0.87; 95% CI, 0.81 to 0.94)",
+      "claim_kind": "empirical",
+      "grounding_level": "fulltext_downloaded",
+      "context_limited": false,
       "numbers": [
         "14%",
         "0.86",
@@ -1173,7 +1338,12 @@
         "0.81",
         "0.94"
       ],
-      "numbers_missing": []
+      "numbers_missing": [],
+      "verified_state": "unsupported",
+      "verified_panel": {
+        "supporter_verdict": "UNSUPPORTED",
+        "skeptic_verdict": "UNSUPPORTED"
+      }
     },
     {
       "idx": 54,
@@ -1184,7 +1354,10 @@
       "kind": "cited",
       "verdict": "SUPPORTED",
       "confidence": "high",
-      "evidence_span": "semaglutide improved symptoms, physical limitations and exercise function and reduced inflammation and body weight across obesity categories. In semaglutide-treated patients, the magnitude of benefit was directly related to the extent of weight loss",
+      "evidence_span": "semaglutide improved symptoms, physical limitations and exercise function and reduced body weight in patients with obesity phenotype of heart failure and preserved ejection fraction (HFpEF)",
+      "claim_kind": "empirical",
+      "grounding_level": "fulltext_downloaded",
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -1197,6 +1370,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -1208,9 +1384,12 @@
         31
       ],
       "kind": "cited",
-      "verdict": "SUPPORTED",
+      "verdict": "UNSUPPORTED",
       "confidence": "high",
-      "evidence_span": "Tirzepatide showed a hazard ratio (HR) of 0.8 (95% CI, 0.57-1.11) for MACE-4 outcomes, 0.9 (95% CI, 0.50-1.61) for cardiovascular death, 0.76 (95% CI, 0.45-1.28) for myocardial infarction, and 0.81 (95% CI, 0.39-1.68) for ischemic stroke.",
+      "evidence_span": "Tirzepatide showed a hazard ratio of 0.9 (95% con \ufb01dence interval [CI], 0.50 \u20131.61) for cardiovascular death, 0.76 (95% CI, 0.45 \u20131.28) for myocardial infarction, 0.81 (95% CI, 0.39 \u20131.68) for ischemic stroke, and 0.46 (95% CI, 0.15 \u20131.41) for hospitalized unstable angina. With an overall hazard ratio of 0.8 (95% CI, 0.57 \u20131.11) for MACE-4 outcomes",
+      "claim_kind": "empirical",
+      "grounding_level": "fulltext_downloaded",
+      "context_limited": false,
       "numbers": [
         "2",
         "0.8",
@@ -1251,7 +1430,12 @@
         "0.39",
         "1.68"
       ],
-      "numbers_missing": []
+      "numbers_missing": [],
+      "verified_state": "supported",
+      "verified_panel": {
+        "supporter_verdict": "SUPPORTED",
+        "skeptic_verdict": "SUPPORTED"
+      }
     },
     {
       "idx": 57,
@@ -1261,8 +1445,11 @@
       ],
       "kind": "cited",
       "verdict": "UNSUPPORTED",
-      "confidence": "medium",
-      "evidence_span": "",
+      "confidence": "high",
+      "evidence_span": "constitutes MACE-6, for which tirzepatide carried a hazard ratio of 0.79 (95% CI, 0.58 \u20131.06).",
+      "claim_kind": "empirical",
+      "grounding_level": "fulltext_downloaded",
+      "context_limited": false,
       "numbers": [
         "6",
         "0.79",
@@ -1292,6 +1479,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [
         "1",
         "10"
@@ -1308,7 +1498,10 @@
       "kind": "cited",
       "verdict": "SUPPORTED",
       "confidence": "high",
-      "evidence_span": "At week 72, MMRM-estimated relative change in risk from baseline was -16.4%, -23.5%, -22.4%, and 12.7% for TZP 5/10/15mg and PBO",
+      "evidence_span": "MMRM-estimated relative change in risk from baseline was -16.4%, -23.5%, -22.4%, and 12.7% for TZP 5/10/15mg and PBO",
+      "claim_kind": "empirical",
+      "grounding_level": "abstract_only",
+      "context_limited": false,
       "numbers": [
         "72",
         "16.4%",
@@ -1341,6 +1534,9 @@
       "verdict": "SUPPORTED",
       "confidence": "high",
       "evidence_span": "the SUMMIT outcomes trial have demonstrated symptomatic and functional improvements, reverse cardiac remodelling on imaging, reduced circulating markers of myocardial stress and fewer worsening heart\u2010failure events versus placebo",
+      "claim_kind": "empirical",
+      "grounding_level": "abstract_only",
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -1354,7 +1550,10 @@
       "kind": "cited",
       "verdict": "SUPPORTED",
       "confidence": "medium",
-      "evidence_span": "the ongoing SURPASS-CVOT trial (NCT04255433) is anticipated to yield conclusive answers regarding its effect on major cardiovascular events",
+      "evidence_span": "The ongoing SURPASS-CVOT trial\n(NCT04255433) is anticipated to yield conclusive answers\nregarding tirzepatide \u2019s effect on major cardiovascular\nevents",
+      "claim_kind": "background",
+      "grounding_level": "fulltext_downloaded",
+      "context_limited": false,
       "numbers": [
         "2"
       ],
@@ -1371,6 +1570,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [
         "1.8",
         "2"
@@ -1389,6 +1591,9 @@
       "verdict": "UNSUPPORTED",
       "confidence": "high",
       "evidence_span": "",
+      "claim_kind": "empirical",
+      "grounding_level": "abstract_only",
+      "context_limited": true,
       "numbers": [
         "0.87",
         "95%",
@@ -1401,23 +1606,18 @@
         "3.8"
       ],
       "numbers_grounded": [
-        "9.6%"
+        "95%",
+        "0.97",
+        "6.0%",
+        "8.2%",
+        "9.6%",
+        "3.8"
       ],
       "numbers_missing": [
         "0.87",
-        "95%",
         "0.78",
-        "0.97",
-        "4.7%",
-        "6.0%",
-        "8.2%",
-        "3.8"
-      ],
-      "verified_state": "unsupported",
-      "verified_panel": {
-        "supporter_verdict": "UNSUPPORTED",
-        "skeptic_verdict": "UNSUPPORTED"
-      }
+        "4.7%"
+      ]
     },
     {
       "idx": 64,
@@ -1429,6 +1629,9 @@
       "verdict": "UNSUPPORTED",
       "confidence": "high",
       "evidence_span": "",
+      "claim_kind": "empirical",
+      "grounding_level": "abstract_only",
+      "context_limited": true,
       "numbers": [
         "3.0",
         "8",
@@ -1456,12 +1659,7 @@
         "0.42",
         "0.17",
         "1.08"
-      ],
-      "verified_state": "unsupported",
-      "verified_panel": {
-        "supporter_verdict": "UNSUPPORTED",
-        "skeptic_verdict": "UNSUPPORTED"
-      }
+      ]
     },
     {
       "idx": 65,
@@ -1471,6 +1669,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [
         "1"
       ],
@@ -1485,6 +1686,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [
         "20",
         "26%",
@@ -1501,6 +1705,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -1513,6 +1720,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [
         "1.8",
         "3.0"
@@ -1528,6 +1738,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [
         "82",
         "83%"
@@ -1542,9 +1755,12 @@
         2
       ],
       "kind": "cited",
-      "verdict": "UNSUPPORTED",
-      "confidence": "medium",
-      "evidence_span": "",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "evidence_span": "Nausea 81 (53.3%) 213 70.6 33 (21.7%) 53 19.8\n Diarrhea 53 (34.9%) 108 35.8 36 (23.7%) 51 19.0",
+      "claim_kind": "empirical",
+      "grounding_level": "fulltext_downloaded",
+      "context_limited": false,
       "numbers": [
         "5",
         "53.3%",
@@ -1557,12 +1773,7 @@
         "34.9%",
         "30.3%"
       ],
-      "numbers_missing": [],
-      "verified_state": "supported",
-      "verified_panel": {
-        "supporter_verdict": "SUPPORTED",
-        "skeptic_verdict": "SUPPORTED"
-      }
+      "numbers_missing": []
     },
     {
       "idx": 71,
@@ -1572,8 +1783,11 @@
       ],
       "kind": "cited",
       "verdict": "UNSUPPORTED",
-      "confidence": "medium",
+      "confidence": "high",
       "evidence_span": "",
+      "claim_kind": "empirical",
+      "grounding_level": "fulltext_excerpt",
+      "context_limited": true,
       "numbers": [
         "3",
         "82.8%",
@@ -1588,12 +1802,7 @@
         "36.9%",
         "36.1%"
       ],
-      "numbers_missing": [],
-      "verified_state": "supported",
-      "verified_panel": {
-        "supporter_verdict": "SUPPORTED",
-        "skeptic_verdict": "SUPPORTED"
-      }
+      "numbers_missing": []
     },
     {
       "idx": 72,
@@ -1603,6 +1812,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -1617,7 +1829,10 @@
       "kind": "cited",
       "verdict": "UNSUPPORTED",
       "confidence": "medium",
-      "evidence_span": "",
+      "evidence_span": "Adverse events leading to discontinuation of trial product were reported by nine participants (5.9%) in the semaglutide group",
+      "claim_kind": "empirical",
+      "grounding_level": "fulltext_excerpt",
+      "context_limited": true,
       "numbers": [
         "5.9%",
         "7.0%",
@@ -1626,17 +1841,11 @@
       ],
       "numbers_grounded": [
         "5.9%",
-        "3.9"
-      ],
-      "numbers_missing": [
         "7.0%",
+        "3.9",
         "4.3%"
       ],
-      "verified_state": "unsupported",
-      "verified_panel": {
-        "supporter_verdict": "UNSUPPORTED",
-        "skeptic_verdict": "UNSUPPORTED"
-      }
+      "numbers_missing": []
     },
     {
       "idx": 74,
@@ -1646,9 +1855,12 @@
         4
       ],
       "kind": "cited",
-      "verdict": "CONTRADICTED",
+      "verdict": "UNSUPPORTED",
       "confidence": "medium",
-      "evidence_span": "Serious adverse events occurred in 7.9%.",
+      "evidence_span": "Serious adverse events were reported by 12 (7.9%) of 152 partici -\npants in the semaglutide group",
+      "claim_kind": "empirical",
+      "grounding_level": "fulltext_excerpt",
+      "context_limited": true,
       "numbers": [
         "7.9",
         "9.8%"
@@ -1657,12 +1869,7 @@
         "7.9",
         "9.8%"
       ],
-      "numbers_missing": [],
-      "verified_state": "supported",
-      "verified_panel": {
-        "supporter_verdict": "UNSUPPORTED",
-        "skeptic_verdict": "SUPPORTED"
-      }
+      "numbers_missing": []
     },
     {
       "idx": 75,
@@ -1672,9 +1879,12 @@
         10
       ],
       "kind": "cited",
-      "verdict": "SUPPORTED",
+      "verdict": "UNSUPPORTED",
       "confidence": "medium",
-      "evidence_span": "An increased risk for cholelithiasis was observed (1.4% injective, 1.0% oral).",
+      "evidence_span": "gallbladder-related disorders were reported by four (2.6%) versus two (1.3%) participants",
+      "claim_kind": "empirical",
+      "grounding_level": "fulltext_downloaded",
+      "context_limited": false,
       "numbers": [
         "2.6",
         "4.9%",
@@ -1685,7 +1895,12 @@
         "4.9%",
         "1.4%"
       ],
-      "numbers_missing": []
+      "numbers_missing": [],
+      "verified_state": "supported",
+      "verified_panel": {
+        "supporter_verdict": "SUPPORTED",
+        "skeptic_verdict": "SUPPORTED"
+      }
     },
     {
       "idx": 76,
@@ -1697,6 +1912,9 @@
       "verdict": "SUPPORTED",
       "confidence": "high",
       "evidence_span": "increases in the risk to discontinued treatment (RR: 2.03; 95%CI: 1.87 - 2.20; CoE: High) and gastrointestinal adverse events (RR: 3.26; 95%CI: 1.99 - 5.34; CoE: Moderate)",
+      "claim_kind": "empirical",
+      "grounding_level": "abstract_only",
+      "context_limited": false,
       "numbers": [
         "3.26",
         "95%",
@@ -1734,9 +1952,12 @@
         10
       ],
       "kind": "cited",
-      "verdict": "UNSUPPORTED",
+      "verdict": "SUPPORTED",
       "confidence": "medium",
-      "evidence_span": "Caution is advised for patients with proliferative diabetic retinopathy due to increased risk for retinal complications (HR 1.76, P = 0.02)",
+      "evidence_span": "The increased risk for retinal complications (HR 1.76, P = 0.02) observed in subjects with retinopathy at baseline, probably due to the fast improvement of glucose control",
+      "claim_kind": "empirical",
+      "grounding_level": "fulltext_downloaded",
+      "context_limited": false,
       "numbers": [
         "6",
         "1.76",
@@ -1747,12 +1968,7 @@
         "1.76",
         "0.02"
       ],
-      "numbers_missing": [],
-      "verified_state": "supported",
-      "verified_panel": {
-        "supporter_verdict": "SUPPORTED",
-        "skeptic_verdict": "SUPPORTED"
-      }
+      "numbers_missing": []
     },
     {
       "idx": 78,
@@ -1761,21 +1977,19 @@
         10
       ],
       "kind": "cited",
-      "verdict": "UNSUPPORTED",
-      "confidence": "medium",
-      "evidence_span": "Semaglutide carries a warning for thyroid C-cell cancer, contraindicated in those with a personal or family history of medullary thyroid cancer.",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "evidence_span": "semaglutide received an official warning for thyroid C-cell cancer in the United States. This alert, shared with other GLP-1 RAs, derives solely from rodent studies [24 ]. Consequently, semaglutide is contraindicated in the United States in subjects with a personal or family history of medullary thyroid cancer or type 2 multiple endocrine neoplasia.",
+      "claim_kind": "background",
+      "grounding_level": "fulltext_downloaded",
+      "context_limited": false,
       "numbers": [
         "2"
       ],
       "numbers_grounded": [
         "2"
       ],
-      "numbers_missing": [],
-      "verified_state": "supported",
-      "verified_panel": {
-        "supporter_verdict": "SUPPORTED",
-        "skeptic_verdict": "SUPPORTED"
-      }
+      "numbers_missing": []
     },
     {
       "idx": 79,
@@ -1785,6 +1999,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -1796,9 +2013,12 @@
         26
       ],
       "kind": "cited",
-      "verdict": "UNSUPPORTED",
-      "confidence": "medium",
-      "evidence_span": "",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "evidence_span": "Nausea (Event rate in %) 24.6 33.3 31.0 9.5 Diarrhea (Event rate in %) 18.7 21.2 23.0 7.3",
+      "claim_kind": "empirical",
+      "grounding_level": "fulltext_downloaded",
+      "context_limited": false,
       "numbers": [
         "1",
         "24.6",
@@ -1821,12 +2041,7 @@
         "5",
         "15"
       ],
-      "numbers_missing": [],
-      "verified_state": "supported",
-      "verified_panel": {
-        "supporter_verdict": "SUPPORTED",
-        "skeptic_verdict": "SUPPORTED"
-      }
+      "numbers_missing": []
     },
     {
       "idx": 81,
@@ -1836,6 +2051,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -1847,9 +2065,12 @@
         31
       ],
       "kind": "cited",
-      "verdict": "SUPPORTED",
+      "verdict": "UNSUPPORTED",
       "confidence": "high",
-      "evidence_span": "Discontinuation rates due to adverse events were 5.1% (5 mg), 9.1% (10 mg), and 25% (15 mg).",
+      "evidence_span": "accountable for drug discontinuation in 5.1% of 5 mg group, 9.1% in the 10 mg group, and 25% in the 15 mg group, displaying a similar dose-dependent fashion",
+      "claim_kind": "empirical",
+      "grounding_level": "fulltext_downloaded",
+      "context_limited": false,
       "numbers": [
         "5.1%",
         "5",
@@ -1866,7 +2087,12 @@
         "25%",
         "15"
       ],
-      "numbers_missing": []
+      "numbers_missing": [],
+      "verified_state": "supported",
+      "verified_panel": {
+        "supporter_verdict": "SUPPORTED",
+        "skeptic_verdict": "SUPPORTED"
+      }
     },
     {
       "idx": 83,
@@ -1878,7 +2104,10 @@
       "kind": "cited",
       "verdict": "SUPPORTED",
       "confidence": "medium",
-      "evidence_span": "leading to a discontinuation rate of 4.6%",
+      "evidence_span": "leading to a discontinuation\nrate of 4.6%",
+      "claim_kind": "empirical",
+      "grounding_level": "fulltext_downloaded",
+      "context_limited": false,
       "numbers": [
         "4.6",
         "7.3%"
@@ -1897,9 +2126,12 @@
         31
       ],
       "kind": "cited",
-      "verdict": "SUPPORTED",
+      "verdict": "UNSUPPORTED",
       "confidence": "high",
-      "evidence_span": "Serious adverse events were reported in 5-7% of patients.",
+      "evidence_span": "Serious adverse events were reported in 5 to 7% of the patients who received tirze-patide and in 3% of those who received semaglutide",
+      "claim_kind": "empirical",
+      "grounding_level": "fulltext_downloaded",
+      "context_limited": false,
       "numbers": [
         "5",
         "7%"
@@ -1908,7 +2140,12 @@
         "5",
         "7%"
       ],
-      "numbers_missing": []
+      "numbers_missing": [],
+      "verified_state": "supported",
+      "verified_panel": {
+        "supporter_verdict": "SUPPORTED",
+        "skeptic_verdict": "SUPPORTED"
+      }
     },
     {
       "idx": 85,
@@ -1918,6 +2155,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [
         "1",
         "4",
@@ -1937,6 +2177,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -1951,6 +2194,9 @@
       "verdict": "SUPPORTED",
       "confidence": "high",
       "evidence_span": "Between 1.0% and 10.5% of tirzepatide\u2010treated participants discontinued treatment due to GI AEs.",
+      "claim_kind": "empirical",
+      "grounding_level": "abstract_only",
+      "context_limited": false,
       "numbers": [
         "1.0%",
         "10.5%"
@@ -1971,6 +2217,9 @@
       "verdict": "SUPPORTED",
       "confidence": "high",
       "evidence_span": "Mediation analyses suggested that N/V/D and dyspepsia were associated with up to 3.1% of total weight reduction.",
+      "claim_kind": "empirical",
+      "grounding_level": "abstract_only",
+      "context_limited": false,
       "numbers": [
         "3.1%"
       ],
@@ -1989,7 +2238,10 @@
       "kind": "cited",
       "verdict": "UNSUPPORTED",
       "confidence": "medium",
-      "evidence_span": "Hypoglycemia was low, mostly below 10%, except for 17.9% in the 15 mg group, with none severe.",
+      "evidence_span": "records of hypoglycemia were low across the treatment groups, mostly less than 10% in all doses except for 17.9% in maximum dose group of 15 mg, none of which were severe.",
+      "claim_kind": "empirical",
+      "grounding_level": "fulltext_downloaded",
+      "context_limited": false,
       "numbers": [
         "10%"
       ],
@@ -2011,8 +2263,11 @@
       ],
       "kind": "cited",
       "verdict": "UNSUPPORTED",
-      "confidence": "medium",
-      "evidence_span": "",
+      "confidence": "high",
+      "evidence_span": "Other rarely encoun-tered adverse events reported pancreatitis, cholecystitis, injection site reactions, and hypersensitivity reactions.",
+      "claim_kind": "empirical",
+      "grounding_level": "fulltext_downloaded",
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": [],
@@ -2030,6 +2285,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [
         "3.0",
         "1"
@@ -2047,6 +2305,9 @@
       "verdict": "UNSUPPORTED",
       "confidence": "high",
       "evidence_span": "",
+      "claim_kind": "empirical",
+      "grounding_level": "abstract_only",
+      "context_limited": true,
       "numbers": [
         "5%",
         "2.7%"
@@ -2056,12 +2317,7 @@
       ],
       "numbers_missing": [
         "2.7%"
-      ],
-      "verified_state": "unsupported",
-      "verified_panel": {
-        "supporter_verdict": "UNSUPPORTED",
-        "skeptic_verdict": "UNSUPPORTED"
-      }
+      ]
     },
     {
       "idx": 93,
@@ -2073,6 +2329,9 @@
       "verdict": "UNSUPPORTED",
       "confidence": "high",
       "evidence_span": "",
+      "claim_kind": "empirical",
+      "grounding_level": "fulltext_excerpt",
+      "context_limited": true,
       "numbers": [
         "39.3%",
         "20.9%",
@@ -2092,12 +2351,7 @@
         "3.0",
         "13.8%",
         "9.9%"
-      ],
-      "verified_state": "unsupported",
-      "verified_panel": {
-        "supporter_verdict": "UNSUPPORTED",
-        "skeptic_verdict": "UNSUPPORTED"
-      }
+      ]
     },
     {
       "idx": 94,
@@ -2109,6 +2363,9 @@
       "verdict": "UNSUPPORTED",
       "confidence": "high",
       "evidence_span": "",
+      "claim_kind": "empirical",
+      "grounding_level": "fulltext_excerpt",
+      "context_limited": true,
       "numbers": [
         "2",
         "3"
@@ -2117,12 +2374,7 @@
         "2",
         "3"
       ],
-      "numbers_missing": [],
-      "verified_state": "unsupported",
-      "verified_panel": {
-        "supporter_verdict": "UNSUPPORTED",
-        "skeptic_verdict": "UNSUPPORTED"
-      }
+      "numbers_missing": []
     },
     {
       "idx": 95,
@@ -2134,18 +2386,16 @@
       "verdict": "UNSUPPORTED",
       "confidence": "high",
       "evidence_span": "",
+      "claim_kind": "empirical",
+      "grounding_level": "fulltext_excerpt",
+      "context_limited": true,
       "numbers": [
         "4.3%"
       ],
       "numbers_grounded": [],
       "numbers_missing": [
         "4.3%"
-      ],
-      "verified_state": "unsupported",
-      "verified_panel": {
-        "supporter_verdict": "UNSUPPORTED",
-        "skeptic_verdict": "UNSUPPORTED"
-      }
+      ]
     },
     {
       "idx": 96,
@@ -2157,6 +2407,9 @@
       "verdict": "UNSUPPORTED",
       "confidence": "high",
       "evidence_span": "",
+      "claim_kind": "empirical",
+      "grounding_level": "fulltext_excerpt",
+      "context_limited": true,
       "numbers": [
         "0.002",
         "0.001"
@@ -2165,12 +2418,7 @@
       "numbers_missing": [
         "0.002",
         "0.001"
-      ],
-      "verified_state": "unsupported",
-      "verified_panel": {
-        "supporter_verdict": "UNSUPPORTED",
-        "skeptic_verdict": "UNSUPPORTED"
-      }
+      ]
     },
     {
       "idx": 97,
@@ -2182,14 +2430,12 @@
       "verdict": "UNSUPPORTED",
       "confidence": "high",
       "evidence_span": "",
+      "claim_kind": "empirical",
+      "grounding_level": "fulltext_excerpt",
+      "context_limited": true,
       "numbers": [],
       "numbers_grounded": [],
-      "numbers_missing": [],
-      "verified_state": "unsupported",
-      "verified_panel": {
-        "supporter_verdict": "UNSUPPORTED",
-        "skeptic_verdict": "UNSUPPORTED"
-      }
+      "numbers_missing": []
     },
     {
       "idx": 98,
@@ -2201,18 +2447,16 @@
       "verdict": "UNSUPPORTED",
       "confidence": "high",
       "evidence_span": "",
+      "claim_kind": "background",
+      "grounding_level": "abstract_only",
+      "context_limited": true,
       "numbers": [
         "2"
       ],
       "numbers_grounded": [
         "2"
       ],
-      "numbers_missing": [],
-      "verified_state": "unsupported",
-      "verified_panel": {
-        "supporter_verdict": "UNSUPPORTED",
-        "skeptic_verdict": "UNSUPPORTED"
-      }
+      "numbers_missing": []
     },
     {
       "idx": 99,
@@ -2222,6 +2466,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [
         "53",
         "58%"
@@ -2237,6 +2484,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -2249,6 +2499,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -2261,6 +2514,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -2273,6 +2529,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -2285,6 +2544,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -2297,6 +2559,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [
         "15",
         "20.9%",
@@ -2320,6 +2585,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -2332,6 +2600,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [
         "1"
       ],
@@ -2346,9 +2617,12 @@
         22
       ],
       "kind": "cited",
-      "verdict": "UNSUPPORTED",
-      "confidence": "high",
-      "evidence_span": "",
+      "verdict": "CONTRADICTED",
+      "confidence": "medium",
+      "evidence_span": "GIP activity in the central nervous system may have additional metabolic advantages by lowering energy expenditure in addition to enhancing lipid management in the periphery, particularly when paired with GLP-1",
+      "claim_kind": "background",
+      "grounding_level": "abstract_only",
+      "context_limited": false,
       "numbers": [
         "1"
       ],
@@ -2356,10 +2630,10 @@
         "1"
       ],
       "numbers_missing": [],
-      "verified_state": "unsupported",
+      "verified_state": "contradiction",
       "verified_panel": {
-        "supporter_verdict": "UNSUPPORTED",
-        "skeptic_verdict": "UNSUPPORTED"
+        "supporter_verdict": "CONTRADICTED",
+        "skeptic_verdict": "CONTRADICTED"
       }
     },
     {
@@ -2370,6 +2644,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [
         "15",
         "10",
@@ -2386,6 +2663,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [
         "1"
       ],
@@ -2400,6 +2680,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [
         "1",
         "3",
@@ -2419,7 +2702,10 @@
       "kind": "cited",
       "verdict": "SUPPORTED",
       "confidence": "high",
-      "evidence_span": "the estimated mean body weight change from baseline was -16.0% for semaglutide",
+      "evidence_span": "the estimated mean weight change from baseline was \u221216.0% with semaglutide vs -5.7% with placebo",
+      "claim_kind": "empirical",
+      "grounding_level": "fulltext_excerpt",
+      "context_limited": false,
       "numbers": [
         "3",
         "16.0%"
@@ -2438,6 +2724,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [
         "8%",
         "1"
@@ -2453,6 +2742,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -2465,6 +2757,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [
         "1"
       ],
@@ -2482,7 +2777,10 @@
       "kind": "cited",
       "verdict": "UNSUPPORTED",
       "confidence": "medium",
-      "evidence_span": "semaglutide showed a 20% reduction in major adverse cardiovascular events in 17,604 adults with preexisting cardiovascular disease, overweight or obesity, without diabetes",
+      "evidence_span": "semaglutide showed a 20% reduction in major adverse cardiovascular events",
+      "claim_kind": "empirical",
+      "grounding_level": "fulltext_excerpt",
+      "context_limited": true,
       "numbers": [
         "20",
         "26%",
@@ -2490,16 +2788,10 @@
       ],
       "numbers_grounded": [
         "20",
+        "26%",
         "6"
       ],
-      "numbers_missing": [
-        "26%"
-      ],
-      "verified_state": "unsupported",
-      "verified_panel": {
-        "supporter_verdict": "UNSUPPORTED",
-        "skeptic_verdict": "UNSUPPORTED"
-      }
+      "numbers_missing": []
     },
     {
       "idx": 117,
@@ -2509,6 +2801,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -2524,20 +2819,19 @@
       "verdict": "UNSUPPORTED",
       "confidence": "high",
       "evidence_span": "",
+      "claim_kind": "empirical",
+      "grounding_level": "abstract_only",
+      "context_limited": true,
       "numbers": [
         "13%",
         "0.87"
       ],
-      "numbers_grounded": [],
-      "numbers_missing": [
-        "13%",
-        "0.87"
+      "numbers_grounded": [
+        "13%"
       ],
-      "verified_state": "unsupported",
-      "verified_panel": {
-        "supporter_verdict": "UNSUPPORTED",
-        "skeptic_verdict": "UNSUPPORTED"
-      }
+      "numbers_missing": [
+        "0.87"
+      ]
     },
     {
       "idx": 119,
@@ -2547,6 +2841,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -2559,6 +2856,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -2572,7 +2872,10 @@
       "kind": "cited",
       "verdict": "SUPPORTED",
       "confidence": "high",
-      "evidence_span": "Tirzepatide showed a hazard ratio (HR) of 0.8 (95% CI, 0.57-1.11) for MACE-4 outcomes",
+      "evidence_span": "With an overall hazard ratio of 0.8 (95%\nCI, 0.57 \u20131.11) for MACE-4 outcomes, tirzepatide therapy was\nnot associated with increased cardiovascular risk.",
+      "claim_kind": "empirical",
+      "grounding_level": "fulltext_downloaded",
+      "context_limited": false,
       "numbers": [
         "0.8",
         "0.76",
@@ -2596,7 +2899,10 @@
       "kind": "cited",
       "verdict": "SUPPORTED",
       "confidence": "high",
-      "evidence_span": "MMRM-estimated relative change in risk from baseline was -16.4%, -23.5%, -22.4%, and 12.7% for TZP 5/10/15mg and PBO",
+      "evidence_span": "At week 72, MMRM-estimated relative change in risk from baseline was -16.4%, -23.5%, -22.4%, and 12.7% for TZP 5/10/15mg and PBO",
+      "claim_kind": "empirical",
+      "grounding_level": "abstract_only",
+      "context_limited": false,
       "numbers": [
         "16",
         "24%",
@@ -2617,6 +2923,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -2629,17 +2938,15 @@
         25
       ],
       "kind": "cited",
-      "verdict": "UNSUPPORTED",
+      "verdict": "SUPPORTED",
       "confidence": "medium",
       "evidence_span": "In semaglutide-treated patients, the magnitude of benefit was directly related to the extent of weight loss.",
+      "claim_kind": "empirical",
+      "grounding_level": "abstract_only",
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
-      "numbers_missing": [],
-      "verified_state": "supported",
-      "verified_panel": {
-        "supporter_verdict": "SUPPORTED",
-        "skeptic_verdict": "SUPPORTED"
-      }
+      "numbers_missing": []
     },
     {
       "idx": 125,
@@ -2649,6 +2956,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [
         "1"
       ],
@@ -2663,6 +2973,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [
         "1"
       ],
@@ -2680,8 +2993,11 @@
       ],
       "kind": "cited",
       "verdict": "UNSUPPORTED",
-      "confidence": "high",
-      "evidence_span": "Gastrointestinal adverse events, mostly mild-to-moderate, were reported more often with semaglutide than with placebo (82.2% versus 53.9%).",
+      "confidence": "medium",
+      "evidence_span": "Nausea (Event rate in %) 24.6 33.3 31.0 9.5",
+      "claim_kind": "empirical",
+      "grounding_level": "fulltext_excerpt",
+      "context_limited": true,
       "numbers": [
         "82",
         "83%",
@@ -2696,17 +3012,11 @@
         "83%",
         "53",
         "58%",
+        "39%",
+        "25",
         "33%"
       ],
-      "numbers_missing": [
-        "39%",
-        "25"
-      ],
-      "verified_state": "unsupported",
-      "verified_panel": {
-        "supporter_verdict": "UNSUPPORTED",
-        "skeptic_verdict": "UNSUPPORTED"
-      }
+      "numbers_missing": []
     },
     {
       "idx": 128,
@@ -2716,6 +3026,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -2730,19 +3043,21 @@
         27
       ],
       "kind": "cited",
-      "verdict": "UNSUPPORTED",
+      "verdict": "CONTRADICTED",
       "confidence": "medium",
-      "evidence_span": "Discontinuation due to adverse events was 5.9%, with 3.9% specifically for GI disorders.",
+      "evidence_span": "15 mg:7.3 vs 3.2%, p =0.002, moderate cer-\ntainty",
+      "claim_kind": "empirical",
+      "grounding_level": "fulltext_excerpt",
+      "context_limited": false,
       "numbers": [
         "4.3",
         "7.0%"
       ],
       "numbers_grounded": [
-        "4.3"
-      ],
-      "numbers_missing": [
+        "4.3",
         "7.0%"
       ],
+      "numbers_missing": [],
       "verified_state": "unsupported",
       "verified_panel": {
         "supporter_verdict": "UNSUPPORTED",
@@ -2759,6 +3074,9 @@
       "verdict": "SUPPORTED",
       "confidence": "high",
       "evidence_span": "Mediation analyses suggested that N/V/D and dyspepsia were associated with up to 3.1% of total weight reduction.",
+      "claim_kind": "empirical",
+      "grounding_level": "abstract_only",
+      "context_limited": false,
       "numbers": [
         "3.1%"
       ],
@@ -2775,6 +3093,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -2787,6 +3108,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -2799,6 +3123,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -2811,8 +3138,11 @@
       ],
       "kind": "cited",
       "verdict": "CONTRADICTED",
-      "confidence": "medium",
+      "confidence": "high",
       "evidence_span": "The exception was sex and baseline body weight; female sex and a low baseline body weight were associated with a greater response to semaglutide.",
+      "claim_kind": "empirical",
+      "grounding_level": "abstract_only",
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": [],
@@ -2831,7 +3161,10 @@
       "kind": "cited",
       "verdict": "SUPPORTED",
       "confidence": "high",
-      "evidence_span": "female sex and a low baseline body weight were associated with a greater response to semaglutide",
+      "evidence_span": "Mean percent weight loss at week 68 with semaglutide was greater among females than males, and in participants with lower vs higher baseline body weight.",
+      "claim_kind": "empirical",
+      "grounding_level": "abstract_only",
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -2844,8 +3177,11 @@
       ],
       "kind": "cited",
       "verdict": "UNSUPPORTED",
-      "confidence": "high",
+      "confidence": "medium",
       "evidence_span": "",
+      "claim_kind": "empirical",
+      "grounding_level": "fulltext_downloaded",
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": [],
@@ -2863,6 +3199,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [
         "2"
       ],
@@ -2880,6 +3219,9 @@
       "verdict": "UNSUPPORTED",
       "confidence": "high",
       "evidence_span": "",
+      "claim_kind": "empirical",
+      "grounding_level": "abstract_only",
+      "context_limited": true,
       "numbers": [
         "2",
         "2",
@@ -2892,19 +3234,14 @@
       "numbers_grounded": [
         "2",
         "2",
-        "9.6%",
         "2",
         "2"
       ],
       "numbers_missing": [
+        "9.6%",
         "12.8",
         "14.7%"
-      ],
-      "verified_state": "unsupported",
-      "verified_panel": {
-        "supporter_verdict": "UNSUPPORTED",
-        "skeptic_verdict": "UNSUPPORTED"
-      }
+      ]
     },
     {
       "idx": 139,
@@ -2914,6 +3251,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -2927,7 +3267,10 @@
       "kind": "cited",
       "verdict": "SUPPORTED",
       "confidence": "high",
-      "evidence_span": "semaglutide showed a 20% reduction in major adverse cardiovascular events in 17,604 adults with preexisting cardiovascular disease, overweight or obesity, without diabetes",
+      "evidence_span": "semaglutide showed a 20% \nreduction in major adverse cardiovascular events in 17,604 adults with preexisting cardiovascular disease, overweight or obesity, without diabetes",
+      "claim_kind": "empirical",
+      "grounding_level": "fulltext_downloaded",
+      "context_limited": false,
       "numbers": [
         "20%"
       ],
@@ -2946,7 +3289,10 @@
       "kind": "cited",
       "verdict": "SUPPORTED",
       "confidence": "high",
-      "evidence_span": "Randomised clinical programmes and the SUMMIT outcomes trial have demonstrated symptomatic and functional improvements",
+      "evidence_span": "semaglutide improved symptoms, physical limitations and exercise function and reduced inflammation and body weight across the spectrum of obesity categories",
+      "claim_kind": "empirical",
+      "grounding_level": "abstract_only",
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -2959,6 +3305,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -2971,6 +3320,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -2983,9 +3335,12 @@
         18
       ],
       "kind": "cited",
-      "verdict": "SUPPORTED",
+      "verdict": "UNSUPPORTED",
       "confidence": "medium",
-      "evidence_span": "Semaglutide showed a 15.8% mean body weight change over 68 weeks in the STEP 8 trial, compared to 6.4% with liraglutide.",
+      "evidence_span": "15.8% mean body weight change versus 6.4% with liraglutide after 68 weeks",
+      "claim_kind": "empirical",
+      "grounding_level": "abstract_only",
+      "context_limited": true,
       "numbers": [
         "8",
         "2.4",
@@ -3011,8 +3366,11 @@
       ],
       "kind": "cited",
       "verdict": "CONTRADICTED",
-      "confidence": "high",
+      "confidence": "medium",
       "evidence_span": "tirzepatide showed greater reductions in weight (\u201316.3% [95% CI, \u201316.7 to \u201315.9] vs. \u201311.4% [\u201311.6 to \u201311.2])",
+      "claim_kind": "empirical",
+      "grounding_level": "abstract_only",
+      "context_limited": false,
       "numbers": [
         "16.3%",
         "14%"
@@ -3036,6 +3394,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [
         "2",
         "3"
@@ -3053,18 +3414,16 @@
       "verdict": "UNSUPPORTED",
       "confidence": "high",
       "evidence_span": "",
+      "claim_kind": "empirical",
+      "grounding_level": "abstract_only",
+      "context_limited": true,
       "numbers": [
         "3.8"
       ],
       "numbers_grounded": [],
       "numbers_missing": [
         "3.8"
-      ],
-      "verified_state": "unsupported",
-      "verified_panel": {
-        "supporter_verdict": "UNSUPPORTED",
-        "skeptic_verdict": "UNSUPPORTED"
-      }
+      ]
     },
     {
       "idx": 148,
@@ -3076,6 +3435,9 @@
       "verdict": "SUPPORTED",
       "confidence": "medium",
       "evidence_span": "Weight regain and cardiometabolic effects after withdrawal of semaglutide",
+      "claim_kind": "background",
+      "grounding_level": "fulltext_excerpt",
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -3088,6 +3450,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -3100,6 +3465,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [
         "15"
       ],
@@ -3114,6 +3482,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -3126,6 +3497,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -3138,6 +3512,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -3150,6 +3527,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -3162,6 +3542,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -3174,6 +3557,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -3186,6 +3572,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -3198,6 +3587,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [
         "2",
         "3"
@@ -3213,6 +3605,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -3227,6 +3622,9 @@
       "verdict": "SUPPORTED",
       "confidence": "medium",
       "evidence_span": "Weight regain and cardiometabolic effects after withdrawal of semaglutide: The STEP 1 trial extension",
+      "claim_kind": "empirical",
+      "grounding_level": "fulltext_excerpt",
+      "context_limited": false,
       "numbers": [
         "1"
       ],
@@ -3243,6 +3641,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -3255,6 +3656,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [
         "1",
         "1",
@@ -3272,7 +3676,10 @@
       "kind": "cited",
       "verdict": "SUPPORTED",
       "confidence": "high",
-      "evidence_span": "additional mean per cent weight change from randomization to week 72 was met with changes of -18.4% (standard error (s.e.) 0.7) with tirzepatide",
+      "evidence_span": "participants who received tirzepatide MTD of 10 or 15 mg lost an additional 18.4% of body weight, compared with a gain of 2.5% for placebo",
+      "claim_kind": "empirical",
+      "grounding_level": "fulltext_downloaded",
+      "context_limited": false,
       "numbers": [
         "3",
         "18.4%"
@@ -3291,6 +3698,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [
         "1"
       ],
@@ -3305,6 +3715,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [
         "15.0",
         "20.9%",
@@ -3323,6 +3736,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -3335,6 +3751,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [
         "4.3",
         "7.0%"
@@ -3350,6 +3769,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -3362,6 +3784,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -3374,6 +3799,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -3386,6 +3814,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -3398,6 +3829,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -3410,6 +3844,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [
         "1"
       ],

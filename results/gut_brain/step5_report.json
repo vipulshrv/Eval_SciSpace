@@ -1,14 +1,40 @@
 {
   "summary": {
     "step": "5_report_generation",
+    "reference_truth": "report claim vs cited paper full-text (else abstract) \u222a extracted table row",
     "total_claim_sentences": 350,
     "cited_sentences": 138,
     "uncited_synthesis_sentences": 212,
     "graded_cited": 138,
-    "citation_precision": 0.9058,
+    "citation_precision": 0.898,
+    "citation_precision_empirical": 0.898,
+    "citation_precision_background": 0.9474,
+    "empirical": {
+      "adjudicable": 98,
+      "supported": 88,
+      "contradicted": 0,
+      "context_limited_excluded": 13,
+      "precision": 0.898
+    },
+    "background": {
+      "adjudicable": 19,
+      "supported": 18,
+      "contradicted": 0,
+      "context_limited_excluded": 8,
+      "precision": 0.9474
+    },
+    "all_cited": {
+      "adjudicable": 117,
+      "supported": 106,
+      "contradicted": 0,
+      "context_limited_excluded": 21,
+      "precision": 0.906
+    },
+    "report_contradictions": 0,
+    "context_limited_excluded": 21,
     "verdict_breakdown": {
-      "SUPPORTED": 125,
-      "UNSUPPORTED": 13,
+      "SUPPORTED": 106,
+      "UNSUPPORTED": 32,
       "CONTRADICTED": 0
     },
     "numeric_fidelity": 0.963,
@@ -16,28 +42,47 @@
     "numbers_missing": 1,
     "verified": {
       "graded_cited": 138,
-      "flagged_rechecked": 13,
-      "supported": 133,
+      "flagged_rechecked": 11,
+      "citation_precision": 1.0,
+      "citation_precision_empirical": 1.0,
+      "citation_precision_background": 1.0,
+      "empirical": {
+        "adjudicable": 98,
+        "supported": 98,
+        "contradicted": 0,
+        "precision": 1.0
+      },
+      "background": {
+        "adjudicable": 19,
+        "supported": 19,
+        "contradicted": 0,
+        "precision": 1.0
+      },
+      "all_cited": {
+        "adjudicable": 117,
+        "supported": 117,
+        "contradicted": 0,
+        "precision": 1.0
+      },
       "report_contradictions": 0,
-      "unsupported": 5,
-      "citation_precision": 0.9638,
-      "first_pass_citation_precision": 0.9058,
+      "context_limited_excluded": 21,
+      "first_pass_citation_precision": 0.898,
       "first_pass_contradictions": 0
     }
   },
   "usage": {
     "model": "claude-opus-4-8",
-    "judge_calls": 138,
-    "input_tokens": 433200,
-    "output_tokens": 23052,
+    "judge_calls": 142,
+    "input_tokens": 2875806,
+    "output_tokens": 26167,
     "cache_read_input_tokens": 0,
     "cache_creation_input_tokens": 0,
     "cost_usd": {
-      "input": 2.166,
-      "output": 0.5763,
+      "input": 14.379,
+      "output": 0.6542,
       "cache_read": 0.0,
       "cache_write": 0.0,
-      "total": 2.7423
+      "total": 15.0332
     }
   },
   "sentences": [
@@ -49,6 +94,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -61,6 +109,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [
         "94",
         "30"
@@ -76,6 +127,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -88,6 +142,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -100,6 +157,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -112,6 +172,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -124,6 +187,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -136,6 +202,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -148,6 +217,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -160,6 +232,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -172,6 +247,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -183,12 +261,20 @@
         26
       ],
       "kind": "cited",
-      "verdict": "SUPPORTED",
-      "confidence": "low",
-      "evidence_span": "The microbial communities are in symbiosis with the host, contributing to homeostasis and regulating immune function.",
+      "verdict": "UNSUPPORTED",
+      "confidence": "high",
+      "evidence_span": "the human gastrointestinal (GI) tract contains an abundant microbial com-munity which gathers ~100 trillion microorganisms.",
+      "claim_kind": "background",
+      "grounding_level": "fulltext_downloaded",
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
-      "numbers_missing": []
+      "numbers_missing": [],
+      "verified_state": "supported",
+      "verified_panel": {
+        "supporter_verdict": "SUPPORTED",
+        "skeptic_verdict": "SUPPORTED"
+      }
     },
     {
       "idx": 12,
@@ -201,7 +287,10 @@
       "kind": "cited",
       "verdict": "SUPPORTED",
       "confidence": "high",
-      "evidence_span": "Research has consistently shown bidirectional communication between the gut and the brain through neuronal, endocrine, and immunological, and chemical pathways.",
+      "evidence_span": "a complex bidirectional communication between the gastrointestinal tract (GIT) and the central nervous system (CNS) involving gut microbiota",
+      "claim_kind": "background",
+      "grounding_level": "abstract_only",
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -215,8 +304,11 @@
       ],
       "kind": "cited",
       "verdict": "SUPPORTED",
-      "confidence": "medium",
-      "evidence_span": "This bidirectional network integrates neural pathways, endocrine signalling, immune mechanisms, and microbial metabolites",
+      "confidence": "high",
+      "evidence_span": "This bidirectional network integrates neural pathways, endocrine signalling, immune mechanisms, and microbial metabolites, enabling dynamic communication between the gut and brain.",
+      "claim_kind": "background",
+      "grounding_level": "abstract_only",
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -229,6 +321,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -246,14 +341,12 @@
       "verdict": "UNSUPPORTED",
       "confidence": "medium",
       "evidence_span": "Recent neuroscience studies have linked changes in the microbiome and microbial metabolites to various neuropsychiatric disorders such as autism, depression, anxiety, schizophrenia, eating disorders, and neurocognitive disorders.",
+      "claim_kind": "background",
+      "grounding_level": "abstract_only",
+      "context_limited": true,
       "numbers": [],
       "numbers_grounded": [],
-      "numbers_missing": [],
-      "verified_state": "supported",
-      "verified_panel": {
-        "supporter_verdict": "SUPPORTED",
-        "skeptic_verdict": "SUPPORTED"
-      }
+      "numbers_missing": []
     },
     {
       "idx": 16,
@@ -263,6 +356,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -275,6 +371,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -287,6 +386,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [
         "94"
       ],
@@ -301,6 +403,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [
         "5",
         "5"
@@ -319,18 +424,16 @@
       "verdict": "UNSUPPORTED",
       "confidence": "high",
       "evidence_span": "",
+      "claim_kind": "background",
+      "grounding_level": "snippet_only",
+      "context_limited": true,
       "numbers": [
         "90%"
       ],
       "numbers_grounded": [],
       "numbers_missing": [
         "90%"
-      ],
-      "verified_state": "unsupported",
-      "verified_panel": {
-        "supporter_verdict": "UNSUPPORTED",
-        "skeptic_verdict": "UNSUPPORTED"
-      }
+      ]
     },
     {
       "idx": 21,
@@ -340,6 +443,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -353,17 +459,15 @@
         9
       ],
       "kind": "cited",
-      "verdict": "UNSUPPORTED",
-      "confidence": "medium",
-      "evidence_span": "",
+      "verdict": "SUPPORTED",
+      "confidence": "low",
+      "evidence_span": "is mainly metabolized through kynurenine, serotonin, and indole pathway [24], we wondered",
+      "claim_kind": "empirical",
+      "grounding_level": "snippet_only",
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
-      "numbers_missing": [],
-      "verified_state": "unsupported",
-      "verified_panel": {
-        "supporter_verdict": "UNSUPPORTED",
-        "skeptic_verdict": "UNSUPPORTED"
-      }
+      "numbers_missing": []
     },
     {
       "idx": 23,
@@ -375,6 +479,9 @@
       "verdict": "SUPPORTED",
       "confidence": "medium",
       "evidence_span": "roles of the gut microbiota in the regulation of tryptophan-derived neurotransmitters and behaviors in human and mice",
+      "claim_kind": "empirical",
+      "grounding_level": "snippet_only",
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -388,7 +495,10 @@
       "kind": "cited",
       "verdict": "SUPPORTED",
       "confidence": "high",
-      "evidence_span": "This paper discusses alterations in the 5-HT pathway metabolites, which are correlated with shifts in gut microbiota and depressive-like behavioral phenotypes in adolescent depression mice.",
+      "evidence_span": "-relevant behavioral alterations, shifts in gut microbiota \u2026 with alterations in 5-HT pathway metabolites",
+      "claim_kind": "empirical",
+      "grounding_level": "snippet_only",
+      "context_limited": false,
       "numbers": [
         "5"
       ],
@@ -407,6 +517,9 @@
       "verdict": "SUPPORTED",
       "confidence": "high",
       "evidence_span": "Gut microbiota-tryptophan-serotonin axis drives anxiety-like behavior via NLRP3-mediated neuronal pyroptosis in the medial prefrontal cortex",
+      "claim_kind": "empirical",
+      "grounding_level": "snippet_only",
+      "context_limited": false,
       "numbers": [
         "3"
       ],
@@ -423,6 +536,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -437,6 +553,9 @@
       "verdict": "SUPPORTED",
       "confidence": "high",
       "evidence_span": "Prebiotics and probiotics all ameliorated the CUMS-induced loss of weight and depressive-like behaviors to a certain extent",
+      "claim_kind": "empirical",
+      "grounding_level": "abstract_only",
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -449,6 +568,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [
         "5",
         "5"
@@ -464,6 +586,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [
         "5"
       ],
@@ -478,6 +603,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -489,9 +617,12 @@
         13
       ],
       "kind": "cited",
-      "verdict": "SUPPORTED",
+      "verdict": "UNSUPPORTED",
       "confidence": "high",
-      "evidence_span": "the disruption of serotonin biosynthesis can lead to altered serotonergic signaling",
+      "evidence_span": "biosynthesis will disrupt the serotonergic signaling [38], resulting \u2026 with control mice with healthy microbiota, GF mice showed \u2026",
+      "claim_kind": "empirical",
+      "grounding_level": "snippet_only",
+      "context_limited": true,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -504,6 +635,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -516,6 +650,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -533,6 +670,9 @@
       "verdict": "SUPPORTED",
       "confidence": "high",
       "evidence_span": "The gut microbiota produces and modulates neurotransmitters such as GABA, serotonin, dopamine, glutamate, etc.",
+      "claim_kind": "background",
+      "grounding_level": "abstract_only",
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -547,6 +687,9 @@
       "verdict": "SUPPORTED",
       "confidence": "high",
       "evidence_span": "chronic treatment with L. rhamnosus (JB-1) induced region-dependent alterations in GABA(B1b) mRNA in the brain",
+      "claim_kind": "empirical",
+      "grounding_level": "abstract_only",
+      "context_limited": false,
       "numbers": [
         "1",
         "1",
@@ -567,6 +710,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -579,6 +725,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -590,17 +739,15 @@
         15
       ],
       "kind": "cited",
-      "verdict": "UNSUPPORTED",
+      "verdict": "SUPPORTED",
       "confidence": "high",
-      "evidence_span": "regression-based analysis for metabolomic profiling identifies an elevated \\u03b3-aminobutyric acid (GABA) to glutamate (Glu) ratio as a metabolic signature of ASD",
+      "evidence_span": "regression-based analysis for metabolomic profiling identifies an elevated \u03b3-aminobutyric acid (GABA) to glutamate (Glu) ratio as a metabolic signature of ASD",
+      "claim_kind": "empirical",
+      "grounding_level": "abstract_only",
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
-      "numbers_missing": [],
-      "verified_state": "supported",
-      "verified_panel": {
-        "supporter_verdict": "SUPPORTED",
-        "skeptic_verdict": "SUPPORTED"
-      }
+      "numbers_missing": []
     },
     {
       "idx": 39,
@@ -610,6 +757,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -622,6 +772,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -633,12 +786,20 @@
         3
       ],
       "kind": "cited",
-      "verdict": "SUPPORTED",
+      "verdict": "UNSUPPORTED",
       "confidence": "high",
-      "evidence_span": "Gut microbiota influence neurochemical pathways such as gamma-aminobutyric acid (GABA) and 5-hydroxytryptamine (serotonin) production, crucial for mood and behavior regulation.",
+      "evidence_span": "some gut bacteria produce the neurotransmitters 5-hydroxytryptamine (serotonin) and \u03b3-aminobutyric acid (GABA), which are essential for mood regulation and cognitive function",
+      "claim_kind": "empirical",
+      "grounding_level": "fulltext_downloaded",
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
-      "numbers_missing": []
+      "numbers_missing": [],
+      "verified_state": "supported",
+      "verified_panel": {
+        "supporter_verdict": "SUPPORTED",
+        "skeptic_verdict": "SUPPORTED"
+      }
     },
     {
       "idx": 42,
@@ -648,6 +809,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -660,6 +824,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -674,6 +841,9 @@
       "verdict": "SUPPORTED",
       "confidence": "high",
       "evidence_span": "This review aims to summarize the modulation role of the gut microbiota in 4 prominent neurotransmitters (tryptophan and serotonergic system, dopamine, gamma-aminobutyric acid, and glutamate), as well as its association with 4 psychiatric disorders (schizophrenia, depression, anxiety disorders, and autism spectrum disorder).",
+      "claim_kind": "empirical",
+      "grounding_level": "abstract_only",
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -686,6 +856,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -700,6 +873,9 @@
       "verdict": "SUPPORTED",
       "confidence": "high",
       "evidence_span": "The gut microbiota produces and modulates neurotransmitters such as GABA, serotonin, dopamine, glutamate, etc. Furthermore, there is a presence of a biological link between the microbiota, immune signaling, and CNS",
+      "claim_kind": "empirical",
+      "grounding_level": "abstract_only",
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -712,6 +888,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -724,6 +903,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -740,7 +922,10 @@
       "kind": "cited",
       "verdict": "SUPPORTED",
       "confidence": "medium",
-      "evidence_span": "gut microbiota modulate neurochemical pathways involving serotonin, dopamine, GABA, and glutamate",
+      "evidence_span": "The gut microbiota produces and modulates neurotransmitters such as GABA, serotonin, dopamine, glutamate, etc.",
+      "claim_kind": "background",
+      "grounding_level": "abstract_only",
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -755,6 +940,9 @@
       "verdict": "SUPPORTED",
       "confidence": "high",
       "evidence_span": "we focus on combining the intestinal microbiota with serotonergic, dopaminergic, and noradrenergic neurotransmission in brain",
+      "claim_kind": "empirical",
+      "grounding_level": "fulltext_downloaded",
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -767,6 +955,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -779,6 +970,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -793,6 +987,9 @@
       "verdict": "SUPPORTED",
       "confidence": "high",
       "evidence_span": "Evidence indicates that gut microbiota modulate neurochemical pathways involving serotonin, dopamine, GABA, and glutamate",
+      "claim_kind": "empirical",
+      "grounding_level": "abstract_only",
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -805,6 +1002,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -817,6 +1017,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -829,6 +1032,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -840,16 +1046,24 @@
         22
       ],
       "kind": "cited",
-      "verdict": "SUPPORTED",
+      "verdict": "UNSUPPORTED",
       "confidence": "high",
-      "evidence_span": "In a Parkinson's disease model, the therapeutic use of engineered GLP1expressing Lactobacillus lactis has been shown to alleviate motor deficits by suppressing neuroinflammation and synuclein aggregation.",
+      "evidence_span": "In a Parkinson's disease model, the therapeutic use of engineered GLP\ninformation1\ninformationexpressing Lactobacillus lactis has been shown to alleviate motor deficits by suppressing neuroinflammation and",
+      "claim_kind": "empirical",
+      "grounding_level": "fulltext_downloaded",
+      "context_limited": false,
       "numbers": [
         "1"
       ],
       "numbers_grounded": [
         "1"
       ],
-      "numbers_missing": []
+      "numbers_missing": [],
+      "verified_state": "supported",
+      "verified_panel": {
+        "supporter_verdict": "SUPPORTED",
+        "skeptic_verdict": "SUPPORTED"
+      }
     },
     {
       "idx": 58,
@@ -859,6 +1073,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -871,6 +1088,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -882,9 +1102,29 @@
         1
       ],
       "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "evidence_span": "An important downstream target of gut-brain communication is the neuropeptide hormone oxytocin, which is paramount in an individual\u2019s ability to form socialbonds",
+      "claim_kind": "background",
+      "grounding_level": "fulltext_downloaded",
+      "context_limited": false,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 61,
+      "text": "Weber et al. investigated the gut microbiome's role in sociability, demonstrating that gut microbiota communicate with the host's brain through the vagus nerve and other signaling pathways [1].",
+      "citations": [
+        1
+      ],
+      "kind": "cited",
       "verdict": "UNSUPPORTED",
-      "confidence": "medium",
-      "evidence_span": "probiotic treatment, which leads to downstream increased circulation of endogenous oxytocin, a neuropeptide hormone relevant to sociability",
+      "confidence": "high",
+      "evidence_span": "Research data from an imal models shows that gut microbiota communicate with the host's brain in an elaborate network of signaling pathways, including the vagus n erve.",
+      "claim_kind": "empirical",
+      "grounding_level": "fulltext_downloaded",
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": [],
@@ -895,20 +1135,6 @@
       }
     },
     {
-      "idx": 61,
-      "text": "Weber et al. investigated the gut microbiome's role in sociability, demonstrating that gut microbiota communicate with the host's brain through the vagus nerve and other signaling pathways [1].",
-      "citations": [
-        1
-      ],
-      "kind": "cited",
-      "verdict": "SUPPORTED",
-      "confidence": "high",
-      "evidence_span": "gut microbiota communicate with the host's brain in an elaborate network of signaling pathways, including the vagus nerve",
-      "numbers": [],
-      "numbers_grounded": [],
-      "numbers_missing": []
-    },
-    {
       "idx": 62,
       "text": "Research in animal models showed that probiotic treatment led to increased circulation of endogenous oxytocin, a neuropeptide hormone relevant to sociability.",
       "citations": [],
@@ -916,6 +1142,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -928,6 +1157,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -940,6 +1172,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -952,6 +1187,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -964,6 +1202,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -982,6 +1223,9 @@
       "verdict": "SUPPORTED",
       "confidence": "high",
       "evidence_span": "short-chain fatty acids, bile acids, and microbial-derived indoles exert neuroactive effects, modulating synaptic plasticity and immune responses",
+      "claim_kind": "background",
+      "grounding_level": "abstract_only",
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -995,7 +1239,10 @@
       "kind": "cited",
       "verdict": "SUPPORTED",
       "confidence": "high",
-      "evidence_span": "gut bacteria produce short-chain fatty acids (SCFAs) that support brain function and reduce inflammation, affecting neurodevelopment",
+      "evidence_span": "promoting the production of metabolites, including short-chain fatty acids, which support brain function",
+      "claim_kind": "empirical",
+      "grounding_level": "fulltext_downloaded",
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -1008,6 +1255,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -1022,6 +1272,9 @@
       "verdict": "SUPPORTED",
       "confidence": "high",
       "evidence_span": "short-chain fatty acids, bile acids, and microbial-derived indoles exert neuroactive effects, modulating synaptic plasticity and immune responses",
+      "claim_kind": "empirical",
+      "grounding_level": "abstract_only",
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -1033,12 +1286,20 @@
         27
       ],
       "kind": "cited",
-      "verdict": "SUPPORTED",
-      "confidence": "high",
-      "evidence_span": "SCFAs can reduce amyloid deposition in the brain.",
+      "verdict": "UNSUPPORTED",
+      "confidence": "medium",
+      "evidence_span": "The decreases in SCFAs produced by gut microbiota can potentially reduce amyloid deposition in both the brain and the gut",
+      "claim_kind": "empirical",
+      "grounding_level": "fulltext_downloaded",
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
-      "numbers_missing": []
+      "numbers_missing": [],
+      "verified_state": "supported",
+      "verified_panel": {
+        "supporter_verdict": "SUPPORTED",
+        "skeptic_verdict": "SUPPORTED"
+      }
     },
     {
       "idx": 72,
@@ -1048,6 +1309,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -1060,6 +1324,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -1073,15 +1340,13 @@
       "kind": "cited",
       "verdict": "UNSUPPORTED",
       "confidence": "medium",
-      "evidence_span": "",
+      "evidence_span": "Short-chain fatty acids and other microbial metabolites are produced by the GI microbiota and may influence brain function",
+      "claim_kind": "empirical",
+      "grounding_level": "fulltext_excerpt",
+      "context_limited": true,
       "numbers": [],
       "numbers_grounded": [],
-      "numbers_missing": [],
-      "verified_state": "supported",
-      "verified_panel": {
-        "supporter_verdict": "SUPPORTED",
-        "skeptic_verdict": "SUPPORTED"
-      }
+      "numbers_missing": []
     },
     {
       "idx": 75,
@@ -1091,6 +1356,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -1103,6 +1371,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -1117,6 +1388,9 @@
       "verdict": "SUPPORTED",
       "confidence": "high",
       "evidence_span": "the DP189&GOS interventions effectively mitigated the MPs-induced cognitive dysfunction",
+      "claim_kind": "empirical",
+      "grounding_level": "abstract_only",
+      "context_limited": false,
       "numbers": [
         "189"
       ],
@@ -1133,6 +1407,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -1151,7 +1428,10 @@
       "kind": "cited",
       "verdict": "SUPPORTED",
       "confidence": "high",
-      "evidence_span": "identifying the vagus as a major modulatory constitutive communication pathway between the bacteria exposed to the gut and the brain",
+      "evidence_span": "the neurochemical and behavioral effects were not found in vagotomized mice, identifying the vagus as a major modulatory constitutive communication pathway between the bacteria exposed to the gut and the brain",
+      "claim_kind": "background",
+      "grounding_level": "abstract_only",
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -1166,6 +1446,9 @@
       "verdict": "SUPPORTED",
       "confidence": "high",
       "evidence_span": "the neurochemical and behavioral effects were not found in vagotomized mice, identifying the vagus as a major modulatory constitutive communication pathway between the bacteria exposed to the gut and the brain",
+      "claim_kind": "empirical",
+      "grounding_level": "abstract_only",
+      "context_limited": false,
       "numbers": [
         "1"
       ],
@@ -1182,6 +1465,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -1196,6 +1482,9 @@
       "verdict": "SUPPORTED",
       "confidence": "high",
       "evidence_span": "the early phase of enteric infection is accompanied by anxiety-like behavior, which is mediated through vagal ascending pathways",
+      "claim_kind": "empirical",
+      "grounding_level": "abstract_only",
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -1208,6 +1497,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -1219,9 +1511,12 @@
         25
       ],
       "kind": "cited",
-      "verdict": "SUPPORTED",
-      "confidence": "high",
-      "evidence_span": "The vagus nerve is a major communication route, mediating effects on GABA receptor expression and stress responses.",
+      "verdict": "UNSUPPORTED",
+      "confidence": "medium",
+      "evidence_span": "",
+      "claim_kind": "empirical",
+      "grounding_level": "fulltext_excerpt",
+      "context_limited": true,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -1234,6 +1529,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -1247,7 +1545,10 @@
       "kind": "cited",
       "verdict": "SUPPORTED",
       "confidence": "high",
-      "evidence_span": "The study identified a novel sensory mechanism in which TLR5+ neuroglial cells in the colon detect bacterial flagellin within milliseconds, thereby regulating feeding.",
+      "evidence_span": "The study identified a novel sensory mechanism in which TLR5+ neuroglial cells in the colon detect bacterial flagellin within milliseconds, thereb y regulating feeding.",
+      "claim_kind": "empirical",
+      "grounding_level": "fulltext_downloaded",
+      "context_limited": false,
       "numbers": [
         "5"
       ],
@@ -1264,6 +1565,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -1283,8 +1587,11 @@
       ],
       "kind": "cited",
       "verdict": "SUPPORTED",
-      "confidence": "medium",
-      "evidence_span": "There is growing evidence indicating that changes in the composition of the gut microbiota are related to mental health including anxiety and depression.",
+      "confidence": "low",
+      "evidence_span": "Dysbiosis has been associated with neuropsychiatric disorders such as depression, anxiety, impulsivity, cognitive decline, and addiction.",
+      "claim_kind": "background",
+      "grounding_level": "snippet_only",
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -1297,6 +1604,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -1311,6 +1621,9 @@
       "verdict": "SUPPORTED",
       "confidence": "high",
       "evidence_span": "This study was to inspect the antidepressant-like effect of prebiotics and probiotics, and to explore the effect of modulating gut microbiota on the serotonin (5-HT) metabolism.",
+      "claim_kind": "empirical",
+      "grounding_level": "abstract_only",
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -1323,6 +1636,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -1335,6 +1651,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [
         "5",
         "5"
@@ -1352,6 +1671,9 @@
       "verdict": "SUPPORTED",
       "confidence": "high",
       "evidence_span": "roles of the gut microbiota in the regulation of tryptophan-derived neurotransmitters and behaviors in human and mice",
+      "claim_kind": "empirical",
+      "grounding_level": "snippet_only",
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -1364,6 +1686,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -1377,7 +1702,10 @@
       "kind": "cited",
       "verdict": "SUPPORTED",
       "confidence": "high",
-      "evidence_span": "alterations in the 5-HT pathway metabolites, which are correlated with shifts in gut microbiota and depressive-like behavioral phenotypes in adolescent depression mice",
+      "evidence_span": "behavioral alterations, shifts in gut microbiota \u2026 with alterations in 5-HT pathway metabolites",
+      "claim_kind": "empirical",
+      "grounding_level": "snippet_only",
+      "context_limited": false,
       "numbers": [
         "5"
       ],
@@ -1394,6 +1722,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -1406,6 +1737,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -1420,6 +1754,9 @@
       "verdict": "SUPPORTED",
       "confidence": "high",
       "evidence_span": "Gut microbiota-tryptophan-serotonin axis drives anxiety-like behavior via NLRP3-mediated neuronal pyroptosis in the medial prefrontal cortex",
+      "claim_kind": "empirical",
+      "grounding_level": "snippet_only",
+      "context_limited": false,
       "numbers": [
         "3"
       ],
@@ -1436,6 +1773,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -1450,6 +1790,9 @@
       "verdict": "SUPPORTED",
       "confidence": "high",
       "evidence_span": "Behavioral tests showed PS-NPs and PS-MPs treatment remarkedly induced anxiety-like behaviors compared with the control group.",
+      "claim_kind": "empirical",
+      "grounding_level": "abstract_only",
+      "context_limited": false,
       "numbers": [
         "30",
         "60"
@@ -1468,6 +1811,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -1480,6 +1826,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -1493,7 +1842,10 @@
       "kind": "cited",
       "verdict": "SUPPORTED",
       "confidence": "high",
-      "evidence_span": "we focus on combining the intestinal microbiota with serotonergic, dopaminergic, and noradrenergic neurotransmission in brain, with special emphasis on the anxiety- and depression-like behaviors",
+      "evidence_span": "we focus on combining the intestinal microbiota with serotonergic, dopaminergic, and noradrenergic neurotransmission in brain, with special emphasis on the anxiety- and depression-like behaviors in stress-related rodent models",
+      "claim_kind": "empirical",
+      "grounding_level": "fulltext_downloaded",
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -1506,6 +1858,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -1518,6 +1873,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -1529,9 +1887,12 @@
         13
       ],
       "kind": "cited",
-      "verdict": "SUPPORTED",
+      "verdict": "UNSUPPORTED",
       "confidence": "high",
-      "evidence_span": "disruption of serotonin biosynthesis can lead to altered serotonergic signaling",
+      "evidence_span": "biosynthesis will disrupt the serotonergic signaling [38], resulting \u2026 with control mice with healthy microbiota, GF mice showed",
+      "claim_kind": "empirical",
+      "grounding_level": "snippet_only",
+      "context_limited": true,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -1544,6 +1905,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -1558,6 +1922,9 @@
       "verdict": "SUPPORTED",
       "confidence": "high",
       "evidence_span": "A comprehensive narrative review was conducted using peer-reviewed articles retrieved from PubMed, Scopus, and Web of Science up to August 2025. Studies were included if they explored microbiota-related effects on behavior, mood, cognition, or decision-making using human or animal models.",
+      "claim_kind": "empirical",
+      "grounding_level": "abstract_only",
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -1570,6 +1937,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -1582,6 +1952,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -1598,9 +1971,12 @@
         26
       ],
       "kind": "cited",
-      "verdict": "SUPPORTED",
+      "verdict": "UNSUPPORTED",
       "confidence": "high",
-      "evidence_span": "we observe social behavioral impairments in weaning mice transplanted with E. coli, suggesting a potential link to ASD symptomatology",
+      "evidence_span": "autism spectrum disorder (ASD), a pervasive\ndevelopmental disorder characterized by social abnormalities,communication impairments, and repetitive behaviors",
+      "claim_kind": "background",
+      "grounding_level": "abstract_only",
+      "context_limited": true,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -1612,12 +1988,20 @@
         1
       ],
       "kind": "cited",
-      "verdict": "SUPPORTED",
+      "verdict": "UNSUPPORTED",
       "confidence": "high",
-      "evidence_span": "probiotic treatment, which leads to downstream increased circulation of endogenous oxytocin, a neuropeptide hormone relevant to sociability",
+      "evidence_span": "probiotic treatment, which leads to downstream increasedcirculationofendogenousoxytocin,aneuropeptideh ormonerelevant to sociability",
+      "claim_kind": "empirical",
+      "grounding_level": "fulltext_downloaded",
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
-      "numbers_missing": []
+      "numbers_missing": [],
+      "verified_state": "supported",
+      "verified_panel": {
+        "supporter_verdict": "SUPPORTED",
+        "skeptic_verdict": "SUPPORTED"
+      }
     },
     {
       "idx": 113,
@@ -1627,6 +2011,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -1640,7 +2027,10 @@
       "kind": "cited",
       "verdict": "SUPPORTED",
       "confidence": "high",
-      "evidence_span": "This paper indicates that gut microbiota interventions influenced several behavioral outcomes in ASD.",
+      "evidence_span": "FMT significantly improved social behavior and reduced stereotypic behavior in mice.",
+      "claim_kind": "empirical",
+      "grounding_level": "fulltext_downloaded",
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -1653,6 +2043,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -1665,6 +2058,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -1677,6 +2073,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -1690,7 +2089,10 @@
       "kind": "cited",
       "verdict": "SUPPORTED",
       "confidence": "high",
-      "evidence_span": "identifies an elevated \u03b3-aminobutyric acid (GABA) to glutamate (Glu) ratio as a metabolic signature of ASD",
+      "evidence_span": "Integrated analysis of metabolomics, 16S rRNA sequencing, and metagenomics reveals a correlation between overrepresented Escherichia and disrupted GABA metabolism.",
+      "claim_kind": "empirical",
+      "grounding_level": "abstract_only",
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -1703,6 +2105,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [
         "203"
       ],
@@ -1717,6 +2122,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -1729,6 +2137,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -1743,6 +2154,9 @@
       "verdict": "SUPPORTED",
       "confidence": "high",
       "evidence_span": "Our findings demonstrate that embryonic PPD exposure induces neurotoxicity mediated through gut-brain axis disruption",
+      "claim_kind": "empirical",
+      "grounding_level": "abstract_only",
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -1755,6 +2169,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -1767,6 +2184,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [
         "77"
       ],
@@ -1781,6 +2201,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -1794,7 +2217,10 @@
       "kind": "cited",
       "verdict": "SUPPORTED",
       "confidence": "high",
-      "evidence_span": "as well as its association with 4 psychiatric disorders (schizophrenia, depression, anxiety disorders, and autism spectrum disorder)",
+      "evidence_span": "its association with 4 psychiatric disorders (schizophrenia, depression, anxiety disorders, and autism spectrum disorder)",
+      "claim_kind": "empirical",
+      "grounding_level": "abstract_only",
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -1807,6 +2233,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -1818,12 +2247,20 @@
         26
       ],
       "kind": "cited",
-      "verdict": "SUPPORTED",
+      "verdict": "UNSUPPORTED",
       "confidence": "high",
-      "evidence_span": "Mouse models showed altered region-dependent brain activity affecting neurophysiology and behavior, with maternal high-fat diet inducing offspring social deficits.",
+      "evidence_span": "found region-dependent alterations in the brain such as GABA gene upregulation in corticalregions and downregulation in the hippocampus, amygdala, and locus coeruleus.61Thus, it indicates that gut microbiota could in\ufb02uence neurophysiology and behavior. Moreover, Buf \ufb01ngton et al.62reported that maternal high-fat diet induces gut microbiota shifts and physiological change in the offspring brain",
+      "claim_kind": "empirical",
+      "grounding_level": "fulltext_downloaded",
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
-      "numbers_missing": []
+      "numbers_missing": [],
+      "verified_state": "supported",
+      "verified_panel": {
+        "supporter_verdict": "SUPPORTED",
+        "skeptic_verdict": "SUPPORTED"
+      }
     },
     {
       "idx": 129,
@@ -1833,6 +2270,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -1845,6 +2285,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -1863,7 +2306,10 @@
       "kind": "cited",
       "verdict": "SUPPORTED",
       "confidence": "high",
-      "evidence_span": "performance in learning and memory tasks",
+      "evidence_span": "the gut microbiota in modulating host social and communicative behavior, stressor-induced behavior, and performance in learning and memory tasks",
+      "claim_kind": "background",
+      "grounding_level": "abstract_only",
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -1877,7 +2323,10 @@
       "kind": "cited",
       "verdict": "SUPPORTED",
       "confidence": "high",
-      "evidence_span": "the neurotoxicity and mechanism of oxidized polyethylene (Ox-PE) MPs to organisms remain unclear",
+      "evidence_span": "Herein, we prepared oxidized low-density polyethylene (Ox-LDPE) and established a model of MPs exposure by continuously orally gavage of C57BL/6 J mice",
+      "claim_kind": "empirical",
+      "grounding_level": "abstract_only",
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -1890,6 +2339,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [
         "57",
         "6",
@@ -1906,6 +2358,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -1918,6 +2373,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [
         "189"
       ],
@@ -1933,7 +2391,10 @@
       "kind": "cited",
       "verdict": "SUPPORTED",
       "confidence": "high",
-      "evidence_span": "Older mice exhibited increased anxiety-like behaviors and spatial memory deficits.",
+      "evidence_span": "Older mice exhibit spatial memory de \ufb01cits and increased anxiety-like behaviors relative to younger mice",
+      "claim_kind": "empirical",
+      "grounding_level": "fulltext_downloaded",
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -1946,6 +2407,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -1958,6 +2422,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -1972,6 +2439,9 @@
       "verdict": "SUPPORTED",
       "confidence": "high",
       "evidence_span": "Clinical studies have shown that chronic gastrointestinal infections lead to malnutrition and stunting, resulting in impaired cognitive function.",
+      "claim_kind": "empirical",
+      "grounding_level": "abstract_only",
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -1984,6 +2454,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -1996,6 +2469,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -2008,8 +2484,11 @@
       ],
       "kind": "cited",
       "verdict": "SUPPORTED",
-      "confidence": "high",
-      "evidence_span": "having an impact on stress, anxiety, depression, and cognition",
+      "confidence": "low",
+      "evidence_span": "Keywords: Alzheimer, anxiety, cognition, depression, memory, microbiome, prevention, probiotics, stress",
+      "claim_kind": "empirical",
+      "grounding_level": "fulltext_excerpt",
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -2022,6 +2501,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -2034,6 +2516,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -2048,6 +2533,9 @@
       "verdict": "SUPPORTED",
       "confidence": "high",
       "evidence_span": "we discuss emerging roles for the gut microbiota in modulating host social and communicative behavior, stressor-induced behavior, and performance in learning and memory tasks",
+      "claim_kind": "empirical",
+      "grounding_level": "abstract_only",
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -2060,6 +2548,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -2072,6 +2563,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -2085,7 +2579,10 @@
       "kind": "cited",
       "verdict": "SUPPORTED",
       "confidence": "high",
-      "evidence_span": "Dysbiosis was associated with impaired neuroplasticity, altered stress responses, and disturbances in mood and cognition, including depression, anxiety, impulsivity, cognitive decline, and addiction.",
+      "evidence_span": "Microbial imbalance contributes to low-grade systemic inflammation, impaired neuroplasticity, and altered stress responses, all of which are linked to mood and cognitive disturbances.",
+      "claim_kind": "empirical",
+      "grounding_level": "abstract_only",
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -2098,6 +2595,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -2114,9 +2614,12 @@
         27
       ],
       "kind": "cited",
-      "verdict": "SUPPORTED",
+      "verdict": "UNSUPPORTED",
       "confidence": "high",
-      "evidence_span": "gut microbiota influences the development and maturation of the hypothalamic-pituitary-adrenal axis",
+      "evidence_span": "The continuous activation of the HPA axis increases the secretion of cortisol, which can then regulate the neuro immune signal response and affect the integrity of the intestinal barrier",
+      "claim_kind": "background",
+      "grounding_level": "abstract_only",
+      "context_limited": true,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -2131,6 +2634,9 @@
       "verdict": "SUPPORTED",
       "confidence": "high",
       "evidence_span": "L. rhamnosus (JB-1) reduced stress-induced corticosterone and anxiety- and depression-related behavior",
+      "claim_kind": "empirical",
+      "grounding_level": "abstract_only",
+      "context_limited": false,
       "numbers": [
         "1"
       ],
@@ -2147,6 +2653,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -2159,6 +2668,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -2173,6 +2685,9 @@
       "verdict": "SUPPORTED",
       "confidence": "high",
       "evidence_span": "evaluate if antibiotic-induced gut dysbiosis can elicit changes in gut metabolites and behavior indicative of gut-brain axis disruption in common marmosets (Callithrix jacchus) - a nonhuman primate model",
+      "claim_kind": "empirical",
+      "grounding_level": "abstract_only",
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -2185,6 +2700,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [
         "28"
       ],
@@ -2199,6 +2717,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -2211,6 +2732,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -2223,6 +2747,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -2236,7 +2763,10 @@
       "kind": "cited",
       "verdict": "SUPPORTED",
       "confidence": "high",
-      "evidence_span": "Disruption of gut-brain axis function is associated with alterations in the stress response",
+      "evidence_span": "Disruption of gut-brain axis function is associated with alterations in the stress response and might contribute to neuropsychiatric diseases",
+      "claim_kind": "empirical",
+      "grounding_level": "fulltext_downloaded",
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -2249,6 +2779,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -2260,12 +2793,20 @@
         27
       ],
       "kind": "cited",
-      "verdict": "SUPPORTED",
+      "verdict": "UNSUPPORTED",
       "confidence": "high",
-      "evidence_span": "The brain influences gut microbiota composition via the hypothalamic-pituitary-adrenal (HPA) axis, which increases cortisol secretion affecting intestinal barrier integrity.",
+      "evidence_span": "Stress signals from the brain can impact gastrointestinal function and gut microbiota composition viathe efferent nerves and the hypothalamic-pituitary-adrenal (HPA) axis ( Cox and Weiner, 2018 ). The continuous activation of the HPA axis increases the secretion of cortisol, which can then regulate the neuro immune signal response and affect the integrity of the intestinal barrier",
+      "claim_kind": "empirical",
+      "grounding_level": "fulltext_downloaded",
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
-      "numbers_missing": []
+      "numbers_missing": [],
+      "verified_state": "supported",
+      "verified_panel": {
+        "supporter_verdict": "SUPPORTED",
+        "skeptic_verdict": "SUPPORTED"
+      }
     },
     {
       "idx": 162,
@@ -2275,6 +2816,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -2286,9 +2830,12 @@
         25
       ],
       "kind": "cited",
-      "verdict": "SUPPORTED",
-      "confidence": "high",
-      "evidence_span": "The stress response, particularly the HPA axis activity, was measured, with interventions often leading to a dampened or normalized response.",
+      "verdict": "UNSUPPORTED",
+      "confidence": "medium",
+      "evidence_span": "",
+      "claim_kind": "empirical",
+      "grounding_level": "fulltext_excerpt",
+      "context_limited": true,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -2301,6 +2848,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -2313,6 +2863,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -2327,6 +2880,9 @@
       "verdict": "SUPPORTED",
       "confidence": "high",
       "evidence_span": "Microbial imbalance contributes to low-grade systemic inflammation, impaired neuroplasticity, and altered stress responses, all of which are linked to mood and cognitive disturbances.",
+      "claim_kind": "empirical",
+      "grounding_level": "abstract_only",
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -2339,6 +2895,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -2358,9 +2917,12 @@
         27
       ],
       "kind": "cited",
-      "verdict": "SUPPORTED",
-      "confidence": "high",
-      "evidence_span": "Rodent models, particularly mouse and rat models, are frequently used to study microbiota's pathogenic and therapeutic potential, with germ-free (GF) mouse models being popular for gut microbiota research.",
+      "verdict": "UNSUPPORTED",
+      "confidence": "medium",
+      "evidence_span": "Animal models, particularly mouse and rat models, have also been used to study the pathogenic and therapeutic potential of microbiota with varies diseases. With a majority of microbiota research is focusing on gut microbiota, the use of germ-free (GF) mouse model has become popular due to its translatability.",
+      "claim_kind": "background",
+      "grounding_level": "snippet_only",
+      "context_limited": true,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -2373,6 +2935,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -2387,6 +2952,9 @@
       "verdict": "SUPPORTED",
       "confidence": "high",
       "evidence_span": "Fifty rats were separated into control and other four groups randomly. The four groups underwent the chronic unpredictable mild stress (CUMS) intervention",
+      "claim_kind": "empirical",
+      "grounding_level": "abstract_only",
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -2399,6 +2967,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -2411,6 +2982,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -2423,8 +2997,11 @@
       ],
       "kind": "cited",
       "verdict": "SUPPORTED",
-      "confidence": "medium",
-      "evidence_span": "The research was conducted using an animal model, specifically mice, to explore the interplay of gut microbiota and tryptophan metabolism in the gut-brain axis.",
+      "confidence": "high",
+      "evidence_span": "Gut microbiota-tryptophan-serotonin axis drives anxiety-like behavior via NLRP3-mediated neuronal pyroptosis in the medial prefrontal cortex",
+      "claim_kind": "empirical",
+      "grounding_level": "snippet_only",
+      "context_limited": false,
       "numbers": [
         "3"
       ],
@@ -2443,6 +3020,9 @@
       "verdict": "SUPPORTED",
       "confidence": "high",
       "evidence_span": "continuously orally gavage of C57BL/6 J mice with LDPE-MPs/Ox-LDPE-MPs for 28 days",
+      "claim_kind": "empirical",
+      "grounding_level": "abstract_only",
+      "context_limited": false,
       "numbers": [
         "57",
         "6",
@@ -2465,6 +3045,9 @@
       "verdict": "SUPPORTED",
       "confidence": "high",
       "evidence_span": "This study explored the behavioral effects of 30-day and 60-day exposure to PS-NPs and PS-MPs using the open field test (OFT) and elevated plus maze (EPM) test.",
+      "claim_kind": "empirical",
+      "grounding_level": "abstract_only",
+      "context_limited": false,
       "numbers": [
         "30",
         "60"
@@ -2485,6 +3068,9 @@
       "verdict": "SUPPORTED",
       "confidence": "high",
       "evidence_span": "the neurochemical and behavioral effects were not found in vagotomized mice, identifying the vagus as a major modulatory constitutive communication pathway between the bacteria exposed to the gut and the brain",
+      "claim_kind": "empirical",
+      "grounding_level": "abstract_only",
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -2497,6 +3083,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -2508,12 +3097,20 @@
         26
       ],
       "kind": "cited",
-      "verdict": "SUPPORTED",
+      "verdict": "UNSUPPORTED",
       "confidence": "high",
-      "evidence_span": "Rodent models, particularly mouse and rat models, are frequently used to study microbiota's pathogenic and therapeutic potential, with germ-free (GF) mouse models being popular for gut microbiota research.",
+      "evidence_span": "Animal models, particularly mouse and rat models, have also been used to study the pathogenic and therapeutic potential of microbiota with varies diseases.25With a majority of microbiota research is focusing on gut microbiota, the use of germ-free (GF) mouse model has become popular due to its translatability.",
+      "claim_kind": "empirical",
+      "grounding_level": "fulltext_downloaded",
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
-      "numbers_missing": []
+      "numbers_missing": [],
+      "verified_state": "supported",
+      "verified_panel": {
+        "supporter_verdict": "SUPPORTED",
+        "skeptic_verdict": "SUPPORTED"
+      }
     },
     {
       "idx": 179,
@@ -2523,6 +3120,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -2535,6 +3135,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -2549,6 +3152,9 @@
       "verdict": "SUPPORTED",
       "confidence": "high",
       "evidence_span": "Our findings demonstrate that embryonic PPD exposure induces neurotoxicity mediated through gut-brain axis disruption",
+      "claim_kind": "empirical",
+      "grounding_level": "abstract_only",
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -2561,6 +3167,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -2573,6 +3182,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -2585,6 +3197,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -2599,6 +3214,9 @@
       "verdict": "SUPPORTED",
       "confidence": "high",
       "evidence_span": "This study is a first attempt to establish common marmosets as a novel model to study the impact of severe gut dysbiosis on gut-brain axis cross-talk and behavior.",
+      "claim_kind": "empirical",
+      "grounding_level": "abstract_only",
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -2611,6 +3229,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [
         "28"
       ],
@@ -2625,6 +3246,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -2637,6 +3261,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -2652,16 +3279,14 @@
       ],
       "kind": "cited",
       "verdict": "UNSUPPORTED",
-      "confidence": "low",
-      "evidence_span": "although further translational research is needed to define optimal therapeutic strategies and address individual variability",
+      "confidence": "medium",
+      "evidence_span": "",
+      "claim_kind": "background",
+      "grounding_level": "snippet_only",
+      "context_limited": true,
       "numbers": [],
       "numbers_grounded": [],
-      "numbers_missing": [],
-      "verified_state": "unsupported",
-      "verified_panel": {
-        "supporter_verdict": "UNSUPPORTED",
-        "skeptic_verdict": "UNSUPPORTED"
-      }
+      "numbers_missing": []
     },
     {
       "idx": 190,
@@ -2673,6 +3298,9 @@
       "verdict": "SUPPORTED",
       "confidence": "high",
       "evidence_span": "roles of the gut microbiota in the regulation of tryptophan-derived neurotransmitters and behaviors in human and mice",
+      "claim_kind": "empirical",
+      "grounding_level": "snippet_only",
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -2685,6 +3313,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -2699,6 +3330,9 @@
       "verdict": "SUPPORTED",
       "confidence": "high",
       "evidence_span": "employing multi-omics approaches, we investigate stool samples from two distinct cohorts comprising 203 children with mild ASD or typical development",
+      "claim_kind": "empirical",
+      "grounding_level": "abstract_only",
+      "context_limited": false,
       "numbers": [
         "203"
       ],
@@ -2715,6 +3349,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -2727,6 +3364,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -2741,6 +3381,9 @@
       "verdict": "SUPPORTED",
       "confidence": "high",
       "evidence_span": "A comprehensive narrative review was conducted using peer-reviewed articles retrieved from PubMed, Scopus, and Web of Science up to August 2025.",
+      "claim_kind": "empirical",
+      "grounding_level": "abstract_only",
+      "context_limited": false,
       "numbers": [
         "2025"
       ],
@@ -2757,6 +3400,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -2769,6 +3415,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -2780,9 +3429,12 @@
         25
       ],
       "kind": "cited",
-      "verdict": "SUPPORTED",
-      "confidence": "high",
-      "evidence_span": "In vitro, in vivo, and human studies reporting an association between a change in the gut microbiome and functional changes in the brain are highlighted",
+      "verdict": "UNSUPPORTED",
+      "confidence": "medium",
+      "evidence_span": "",
+      "claim_kind": "empirical",
+      "grounding_level": "fulltext_excerpt",
+      "context_limited": true,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -2795,6 +3447,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -2807,6 +3462,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -2819,6 +3477,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -2831,6 +3492,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -2852,6 +3516,9 @@
       "verdict": "SUPPORTED",
       "confidence": "high",
       "evidence_span": "Preclinical models using germ-free animals, faecal microbiota transplantation, and probiotic interventions demonstrate causal links between gut microbiota and behavioural or cognitive changes",
+      "claim_kind": "background",
+      "grounding_level": "snippet_only",
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -2865,7 +3532,10 @@
       "kind": "cited",
       "verdict": "SUPPORTED",
       "confidence": "high",
-      "evidence_span": "we reviewed studies conducted on germ-free rodents, or in animals subjected to microbiota absence using antibiotics, as well as via the usage of probiotics. All the results strongly support that the brain neurotransmitter modulation by gut microbiota is indispensable to the physiopathology of anxiety and depression",
+      "evidence_span": "we reviewed studies conducted on germ-free rodents, or in animals subjected to microbiota absence using antibiotics, as well as via the usage of probiotics. All the results strongly support that the brain neurotransmitter modulation by gut microbiota is indispensable to the physiopathology of anxiety and depression.",
+      "claim_kind": "empirical",
+      "grounding_level": "fulltext_downloaded",
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -2878,6 +3548,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -2890,8 +3563,11 @@
       ],
       "kind": "cited",
       "verdict": "SUPPORTED",
-      "confidence": "medium",
-      "evidence_span": "germ-free mice, lacking healthy microbiota, exhibit different behaviors compared to control mice",
+      "confidence": "low",
+      "evidence_span": "with control mice with healthy microbiota, GF mice showed",
+      "claim_kind": "empirical",
+      "grounding_level": "snippet_only",
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -2904,6 +3580,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -2918,6 +3597,9 @@
       "verdict": "SUPPORTED",
       "confidence": "high",
       "evidence_span": "This study is a first attempt to establish common marmosets as a novel model to study the impact of severe gut dysbiosis on gut-brain axis cross-talk and behavior.",
+      "claim_kind": "empirical",
+      "grounding_level": "abstract_only",
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -2930,6 +3612,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [
         "28"
       ],
@@ -2944,6 +3629,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -2958,6 +3646,9 @@
       "verdict": "SUPPORTED",
       "confidence": "high",
       "evidence_span": "Both animal and clinical studies have demonstrated changes in behavior and brain chemistry after induction of intestinal dysbiosis by administration of antibiotics.",
+      "claim_kind": "empirical",
+      "grounding_level": "abstract_only",
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -2970,6 +3661,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -2981,12 +3675,20 @@
         26
       ],
       "kind": "cited",
-      "verdict": "SUPPORTED",
+      "verdict": "UNSUPPORTED",
       "confidence": "high",
-      "evidence_span": "germ-free (GF) mouse models being popular for gut microbiota research",
+      "evidence_span": "With a majority of microbiota research is focusing on gut microbiota, the use of germ-free (GF) mouse model has become popular due to its translatability.",
+      "claim_kind": "empirical",
+      "grounding_level": "fulltext_downloaded",
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
-      "numbers_missing": []
+      "numbers_missing": [],
+      "verified_state": "supported",
+      "verified_panel": {
+        "supporter_verdict": "SUPPORTED",
+        "skeptic_verdict": "SUPPORTED"
+      }
     },
     {
       "idx": 214,
@@ -2996,6 +3698,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -3009,15 +3714,13 @@
       "kind": "cited",
       "verdict": "UNSUPPORTED",
       "confidence": "medium",
-      "evidence_span": "The review highlights methodological advances including germ-free models, metagenomic profiling, and neuroimaging studies that clarify causal pathways.",
+      "evidence_span": "The review highlights methodological advances including germ-free models",
+      "claim_kind": "empirical",
+      "grounding_level": "abstract_only",
+      "context_limited": true,
       "numbers": [],
       "numbers_grounded": [],
-      "numbers_missing": [],
-      "verified_state": "supported",
-      "verified_panel": {
-        "supporter_verdict": "SUPPORTED",
-        "skeptic_verdict": "SUPPORTED"
-      }
+      "numbers_missing": []
     },
     {
       "idx": 216,
@@ -3029,6 +3732,9 @@
       "verdict": "SUPPORTED",
       "confidence": "high",
       "evidence_span": "Preclinical models using germ-free animals, faecal microbiota transplantation, and probiotic interventions demonstrate causal links between gut microbiota and behavioural or cognitive changes",
+      "claim_kind": "empirical",
+      "grounding_level": "abstract_only",
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -3041,16 +3747,14 @@
       ],
       "kind": "cited",
       "verdict": "UNSUPPORTED",
-      "confidence": "medium",
+      "confidence": "high",
       "evidence_span": "",
+      "claim_kind": "empirical",
+      "grounding_level": "fulltext_excerpt",
+      "context_limited": true,
       "numbers": [],
       "numbers_grounded": [],
-      "numbers_missing": [],
-      "verified_state": "supported",
-      "verified_panel": {
-        "supporter_verdict": "SUPPORTED",
-        "skeptic_verdict": "SUPPORTED"
-      }
+      "numbers_missing": []
     },
     {
       "idx": 218,
@@ -3060,6 +3764,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -3082,17 +3789,15 @@
         27
       ],
       "kind": "cited",
-      "verdict": "UNSUPPORTED",
-      "confidence": "medium",
-      "evidence_span": "",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "evidence_span": "Generally, probiotics and prebiotics are the most popular topic in microbiota modulation research.",
+      "claim_kind": "background",
+      "grounding_level": "abstract_only",
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
-      "numbers_missing": [],
-      "verified_state": "unsupported",
-      "verified_panel": {
-        "supporter_verdict": "UNSUPPORTED",
-        "skeptic_verdict": "UNSUPPORTED"
-      }
+      "numbers_missing": []
     },
     {
       "idx": 220,
@@ -3103,7 +3808,10 @@
       "kind": "cited",
       "verdict": "SUPPORTED",
       "confidence": "high",
-      "evidence_span": "L. rhamnosus (JB-1) reduced stress-induced corticosterone and anxiety- and depression-related behavior",
+      "evidence_span": "Importantly, L. rhamnosus (JB-1) reduced stress-induced corticosterone and anxiety- and depression-related behavior.",
+      "claim_kind": "empirical",
+      "grounding_level": "abstract_only",
+      "context_limited": false,
       "numbers": [
         "1"
       ],
@@ -3120,6 +3828,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -3134,6 +3845,9 @@
       "verdict": "SUPPORTED",
       "confidence": "high",
       "evidence_span": "The four groups underwent the chronic unpredictable mild stress (CUMS) intervention with or without prebiotics and probiotics (Bifidobacterium longum, L. rhamnosus) treatment.",
+      "claim_kind": "empirical",
+      "grounding_level": "abstract_only",
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -3146,6 +3860,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [
         "5",
         "5"
@@ -3161,6 +3878,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -3175,6 +3895,9 @@
       "verdict": "SUPPORTED",
       "confidence": "high",
       "evidence_span": "the DP189&GOS interventions effectively mitigated the MPs-induced cognitive dysfunction and intestinal microbiota alteration",
+      "claim_kind": "empirical",
+      "grounding_level": "abstract_only",
+      "context_limited": false,
       "numbers": [
         "189"
       ],
@@ -3191,6 +3914,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -3203,6 +3929,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -3214,12 +3943,20 @@
         1
       ],
       "kind": "cited",
-      "verdict": "SUPPORTED",
+      "verdict": "UNSUPPORTED",
       "confidence": "high",
-      "evidence_span": "probiotic treatment, which leads to downstream increased circulation of endogenous oxytocin, a neuropeptide hormone relevant to sociability",
+      "evidence_span": "One intriguing vein of research in animal models centers on probiotic treatment, which leads to downstream increased circulation of endogenous oxytocin, a neuropeptide hormone relevant to sociability.",
+      "claim_kind": "empirical",
+      "grounding_level": "fulltext_downloaded",
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
-      "numbers_missing": []
+      "numbers_missing": [],
+      "verified_state": "supported",
+      "verified_panel": {
+        "supporter_verdict": "SUPPORTED",
+        "skeptic_verdict": "SUPPORTED"
+      }
     },
     {
       "idx": 229,
@@ -3229,6 +3966,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -3241,8 +3981,11 @@
       ],
       "kind": "cited",
       "verdict": "SUPPORTED",
-      "confidence": "high",
-      "evidence_span": "Studies reported improved social behaviors, reduced anxiety-like behaviors, and decreased repetitive stereotyped behaviors.",
+      "confidence": "medium",
+      "evidence_span": "The results demonstrated that BF839 notably improved abnormal behaviors and gastrointestinal symptoms, especially motor skills related to stereotyped behaviors.",
+      "claim_kind": "empirical",
+      "grounding_level": "fulltext_downloaded",
+      "context_limited": false,
       "numbers": [
         "839",
         "3001"
@@ -3261,6 +4004,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -3274,7 +4020,10 @@
       "kind": "cited",
       "verdict": "SUPPORTED",
       "confidence": "high",
-      "evidence_span": "as well as via the usage of probiotics. All the results strongly support that the brain neurotransmitter modulation by gut microbiota is indispensable to the physiopathology of anxiety and depression",
+      "evidence_span": "as well as via the usage of probiotics. All the results strongly support that the brain neurotransmitter modulation by gut microbiota is indispensable to the physiopathology of anxiety and depression.",
+      "claim_kind": "empirical",
+      "grounding_level": "fulltext_downloaded",
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -3287,6 +4036,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -3300,7 +4052,10 @@
       "kind": "cited",
       "verdict": "SUPPORTED",
       "confidence": "high",
-      "evidence_span": "Lactobacillus rhamnosus ingestion regulated emotional behavior. Rats with acute indole overproduction showed decreased motor activity, while chronic indole increase showed enhanced anxiety-like behavior. Mice with social deficits improved with Lactobacillus reuteri.",
+      "evidence_span": "Ingestion of Lactobacillus strain regulates emotional behavior",
+      "claim_kind": "empirical",
+      "grounding_level": "fulltext_downloaded",
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -3313,6 +4068,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -3326,7 +4084,10 @@
       "kind": "cited",
       "verdict": "SUPPORTED",
       "confidence": "high",
-      "evidence_span": "changes in gut microbiota have been linked to cognitive impairment, with probiotics potentially delaying aging-related cognitive deficits",
+      "evidence_span": "probiotics supplementation may delay the onset of aging-related cognitive de \ufb01cits",
+      "claim_kind": "empirical",
+      "grounding_level": "fulltext_downloaded",
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -3340,15 +4101,13 @@
       "kind": "cited",
       "verdict": "UNSUPPORTED",
       "confidence": "medium",
-      "evidence_span": "In vitro, in vivo, and human studies reporting an association between a change in the gut microbiome and functional changes in the brain are highlighted",
+      "evidence_span": "",
+      "claim_kind": "empirical",
+      "grounding_level": "fulltext_excerpt",
+      "context_limited": true,
       "numbers": [],
       "numbers_grounded": [],
-      "numbers_missing": [],
-      "verified_state": "supported",
-      "verified_panel": {
-        "supporter_verdict": "SUPPORTED",
-        "skeptic_verdict": "SUPPORTED"
-      }
+      "numbers_missing": []
     },
     {
       "idx": 238,
@@ -3360,6 +4119,9 @@
       "verdict": "SUPPORTED",
       "confidence": "high",
       "evidence_span": "The effects of probiotics, and prebiotics on neurological disorders are also discussed, along with the clinical studies for each of them.",
+      "claim_kind": "empirical",
+      "grounding_level": "abstract_only",
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -3374,6 +4136,9 @@
       "verdict": "SUPPORTED",
       "confidence": "high",
       "evidence_span": "clinical studies increasingly highlight the therapeutic potential of psychobiotics, prebiotics, synbiotics, and diet-based strategies",
+      "claim_kind": "empirical",
+      "grounding_level": "abstract_only",
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -3388,6 +4153,9 @@
       "verdict": "SUPPORTED",
       "confidence": "high",
       "evidence_span": "interventions such as probiotics, prebiotics, psychobiotics, and fecal microbiota transplantation (FMT) have shown promise in modulating these outcomes",
+      "claim_kind": "empirical",
+      "grounding_level": "abstract_only",
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -3402,9 +4170,12 @@
         26
       ],
       "kind": "cited",
-      "verdict": "SUPPORTED",
-      "confidence": "medium",
-      "evidence_span": "FMT, which involves transplanting gut microbes from healthy individuals into ASD patients, has demonstrated significant improvements in both gut and behavioral symptoms",
+      "verdict": "UNSUPPORTED",
+      "confidence": "high",
+      "evidence_span": "FMT refers to a method of introducing a solution of fecal matter from a donor into the intestinal tract of a recipient to cure disease.",
+      "claim_kind": "background",
+      "grounding_level": "abstract_only",
+      "context_limited": true,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -3418,7 +4189,10 @@
       "kind": "cited",
       "verdict": "SUPPORTED",
       "confidence": "high",
-      "evidence_span": "FMT, which involves transplanting gut microbes from healthy individuals into ASD patients, has demonstrated significant improvements in both gut and behavioral symptoms in several studies",
+      "evidence_span": "FMT, which involves transplanting gut microbes from healthy individuals into ASD patients, has demonstrated significant improvements in both gut and behavioral symptoms in several studies.",
+      "claim_kind": "empirical",
+      "grounding_level": "fulltext_downloaded",
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -3431,6 +4205,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -3442,17 +4219,15 @@
         26
       ],
       "kind": "cited",
-      "verdict": "UNSUPPORTED",
-      "confidence": "medium",
-      "evidence_span": "with FMT trials having a high response rate for recurrent *Clostridium difficile* infection",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "evidence_span": "The most prominent results in the use of fecaltransplantation for disease treatment have been in the treatmentof recurrent Clostridium dif \ufb01cile infection (rCDI), with reported\ncure rates near 90%.",
+      "claim_kind": "empirical",
+      "grounding_level": "fulltext_downloaded",
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
-      "numbers_missing": [],
-      "verified_state": "supported",
-      "verified_panel": {
-        "supporter_verdict": "SUPPORTED",
-        "skeptic_verdict": "SUPPORTED"
-      }
+      "numbers_missing": []
     },
     {
       "idx": 245,
@@ -3462,6 +4237,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -3476,6 +4254,9 @@
       "verdict": "SUPPORTED",
       "confidence": "high",
       "evidence_span": "interventions such as probiotics, prebiotics, psychobiotics, and fecal microbiota transplantation (FMT) have shown promise in modulating these outcomes",
+      "claim_kind": "empirical",
+      "grounding_level": "abstract_only",
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -3488,6 +4269,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -3502,6 +4286,9 @@
       "verdict": "SUPPORTED",
       "confidence": "high",
       "evidence_span": "Preclinical models using germ-free animals, faecal microbiota transplantation, and probiotic interventions demonstrate causal links between gut microbiota and behavioural or cognitive changes",
+      "claim_kind": "empirical",
+      "grounding_level": "abstract_only",
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -3514,6 +4301,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -3526,6 +4316,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -3538,6 +4331,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -3552,8 +4348,11 @@
       ],
       "kind": "cited",
       "verdict": "SUPPORTED",
-      "confidence": "medium",
-      "evidence_span": "clinical studies increasingly highlight the therapeutic potential of psychobiotics, prebiotics, synbiotics, and diet-based strategies",
+      "confidence": "high",
+      "evidence_span": "Diet is an important factor to influence the gut microbiome.",
+      "claim_kind": "background",
+      "grounding_level": "abstract_only",
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -3567,7 +4366,10 @@
       "kind": "cited",
       "verdict": "SUPPORTED",
       "confidence": "high",
-      "evidence_span": "dietary modifications (e.g., gluten-free, casein-free, high-fiber diets) are also covered",
+      "evidence_span": "One of the most commonly used dietary patterns for ASD interventions is the Gluten-Free, Casein-Free (GFCF) diet.",
+      "claim_kind": "empirical",
+      "grounding_level": "fulltext_downloaded",
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -3580,6 +4382,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -3591,9 +4396,12 @@
         25
       ],
       "kind": "cited",
-      "verdict": "SUPPORTED",
-      "confidence": "high",
-      "evidence_span": "It affects tryptophan metabolism, a precursor to serotonin, thereby linking diet, microbiome, neurotransmission, and behavioral changes.",
+      "verdict": "UNSUPPORTED",
+      "confidence": "medium",
+      "evidence_span": "",
+      "claim_kind": "empirical",
+      "grounding_level": "fulltext_excerpt",
+      "context_limited": true,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -3606,6 +4414,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -3620,6 +4431,9 @@
       "verdict": "SUPPORTED",
       "confidence": "high",
       "evidence_span": "clinical studies increasingly highlight the therapeutic potential of psychobiotics, prebiotics, synbiotics, and diet-based strategies",
+      "claim_kind": "empirical",
+      "grounding_level": "abstract_only",
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -3632,6 +4446,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -3644,6 +4461,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -3656,6 +4476,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -3668,6 +4491,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -3688,7 +4514,10 @@
       "kind": "cited",
       "verdict": "SUPPORTED",
       "confidence": "medium",
-      "evidence_span": "This bidirectional network integrates neural pathways, endocrine signalling, immune mechanisms, and microbial metabolites, enabling dynamic communication between the gut and brain.",
+      "evidence_span": "Among the major players, neural pathways involving vagus and enteric nervous system (ENS), immune modulation, neuroendocrine and circulatory systems via production of cytokines, neuroactive substances, metabolites, and hormones are remarkable.",
+      "claim_kind": "background",
+      "grounding_level": "abstract_only",
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -3703,6 +4532,9 @@
       "verdict": "SUPPORTED",
       "confidence": "high",
       "evidence_span": "The immunological, metabolic, and endocrine systems are involved in bidirectional communication between the gut and the brain, which is regulated by microbes through the microbiota-derived neurochemicals and metabolites.",
+      "claim_kind": "empirical",
+      "grounding_level": "abstract_only",
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -3715,6 +4547,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -3729,6 +4564,9 @@
       "verdict": "SUPPORTED",
       "confidence": "high",
       "evidence_span": "neural pathways involving vagus and enteric nervous system (ENS), immune modulation, neuroendocrine and circulatory systems",
+      "claim_kind": "empirical",
+      "grounding_level": "abstract_only",
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -3741,6 +4579,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -3753,6 +4594,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -3766,7 +4610,10 @@
       "kind": "cited",
       "verdict": "SUPPORTED",
       "confidence": "high",
-      "evidence_span": "Research has consistently shown bidirectional communication between the gut and the brain through neuronal, endocrine, and immunological, and chemical pathways.",
+      "evidence_span": "bidirectional communication between the gut and the brain through neuronal, endocrine, and immunological, and chemical pathways",
+      "claim_kind": "empirical",
+      "grounding_level": "abstract_only",
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -3779,6 +4626,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -3793,6 +4643,9 @@
       "verdict": "SUPPORTED",
       "confidence": "high",
       "evidence_span": "microbial alterations influence neurodevelopment, neurotransmitter synthesis, tryptophan metabolism",
+      "claim_kind": "empirical",
+      "grounding_level": "abstract_only",
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -3805,6 +4658,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -3817,6 +4673,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -3831,6 +4690,9 @@
       "verdict": "SUPPORTED",
       "confidence": "high",
       "evidence_span": "modulates the synthesis and recognition of neurotransmitters, regulates neurogenesis",
+      "claim_kind": "empirical",
+      "grounding_level": "fulltext_downloaded",
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -3843,6 +4705,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -3855,6 +4720,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -3866,9 +4734,12 @@
         25
       ],
       "kind": "cited",
-      "verdict": "SUPPORTED",
-      "confidence": "high",
-      "evidence_span": "It affects tryptophan metabolism, a precursor to serotonin, thereby linking diet, microbiome, neurotransmission, and behavioral changes.",
+      "verdict": "UNSUPPORTED",
+      "confidence": "medium",
+      "evidence_span": "",
+      "claim_kind": "empirical",
+      "grounding_level": "fulltext_excerpt",
+      "context_limited": true,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -3881,6 +4752,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -3893,6 +4767,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -3905,6 +4782,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -3918,7 +4798,10 @@
       "kind": "cited",
       "verdict": "SUPPORTED",
       "confidence": "high",
-      "evidence_span": "crosstalk between the gut microbiome and oligodendrocytes modulates behavioral responses",
+      "evidence_span": "The Microbiome \u2013Gut\u2013Behavior Axis: Crosstalk Between the Gut Microbiome and Oligodendrocytes Modulates Behavioral Responses",
+      "claim_kind": "empirical",
+      "grounding_level": "fulltext_downloaded",
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -3931,6 +4814,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -3945,6 +4831,9 @@
       "verdict": "SUPPORTED",
       "confidence": "high",
       "evidence_span": "We summarize effects of the microbiota on host neurophysiology, including brain microstructure, gene expression, and neurochemical metabolism across regions of the amygdala, hippocampus, frontal cortex, and hypothalamus.",
+      "claim_kind": "empirical",
+      "grounding_level": "abstract_only",
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -3957,6 +4846,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -3969,6 +4861,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -3981,6 +4876,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -3993,6 +4891,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -4011,7 +4912,10 @@
       "kind": "cited",
       "verdict": "SUPPORTED",
       "confidence": "high",
-      "evidence_span": "Despite these advances, translation into clinical practice is limited by methodological heterogeneity, interindividual variability, and the challenge of distinguishing causation from correlation.",
+      "evidence_span": "translation into clinical practice is limited by methodological heterogeneity, interindividual variability, and the challenge of distinguishing causation from correlation",
+      "claim_kind": "background",
+      "grounding_level": "abstract_only",
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -4024,6 +4928,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -4038,6 +4945,9 @@
       "verdict": "SUPPORTED",
       "confidence": "high",
       "evidence_span": "Clinical studies have shown that chronic gastrointestinal infections lead to malnutrition and stunting, resulting in impaired cognitive function.",
+      "claim_kind": "empirical",
+      "grounding_level": "abstract_only",
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -4050,6 +4960,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -4064,6 +4977,9 @@
       "verdict": "SUPPORTED",
       "confidence": "high",
       "evidence_span": "Recent meta-analysis on clinical studies confirmed gut dysbiosis in several major neuropsychiatric disorders. Microbiota-targeted intervention has recently been in the spotlight and meta-analyses have confirmed its effectiveness. In this chapter, we summarize the evidence",
+      "claim_kind": "empirical",
+      "grounding_level": "abstract_only",
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -4076,6 +4992,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -4090,6 +5009,9 @@
       "verdict": "SUPPORTED",
       "confidence": "high",
       "evidence_span": "The causal relationship between gut microbiota and neuropsychiatric disorders is being elucidated through the establishment of large cohort studies incorporating microbiome data and advanced statistical techniques.",
+      "claim_kind": "empirical",
+      "grounding_level": "abstract_only",
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -4102,6 +5024,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -4114,8 +5039,11 @@
       ],
       "kind": "cited",
       "verdict": "SUPPORTED",
-      "confidence": "medium",
+      "confidence": "high",
       "evidence_span": "Preclinical models using germ-free animals, faecal microbiota transplantation, and probiotic interventions demonstrate causal links between gut microbiota and behavioural or cognitive changes",
+      "claim_kind": "empirical",
+      "grounding_level": "abstract_only",
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -4128,6 +5056,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -4139,9 +5070,12 @@
         25
       ],
       "kind": "cited",
-      "verdict": "SUPPORTED",
-      "confidence": "high",
-      "evidence_span": "In vitro, in vivo, and human studies reporting an association between a change in the gut microbiome and functional changes in the brain are highlighted",
+      "verdict": "UNSUPPORTED",
+      "confidence": "medium",
+      "evidence_span": "",
+      "claim_kind": "empirical",
+      "grounding_level": "fulltext_excerpt",
+      "context_limited": true,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -4154,6 +5088,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -4167,7 +5104,10 @@
       "kind": "cited",
       "verdict": "SUPPORTED",
       "confidence": "high",
-      "evidence_span": "Microbiome-based interventions represent a promising frontier in neuropsychiatric care, although further translational research is needed to define optimal therapeutic strategies and address individual variability.",
+      "evidence_span": "Microbial imbalance contributes to low-grade systemic inflammation, impaired neuroplasticity, and altered stress responses, all of which are linked to mood and cognitive disturbances. Specific microbial taxa, dietary patterns, and interventions such as probiotics, prebiotics, psychobiotics, and fecal microbiota transplantation (FMT) have shown promise in modulating these outcomes.",
+      "claim_kind": "empirical",
+      "grounding_level": "abstract_only",
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -4180,6 +5120,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [
         "1"
       ],
@@ -4194,6 +5137,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [
         "2"
       ],
@@ -4208,6 +5154,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [
         "3"
       ],
@@ -4222,6 +5171,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [
         "4"
       ],
@@ -4236,6 +5188,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [
         "5"
       ],
@@ -4250,6 +5205,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [
         "6"
       ],
@@ -4264,6 +5222,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -4280,8 +5241,11 @@
       ],
       "kind": "cited",
       "verdict": "SUPPORTED",
-      "confidence": "medium",
+      "confidence": "high",
       "evidence_span": "Ongoing animal and human studies focused on the microbiota-gut-brain axis are promising for developing new prevention and treatment strategies for neuropsychiatric conditions.",
+      "claim_kind": "background",
+      "grounding_level": "abstract_only",
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -4295,7 +5259,10 @@
       "kind": "cited",
       "verdict": "SUPPORTED",
       "confidence": "high",
-      "evidence_span": "The causal relationship between gut microbiota and neuropsychiatric disorders is being elucidated through the establishment of large cohort studies incorporating microbiome data and advanced statistical techniques. Ongoing animal and human studies focused on the microbiota-gut-brain axis",
+      "evidence_span": "The causal relationship between gut microbiota and neuropsychiatric disorders is being elucidated through the establishment of large cohort studies incorporating microbiome data and advanced statistical techniques.",
+      "claim_kind": "empirical",
+      "grounding_level": "abstract_only",
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -4308,6 +5275,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -4320,6 +5290,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -4334,6 +5307,9 @@
       "verdict": "SUPPORTED",
       "confidence": "high",
       "evidence_span": "Preclinical models using germ-free animals, faecal microbiota transplantation, and probiotic interventions demonstrate causal links between gut microbiota and behavioural or cognitive changes",
+      "claim_kind": "empirical",
+      "grounding_level": "abstract_only",
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -4346,6 +5322,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -4358,6 +5337,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -4372,6 +5354,9 @@
       "verdict": "SUPPORTED",
       "confidence": "medium",
       "evidence_span": "Microbiota-targeted intervention has recently been in the spotlight and meta-analyses have confirmed its effectiveness.",
+      "claim_kind": "empirical",
+      "grounding_level": "abstract_only",
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -4384,6 +5369,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -4398,6 +5386,9 @@
       "verdict": "SUPPORTED",
       "confidence": "high",
       "evidence_span": "The review highlights methodological advances including germ-free models, metagenomic profiling, and neuroimaging studies",
+      "claim_kind": "empirical",
+      "grounding_level": "abstract_only",
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -4410,6 +5401,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -4421,9 +5415,12 @@
         29
       ],
       "kind": "cited",
-      "verdict": "SUPPORTED",
-      "confidence": "high",
-      "evidence_span": "Manipulating the gut microbiota with psychobiotics, prebiotics, or even antibiotics offers a novel approach to altering brain function and treating gut-brain axis disorders, such as depression and autism.",
+      "verdict": "UNSUPPORTED",
+      "confidence": "medium",
+      "evidence_span": "",
+      "claim_kind": "empirical",
+      "grounding_level": "fulltext_excerpt",
+      "context_limited": true,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -4436,6 +5433,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -4448,6 +5448,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [
         "1"
       ],
@@ -4462,6 +5465,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [
         "2"
       ],
@@ -4476,6 +5482,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [
         "3"
       ],
@@ -4490,6 +5499,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [
         "4"
       ],
@@ -4504,6 +5516,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [
         "5"
       ],
@@ -4518,6 +5533,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [
         "6"
       ],
@@ -4532,6 +5550,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [
         "7"
       ],
@@ -4546,6 +5567,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [
         "8"
       ],
@@ -4560,6 +5584,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [
         "9"
       ],
@@ -4574,6 +5601,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [
         "10"
       ],
@@ -4588,6 +5618,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -4600,6 +5633,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -4612,6 +5648,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -4624,6 +5663,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -4636,6 +5678,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [
         "94",
         "30"
@@ -4661,7 +5706,10 @@
       "kind": "cited",
       "verdict": "SUPPORTED",
       "confidence": "high",
-      "evidence_span": "There is a bidirectional connection between the gut and brain called the gut-brain-axis, and these connections are formed through immunological, neuronal, and neuroendocrine pathways.",
+      "evidence_span": "It affects tryptophan metabolism, a precursor to serotonin, thereby linking diet, microbiome, neurotransmission, and behavioral changes. Probiotic strains can produce neurotransmitters like GABA, acetylcholine, and serotonin, directly influencing brain excitability. Short-chain fatty acids, produced by gut microbes, impact the blood-brain barrier and can facilitate neuronal plasticity and memory formation. The vagus nerve is a major communication route",
+      "claim_kind": "background",
+      "grounding_level": "snippet_only",
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -4674,6 +5722,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -4700,6 +5751,9 @@
       "verdict": "SUPPORTED",
       "confidence": "high",
       "evidence_span": "Dysbiosis has been associated with neuropsychiatric disorders such as depression, anxiety, impulsivity, cognitive decline, and addiction.",
+      "claim_kind": "empirical",
+      "grounding_level": "snippet_only",
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -4718,8 +5772,11 @@
       ],
       "kind": "cited",
       "verdict": "SUPPORTED",
-      "confidence": "high",
+      "confidence": "medium",
       "evidence_span": "Preclinical models using germ-free animals, faecal microbiota transplantation, and probiotic interventions demonstrate causal links between gut microbiota and behavioural or cognitive changes",
+      "claim_kind": "empirical",
+      "grounding_level": "snippet_only",
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -4743,6 +5800,9 @@
       "verdict": "SUPPORTED",
       "confidence": "high",
       "evidence_span": "Specific microbial taxa, dietary patterns, and interventions such as probiotics, prebiotics, psychobiotics, and fecal microbiota transplantation (FMT) have shown promise in modulating these outcomes.",
+      "claim_kind": "empirical",
+      "grounding_level": "abstract_only",
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -4755,6 +5815,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -4775,7 +5838,10 @@
       "kind": "cited",
       "verdict": "SUPPORTED",
       "confidence": "high",
-      "evidence_span": "This bidirectional network integrates neural pathways, endocrine signalling, immune mechanisms, and microbial metabolites, enabling dynamic communication between the gut and brain.",
+      "evidence_span": "The immunological, metabolic, and endocrine systems are involved in bidirectional communication between the gut and the brain, which is regulated by microbes through the microbiota-derived neurochemicals and metabolites.",
+      "claim_kind": "background",
+      "grounding_level": "abstract_only",
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -4788,6 +5854,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -4805,8 +5874,11 @@
       ],
       "kind": "cited",
       "verdict": "SUPPORTED",
-      "confidence": "high",
+      "confidence": "medium",
       "evidence_span": "translation into clinical practice is limited by methodological heterogeneity, interindividual variability, and the challenge of distinguishing causation from correlation",
+      "claim_kind": "background",
+      "grounding_level": "abstract_only",
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -4819,6 +5891,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -4836,15 +5911,13 @@
       "kind": "cited",
       "verdict": "UNSUPPORTED",
       "confidence": "medium",
-      "evidence_span": "further translational research is needed to define optimal therapeutic strategies and address individual variability",
+      "evidence_span": "although further translational research is needed to define optimal therapeutic strategies and address individual variability",
+      "claim_kind": "background",
+      "grounding_level": "abstract_only",
+      "context_limited": true,
       "numbers": [],
       "numbers_grounded": [],
-      "numbers_missing": [],
-      "verified_state": "unsupported",
-      "verified_panel": {
-        "supporter_verdict": "UNSUPPORTED",
-        "skeptic_verdict": "UNSUPPORTED"
-      }
+      "numbers_missing": []
     },
     {
       "idx": 346,
@@ -4854,6 +5927,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -4866,6 +5942,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -4878,6 +5957,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -4890,6 +5972,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []

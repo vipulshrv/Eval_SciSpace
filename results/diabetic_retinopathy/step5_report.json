@@ -1,43 +1,88 @@
 {
   "summary": {
     "step": "5_report_generation",
+    "reference_truth": "report claim vs cited paper full-text (else abstract) \u222a extracted table row",
     "total_claim_sentences": 113,
     "cited_sentences": 51,
     "uncited_synthesis_sentences": 62,
     "graded_cited": 51,
-    "citation_precision": 0.5294,
+    "citation_precision": 0.7586,
+    "citation_precision_empirical": 0.7586,
+    "citation_precision_background": 0.8571,
+    "empirical": {
+      "adjudicable": 29,
+      "supported": 22,
+      "contradicted": 2,
+      "context_limited_excluded": 5,
+      "precision": 0.7586
+    },
+    "background": {
+      "adjudicable": 7,
+      "supported": 6,
+      "contradicted": 0,
+      "context_limited_excluded": 10,
+      "precision": 0.8571
+    },
+    "all_cited": {
+      "adjudicable": 36,
+      "supported": 28,
+      "contradicted": 2,
+      "context_limited_excluded": 15,
+      "precision": 0.7778
+    },
+    "report_contradictions": 2,
+    "context_limited_excluded": 15,
     "verdict_breakdown": {
-      "SUPPORTED": 27,
-      "UNSUPPORTED": 22,
+      "SUPPORTED": 28,
+      "UNSUPPORTED": 21,
       "CONTRADICTED": 2
     },
-    "numeric_fidelity": 0.8657,
+    "numeric_fidelity": 0.8955,
     "numbers_checked": 134,
-    "numbers_missing": 18,
+    "numbers_missing": 14,
     "verified": {
       "graded_cited": 51,
-      "flagged_rechecked": 24,
-      "supported": 33,
+      "flagged_rechecked": 8,
+      "citation_precision": 0.9643,
+      "citation_precision_empirical": 0.9643,
+      "citation_precision_background": 1.0,
+      "empirical": {
+        "adjudicable": 28,
+        "supported": 27,
+        "contradicted": 0,
+        "precision": 0.9643
+      },
+      "background": {
+        "adjudicable": 7,
+        "supported": 7,
+        "contradicted": 0,
+        "precision": 1.0
+      },
+      "all_cited": {
+        "adjudicable": 35,
+        "supported": 34,
+        "contradicted": 0,
+        "precision": 0.9714
+      },
       "report_contradictions": 0,
-      "unsupported": 17,
-      "citation_precision": 0.6471,
-      "first_pass_citation_precision": 0.5294,
+      "context_limited_excluded": 15,
+      "first_pass_citation_precision": 0.7586,
       "first_pass_contradictions": 2
     }
   },
   "usage": {
     "model": "claude-opus-4-8",
-    "judge_calls": 51,
-    "input_tokens": 115281,
-    "output_tokens": 9113,
+    "judge_calls": 322,
+    "input_tokens": 6545867,
+    "output_tokens": 61372,
     "cache_read_input_tokens": 0,
     "cache_creation_input_tokens": 0,
     "cost_usd": {
-      "input": 0.5764,
-      "output": 0.2278,
+      "input": 32.7293,
+      "output": 1.5343,
       "cache_read": 0.0,
       "cache_write": 0.0,
-      "total": 0.8042
+      "total": 34.2636
     }
   },
   "sentences": [
@@ -49,6 +94,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [
         "93"
       ],
@@ -63,6 +111,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -75,6 +126,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [
         "2016",
         "2026"
@@ -90,6 +144,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [
         "74%",
         "99%",
@@ -109,6 +166,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -121,6 +181,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -133,6 +196,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -145,6 +211,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [
         "2",
         "2"
@@ -160,6 +229,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [
         "3",
         "3"
@@ -175,6 +247,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [
         "4",
         "4"
@@ -190,6 +265,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [
         "5",
         "5"
@@ -205,6 +283,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [
         "7",
         "7"
@@ -220,6 +301,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -232,6 +316,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [
         "500"
       ],
@@ -248,14 +335,12 @@
       "verdict": "UNSUPPORTED",
       "confidence": "high",
       "evidence_span": "",
+      "claim_kind": "background",
+      "grounding_level": "abstract_only",
+      "context_limited": true,
       "numbers": [],
       "numbers_grounded": [],
-      "numbers_missing": [],
-      "verified_state": "unsupported",
-      "verified_panel": {
-        "supporter_verdict": "UNSUPPORTED",
-        "skeptic_verdict": "UNSUPPORTED"
-      }
+      "numbers_missing": []
     },
     {
       "idx": 15,
@@ -265,6 +350,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -279,13 +367,16 @@
       "verdict": "SUPPORTED",
       "confidence": "high",
       "evidence_span": "an algorithm based on deep machine learning had high sensitivity and specificity for detecting referable diabetic retinopathy",
+      "claim_kind": "empirical",
+      "grounding_level": "fulltext_excerpt",
+      "context_limited": false,
       "numbers": [
         "2016"
       ],
-      "numbers_grounded": [
+      "numbers_grounded": [],
+      "numbers_missing": [
         "2016"
-      ],
-      "numbers_missing": []
+      ]
     },
     {
       "idx": 17,
@@ -295,17 +386,15 @@
         24
       ],
       "kind": "cited",
-      "verdict": "UNSUPPORTED",
-      "confidence": "medium",
-      "evidence_span": "Specific CNN architectures mentioned include Inception-V3, EfficientNetB8, and CNNs combined with other techniques.",
+      "verdict": "SUPPORTED",
+      "confidence": "low",
+      "evidence_span": "Hybrid models like ResViT and Fusion Net combine the strengths of both CNNs and ViTs",
+      "claim_kind": "background",
+      "grounding_level": "fulltext_downloaded",
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
-      "numbers_missing": [],
-      "verified_state": "supported",
-      "verified_panel": {
-        "supporter_verdict": "SUPPORTED",
-        "skeptic_verdict": "SUPPORTED"
-      }
+      "numbers_missing": []
     },
     {
       "idx": 18,
@@ -315,6 +404,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -327,6 +419,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -339,6 +434,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -351,6 +449,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -366,14 +467,12 @@
       "verdict": "UNSUPPORTED",
       "confidence": "high",
       "evidence_span": "",
+      "claim_kind": "background",
+      "grounding_level": "abstract_only",
+      "context_limited": true,
       "numbers": [],
       "numbers_grounded": [],
-      "numbers_missing": [],
-      "verified_state": "unsupported",
-      "verified_panel": {
-        "supporter_verdict": "UNSUPPORTED",
-        "skeptic_verdict": "UNSUPPORTED"
-      }
+      "numbers_missing": []
     },
     {
       "idx": 23,
@@ -383,6 +482,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -396,16 +498,14 @@
       ],
       "kind": "cited",
       "verdict": "UNSUPPORTED",
-      "confidence": "high",
-      "evidence_span": "",
+      "confidence": "medium",
+      "evidence_span": "Additionally, TL is found to be benecial in cases where there is insufcient data to train a Neural Network from scratch (high volume of data required).",
+      "claim_kind": "background",
+      "grounding_level": "fulltext_excerpt",
+      "context_limited": true,
       "numbers": [],
       "numbers_grounded": [],
-      "numbers_missing": [],
-      "verified_state": "unsupported",
-      "verified_panel": {
-        "supporter_verdict": "UNSUPPORTED",
-        "skeptic_verdict": "UNSUPPORTED"
-      }
+      "numbers_missing": []
     },
     {
       "idx": 25,
@@ -418,14 +518,12 @@
       "verdict": "UNSUPPORTED",
       "confidence": "high",
       "evidence_span": "",
+      "claim_kind": "background",
+      "grounding_level": "abstract_only",
+      "context_limited": true,
       "numbers": [],
       "numbers_grounded": [],
-      "numbers_missing": [],
-      "verified_state": "unsupported",
-      "verified_panel": {
-        "supporter_verdict": "UNSUPPORTED",
-        "skeptic_verdict": "UNSUPPORTED"
-      }
+      "numbers_missing": []
     },
     {
       "idx": 26,
@@ -435,6 +533,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -447,6 +548,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [
         "50",
         "101"
@@ -463,7 +567,10 @@
       "kind": "cited",
       "verdict": "SUPPORTED",
       "confidence": "high",
-      "evidence_span": "ResNet-50 demonstrated similarly high performance with an accuracy of 96%, QWK of 86%, sensitivity of 94%, specificity of 97%, and AUC of 96%.",
+      "evidence_span": "ResNet-50 demonstrated similarly high performance with an accuracy of 96%, QWK of 86%, sensitivity of 94%, specificity of 97%, and AUC of 96%",
+      "claim_kind": "empirical",
+      "grounding_level": "abstract_only",
+      "context_limited": false,
       "numbers": [
         "2025",
         "50",
@@ -492,7 +599,10 @@
       "kind": "cited",
       "verdict": "SUPPORTED",
       "confidence": "high",
-      "evidence_span": "sensitivity of 96.87%, specificity of 98.03%, F1 score of 96.95%, and AUC of 97.26%",
+      "evidence_span": "ResNet-101 demonstrated an overall accuracy of 97%, sensitivity of 96.87%, specificity of 98.03%, F1 score of 96.95%, and AUC of 97.26%.",
+      "claim_kind": "empirical",
+      "grounding_level": "fulltext_excerpt",
+      "context_limited": false,
       "numbers": [
         "2022",
         "101",
@@ -520,6 +630,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -534,6 +647,9 @@
       "verdict": "SUPPORTED",
       "confidence": "high",
       "evidence_span": "the VggNET-16 model achieved a 99.6% AUC score and 98.1% accuracy",
+      "claim_kind": "empirical",
+      "grounding_level": "abstract_only",
+      "context_limited": false,
       "numbers": [
         "16",
         "19",
@@ -560,9 +676,12 @@
         20
       ],
       "kind": "cited",
-      "verdict": "SUPPORTED",
-      "confidence": "high",
-      "evidence_span": "VGGNet reported AUC 93.6%, sensitivity 90.5%, specificity 91.6%.",
+      "verdict": "CONTRADICTED",
+      "confidence": "medium",
+      "evidence_span": "achieved AUC of 93%, specicity of 91.6% and sensitivity of 90.5%",
+      "claim_kind": "empirical",
+      "grounding_level": "fulltext_downloaded",
+      "context_limited": false,
       "numbers": [
         "2020",
         "93.6%",
@@ -570,13 +689,17 @@
         "91.6%"
       ],
       "numbers_grounded": [
+        "2020",
         "93.6%",
         "90.5%",
         "91.6%"
       ],
-      "numbers_missing": [
-        "2020"
-      ]
+      "numbers_missing": [],
+      "verified_state": "supported",
+      "verified_panel": {
+        "supporter_verdict": "SUPPORTED",
+        "skeptic_verdict": "SUPPORTED"
+      }
     },
     {
       "idx": 33,
@@ -586,6 +709,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -599,7 +725,10 @@
       "kind": "cited",
       "verdict": "SUPPORTED",
       "confidence": "high",
-      "evidence_span": "Our system achieves an overall accuracy of 95.73%, sensitivity of 95.73%, and specificity of 98.51% utilizing an AlexNet-based architecture and a pixel-wise NN classifier",
+      "evidence_span": "Our system achieves an overall accuracy of 95.73%, sensitivity of 95.73%, and specificity of 98.51% utilizing an AlexNet-based architecture and a pixel-wise NN classifier.",
+      "claim_kind": "empirical",
+      "grounding_level": "abstract_only",
+      "context_limited": false,
       "numbers": [
         "2024",
         "95.73%",
@@ -622,9 +751,12 @@
         20
       ],
       "kind": "cited",
-      "verdict": "SUPPORTED",
+      "verdict": "UNSUPPORTED",
       "confidence": "high",
-      "evidence_span": "AlexNet achieved AUC of 98.0%, sensitivity 96.8%, specificity 87.0% on Messidor-2",
+      "evidence_span": "used a CNN\nmodel based on AlexNet with Random Forests classier for\nthe detection of DR. Using Messidor-2 data they achieved\narea under the curve (AUC) of 98.0%, sensitivity of 96.8%,\nspecicity of 87.0%",
+      "claim_kind": "empirical",
+      "grounding_level": "fulltext_downloaded",
+      "context_limited": false,
       "numbers": [
         "2020",
         "98.0%",
@@ -633,14 +765,18 @@
         "2"
       ],
       "numbers_grounded": [
+        "2020",
         "98.0%",
         "96.8%",
         "87.0%",
         "2"
       ],
-      "numbers_missing": [
-        "2020"
-      ]
+      "numbers_missing": [],
+      "verified_state": "supported",
+      "verified_panel": {
+        "supporter_verdict": "SUPPORTED",
+        "skeptic_verdict": "SUPPORTED"
+      }
     },
     {
       "idx": 36,
@@ -650,6 +786,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [
         "3"
       ],
@@ -665,7 +804,10 @@
       "kind": "cited",
       "verdict": "SUPPORTED",
       "confidence": "high",
-      "evidence_span": "achieving an accuracy of 89 ~ 95% with AUC, sensitivity and specificity of respectively 95 ~ 98%, 74 ~ 86%, and 93 ~ 97%, for disease level grading of DR",
+      "evidence_span": "The experiments are executed on publicly available fundus datasets (EyePACS and DIARETDB1) achieving an accuracy of 89 ~ 95% with AUC, sensitivity and specificity of respectively 95 ~ 98%, 74 ~ 86%, and 93 ~ 97%, for disease level grading of DR.",
+      "claim_kind": "empirical",
+      "grounding_level": "fulltext_downloaded",
+      "context_limited": false,
       "numbers": [
         "2021",
         "3",
@@ -681,6 +823,7 @@
         "97%"
       ],
       "numbers_grounded": [
+        "2021",
         "3",
         "50",
         "1",
@@ -693,9 +836,7 @@
         "93",
         "97%"
       ],
-      "numbers_missing": [
-        "2021"
-      ]
+      "numbers_missing": []
     },
     {
       "idx": 38,
@@ -705,6 +846,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -719,6 +863,9 @@
       "verdict": "SUPPORTED",
       "confidence": "high",
       "evidence_span": "EfficientNet-B5 achieved a QWK of 92%, sensitivity of 98%, specificity of 93%, and AUC of 96% on the test dataset.",
+      "claim_kind": "empirical",
+      "grounding_level": "abstract_only",
+      "context_limited": false,
       "numbers": [
         "5",
         "98%",
@@ -742,9 +889,12 @@
         12
       ],
       "kind": "cited",
-      "verdict": "SUPPORTED",
+      "verdict": "UNSUPPORTED",
       "confidence": "high",
       "evidence_span": "EfficientNetV2B0 achieved an AUC of 0.93 at the same resolution, with reductions in energy consumption and training time of 66% and 70%, respectively.",
+      "claim_kind": "empirical",
+      "grounding_level": "fulltext_downloaded",
+      "context_limited": false,
       "numbers": [
         "2",
         "0",
@@ -759,7 +909,12 @@
         "66%",
         "70%"
       ],
-      "numbers_missing": []
+      "numbers_missing": [],
+      "verified_state": "supported",
+      "verified_panel": {
+        "supporter_verdict": "SUPPORTED",
+        "skeptic_verdict": "SUPPORTED"
+      }
     },
     {
       "idx": 41,
@@ -771,6 +926,9 @@
       "verdict": "UNSUPPORTED",
       "confidence": "high",
       "evidence_span": "the EfficientNet-b0, which yielded 82% and 80% accuracies, respectively. On the EYEPACS dataset, the EfficientNet-b0 yielded a mean accuracy of 80%",
+      "claim_kind": "empirical",
+      "grounding_level": "abstract_only",
+      "context_limited": true,
       "numbers": [
         "0",
         "80%"
@@ -779,12 +937,7 @@
         "0",
         "80%"
       ],
-      "numbers_missing": [],
-      "verified_state": "supported",
-      "verified_panel": {
-        "supporter_verdict": "SUPPORTED",
-        "skeptic_verdict": "SUPPORTED"
-      }
+      "numbers_missing": []
     },
     {
       "idx": 42,
@@ -794,6 +947,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -808,7 +964,10 @@
       "kind": "cited",
       "verdict": "SUPPORTED",
       "confidence": "high",
-      "evidence_span": "extracts features using two different deep learning (DL) models, Resnet50 and Inceptionv3, and concatenates them before feeding them into the CNN for classification",
+      "evidence_span": "the proposed model gives the highest accuracy with accuracy,\nsensitivity, specificity, precision and F1 score as 96.85%,\n99.28%, 98.92%, 96.46% and 98.65% respectively.",
+      "claim_kind": "empirical",
+      "grounding_level": "fulltext_downloaded",
+      "context_limited": false,
       "numbers": [
         "3",
         "50",
@@ -835,6 +994,9 @@
       "verdict": "SUPPORTED",
       "confidence": "high",
       "evidence_span": "It utilizes ResNet, DenseNet, and Inception models, then combines their detected features using attention fusion. The framework performed well on benchmark datasets with an accuracy of 97.85%, precision of 96.72%, recall of 95.68%, specificity of 98.12%, F1 score of 96.20%, and AUC of 98.45%",
+      "claim_kind": "empirical",
+      "grounding_level": "abstract_only",
+      "context_limited": false,
       "numbers": [
         "2025",
         "97.85%",
@@ -861,7 +1023,10 @@
       "kind": "cited",
       "verdict": "SUPPORTED",
       "confidence": "high",
-      "evidence_span": "the stacked ensemble achieving the best results: 85.27% accuracy, 0.933 ROC AUC, and 0.7352 PR AUC",
+      "evidence_span": "Stacking  85.27%  0.7634 \n(Macro)  0.7051 \n(Macro)  0.7278 \n(Macro)  0.9330  0.7352",
+      "claim_kind": "empirical",
+      "grounding_level": "fulltext_downloaded",
+      "context_limited": false,
       "numbers": [
         "18",
         "50",
@@ -888,8 +1053,11 @@
       ],
       "kind": "cited",
       "verdict": "SUPPORTED",
-      "confidence": "medium",
-      "evidence_span": "A hybrid DL model of three different DL pretrained models AlexNet, VGGNet, and ResNet-18 is used. Then the performance of the combined proposed model is enhanced using the AdaBoost algorithm. AdaBoost algorithm is used to exploit dependency among different DL models.",
+      "confidence": "high",
+      "evidence_span": "A hybrid DL model of three different DL pretrained models AlexNet, VGGNet, and ResNet-18 is used. Then the performance of the combined proposed model is enhanced using the AdaBoost algorithm.",
+      "claim_kind": "empirical",
+      "grounding_level": "abstract_only",
+      "context_limited": false,
       "numbers": [
         "2023",
         "18",
@@ -911,6 +1079,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -925,6 +1096,9 @@
       "verdict": "SUPPORTED",
       "confidence": "high",
       "evidence_span": "DR-CTFN outperformed ConvNeXt and Swin Transformer in accuracy by 3.14% and 8.39%, while also achieving a superior area under the curve (AUC) by 1% and 26.08%. External validation on APTOS 2019 Blindness Detection and a clinical DR dataset yielded accuracies of 84.45% and 85.31%, with AUC values of 95.22% and 95.79%, respectively.",
+      "claim_kind": "empirical",
+      "grounding_level": "abstract_only",
+      "context_limited": false,
       "numbers": [
         "2025",
         "3.14%",
@@ -950,6 +1124,9 @@
       "verdict": "SUPPORTED",
       "confidence": "high",
       "evidence_span": "MaxViT stood out with a 91.8% AUC (95% CI: 90.5\u201393.1%), beating CNNs by 1.5\u20132.9%, slashing cross-dataset performance dips by 38%",
+      "claim_kind": "empirical",
+      "grounding_level": "abstract_only",
+      "context_limited": false,
       "numbers": [
         "2025",
         "91.8%",
@@ -983,6 +1160,9 @@
       "verdict": "SUPPORTED",
       "confidence": "high",
       "evidence_span": "Diabetic Retinopathy (2-class) (AUC = 0.98, weighted F1-score = 0.95)",
+      "claim_kind": "empirical",
+      "grounding_level": "abstract_only",
+      "context_limited": false,
       "numbers": [
         "2025",
         "0.98"
@@ -1002,6 +1182,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -1016,6 +1199,9 @@
       "verdict": "SUPPORTED",
       "confidence": "high",
       "evidence_span": "we also compute an F1-score of 82.0%, a precision of 82.1%, a sensitivity of 83.0%, a specificity of 95.5%, and a kappa score of 88.2%",
+      "claim_kind": "empirical",
+      "grounding_level": "abstract_only",
+      "context_limited": false,
       "numbers": [
         "2025",
         "3",
@@ -1046,7 +1232,10 @@
       "kind": "cited",
       "verdict": "SUPPORTED",
       "confidence": "high",
-      "evidence_span": "comparison of the performance of three attention mechanisms algorithms - Convolutional Block Attention Module (CBAM), Bottleneck Attention Module (BAM) and Efficient Channel Attention (ECA) with ResNet50 as a base CNN model for multiclass classification of diabetic retinopathy. Among these, the BAM-based model achieved the best experimental results",
+      "evidence_span": "Among these, the BAM-based model achieved the best experimental results.",
+      "claim_kind": "empirical",
+      "grounding_level": "abstract_only",
+      "context_limited": false,
       "numbers": [
         "2025",
         "50"
@@ -1068,6 +1257,9 @@
       "verdict": "SUPPORTED",
       "confidence": "high",
       "evidence_span": "The framework exhibits 98.6%(95% CI 98.1-99.1) specificity and 99.1%(95% CI 98.6-99.5) sensitivity for distinguishing NoDR",
+      "claim_kind": "empirical",
+      "grounding_level": "abstract_only",
+      "context_limited": false,
       "numbers": [
         "2025",
         "121",
@@ -1091,6 +1283,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -1103,6 +1298,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -1115,6 +1313,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -1127,6 +1328,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -1140,14 +1344,17 @@
       "kind": "cited",
       "verdict": "UNSUPPORTED",
       "confidence": "medium",
-      "evidence_span": "",
+      "evidence_span": "EyePACS (> 88 K images): Considered and used by majority of works; provides DR severity grading labels.",
+      "claim_kind": "empirical",
+      "grounding_level": "fulltext_downloaded",
+      "context_limited": false,
       "numbers": [
         "2025"
       ],
-      "numbers_grounded": [],
-      "numbers_missing": [
+      "numbers_grounded": [
         "2025"
       ],
+      "numbers_missing": [],
       "verified_state": "supported",
       "verified_panel": {
         "supporter_verdict": "SUPPORTED",
@@ -1162,6 +1369,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -1174,6 +1384,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -1186,6 +1399,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -1198,6 +1414,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -1210,6 +1429,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -1222,6 +1444,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -1234,6 +1459,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -1246,6 +1474,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [
         "93%",
         "97%"
@@ -1262,7 +1493,10 @@
       "kind": "cited",
       "verdict": "SUPPORTED",
       "confidence": "high",
-      "evidence_span": "EfficientNet-B5 achieved a QWK of 92%, sensitivity of 98%, specificity of 93%, and AUC of 96% on the test dataset. ResNet-50 demonstrated similarly high performance with an accuracy of 96%, QWK of 86%, sensitivity of 94%, specificity of 97%",
+      "evidence_span": "EfficientNet-B5 achieved a QWK of 92%, sensitivity of 98%, specificity of 93%, and AUC of 96% on the test dataset. ResNet-50 demonstrated similarly high performance with an accuracy of 96%, QWK of 86%, sensitivity of 94%, specificity of 97%, and AUC of 96%.",
+      "claim_kind": "empirical",
+      "grounding_level": "abstract_only",
+      "context_limited": false,
       "numbers": [
         "5",
         "98%",
@@ -1289,6 +1523,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -1301,6 +1538,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [
         "90%"
       ],
@@ -1315,6 +1555,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [
         "2",
         "5%"
@@ -1330,6 +1573,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -1342,6 +1588,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [
         "88",
         "000"
@@ -1359,6 +1608,9 @@
       "verdict": "SUPPORTED",
       "confidence": "high",
       "evidence_span": "just 2.5% drop vs. 4.2% for ResNet50",
+      "claim_kind": "empirical",
+      "grounding_level": "abstract_only",
+      "context_limited": false,
       "numbers": [
         "2025",
         "50",
@@ -1382,6 +1634,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -1393,9 +1648,12 @@
         23
       ],
       "kind": "cited",
-      "verdict": "CONTRADICTED",
+      "verdict": "UNSUPPORTED",
       "confidence": "medium",
-      "evidence_span": "DeepPCANet-4 (APTOS2019, SC1)**: ACC 98.21%, SE 95.29%",
+      "evidence_span": "",
+      "claim_kind": "empirical",
+      "grounding_level": "fulltext_excerpt",
+      "context_limited": true,
       "numbers": [
         "99.5%",
         "95.29%"
@@ -1404,12 +1662,7 @@
         "99.5%",
         "95.29%"
       ],
-      "numbers_missing": [],
-      "verified_state": "supported",
-      "verified_panel": {
-        "supporter_verdict": "UNSUPPORTED",
-        "skeptic_verdict": "SUPPORTED"
-      }
+      "numbers_missing": []
     },
     {
       "idx": 77,
@@ -1422,6 +1675,9 @@
       "verdict": "UNSUPPORTED",
       "confidence": "high",
       "evidence_span": "",
+      "claim_kind": "empirical",
+      "grounding_level": "abstract_only",
+      "context_limited": true,
       "numbers": [
         "3",
         "10%"
@@ -1430,12 +1686,7 @@
         "3",
         "10%"
       ],
-      "numbers_missing": [],
-      "verified_state": "unsupported",
-      "verified_panel": {
-        "supporter_verdict": "UNSUPPORTED",
-        "skeptic_verdict": "UNSUPPORTED"
-      }
+      "numbers_missing": []
     },
     {
       "idx": 78,
@@ -1445,6 +1696,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -1458,16 +1712,14 @@
       ],
       "kind": "cited",
       "verdict": "UNSUPPORTED",
-      "confidence": "low",
-      "evidence_span": "The undersampled Kaggle(APTOS) dataset",
+      "confidence": "medium",
+      "evidence_span": "The undersampled Kaggle(APTOS) dataset, crosschecked by an ophthalmologist, is used to train the models",
+      "claim_kind": "background",
+      "grounding_level": "abstract_only",
+      "context_limited": true,
       "numbers": [],
       "numbers_grounded": [],
-      "numbers_missing": [],
-      "verified_state": "unsupported",
-      "verified_panel": {
-        "supporter_verdict": "UNSUPPORTED",
-        "skeptic_verdict": "UNSUPPORTED"
-      }
+      "numbers_missing": []
     },
     {
       "idx": 80,
@@ -1477,6 +1729,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -1491,8 +1746,11 @@
       ],
       "kind": "cited",
       "verdict": "UNSUPPORTED",
-      "confidence": "medium",
-      "evidence_span": "ResNet-101 demonstrated an overall accuracy of 97%, sensitivity of 96.87%, specificity of 98.03%, F1 score of 96.95%, and AUC of 97.26%",
+      "confidence": "high",
+      "evidence_span": "",
+      "claim_kind": "empirical",
+      "grounding_level": "abstract_only",
+      "context_limited": true,
       "numbers": [
         "50",
         "101"
@@ -1501,12 +1759,7 @@
         "50",
         "101"
       ],
-      "numbers_missing": [],
-      "verified_state": "unsupported",
-      "verified_panel": {
-        "supporter_verdict": "UNSUPPORTED",
-        "skeptic_verdict": "UNSUPPORTED"
-      }
+      "numbers_missing": []
     },
     {
       "idx": 82,
@@ -1519,14 +1772,12 @@
       "verdict": "UNSUPPORTED",
       "confidence": "medium",
       "evidence_span": "EfficientNetV2B0 achieved an AUC of 0.93 at the same resolution, with reductions in energy consumption and training time of 66% and 70%, respectively.",
+      "claim_kind": "background",
+      "grounding_level": "abstract_only",
+      "context_limited": true,
       "numbers": [],
       "numbers_grounded": [],
-      "numbers_missing": [],
-      "verified_state": "supported",
-      "verified_panel": {
-        "supporter_verdict": "SUPPORTED",
-        "skeptic_verdict": "SUPPORTED"
-      }
+      "numbers_missing": []
     },
     {
       "idx": 83,
@@ -1539,7 +1790,10 @@
       "kind": "cited",
       "verdict": "SUPPORTED",
       "confidence": "high",
-      "evidence_span": "These results perform much better than those from using any single model.",
+      "evidence_span": "If only a single architecture had been used instead of combining multiple architectures, the probability of missing some useful features would have been high, which could have decreased the performance.",
+      "claim_kind": "empirical",
+      "grounding_level": "abstract_only",
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -1552,6 +1806,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -1564,6 +1821,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -1576,6 +1836,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -1590,6 +1853,9 @@
       "verdict": "SUPPORTED",
       "confidence": "high",
       "evidence_span": "slashing cross-dataset performance dips by 38% (p < 0.001; just 2.5% drop vs. 4.2% for ResNet50)",
+      "claim_kind": "empirical",
+      "grounding_level": "abstract_only",
+      "context_limited": false,
       "numbers": [
         "38%"
       ],
@@ -1609,14 +1875,12 @@
       "verdict": "UNSUPPORTED",
       "confidence": "high",
       "evidence_span": "",
+      "claim_kind": "background",
+      "grounding_level": "abstract_only",
+      "context_limited": true,
       "numbers": [],
       "numbers_grounded": [],
-      "numbers_missing": [],
-      "verified_state": "unsupported",
-      "verified_panel": {
-        "supporter_verdict": "UNSUPPORTED",
-        "skeptic_verdict": "UNSUPPORTED"
-      }
+      "numbers_missing": []
     },
     {
       "idx": 89,
@@ -1625,24 +1889,21 @@
         24
       ],
       "kind": "cited",
-      "verdict": "UNSUPPORTED",
-      "confidence": "medium",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
       "evidence_span": "CNN-based models consistently achieved accuracy above 90% on internal validation sets.",
+      "claim_kind": "empirical",
+      "grounding_level": "fulltext_downloaded",
+      "context_limited": false,
       "numbers": [
         "2025",
         "90%"
       ],
       "numbers_grounded": [
+        "2025",
         "90%"
       ],
-      "numbers_missing": [
-        "2025"
-      ],
-      "verified_state": "unsupported",
-      "verified_panel": {
-        "supporter_verdict": "UNSUPPORTED",
-        "skeptic_verdict": "UNSUPPORTED"
-      }
+      "numbers_missing": []
     },
     {
       "idx": 90,
@@ -1652,6 +1913,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -1664,6 +1928,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -1676,17 +1943,15 @@
         5
       ],
       "kind": "cited",
-      "verdict": "UNSUPPORTED",
-      "confidence": "high",
-      "evidence_span": "",
+      "verdict": "SUPPORTED",
+      "confidence": "medium",
+      "evidence_span": "Grading two gets slightly worse predictions than grading one because the models struggle to identify the severity of the lesions or if there is any lesion at all. Most of the incorrectly classified images for this class are split between grading zero and one.",
+      "claim_kind": "background",
+      "grounding_level": "abstract_only",
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
-      "numbers_missing": [],
-      "verified_state": "unsupported",
-      "verified_panel": {
-        "supporter_verdict": "UNSUPPORTED",
-        "skeptic_verdict": "UNSUPPORTED"
-      }
+      "numbers_missing": []
     },
     {
       "idx": 93,
@@ -1698,7 +1963,10 @@
       "kind": "cited",
       "verdict": "CONTRADICTED",
       "confidence": "medium",
-      "evidence_span": "The EyePACS dataset, containing images categorized into five DR severity levels, was used for model training.",
+      "evidence_span": "",
+      "claim_kind": "empirical",
+      "grounding_level": "fulltext_downloaded",
+      "context_limited": false,
       "numbers": [
         "98%",
         "98%"
@@ -1708,10 +1976,10 @@
         "98%"
       ],
       "numbers_missing": [],
-      "verified_state": "unsupported",
+      "verified_state": "uncertain",
       "verified_panel": {
         "supporter_verdict": "UNSUPPORTED",
-        "skeptic_verdict": "UNSUPPORTED"
+        "skeptic_verdict": "CONTRADICTED"
       }
     },
     {
@@ -1722,6 +1990,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -1734,6 +2005,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -1746,6 +2020,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [
         "1"
       ],
@@ -1762,16 +2039,14 @@
       ],
       "kind": "cited",
       "verdict": "UNSUPPORTED",
-      "confidence": "medium",
+      "confidence": "high",
       "evidence_span": "",
+      "claim_kind": "empirical",
+      "grounding_level": "abstract_only",
+      "context_limited": true,
       "numbers": [],
       "numbers_grounded": [],
-      "numbers_missing": [],
-      "verified_state": "unsupported",
-      "verified_panel": {
-        "supporter_verdict": "UNSUPPORTED",
-        "skeptic_verdict": "UNSUPPORTED"
-      }
+      "numbers_missing": []
     },
     {
       "idx": 98,
@@ -1783,6 +2058,9 @@
       "verdict": "UNSUPPORTED",
       "confidence": "high",
       "evidence_span": "",
+      "claim_kind": "empirical",
+      "grounding_level": "fulltext_downloaded",
+      "context_limited": false,
       "numbers": [
         "2"
       ],
@@ -1806,19 +2084,17 @@
       "kind": "cited",
       "verdict": "UNSUPPORTED",
       "confidence": "medium",
-      "evidence_span": "",
+      "evidence_span": "Image preprocessing has consistently been shown to play a vital role in improving DR classification accuracy.",
+      "claim_kind": "background",
+      "grounding_level": "abstract_only",
+      "context_limited": true,
       "numbers": [
         "3"
       ],
       "numbers_grounded": [
         "3"
       ],
-      "numbers_missing": [],
-      "verified_state": "unsupported",
-      "verified_panel": {
-        "supporter_verdict": "UNSUPPORTED",
-        "skeptic_verdict": "UNSUPPORTED"
-      }
+      "numbers_missing": []
     },
     {
       "idx": 100,
@@ -1828,8 +2104,11 @@
       ],
       "kind": "cited",
       "verdict": "UNSUPPORTED",
-      "confidence": "medium",
-      "evidence_span": "",
+      "confidence": "high",
+      "evidence_span": "The evidence base is constrained by lack of external validation, with many models tested only on internal datasets, limiting generalizability across diverse populations.",
+      "claim_kind": "empirical",
+      "grounding_level": "fulltext_downloaded",
+      "context_limited": false,
       "numbers": [
         "4"
       ],
@@ -1837,10 +2116,10 @@
         "4"
       ],
       "numbers_missing": [],
-      "verified_state": "unsupported",
+      "verified_state": "supported",
       "verified_panel": {
-        "supporter_verdict": "UNSUPPORTED",
-        "skeptic_verdict": "UNSUPPORTED"
+        "supporter_verdict": "SUPPORTED",
+        "skeptic_verdict": "SUPPORTED"
       }
     },
     {
@@ -1854,18 +2133,16 @@
       "verdict": "UNSUPPORTED",
       "confidence": "high",
       "evidence_span": "imbalanced data distribution in the dataset becomes a bottleneck in the generalisation of deep learning models trained for DR classification",
+      "claim_kind": "background",
+      "grounding_level": "abstract_only",
+      "context_limited": true,
       "numbers": [
         "5"
       ],
       "numbers_grounded": [
         "5"
       ],
-      "numbers_missing": [],
-      "verified_state": "unsupported",
-      "verified_panel": {
-        "supporter_verdict": "UNSUPPORTED",
-        "skeptic_verdict": "UNSUPPORTED"
-      }
+      "numbers_missing": []
     },
     {
       "idx": 102,
@@ -1875,6 +2152,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -1887,21 +2167,19 @@
         24
       ],
       "kind": "cited",
-      "verdict": "UNSUPPORTED",
-      "confidence": "medium",
-      "evidence_span": "",
+      "verdict": "SUPPORTED",
+      "confidence": "low",
+      "evidence_span": "Variability in diagnostic metrics (sensitivity, specificity, AUC) and preprocessing methods also limited direct comparison and precluded quantitative meta-analysis.",
+      "claim_kind": "background",
+      "grounding_level": "abstract_only",
+      "context_limited": false,
       "numbers": [
         "1"
       ],
       "numbers_grounded": [
         "1"
       ],
-      "numbers_missing": [],
-      "verified_state": "not_a_claim",
-      "verified_panel": {
-        "supporter_verdict": "NOT_A_FACTUAL_CLAIM",
-        "skeptic_verdict": "UNSUPPORTED"
-      }
+      "numbers_missing": []
     },
     {
       "idx": 104,
@@ -1914,6 +2192,9 @@
       "verdict": "SUPPORTED",
       "confidence": "low",
       "evidence_span": "Future work should focus on clinical validation and integration into public health systems to improve early DR detection",
+      "claim_kind": "background",
+      "grounding_level": "abstract_only",
+      "context_limited": false,
       "numbers": [
         "2"
       ],
@@ -1930,21 +2211,19 @@
         17
       ],
       "kind": "cited",
-      "verdict": "UNSUPPORTED",
+      "verdict": "SUPPORTED",
       "confidence": "medium",
-      "evidence_span": "underscoring the need for models that strike a balance between performance and efficiency",
+      "evidence_span": "the MobileNet andEfficientNetV2B0 architectures, selected for their effective balance of performance and efficiency",
+      "claim_kind": "background",
+      "grounding_level": "abstract_only",
+      "context_limited": false,
       "numbers": [
         "3"
       ],
       "numbers_grounded": [
         "3"
       ],
-      "numbers_missing": [],
-      "verified_state": "supported",
-      "verified_panel": {
-        "supporter_verdict": "SUPPORTED",
-        "skeptic_verdict": "SUPPORTED"
-      }
+      "numbers_missing": []
     },
     {
       "idx": 106,
@@ -1957,7 +2236,10 @@
       "kind": "cited",
       "verdict": "SUPPORTED",
       "confidence": "medium",
-      "evidence_span": "we present a convolutional neural network-transformer fusion model (DR-CTFN) that integrates ConvNeXt and Swin Transformer algorithms with a lightweight attention block (LAB) to enhance feature extraction",
+      "evidence_span": "convolutional neural network-transformer fusion model (DR-CTFN) that integrates ConvNeXt and Swin Transformer algorithms with a lightweight attention block (LAB) to enhance feature extraction",
+      "claim_kind": "background",
+      "grounding_level": "abstract_only",
+      "context_limited": false,
       "numbers": [
         "4"
       ],
@@ -1974,16 +2256,24 @@
         6
       ],
       "kind": "cited",
-      "verdict": "SUPPORTED",
-      "confidence": "medium",
-      "evidence_span": "The integration of SHAP interpretability bridges the gap between AI predictions and clinical trust",
+      "verdict": "UNSUPPORTED",
+      "confidence": "high",
+      "evidence_span": "The ability to visualize model decisions not only enhances trust among clinicians but also supports regulatory transparency for AI -driven diagnostics. Grad -CAM provides a mechanism to audit predictions post hoc and can serve as a supporting tool in human -AI collaboration workflows.",
+      "claim_kind": "background",
+      "grounding_level": "fulltext_downloaded",
+      "context_limited": false,
       "numbers": [
         "5"
       ],
       "numbers_grounded": [
         "5"
       ],
-      "numbers_missing": []
+      "numbers_missing": [],
+      "verified_state": "supported",
+      "verified_panel": {
+        "supporter_verdict": "SUPPORTED",
+        "skeptic_verdict": "SUPPORTED"
+      }
     },
     {
       "idx": 108,
@@ -1994,20 +2284,18 @@
       ],
       "kind": "cited",
       "verdict": "UNSUPPORTED",
-      "confidence": "medium",
+      "confidence": "high",
       "evidence_span": "",
+      "claim_kind": "background",
+      "grounding_level": "abstract_only",
+      "context_limited": true,
       "numbers": [
         "6"
       ],
       "numbers_grounded": [
         "6"
       ],
-      "numbers_missing": [],
-      "verified_state": "unsupported",
-      "verified_panel": {
-        "supporter_verdict": "UNSUPPORTED",
-        "skeptic_verdict": "UNSUPPORTED"
-      }
+      "numbers_missing": []
     },
     {
       "idx": 109,
@@ -2017,6 +2305,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -2029,6 +2320,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -2041,6 +2335,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []
@@ -2053,6 +2350,9 @@
       "verdict": null,
       "confidence": null,
       "evidence_span": null,
+      "claim_kind": null,
+      "grounding_level": null,
+      "context_limited": false,
       "numbers": [],
       "numbers_grounded": [],
       "numbers_missing": []

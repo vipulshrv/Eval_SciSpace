@@ -76,11 +76,12 @@ graded against the output of the previous stage, so a failure is attributable to
 specific stage.
 
 **Reference-grounded grading.** Every generated unit is graded against the evidence
-available at that stage — the extracted table cell against the paper's text, the
-report sentence against the cited paper's table row. Claims that cannot be
-adjudicated from the evidence we hold (e.g., only an abstract is available) are
-labelled **non-adjudicable** and excluded from rates — they are counted as neither
-faithful nor hallucinated.
+available at that stage — the extracted table cell against the paper's text, and the
+report sentence against the paper it cites (that paper's full text where we hold it,
+else its abstract, unioned with the agent's extracted table row). Claims that cannot be
+adjudicated from the evidence we hold (e.g., only an abstract is available and it is
+silent on the claim) are labelled **non-adjudicable** and excluded from rates — they are
+counted as neither faithful nor hallucinated.
 
 **The judge.** Faithfulness metrics use an LLM as an entailment grader. For each
 claim it returns one of three labels:
@@ -156,19 +157,34 @@ failure is omission.
 
 ### Stage 5 — Report Synthesis
 
-**Citation faithfulness (attribution precision)** — *does each cited claim's source
+**Citation faithfulness (attribution precision)** — *does the paper a claim cites
 actually support it?*
 Computed: the report is segmented into sentences; each sentence carrying a citation
-`[n]` is entailment-graded against the cited paper(s)' table row(s). Reported as
-`supported_cited_sentences ÷ graded_cited_sentences`, post-verification.
+`[n]` is entailment-graded against the cited paper's **full text where we hold it (else
+its abstract), unioned with the agent's extracted table row** — a claim is faithful if
+it traces to either the real paper or what the agent extracted. Each cited sentence is
+also classified by **claim kind**:
+
+- **empirical** — asserts a specific finding, result, or quantitative outcome
+  attributed to the cited study;
+- **background** — general domain knowledge, definitions, or methodological framing
+  that cites a source only illustratively (normal scientific practice, not an empirical
+  attribution).
+
+The **headline** metric is precision on **empirical** claims; **background** is reported
+separately, for context, and is never counted as a citation failure. Reference-relativity
+applies: an *Unsupported* verdict on a sentence whose cited papers we hold only as
+abstracts is **non-adjudicable** (its support may lie in full text we do not have) and is
+excluded rather than scored. Reported as `supported ÷ adjudicable`, post-verification.
 
 **Report contradiction count** — *does any cited claim conflict with its source?*
-Computed: count of cited sentences graded **Contradicted** after verification.
+Computed: count of cited sentences graded **Contradicted** (against the cited paper's
+full text) after verification.
 
 **Numerical consistency** — *do the numbers in the report appear in the evidence?*
 Computed (deterministic, no LLM): every numeric token in a cited sentence (citation
-markers stripped) is checked for presence in the cited paper's table row(s), tolerant
-of the `%` sign and thousands separators. Reported as
+markers stripped) is checked for presence in the cited paper's source text / table
+row(s), tolerant of the `%` sign and thousands separators. Reported as
 `numbers_found ÷ numbers_checked`. This is a strict lexical check — a number phrased
 differently (rounded, reformatted) counts as not-found — so it is a conservative
 signal.
@@ -208,11 +224,19 @@ precision the sample does not support.
 
 ### Stage 5 — Report synthesis
 
+Citation faithfulness is graded against the cited paper's full text (∪ table row) and
+split by claim kind; the empirical row is the headline. *Non-adjudicable* counts the
+cited sentences (abstract-only papers, claim not locatable) excluded from the rate under
+reference-relativity. Report-contradiction denominators are the adjudicable cited
+sentences.
+
 | Metric | Gut–brain | Cancer | GLP-1 | Retinopathy |
 |---|---|---|---|---|
-| Citation faithfulness | 96.4% (133/138) | 67.1% (49/73) | 63.0% (46/73) | 64.7% (33/51) |
-| Report contradictions | 0 / 138 | 0 / 73 | 2 / 73 | 0 / 51 |
-| Numerical consistency | 96.3% (26/27) | 87.2% (41/47) | 80.3% (240/299) | 86.6% (116/134) |
+| Citation faithfulness — **empirical claims** | 100% (98/98) | 100% (28/28) | 87.8% (36/41) | 96.4% (27/28) |
+| Citation faithfulness — background *(context only)* | 100% (19/19) | 100% (18/18) | 80% (4/5) | 100% (7/7) |
+| Non-adjudicable (abstract-only, excluded) | 21 | 25 | 27 | 15 |
+| Report contradictions | 0 / 117 | 0 / 46 | 3 / 46 | 0 / 35 |
+| Numerical consistency | 96.3% (26/27) | 93.6% (44/47) | 86.0% (257/299) | 89.5% (120/134) |
 | Unsupported synthesis | 60.6% (212/350) | 73.6% (204/277) | 58.0% (101/174) | 54.9% (62/113) |
 
 ### Verification impact — a worked example (GLP-1, Stage 4 extraction)

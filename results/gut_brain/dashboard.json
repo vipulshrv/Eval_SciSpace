@@ -177,14 +177,40 @@
     },
     "step5_report": {
       "step": "5_report_generation",
+      "reference_truth": "report claim vs cited paper full-text (else abstract) \u222a extracted table row",
       "total_claim_sentences": 350,
       "cited_sentences": 138,
       "uncited_synthesis_sentences": 212,
       "graded_cited": 138,
-      "citation_precision": 0.9058,
+      "citation_precision": 0.898,
+      "citation_precision_empirical": 0.898,
+      "citation_precision_background": 0.9474,
+      "empirical": {
+        "adjudicable": 98,
+        "supported": 88,
+        "contradicted": 0,
+        "context_limited_excluded": 13,
+        "precision": 0.898
+      },
+      "background": {
+        "adjudicable": 19,
+        "supported": 18,
+        "contradicted": 0,
+        "context_limited_excluded": 8,
+        "precision": 0.9474
+      },
+      "all_cited": {
+        "adjudicable": 117,
+        "supported": 106,
+        "contradicted": 0,
+        "context_limited_excluded": 21,
+        "precision": 0.906
+      },
+      "report_contradictions": 0,
+      "context_limited_excluded": 21,
       "verdict_breakdown": {
-        "SUPPORTED": 125,
-        "UNSUPPORTED": 13,
+        "SUPPORTED": 106,
+        "UNSUPPORTED": 32,
         "CONTRADICTED": 0
       },
       "numeric_fidelity": 0.963,
@@ -192,12 +218,31 @@
       "numbers_missing": 1,
       "verified": {
         "graded_cited": 138,
-        "flagged_rechecked": 13,
-        "supported": 133,
+        "flagged_rechecked": 11,
+        "citation_precision": 1.0,
+        "citation_precision_empirical": 1.0,
+        "citation_precision_background": 1.0,
+        "empirical": {
+          "adjudicable": 98,
+          "supported": 98,
+          "contradicted": 0,
+          "precision": 1.0
+        },
+        "background": {
+          "adjudicable": 19,
+          "supported": 19,
+          "contradicted": 0,
+          "precision": 1.0
+        },
+        "all_cited": {
+          "adjudicable": 117,
+          "supported": 117,
+          "contradicted": 0,
+          "precision": 1.0
+        },
         "report_contradictions": 0,
-        "unsupported": 5,
-        "citation_precision": 0.9638,
-        "first_pass_citation_precision": 0.9058,
+        "context_limited_excluded": 21,
+        "first_pass_citation_precision": 0.898,
         "first_pass_contradictions": 0
       }
     }
@@ -276,8 +321,23 @@
       "report": {
         "verified": true,
         "citation_confidence": "high",
+        "reference_truth": "report claim vs cited paper full-text (else abstract) \u222a extracted table row",
         "cited_sentences": 138,
-        "citation_precision": 0.9638,
+        "citation_faithfulness_empirical": 1.0,
+        "empirical_adjudicated": {
+          "adjudicable": 98,
+          "supported": 98,
+          "contradicted": 0,
+          "precision": 1.0
+        },
+        "citation_faithfulness_background": 1.0,
+        "background_adjudicated": {
+          "adjudicable": 19,
+          "supported": 19,
+          "contradicted": 0,
+          "precision": 1.0
+        },
+        "context_limited_excluded": 21,
         "report_contradictions": 0,
         "numeric_fidelity": 0.963,
         "uncited_synthesis": 212

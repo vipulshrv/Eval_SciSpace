@@ -87,13 +87,23 @@ def profile(summaries: dict, citation_confidence: str = "high") -> dict:
         }
 
     rv = s5.get("verified")
+    src = rv if rv else s5
+    hi = citation_confidence == "high"
     report = {
         "verified": bool(rv),
         "citation_confidence": citation_confidence,
+        "reference_truth": "report claim vs cited paper full-text (else abstract) ∪ extracted table row",
         "cited_sentences": s5.get("cited_sentences"),
-        "citation_precision": (rv["citation_precision"] if rv else s5.get("citation_precision"))
-                              if citation_confidence == "high" else None,
-        "report_contradictions": (rv["report_contradictions"] if rv
+        # HEADLINE citation faithfulness = empirical-claim attribution precision
+        "citation_faithfulness_empirical": (src.get("citation_precision_empirical",
+                                                    src.get("citation_precision")) if hi else None),
+        "empirical_adjudicated": (src.get("empirical") if hi else None),
+        # background/illustrative citations — reported for context, not headlined
+        "citation_faithfulness_background": (src.get("citation_precision_background") if hi else None),
+        "background_adjudicated": (src.get("background") if hi else None),
+        "context_limited_excluded": src.get("context_limited_excluded"),
+        "report_contradictions": (src.get("report_contradictions")
+                                  if src.get("report_contradictions") is not None
                                   else s5.get("verdict_breakdown", {}).get("CONTRADICTED")),
         "numeric_fidelity": s5.get("numeric_fidelity"),
         "uncited_synthesis": s5.get("uncited_synthesis_sentences"),

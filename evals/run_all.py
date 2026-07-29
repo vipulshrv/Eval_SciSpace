@@ -127,7 +127,7 @@ def _print_board(board: dict) -> None:
 
     print("\nTIER B · Hallucination profile   (VERIFIED — 2-panel best-span re-check, extraction + report)")
     print(f"  {'query':22s}{'extr-halluc':>12s}{'(con+ext/adj)':>15s}{'false-abs':>10s}"
-          f"{'cite-prec':>11s}{'rep-contra':>11s}{'num-fidel':>10s}")
+          f"{'cite-emp':>10s}{'cite-bg':>9s}{'rep-contra':>11s}{'num-fidel':>10s}")
     for name, r in board["per_query"].items():
         e = r["scorecard"]["hallucination_profile"]["extraction"]
         rp = r["scorecard"]["hallucination_profile"]["report"]
@@ -135,9 +135,12 @@ def _print_board(board: dict) -> None:
         hr_s = _pct(hr) + ("" if e.get("verified") else "?")
         detail = f"({e['contradictions_intrinsic']}+{e['extrinsic_vs_fulltext']}/{e['adjudicable_cells']})"
         fa = e.get("false_absence_under_extraction")
-        cite = _pct(rp["citation_precision"]) if rp["citation_precision"] is not None else "excl"
+        emp = rp.get("citation_faithfulness_empirical")
+        bg = rp.get("citation_faithfulness_background")
+        cite_e = _pct(emp) if emp is not None else "excl"
+        cite_b = _pct(bg) if bg is not None else "-"
         print(f"  {name:22s}{hr_s:>12s}{detail:>15s}{str(fa) if fa is not None else '-':>10s}"
-              f"{cite:>11s}{str(rp['report_contradictions']):>11s}{_pct(rp['numeric_fidelity']):>10s}")
+              f"{cite_e:>10s}{cite_b:>9s}{str(rp['report_contradictions']):>11s}{_pct(rp['numeric_fidelity']):>10s}")
 
     print(f"\n  total cost ${board['total_cost_usd']}")
     print(f"  note: {board['note']}")
