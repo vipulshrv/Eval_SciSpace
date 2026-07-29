@@ -318,11 +318,38 @@ def _print(res: dict) -> None:
     print(f"\n  cost: ${u['cost_usd']['total']} ({u['judge_calls']} calls)")
 
 
+def rescore(queries: list[str] | None = None) -> None:
+    """Fold verification into stages 4 and 5 for each query, then regenerate the
+    scorecard (results/combined_scores.json) from the verified numbers.
+    Run this AFTER `python -m evals.run_all` has produced the first-pass results."""
+    from . import score
+    from .run_all import build_board, _print_board
+    queries = queries or list(QUERIES.keys())
+    judge = Judge()
+    for q in queries:
+        fold_into_step4(q, judge)
+        fold_into_step5(q, judge)
+
+    per_query = {}
+    for name in QUERIES:
+        dpath = RESULTS_DIR / name / "dashboard.json"
+        if not dpath.exists():
+            continue
+        d = json.loads(dpath.read_text())
+        d["summaries"]["step4_extraction"] = json.loads((RESULTS_DIR / name / "step4_extraction.json").read_text())["summary"]
+        d["summaries"]["step5_report"] = json.loads((RESULTS_DIR / name / "step5_report.json").read_text())["summary"]
+        ds = load_query(name)
+        d["citation_confidence"] = ds.citation_confidence
+        d["scorecard"] = score.profile(d["summaries"], ds.citation_confidence)
+        dpath.write_text(json.dumps(d, indent=2))
+        per_query[name] = d
+
+    board = build_board(per_query)
+    (RESULTS_DIR / "combined_scores.json").write_text(json.dumps(board, indent=2))
+    _print_board(board)
+    print(f"\n  verification cost: ${judge.cost_report()['cost_usd']['total']}")
+
+
 if __name__ == "__main__":
     import sys
-    qs = sys.argv[1:] or None
-    res = run(qs)
-    _print(res)
-    RESULTS_DIR.mkdir(exist_ok=True)
-    (RESULTS_DIR / "verification.json").write_text(json.dumps(res, indent=2))
-    print(f"  wrote {RESULTS_DIR / 'verification.json'}")
+    rescore(sys.argv[1:] or None)
