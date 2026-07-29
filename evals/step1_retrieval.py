@@ -22,6 +22,8 @@ agent year vs CrossRef year.
 
 from __future__ import annotations
 
+import re
+import html
 import json
 import ssl
 import time
@@ -37,6 +39,34 @@ from .data_loader import gut_brain, norm_doi, norm_title
 RESULTS_DIR = Path(__file__).resolve().parent.parent / "results"
 MAILTO = "vipulshrivastava@quvia.ai"
 TITLE_MATCH_THRESHOLD = 0.85
+
+
+def _clean_title(s: str) -> str:
+    """Undo CrossRef's HTML markup before comparison (e.g. '&amp;lt;i&amp;gt;via'
+    -> '<i>via' -> 'via'; '&#174;' -> '®'), so formatting isn't read as a mismatch."""
+    s = s or ""
+    for _ in range(2):
+        s = html.unescape(s)
+    return re.sub(r"<[^>]+>", " ", s)
+
+
+def _title_matches(agent: str, xref: str) -> tuple[bool, float]:
+    """Agent title vs CrossRef title. Counts as a match when identical, when one is
+    contained in the other (subtitle present/absent, or a truncated-but-correct
+    prefix — e.g. agent adds ': The SCALE ... Trial' that CrossRef omits), or when
+    fuzzy similarity clears the threshold. Returns (matched, ratio)."""
+    na = norm_title(_clean_title(agent))
+    nx = norm_title(_clean_title(xref))
+    if not na or not nx:
+        return False, 0.0
+    if na == nx:
+        return True, 1.0
+    # subtitle / truncation: one normalized title contains the other (guard against
+    # a trivially short title matching inside an unrelated long one)
+    if len(na) >= 15 and len(nx) >= 15 and (na in nx or nx in na):
+        return True, 1.0
+    ratio = difflib.SequenceMatcher(None, na, nx).ratio()
+    return ratio >= TITLE_MATCH_THRESHOLD, ratio
 
 try:
     import certifi
@@ -128,15 +158,14 @@ def run(ds=None, workers: int = 8) -> dict:
                 continue
             if rec.status == "resolved":
                 rep.resolved += 1
-                # title accuracy (denominator = resolved)
-                ratio = difflib.SequenceMatcher(
-                    None, norm_title(r.get("Paper Title", "")), norm_title(rec.crossref_title)).ratio()
-                if ratio >= TITLE_MATCH_THRESHOLD:
+                # title accuracy (denominator = resolved); containment + HTML-cleaned
+                matched, ratio = _title_matches(r.get("Paper Title", ""), rec.crossref_title)
+                if matched:
                     rep.title_match += 1
-                elif len(rep.mismatch_examples) < 5:
+                elif len(rep.mismatch_examples) < 30:
                     rep.mismatch_examples.append({
-                        "agent_title": (r.get("Paper Title", "") or "")[:60],
-                        "crossref_title": rec.crossref_title[:60],
+                        "agent_title": (r.get("Paper Title", "") or "")[:160],
+                        "crossref_title": (rec.crossref_title or "")[:160],
                         "ratio": round(ratio, 2),
                     })
                 # year accuracy (denominator = rows where agent supplied a year)

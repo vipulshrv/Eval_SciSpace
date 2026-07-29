@@ -113,10 +113,16 @@ returns a real record. (A non-resolving DOI is reported as *unresolved*, not
 
 **Metadata accuracy** — *is the recorded title/year correct?*
 Computed: among DOI-resolved papers, the share whose agent-recorded title matches the
-CrossRef title (string-similarity ratio ≥ 0.85) and whose year matches exactly.
-Reported per source, then aggregated as `title_matches ÷ resolved`.
-*Completeness* (whether a record even carries a DOI) is tracked separately from
-*accuracy*, because sources differ in how much metadata they return.
+CrossRef title, and whose year matches exactly. Titles are compared after HTML-markup
+cleanup, and a match is accepted when the titles are identical, when one contains the
+other (a present/absent subtitle or a truncated-but-correct title — e.g. the agent's
+`…: The SCALE Diabetes Randomized Clinical Trial` where CrossRef stores only the main
+title), or when fuzzy similarity clears 0.85. Reported per source, then aggregated as
+`title_matches ÷ resolved`. The few residual mismatches are **not fabrications** — they
+are non-English original titles (the agent shows an English title, CrossRef the German/
+French/Italian original) plus one mis-registered DOI whose CrossRef record is an
+unrelated paper. *Completeness* (whether a record even carries a DOI) is tracked
+separately from *accuracy*, because sources differ in how much metadata they return.
 
 ### Stage 2 — Consolidation
 
@@ -207,7 +213,7 @@ precision the sample does not support.
 
 | Metric | Gut–brain | Cancer | GLP-1 | Retinopathy |
 |---|---|---|---|---|
-| Metadata accuracy | 99.5% (212/213) | 100% (208/208) | 97.3% (642/660) | 99.7% (628/630) |
+| Metadata accuracy | 99.5% (212/213) | 100% (208/208) | 99.1% (654/660) | 99.8% (629/630) |
 | Provenance integrity | 100% (94/94) | 100% (98/98) | 100% (255/255) | 100% (278/278) |
 | Fabricated records | 0 / 94 | 0 / 98 | 0 / 255 | 0 / 278 |
 | Criteria coverage | 100% (3/3) | 100% (2/2) | 100% (3/3) | 80% (4/5) |

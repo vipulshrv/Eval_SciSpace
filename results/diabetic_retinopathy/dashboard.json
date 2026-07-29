@@ -14,25 +14,20 @@
           "resolved": 60,
           "not_found": 0,
           "errors": 0,
-          "title_match": 58,
+          "title_match": 59,
           "year_match": 56,
           "year_checked": 60,
           "not_found_titles": [],
           "mismatch_examples": [
             {
-              "agent_title": "Advancing Diabetic Retinopathy Diagnosis: Leveraging Optical",
-              "crossref_title": "Contrast sensitivity and aspects of binocular vision alterat",
+              "agent_title": "Advancing Diabetic Retinopathy Diagnosis: Leveraging Optical Coherence Tomography Imaging with Convolutional Neural Networks.",
+              "crossref_title": "Contrast sensitivity and aspects of binocular vision alteration in  school-aged children after head injury",
               "ratio": 0.21
-            },
-            {
-              "agent_title": "Screening and evaluation of diabetic retinopathy ",
-              "crossref_title": "Screening and evaluation of diabetic retinopathy <i>via</i> ",
-              "ratio": 0.65
             }
           ],
           "doi_completeness": 1.0,
           "resolve_rate": 1.0,
-          "title_accuracy": 0.967,
+          "title_accuracy": 0.983,
           "year_accuracy": 0.933
         },
         {
@@ -305,7 +300,7 @@
   "total_cost_usd": 1.8832,
   "scorecard": {
     "integrity_gates": {
-      "retrieval_metadata_accuracy": 0.9968,
+      "retrieval_metadata_accuracy": 0.9984,
       "consolidation_provenance": 1.0,
       "consolidation_fabricated": 0,
       "criteria_coverage": 0.8,

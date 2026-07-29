@@ -108,7 +108,7 @@
       "citation_confidence": "high",
       "scorecard": {
         "integrity_gates": {
-          "retrieval_metadata_accuracy": 0.9727,
+          "retrieval_metadata_accuracy": 0.9909,
           "consolidation_provenance": 1.0,
           "consolidation_fabricated": 0,
           "criteria_coverage": 1.0,
@@ -160,7 +160,7 @@
       "citation_confidence": "high",
       "scorecard": {
         "integrity_gates": {
-          "retrieval_metadata_accuracy": 0.9968,
+          "retrieval_metadata_accuracy": 0.9984,
           "consolidation_provenance": 1.0,
           "consolidation_fabricated": 0,
           "criteria_coverage": 0.8,
