@@ -243,7 +243,48 @@ pass is what makes the headline numbers trustworthy.
 
 ---
 
-## D. Glossary
+## D. Next steps — evaluations beyond hallucination for production readiness
+
+Faithfulness (this study) is necessary but not sufficient to ship Report Writing: a
+report can be fully grounded in its sources and still cite the wrong papers, miss the
+seminal work, faithfully summarise a predatory-journal preprint, or answer a different
+question than the one asked. The next evaluations I would run — the shortlist a launch
+decision should gate on, in priority order — are:
+
+1. **Retrieval recall.** Did the agent find the papers that matter? It keeps ~94 of
+   ~240 retrieved and reports on a top-30 subset; if it silently drops the landmark
+   studies the report looks authoritative but is incomplete, and recall is invisible to
+   a faithfulness eval. Measure Recall@k against expert-curated "must-cite" sets.
+
+2. **Source credibility.** Are the sources trustworthy? The corpora observed here
+   included predatory/low-tier venues and non-peer-reviewed items; a report that
+   faithfully summarises junk is dangerous precisely because it looks rigorous. Score
+   venue quality and check retraction status.
+
+3. **Query-intent adherence.** Did it answer what was asked? The sample queries demand a
+   *comparison* across specified dimensions; a grounded report that merely lists
+   per-paper summaries has failed the task even at 100% faithfulness.
+
+4. **Citation completeness & resolvable references.** Is every claim cited, and does
+   every `[n]` resolve to a real, correct reference? The truncated reference list seen in
+   this study is a hard ship-blocker for a research tool.
+
+5. **Consensus & calibration.** Because the agent selects a top-30 subset, a selection
+   biased toward positive findings can overstate consensus even with every sentence
+   grounded — a subtle, high-severity failure for research.
+
+6. **Expert acceptance (north star).** Would a domain expert accept the report with only
+   minor edits, and how much time did it save versus writing it by hand? This, plus
+   blind pairwise preference against a baseline, is the metric the launch decision rests
+   on.
+
+Full framing — question, why it matters, how to measure, priority, and which parts reuse
+this harness — is in **`TASK2_additional_evals.md`**, which also covers the P1 hardening
+axes (robustness/consistency, extraction completeness, latency and cost, editability).
+
+---
+
+## E. Glossary
 
 - **Supported / Contradicted / Unsupported** — the three entailment labels the judge
   assigns a claim against its source.
