@@ -1,0 +1,86 @@
+[
+  {
+    "id": "syn-1",
+    "claim": "About 90% of serotonin is produced in the gut.",
+    "source": "Approximately 90% of the body's serotonin is synthesized in the gastrointestinal tract, where gut microbiota regulate its production.",
+    "gold": "SUPPORTED",
+    "note": "explicit"
+  },
+  {
+    "id": "syn-2",
+    "claim": "Serotonin is produced entirely in the brain.",
+    "source": "Approximately 90% of the body's serotonin is synthesized in the gastrointestinal tract, where gut microbiota regulate its production.",
+    "gold": "CONTRADICTED",
+    "note": "source says 90% is in the GI tract"
+  },
+  {
+    "id": "syn-3",
+    "claim": "Gut microbiota cause Parkinson's disease via serotonin.",
+    "source": "Approximately 90% of the body's serotonin is synthesized in the gastrointestinal tract, where gut microbiota regulate its production.",
+    "gold": "UNSUPPORTED",
+    "note": "Parkinson's not in source"
+  },
+  {
+    "id": "cell-5-neuro",
+    "claim": "The gut microbiota-tryptophan-serotonin axis drives anxiety-like behavior via NLRP3-mediated neuronal pyroptosis in the medial prefrontal cortex.",
+    "source": "The paper discusses the gut microbiota-tryptophan-serotonin axis. It highlights how gut microbiota-derived tryptophan metabolism leads to serotonin production, which in turn drives anxiety-like behavior. This process involves NLRP3-mediated neuronal pyroptosis in the medial prefrontal cortex, directly linking neurochemical signaling to behavioral outcomes.",
+    "gold": "SUPPORTED",
+    "note": "verbatim in cell"
+  },
+  {
+    "id": "cell-9-neuro-supp",
+    "claim": "Prebiotics and probiotics reduced colonic 5-HT while increasing 5-HT in the frontal cortex and hippocampus in a chronic unpredictable mild stress rat model.",
+    "source": "This study explored the effect of modulating gut microbiota on serotonin (5-HT) metabolism. Prebiotics and probiotics ameliorated CUMS-induced depressive-like behaviors and tended to reduce colonic 5-HT while increasing 5-HT in the frontal cortex and hippocampus.",
+    "gold": "SUPPORTED",
+    "note": "matches source"
+  },
+  {
+    "id": "cell-9-neuro-contra",
+    "claim": "Prebiotics and probiotics increased colonic 5-HT.",
+    "source": "This study explored the effect of modulating gut microbiota on serotonin (5-HT) metabolism. Prebiotics and probiotics ameliorated CUMS-induced depressive-like behaviors and tended to reduce colonic 5-HT while increasing 5-HT in the frontal cortex and hippocampus.",
+    "gold": "CONTRADICTED",
+    "note": "source says REDUCE colonic 5-HT"
+  },
+  {
+    "id": "cell-9-neuro-unsupp",
+    "claim": "The study reported a 30% reduction in HbA1c.",
+    "source": "This study explored the effect of modulating gut microbiota on serotonin (5-HT) metabolism. Prebiotics and probiotics ameliorated CUMS-induced depressive-like behaviors and tended to reduce colonic 5-HT while increasing 5-HT in the frontal cortex and hippocampus.",
+    "gold": "UNSUPPORTED",
+    "note": "HbA1c not in source"
+  },
+  {
+    "id": "cell-9-design",
+    "claim": "The study used fifty rats separated into a control group and four other groups undergoing chronic unpredictable mild stress.",
+    "source": "This study used a rat model, specifically fifty rats, which were separated into control and four other groups. These groups underwent chronic unpredictable mild stress (CUMS) intervention, with or without treatment using prebiotics and probiotics.",
+    "gold": "SUPPORTED",
+    "note": "verbatim"
+  },
+  {
+    "id": "cell-9-behav",
+    "claim": "Depressive-like behaviors were measured using the sucrose preference test and the forced swimming test.",
+    "source": "The study measured depressive-like behaviors using the sucrose preference test (SPT) and the forced swimming test (FST). CUMS intervention caused a decrease in body weight, an increase in FST, and a decrease in SPT.",
+    "gold": "SUPPORTED",
+    "note": "verbatim"
+  },
+  {
+    "id": "report-90pct-vs-9",
+    "claim": "Approximately 90% of the body's serotonin is synthesized in the gastrointestinal tract.",
+    "source": "This study explored the effect of modulating gut microbiota on serotonin (5-HT) metabolism. Prebiotics and probiotics ameliorated CUMS-induced depressive-like behaviors and tended to reduce colonic 5-HT while increasing 5-HT in the frontal cortex and hippocampus.",
+    "gold": "UNSUPPORTED",
+    "note": "the 90% figure is not in this paper's cell (real Step-5 flag)"
+  },
+  {
+    "id": "cell-9-noeffect-contra",
+    "claim": "Gut microbiota had no effect on serotonin metabolism in this study.",
+    "source": "The study revealed considerable correlations between perturbed microbiota and altered 5-HT metabolism, supporting a causal gut microbiota-serotonin pathway.",
+    "gold": "CONTRADICTED",
+    "note": "source shows a strong effect"
+  },
+  {
+    "id": "cell-3-neuro",
+    "claim": "Gut microbiota influence GABA and serotonin production relevant to mood and behavior regulation.",
+    "source": "Gut microbiota influence neurochemical pathways such as gamma-aminobutyric acid (GABA) and 5-hydroxytryptamine (serotonin) production, crucial for mood and behavior regulation. The gut-brain axis, involving the vagus nerve, also mediates communication.",
+    "gold": "SUPPORTED",
+    "note": "verbatim"
+  }
+]

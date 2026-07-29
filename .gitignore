@@ -1,0 +1,23 @@
+# secrets & local config
+.env
+.claude/
+.idea/
+.venv/
+venv/
+
+# python
+__pycache__/
+*.pyc
+
+# evaluator-side downloaded paper full text (copyrighted source content; large;
+# regenerable with `python -m evals.fetch_papers`)
+data/
+
+# internal working notes / non-deliverables (not part of the shared submission)
+eval_criteria.txt
+strongest_evidence_gut_brain_signaling.md
+3bd839cc-b108-4434-87e7-ef69a797485f_SciSpace_Product_Assignment_ (2) (1) (4).pdf
+
+# superseded / excluded from the final evaluation set
+results/_wearables_excluded/
+artifacts/agent-artifacts-zip_35a424fa-d596-40f7-87f5-6f7b24fdcd8e_1785260853/

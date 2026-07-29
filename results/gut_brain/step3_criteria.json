@@ -1,0 +1,63 @@
+{
+  "summary": {
+    "step": "3_criteria_identification",
+    "query_dimensions": 3,
+    "dimensions_covered": 3,
+    "coverage_rate": 1.0,
+    "uncovered_dimensions": [],
+    "columns_total": 3,
+    "spurious_columns": [],
+    "spurious_count": 0
+  },
+  "detail": {
+    "requested_dimensions": [
+      {
+        "dimension": "Neurochemical signaling pathways",
+        "covered_by_column": "Neurochemical Pathways",
+        "covered": true
+      },
+      {
+        "dimension": "Behavioral outcomes",
+        "covered_by_column": "Key Behavioral Outcomes",
+        "covered": true
+      },
+      {
+        "dimension": "Human vs animal studies",
+        "covered_by_column": "Study Design and Model",
+        "covered": true
+      }
+    ],
+    "columns": [
+      {
+        "column": "Neurochemical Pathways",
+        "grounded_in_query": true,
+        "rationale": "Directly requested: analyzing neurochemical signaling pathways."
+      },
+      {
+        "column": "Study Design and Model",
+        "grounded_in_query": true,
+        "rationale": "Operationalizes the explicit request to compare across human and animal studies."
+      },
+      {
+        "column": "Key Behavioral Outcomes",
+        "grounded_in_query": true,
+        "rationale": "Directly requested: behavioral outcomes."
+      }
+    ]
+  },
+  "usage": {
+    "model": "claude-opus-4-8",
+    "judge_calls": 1,
+    "input_tokens": 766,
+    "output_tokens": 301,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cost_usd": {
+      "input": 0.0038,
+      "output": 0.0075,
+      "cache_read": 0.0,
+      "cache_write": 0.0,
+      "total": 0.0114
+    }
+  }
+}

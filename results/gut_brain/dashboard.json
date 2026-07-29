@@ -1,0 +1,287 @@
+{
+  "query": "gut_brain",
+  "citation_mode": "index",
+  "summaries": {
+    "step1_retrieval": {
+      "step": "1_literature_retrieval",
+      "unique_dois_checked": 213,
+      "per_source": [
+        {
+          "source": "pubmed",
+          "rows": 20,
+          "with_doi": 20,
+          "resolved": 20,
+          "not_found": 0,
+          "errors": 0,
+          "title_match": 20,
+          "year_match": 19,
+          "year_checked": 20,
+          "not_found_titles": [],
+          "mismatch_examples": [],
+          "doi_completeness": 1.0,
+          "resolve_rate": 1.0,
+          "title_accuracy": 1.0,
+          "year_accuracy": 0.95
+        },
+        {
+          "source": "google_scholar",
+          "rows": 20,
+          "with_doi": 14,
+          "resolved": 14,
+          "not_found": 0,
+          "errors": 0,
+          "title_match": 14,
+          "year_match": 12,
+          "year_checked": 13,
+          "not_found_titles": [],
+          "mismatch_examples": [],
+          "doi_completeness": 0.7,
+          "resolve_rate": 1.0,
+          "title_accuracy": 1.0,
+          "year_accuracy": 0.923
+        },
+        {
+          "source": "scispace_abstract",
+          "rows": 100,
+          "with_doi": 97,
+          "resolved": 86,
+          "not_found": 11,
+          "errors": 0,
+          "title_match": 86,
+          "year_match": 82,
+          "year_checked": 85,
+          "not_found_titles": [
+            "Microbiome and mind: current insights and future directions ",
+            "The Role of the Microbiota-Gut-Brain Axis in Psychiatric and",
+            "Microbiome and mind: current insights and future directions ",
+            "The Role of the Microbiota-Gut-Brain Axis in Psychiatric and",
+            "The Role of the Gut Microbiota in the Pathophysiology of Men"
+          ],
+          "mismatch_examples": [],
+          "doi_completeness": 0.97,
+          "resolve_rate": 0.887,
+          "title_accuracy": 1.0,
+          "year_accuracy": 0.965
+        },
+        {
+          "source": "scispace_fulltext",
+          "rows": 100,
+          "with_doi": 95,
+          "resolved": 93,
+          "not_found": 2,
+          "errors": 0,
+          "title_match": 92,
+          "year_match": 91,
+          "year_checked": 93,
+          "not_found_titles": [
+            "The microbiota-gut-brain axis. a study in zebrafish (danio r",
+            "The prebiotic inulin beneficially modulates the gut-brain ax"
+          ],
+          "mismatch_examples": [
+            {
+              "agent_title": "Microbial\u2013host metabolic systems interactions and the gut\u2013br",
+              "crossref_title": "Microbiome\u2013host systems interactions: Protective effects of ",
+              "ratio": 0.8
+            }
+          ],
+          "doi_completeness": 0.95,
+          "resolve_rate": 0.979,
+          "title_accuracy": 0.989,
+          "year_accuracy": 0.978
+        }
+      ]
+    },
+    "step2_consolidation": {
+      "step": "2_consolidation",
+      "n_combined": 94,
+      "provenance_rate": 1.0,
+      "provenance_breakdown": {
+        "by_doi": 87,
+        "by_title_exact": 7,
+        "by_title_fuzzy": 0
+      },
+      "fabricated_count": 0,
+      "fabricated_titles": [],
+      "merge_doi_drift_count": 0,
+      "merge_year_drift_count": 0,
+      "duplicate_group_count": 0,
+      "duplicate_extra_rows": 0,
+      "retrieval_recall_note": {
+        "raw_source_rows": 240,
+        "unique_source_papers": 226,
+        "kept_in_combined": 94,
+        "comment": "raw->combined drop is retrieval recall (Task 2), logged not scored"
+      }
+    },
+    "step3_criteria": {
+      "step": "3_criteria_identification",
+      "query_dimensions": 3,
+      "dimensions_covered": 3,
+      "coverage_rate": 1.0,
+      "uncovered_dimensions": [],
+      "columns_total": 3,
+      "spurious_columns": [],
+      "spurious_count": 0
+    },
+    "step4_extraction": {
+      "step": "4_data_extraction",
+      "content_cells_graded": 87,
+      "groundedness_rate_lower_bound": 0.7011,
+      "verdict_breakdown": {
+        "SUPPORTED_grounded": 61,
+        "CONTRADICTED_intrinsic_hallucination": 0,
+        "UNSUPPORTED": 26
+      },
+      "reliable_signals": {
+        "grounded": 61,
+        "intrinsic_hallucinations": 0,
+        "extrinsic_hallucinations_vs_fulltext": 11
+      },
+      "unverifiable_needs_fulltext": 15,
+      "groundedness_by_source_level": {
+        "abstract_only": {
+          "graded": 48,
+          "supported": 46,
+          "rate": 0.958
+        },
+        "fulltext_downloaded": {
+          "graded": 23,
+          "supported": 12,
+          "rate": 0.522
+        },
+        "fulltext_excerpt": {
+          "graded": 5,
+          "supported": 0,
+          "rate": 0.0
+        },
+        "snippet_only": {
+          "graded": 11,
+          "supported": 3,
+          "rate": 0.273
+        }
+      },
+      "nodata_cells": 3,
+      "false_na_under_extraction": 1,
+      "verified": {
+        "flagged_rechecked": 11,
+        "grounded": 71,
+        "confirmed_contradictions": 0,
+        "confirmed_extrinsic": 1,
+        "false_absence_under_extraction": 0,
+        "uncertain_or_not_claim": 0,
+        "adjudicable": 72,
+        "hallucination_rate": 0.0139,
+        "grounded_rate": 0.9861,
+        "first_pass_flagged": 0
+      }
+    },
+    "step5_report": {
+      "step": "5_report_generation",
+      "total_claim_sentences": 350,
+      "cited_sentences": 138,
+      "uncited_synthesis_sentences": 212,
+      "graded_cited": 138,
+      "citation_precision": 0.9058,
+      "verdict_breakdown": {
+        "SUPPORTED": 125,
+        "UNSUPPORTED": 13,
+        "CONTRADICTED": 0
+      },
+      "numeric_fidelity": 0.963,
+      "numbers_checked": 27,
+      "numbers_missing": 1,
+      "verified": {
+        "graded_cited": 138,
+        "flagged_rechecked": 13,
+        "supported": 133,
+        "report_contradictions": 0,
+        "unsupported": 5,
+        "citation_precision": 0.9638,
+        "first_pass_citation_precision": 0.9058,
+        "first_pass_contradictions": 0
+      }
+    }
+  },
+  "usage_by_step": {
+    "step3_criteria": {
+      "model": "claude-opus-4-8",
+      "judge_calls": 1,
+      "input_tokens": 766,
+      "output_tokens": 301,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "cost_usd": {
+        "input": 0.0038,
+        "output": 0.0075,
+        "cache_read": 0.0,
+        "cache_write": 0.0,
+        "total": 0.0114
+      }
+    },
+    "step4_extraction": {
+      "model": "claude-opus-4-8",
+      "judge_calls": 90,
+      "input_tokens": 838029,
+      "output_tokens": 17732,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "cost_usd": {
+        "input": 4.1901,
+        "output": 0.4433,
+        "cache_read": 0.0,
+        "cache_write": 0.0,
+        "total": 4.6334
+      }
+    },
+    "step5_report": {
+      "model": "claude-opus-4-8",
+      "judge_calls": 138,
+      "input_tokens": 433200,
+      "output_tokens": 23052,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "cost_usd": {
+        "input": 2.166,
+        "output": 0.5763,
+        "cache_read": 0.0,
+        "cache_write": 0.0,
+        "total": 2.7423
+      }
+    }
+  },
+  "total_cost_usd": 7.3871,
+  "citation_confidence": "high",
+  "scorecard": {
+    "integrity_gates": {
+      "retrieval_metadata_accuracy": 0.9953,
+      "consolidation_provenance": 1.0,
+      "consolidation_fabricated": 0,
+      "criteria_coverage": 1.0,
+      "criteria_spurious_columns": 0,
+      "criteria_uncovered": []
+    },
+    "hallucination_profile": {
+      "extraction": {
+        "verified": true,
+        "adjudicable_cells": 72,
+        "grounded": 71,
+        "contradictions_intrinsic": 0,
+        "extrinsic_vs_fulltext": 1,
+        "hallucination_rate": 0.0139,
+        "grounded_rate": 0.9861,
+        "false_absence_under_extraction": 0,
+        "unverifiable_fragment_only": 15,
+        "fulltext_coverage": 0.2644
+      },
+      "report": {
+        "verified": true,
+        "citation_confidence": "high",
+        "cited_sentences": 138,
+        "citation_precision": 0.9638,
+        "report_contradictions": 0,
+        "numeric_fidelity": 0.963,
+        "uncited_synthesis": 212
+      }
+    }
+  }
+}

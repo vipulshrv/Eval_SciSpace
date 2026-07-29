@@ -1,0 +1,90 @@
+{
+  "summary": {
+    "step": "1_literature_retrieval",
+    "unique_dois_checked": 230,
+    "per_source": [
+      {
+        "source": "pubmed",
+        "rows": 20,
+        "with_doi": 20,
+        "resolved": 20,
+        "not_found": 0,
+        "errors": 0,
+        "title_match": 20,
+        "year_match": 20,
+        "year_checked": 20,
+        "not_found_titles": [],
+        "mismatch_examples": [],
+        "doi_completeness": 1.0,
+        "resolve_rate": 1.0,
+        "title_accuracy": 1.0,
+        "year_accuracy": 1.0
+      },
+      {
+        "source": "google_scholar",
+        "rows": 20,
+        "with_doi": 17,
+        "resolved": 16,
+        "not_found": 1,
+        "errors": 0,
+        "title_match": 16,
+        "year_match": 14,
+        "year_checked": 16,
+        "not_found_titles": [
+          "From classical machine learning to emerging foundation model"
+        ],
+        "mismatch_examples": [],
+        "doi_completeness": 0.85,
+        "resolve_rate": 0.941,
+        "title_accuracy": 1.0,
+        "year_accuracy": 0.875
+      },
+      {
+        "source": "scispace_abstract",
+        "rows": 100,
+        "with_doi": 100,
+        "resolved": 77,
+        "not_found": 23,
+        "errors": 0,
+        "title_match": 77,
+        "year_match": 71,
+        "year_checked": 76,
+        "not_found_titles": [
+          "LungGuard- A Multimodal Deep Learning System for Early Lung ",
+          "Advancing Early Detection Paradigms in Breast Cancer: A Syst",
+          "From biomarkers to breakthroughs - advancing early cancer de",
+          "OncoAIFusion: A Unified Artificial Intelligence System for M",
+          "OncoAIFusion: A Unified Artificial Intelligence System for M"
+        ],
+        "mismatch_examples": [],
+        "doi_completeness": 1.0,
+        "resolve_rate": 0.77,
+        "title_accuracy": 1.0,
+        "year_accuracy": 0.934
+      },
+      {
+        "source": "scispace_fulltext",
+        "rows": 100,
+        "with_doi": 100,
+        "resolved": 95,
+        "not_found": 5,
+        "errors": 0,
+        "title_match": 95,
+        "year_match": 94,
+        "year_checked": 95,
+        "not_found_titles": [
+          "Medical AI for Early Detection of Lung Cancer: A Survey",
+          "An updated overview of radiomics-based artificial intelligen",
+          "Artificial Intelligence-Informed Handheld Breast Ultrasound ",
+          "Intelligent Detection for Pancreatic Cancer Diagnosis: Futur",
+          "AI in Oncology: Transforming Cancer Detection through Machin"
+        ],
+        "mismatch_examples": [],
+        "doi_completeness": 1.0,
+        "resolve_rate": 0.95,
+        "title_accuracy": 1.0,
+        "year_accuracy": 0.989
+      }
+    ]
+  }
+}

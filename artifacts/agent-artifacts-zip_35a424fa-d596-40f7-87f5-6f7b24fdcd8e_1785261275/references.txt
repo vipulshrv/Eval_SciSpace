@@ -1,0 +1,65 @@
+References (32)
+[1]
+C. Marcia and M. Carla, “Efficacy and safety of semaglutide for obesity: A systematic review of phase 3 clinical trials,” Science letters, May 2025, doi: 10.48797/sl.2025.374.
+[2]
+W. T. Garvey et al., “Two-year effects of semaglutide in adults with overweight or obesity: the STEP 5 trial,” Nature Medicine, vol. 28, no. 10, pp. 2083–2091, Oct. 2022, doi: 10.1038/s41591-022-02026-4.
+[3]
+B. A. Borlaug et al., “Semaglutide in HFpEF across obesity class and by body weight reduction: a prespecified analysis of the STEP-HFpEF trial,” July 2024, doi: 10.60692/9fweb-02a71.
+[4]
+T. A. Wadden et al., “Effect of Subcutaneous Semaglutide vs Placebo as an Adjunct to Intensive Behavioral Therapy on Body Weight in Adults With Overweight or Obesity: The STEP 3 Randomized Clinical Trial.,” JAMA, vol. 325, no. 14, pp. 1403–1413, Apr. 2021, doi: 10.1001/JAMA.2021.1831.
+[5]
+“Clinical Insight on Semaglutide for Chronic Weight Management in Adults: Patient Selection and Special Considerations,” Drug Design Development and Therapy, vol. Volume 16, pp. 4449–4461, Dec. 2022, doi: 10.2147/dddt.s365416.
+[6]
+S. H. Suresh et al., “Abstract 9: Once-weekly subcutaneous semaglutide 2.4 mg reduces body weight in adults with overweight or obesity regardless of baseline characteristics (STEP 1),” Indian Journal of Endocrinology and Metabolism, vol. 26, pp. S9–S9, Mar. 2022, doi: 10.4103/2230-8210.342310.
+[7]
+B. Gallwitz and F. Giorgino, “Clinical Perspectives on the Use of Subcutaneous and Oral Formulations of Semaglutide,” Frontiers in Endocrinology, vol. 12, p. 645507, Jan. 2021, doi: 10.3389/FENDO.2021.645507.
+[8]
+A. Moiz, J. Y. Levett, K. B. Filion, K. Peri, P. Reynier, and M. J. Eisenberg, “Abstract 15741: Long-Term Efficacy and Safety of Once-Weekly Semaglutide for Weight Loss in Individuals With Obesity or Overweight but Without Diabetes: A Systematic Review and Meta-Analysis of Randomized Controlled Trials,” Circulation, Nov. 2023, doi: 10.1161/circ.148.suppl_1.15741.
+[9]
+T. Nolan, “Tom Nolan’s research reviews—20 January 2022,” BMJ, vol. 376, pp. o130–o130, Jan. 2022, doi: 10.1136/bmj.o130.
+[10]
+A. Milluzzo, L. Manuella, and L. Sciacca, “Semaglutide: a game changer for metabolic diseases?,” Exploration of medicine, pp. 173–180, Apr. 2022, doi: 10.37349/emed.2022.00083.
+[11]
+J. D. Ard, A. K. Fitch, S. Fruh, and L. Herman, “Weight Loss and Maintenance Related to the Mechanism of Action of Glucagon-Like Peptide 1 Receptor Agonists,” Advances in Therapy, vol. 38, no. 6, pp. 2821–2839, May 2021, doi: 10.1007/S12325-021-01710-0.
+[12]
+A. Fornes, J. Huff, R. I. Pritchard, and M. Godfrey, “Once-Weekly Semaglutide for Weight Management: A Clinical Review,” The Journal of pharmacy technology, vol. 38, no. 4, pp. 239–246, May 2022, doi: 10.1177/87551225221092681.
+[13]
+S. Wharton et al., “Two‐year effect of semaglutide 2.4 mg on control of eating in adults with overweight/obesity: STEP 5,” Obesity, vol. 31, no. 3, pp. 703–715, Jan. 2023, doi: 10.1002/oby.23673.
+[14]
+J. W. Son and S. Lim, “Glucagon-Like Peptide-1 Based Therapies: A New Horizon in Obesity Management.,” Endocrinology and Metabolism, Apr. 2024, doi: 10.3803/enm.2024.1940.
+[15]
+D. H. Ryan et al., “Long-term weight loss effects of semaglutide in obesity without diabetes in the SELECT trial.,” news@nature.com, May 2024, doi: 10.1038/s41591-024-02996-7.
+[16]
+G. Dorneles, E. Algeri, G. Lauterbach, M. Pereira, and B. Fernandes, “Efficacy and safety of once-weekly subcutaneous semaglutide in adults with overweight or obesity: systematic review with meta-analysis.,” Experimental and Clinical Endocrinology & Diabetes, Apr. 2024, doi: 10.1055/a-2303-8558.
+[17]
+J. P. H. Wilding et al., “Weight regain and cardiometabolic effects after withdrawal of semaglutide: The STEP 1 trial extension,” Diabetes, Obesity and Metabolism, vol. 24, no. 8, pp. 1553–1564, Apr. 2022, doi: 10.1111/dom.14725.
+[18]
+Rubino et al., “Effect of Weekly Subcutaneous Semaglutide vs Daily Liraglutide on Body Weight in Adults With Overweight or Obesity Without Diabetes: The STEP 8 Randomized Clinical Trial.,” JAMA, 2022, doi: 10.1001/jama.2021.23619.
+[19]
+L. B. Knudsen and J. Lau, “The Discovery and Development of Liraglutide and Semaglutide,” Frontiers in Endocrinology, vol. 10, pp. 155–155, Apr. 2019, doi: 10.3389/FENDO.2019.00155.
+[20]
+H. Gasoyan, E. R. Pfoh, R. Schulte, P. Le, W. S. Butsch, and M. B. Rothberg, “One-Year Weight Reduction With Semaglutide or Liraglutide in Clinical Practice,” JAMA network open, vol. 7, Sept. 2024, doi: 10.1001/jamanetworkopen.2024.33326.
+[21]
+Nauck and D’Alessio, “Tirzepatide, a dual GIP/GLP-1 receptor co-agonist for the treatment of type 2 diabetes with unmatched effectiveness regrading glycaemic control and body weight reduction.,” Cardiovascular diabetology, 2022, doi: 10.1186/s12933-022-01604-7.
+[22]
+S. G. Ravindran and A. Baskar, “Tirzepatide: A Promising Drug for Type 2 Diabetes and Beyond,” Cureus, vol. 15, May 2023, doi: 10.7759/cureus.38379.
+[23]
+J. Cecot et al., “Tirzepatide in obesity management: efficacy and safety - insights from recent clinical trials,” Archiv EuroMedica, vol. 14, no. 4, Sept. 2024, doi: 10.35630/2024/14/4.412.
+[24]
+E. R. Hankosky et al., “SAT658 Tirzepatide Reduces The Predicted Risk Of Developing Atherosclerotic Cardiovascular Disease: A Post-hoc Analysis Of The Surmount-1 Trial,” Journal of the Endocrine Society, vol. 7, no. Supplement_1, Oct. 2023, doi: 10.1210/jendso/bvad114.106.
+[25]
+H. A. Abdul-Hafez et al., “Tirzepatide and Cardiovascular Outcomes: A Narrative Review of Mechanisms, Efficacy and Implications for Heart Failure Management,” Endocrinology, diabetes & metabolism, vol. 9, Jan. 2026, doi: 10.1002/edm2.70152.
+[26]
+O. Schnell et al., “CVOT Summit 2022 Report: new cardiovascular, kidney, and glycemic outcomes,” Cardiovascular Diabetology, vol. 22, no. 1, Mar. 2023, doi: 10.1186/s12933-023-01788-6.
+[27]
+W. Qin et al., “Efficacy and safety of once-weekly tirzepatide for weight management compared to placebo: An updated systematic review and meta-analysis including the latest SURMOUNT-2 trial,” Endocrine, June 2024, doi: 10.1007/s12020-024-03896-z.
+[28]
+D. Rubino et al., “Gastrointestinal tolerability and weight reduction associated with tirzepatide in adults with obesity or overweight with and without type 2 diabetes in the <scp>SURMOUNT</scp>‐1 to ‐4 trials,” Diabetes, Obesity and Metabolism, Jan. 2025, doi: 10.1111/dom.16176.
+[29]
+T. A. Wadden et al., “Tirzepatide after intensive lifestyle intervention in adults with overweight or obesity: the SURMOUNT-3 phase 3 trial.,” news@nature.com, Oct. 2023, doi: 10.1038/s41591-023-02597-w.
+[30]
+C. Kim, A. Jastreboff, H. Krumholz, and Y. Lu, “Abstract 4367801: Tirzepatide Achieves Greater Weight and Blood Pressure Reduction Than Semaglutide in Routine Clinical Practice,” Circulation, vol. 152, no. Suppl_3, Nov. 2025, doi: 10.1161/circ.152.suppl_3.4367801.
+[31]
+R. Wardeh, T. H. E. Iswadi, H. Alsharayri, F. Rashid, N. Alhashemi, and A. Bashier, “Dual GLP-1/GIP Agonist Tirzepatide for Diabetes and Obesity: A Review of the Evidence,” Journal of diabetes and endocrine practice, Oct. 2023, doi: 10.1055/s-0043-1775966.
+[32]
+W. T. Garvey et al., “Tirzepatide once weekly for the treatment of obesity in people with type 2 diabetes (SURMOUNT-2): a double-blind, randomised, multicentre, placebo-controlled, phase 3 trial,” The New England Journal of Medicine, vol. 387, no. 3, pp. 205–216, June 2022, doi: 10.1056/nejmoa2206038.

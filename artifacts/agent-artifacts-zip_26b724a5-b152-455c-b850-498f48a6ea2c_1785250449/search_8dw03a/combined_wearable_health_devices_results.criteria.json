@@ -1,0 +1,28 @@
+{
+    "query": "wearable health devices chronic disease management adherence accuracy health outcomes",
+    "criteria": {
+        "required_relevance_criteria": [
+            {
+                "name": "Wearable health devices for chronic disease management",
+                "description": "The paper must discuss wearable health devices specifically in the context of managing chronic diseases.",
+                "weight": 0.4
+            },
+            {
+                "name": "Adherence in chronic disease management via wearables",
+                "description": "The paper must address adherence (patient or treatment compliance) related to the use of wearable health devices for chronic disease management.",
+                "weight": 0.2
+            },
+            {
+                "name": "Accuracy of wearables in chronic disease management",
+                "description": "The paper must address the accuracy of wearable health devices used for chronic disease management.",
+                "weight": 0.2
+            },
+            {
+                "name": "Health outcomes of wearables in chronic disease management",
+                "description": "The paper must address health outcomes resulting from the use of wearable health devices for chronic disease management.",
+                "weight": 0.2
+            }
+        ],
+        "nice_to_have_relevance_criteria": null
+    }
+}

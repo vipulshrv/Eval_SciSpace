@@ -1,0 +1,2061 @@
+{
+  "summary": {
+    "step": "5_report_generation",
+    "total_claim_sentences": 113,
+    "cited_sentences": 51,
+    "uncited_synthesis_sentences": 62,
+    "graded_cited": 51,
+    "citation_precision": 0.5294,
+    "verdict_breakdown": {
+      "SUPPORTED": 27,
+      "UNSUPPORTED": 22,
+      "CONTRADICTED": 2
+    },
+    "numeric_fidelity": 0.8657,
+    "numbers_checked": 134,
+    "numbers_missing": 18,
+    "verified": {
+      "graded_cited": 51,
+      "flagged_rechecked": 24,
+      "supported": 33,
+      "report_contradictions": 0,
+      "unsupported": 17,
+      "citation_precision": 0.6471,
+      "first_pass_citation_precision": 0.5294,
+      "first_pass_contradictions": 2
+    }
+  },
+  "usage": {
+    "model": "claude-opus-4-8",
+    "judge_calls": 51,
+    "input_tokens": 115281,
+    "output_tokens": 9113,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cost_usd": {
+      "input": 0.5764,
+      "output": 0.2278,
+      "cache_read": 0.0,
+      "cache_write": 0.0,
+      "total": 0.8042
+    }
+  },
+  "sentences": [
+    {
+      "idx": 0,
+      "text": "Diabetic retinopathy (DR) is a leading cause of preventable blindness worldwide, affecting over 93 million individuals.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [
+        "93"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 1,
+      "text": "Automated screening using deep learning, particularly convolutional neural networks (CNNs), has emerged as a transformative approach to scaling DR detection beyond the constraints of specialist ophthalmologic assessment.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 2,
+      "text": "This report synthesizes findings from recent studies (2016\u20132026) that evaluate CNN-based models for DR screening from retinal fundus images, comparing their diagnostic performance in terms of sensitivity, specificity, and area under the receiver operating characteristic curve (AUC).",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [
+        "2016",
+        "2026"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 3,
+      "text": "The evidence demonstrates that modern CNN architectures\u2014including EfficientNet, ResNet, DenseNet, Inception, and hybrid CNN-Transformer models\u2014achieve clinically relevant performance, with sensitivity values ranging from 74% to 99%, specificity from 87% to 99%, and AUC from 91% to 99% depending on the architecture, dataset, and classification task (binary vs. multi-class severity grading).",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [
+        "74%",
+        "99%",
+        "87%",
+        "99%",
+        "91%",
+        "99%"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 4,
+      "text": "Models trained on large-scale datasets such as EyePACS and validated externally on APTOS, Messidor, and IDRiD show strong but variable generalization.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 5,
+      "text": "Hybrid architectures and attention mechanisms represent the current frontier, offering incremental improvements over classical CNNs while enhancing interpretability.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 6,
+      "text": "Key challenges remain in cross-dataset generalization, class imbalance, and deployment in resource-limited clinical settings.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 7,
+      "text": "2. [Background and Theoretical Foundations](#2-background-and-theoretical-foundations)",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [
+        "2",
+        "2"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 8,
+      "text": "3. [CNN Architectures for Diabetic Retinopathy Detection](#3-cnn-architectures-for-diabetic-retinopathy-detection)",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [
+        "3",
+        "3"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 9,
+      "text": "4. [Benchmark Datasets](#4-benchmark-datasets)",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [
+        "4",
+        "4"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 10,
+      "text": "5. [Comparative Performance Analysis](#5-comparative-performance-analysis)",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [
+        "5",
+        "5"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 11,
+      "text": "7. [Future Directions and Recommendations](#7-future-directions-and-recommendations)",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [
+        "7",
+        "7"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 12,
+      "text": "Diabetic retinopathy is a microvascular complication of diabetes mellitus that affects the retinal vasculature, leading to progressive vision loss if undetected and untreated.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 13,
+      "text": "With the global diabetic population exceeding 500 million, the demand for scalable, accurate, and accessible screening programs has intensified.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [
+        "500"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 14,
+      "text": "Traditional DR screening relies on manual grading of retinal fundus photographs by ophthalmologists\u2014a process that is time-consuming, costly, and subject to inter-observer variability [3].",
+      "citations": [
+        3
+      ],
+      "kind": "cited",
+      "verdict": "UNSUPPORTED",
+      "confidence": "high",
+      "evidence_span": "",
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": [],
+      "verified_state": "unsupported",
+      "verified_panel": {
+        "supporter_verdict": "UNSUPPORTED",
+        "skeptic_verdict": "UNSUPPORTED"
+      }
+    },
+    {
+      "idx": 15,
+      "text": "The advent of deep learning, particularly convolutional neural networks, has provided a paradigm shift in medical image analysis.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 16,
+      "text": "Since the landmark study by Gulshan et al. (2016), which demonstrated that a deep learning algorithm could detect referable DR with high sensitivity and specificity from fundus images [27], the field has rapidly expanded.",
+      "citations": [
+        27
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "evidence_span": "an algorithm based on deep machine learning had high sensitivity and specificity for detecting referable diabetic retinopathy",
+      "numbers": [
+        "2016"
+      ],
+      "numbers_grounded": [
+        "2016"
+      ],
+      "numbers_missing": []
+    },
+    {
+      "idx": 17,
+      "text": "Numerous architectures\u2014from AlexNet and VGGNet to modern EfficientNets, DenseNets, and hybrid CNN-Transformer models\u2014have been evaluated across diverse datasets, classification tasks, and clinical settings [20], [24].",
+      "citations": [
+        20,
+        24
+      ],
+      "kind": "cited",
+      "verdict": "UNSUPPORTED",
+      "confidence": "medium",
+      "evidence_span": "Specific CNN architectures mentioned include Inception-V3, EfficientNetB8, and CNNs combined with other techniques.",
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": [],
+      "verified_state": "supported",
+      "verified_panel": {
+        "supporter_verdict": "SUPPORTED",
+        "skeptic_verdict": "SUPPORTED"
+      }
+    },
+    {
+      "idx": 18,
+      "text": "This report provides a systematic comparative analysis of CNN architectures for DR screening, focusing on three critical diagnostic metrics: sensitivity (the ability to correctly identify DR cases), specificity (the ability to correctly identify healthy cases), and AUC (the overall discriminative ability of the model).",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 19,
+      "text": "The analysis draws on studies utilizing major benchmark datasets including EyePACS, APTOS, Messidor, IDRiD, and various clinical datasets, enabling assessment of both internal validation performance and cross-dataset generalizability.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 20,
+      "text": "DR is clinically graded on a severity scale: No DR, Mild Non-Proliferative DR (NPDR), Moderate NPDR, Severe NPDR, and Proliferative DR (PDR).",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 21,
+      "text": "Screening systems may perform binary classification (referable vs. non-referable DR) or multi-class severity grading across all five levels.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 22,
+      "text": "The choice of classification granularity directly impacts reported performance metrics, with binary tasks generally yielding higher sensitivity and specificity values than five-class grading [3], [5].",
+      "citations": [
+        3,
+        5
+      ],
+      "kind": "cited",
+      "verdict": "UNSUPPORTED",
+      "confidence": "high",
+      "evidence_span": "",
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": [],
+      "verified_state": "unsupported",
+      "verified_panel": {
+        "supporter_verdict": "UNSUPPORTED",
+        "skeptic_verdict": "UNSUPPORTED"
+      }
+    },
+    {
+      "idx": 23,
+      "text": "CNNs extract hierarchical spatial features from images through successive convolutional, pooling, and fully connected layers.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 24,
+      "text": "Transfer learning\u2014pre-training on large-scale natural image datasets (e.g., ImageNet) and fine-tuning on medical images\u2014has become the standard paradigm for DR detection, addressing the challenge of limited labeled medical data [20], [28].",
+      "citations": [
+        20,
+        28
+      ],
+      "kind": "cited",
+      "verdict": "UNSUPPORTED",
+      "confidence": "high",
+      "evidence_span": "",
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": [],
+      "verified_state": "unsupported",
+      "verified_panel": {
+        "supporter_verdict": "UNSUPPORTED",
+        "skeptic_verdict": "UNSUPPORTED"
+      }
+    },
+    {
+      "idx": 25,
+      "text": "Key architectural innovations include residual connections (ResNet), dense connectivity (DenseNet), efficient channel scaling (EfficientNet), inception modules (GoogLeNet/Inception), and more recently, attention mechanisms and transformer-based global context modeling [7], [21].",
+      "citations": [
+        7,
+        21
+      ],
+      "kind": "cited",
+      "verdict": "UNSUPPORTED",
+      "confidence": "high",
+      "evidence_span": "",
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": [],
+      "verified_state": "unsupported",
+      "verified_panel": {
+        "supporter_verdict": "UNSUPPORTED",
+        "skeptic_verdict": "UNSUPPORTED"
+      }
+    },
+    {
+      "idx": 26,
+      "text": "Three primary metrics are used to evaluate DR screening systems:",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 27,
+      "text": "**ResNet (Residual Networks):** ResNet architectures, particularly ResNet-50 and ResNet-101, are among the most frequently employed models for DR detection.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [
+        "50",
+        "101"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 28,
+      "text": "Zaier and Zribi (2025) reported that ResNet-50 achieved 96% accuracy, 94% sensitivity, 97% specificity, and an AUC of 96% on external validation using the APTOS dataset [1].",
+      "citations": [
+        1
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "evidence_span": "ResNet-50 demonstrated similarly high performance with an accuracy of 96%, QWK of 86%, sensitivity of 94%, specificity of 97%, and AUC of 96%.",
+      "numbers": [
+        "2025",
+        "50",
+        "96%",
+        "94%",
+        "97%",
+        "96%"
+      ],
+      "numbers_grounded": [
+        "50",
+        "96%",
+        "94%",
+        "97%",
+        "96%"
+      ],
+      "numbers_missing": [
+        "2025"
+      ]
+    },
+    {
+      "idx": 29,
+      "text": "Asia et al. (2022) demonstrated that ResNet-101 achieved 97% accuracy, 96.87% sensitivity, 98.03% specificity, and an AUC of 97.26% across multiple datasets [22].",
+      "citations": [
+        22
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "evidence_span": "sensitivity of 96.87%, specificity of 98.03%, F1 score of 96.95%, and AUC of 97.26%",
+      "numbers": [
+        "2022",
+        "101",
+        "97%",
+        "96.87%",
+        "98.03%",
+        "97.26%"
+      ],
+      "numbers_grounded": [
+        "101",
+        "97%",
+        "96.87%",
+        "98.03%",
+        "97.26%"
+      ],
+      "numbers_missing": [
+        "2022"
+      ]
+    },
+    {
+      "idx": 30,
+      "text": "The residual learning framework enables training of very deep networks without degradation, making it well-suited for fine-grained DR feature extraction.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 31,
+      "text": "**VGGNet:** VGG-16 and VGG-19 remain popular baseline architectures. \u00c7inarer and Kili\u00e7 (2021) reported VGG-16 achieving a 99.6% AUC and 98.1% accuracy on the APTOS dataset [11].",
+      "citations": [
+        11
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "evidence_span": "the VggNET-16 model achieved a 99.6% AUC score and 98.1% accuracy",
+      "numbers": [
+        "16",
+        "19",
+        "2021",
+        "16",
+        "99.6%",
+        "98.1%"
+      ],
+      "numbers_grounded": [
+        "16",
+        "19",
+        "16",
+        "99.6%",
+        "98.1%"
+      ],
+      "numbers_missing": [
+        "2021"
+      ]
+    },
+    {
+      "idx": 32,
+      "text": "The survey by Sarki et al. (2020) noted VGGNet achieving 93.6% AUC, 90.5% sensitivity, and 91.6% specificity for DR detection [20].",
+      "citations": [
+        20
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "evidence_span": "VGGNet reported AUC 93.6%, sensitivity 90.5%, specificity 91.6%.",
+      "numbers": [
+        "2020",
+        "93.6%",
+        "90.5%",
+        "91.6%"
+      ],
+      "numbers_grounded": [
+        "93.6%",
+        "90.5%",
+        "91.6%"
+      ],
+      "numbers_missing": [
+        "2020"
+      ]
+    },
+    {
+      "idx": 33,
+      "text": "**AlexNet:** As an earlier architecture, AlexNet provides a useful baseline.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 34,
+      "text": "Elsawah et al. (2024) achieved 95.73% accuracy, 95.73% sensitivity, and 98.51% specificity using an AlexNet-based system on the IDRiD dataset [18].",
+      "citations": [
+        18
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "evidence_span": "Our system achieves an overall accuracy of 95.73%, sensitivity of 95.73%, and specificity of 98.51% utilizing an AlexNet-based architecture and a pixel-wise NN classifier",
+      "numbers": [
+        "2024",
+        "95.73%",
+        "95.73%",
+        "98.51%"
+      ],
+      "numbers_grounded": [
+        "95.73%",
+        "95.73%",
+        "98.51%"
+      ],
+      "numbers_missing": [
+        "2024"
+      ]
+    },
+    {
+      "idx": 35,
+      "text": "Sarki et al. (2020) reported AlexNet achieving 98.0% AUC, 96.8% sensitivity, and 87.0% specificity on Messidor-2 [20].",
+      "citations": [
+        20
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "evidence_span": "AlexNet achieved AUC of 98.0%, sensitivity 96.8%, specificity 87.0% on Messidor-2",
+      "numbers": [
+        "2020",
+        "98.0%",
+        "96.8%",
+        "87.0%",
+        "2"
+      ],
+      "numbers_grounded": [
+        "98.0%",
+        "96.8%",
+        "87.0%",
+        "2"
+      ],
+      "numbers_missing": [
+        "2020"
+      ]
+    },
+    {
+      "idx": 36,
+      "text": "**Inception (GoogLeNet) Family:** InceptionV3 and InceptionResNet incorporate multi-scale feature extraction through parallel convolutional pathways.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [
+        "3"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 37,
+      "text": "Reguant et al. (2021) evaluated Inception-v3, ResNet50, InceptionResNet, and Xception on EyePACS and DIARETDB1, finding accuracy of 89\u201395%, AUC of 95\u201398%, sensitivity of 74\u201386%, and specificity of 93\u201397% [4].",
+      "citations": [
+        4
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "evidence_span": "achieving an accuracy of 89 ~ 95% with AUC, sensitivity and specificity of respectively 95 ~ 98%, 74 ~ 86%, and 93 ~ 97%, for disease level grading of DR",
+      "numbers": [
+        "2021",
+        "3",
+        "50",
+        "1",
+        "89",
+        "95%",
+        "95",
+        "98%",
+        "74",
+        "86%",
+        "93",
+        "97%"
+      ],
+      "numbers_grounded": [
+        "3",
+        "50",
+        "1",
+        "89",
+        "95%",
+        "95",
+        "98%",
+        "74",
+        "86%",
+        "93",
+        "97%"
+      ],
+      "numbers_missing": [
+        "2021"
+      ]
+    },
+    {
+      "idx": 38,
+      "text": "EfficientNet architectures use compound scaling to balance network depth, width, and input resolution, achieving high performance with fewer parameters.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 39,
+      "text": "EfficientNet-B5 achieved 98% sensitivity, 93% specificity, and 96% AUC for DR detection, showing particularly strong agreement scores (QWK 92%) on external validation [1].",
+      "citations": [
+        1
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "evidence_span": "EfficientNet-B5 achieved a QWK of 92%, sensitivity of 98%, specificity of 93%, and AUC of 96% on the test dataset.",
+      "numbers": [
+        "5",
+        "98%",
+        "93%",
+        "96%",
+        "92%"
+      ],
+      "numbers_grounded": [
+        "5",
+        "98%",
+        "93%",
+        "96%",
+        "92%"
+      ],
+      "numbers_missing": []
+    },
+    {
+      "idx": 40,
+      "text": "EfficientNetV2B0 achieved an AUC of 0.93 while offering significant reductions in energy consumption (66%) and training time (70%), making it suitable for resource-constrained deployments [12].",
+      "citations": [
+        12
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "evidence_span": "EfficientNetV2B0 achieved an AUC of 0.93 at the same resolution, with reductions in energy consumption and training time of 66% and 70%, respectively.",
+      "numbers": [
+        "2",
+        "0",
+        "0.93",
+        "66%",
+        "70%"
+      ],
+      "numbers_grounded": [
+        "2",
+        "0",
+        "0.93",
+        "66%",
+        "70%"
+      ],
+      "numbers_missing": []
+    },
+    {
+      "idx": 41,
+      "text": "The EfficientNet family has been utilized with attention mechanisms, where EfficientNet-b0 achieved 80% accuracy on both APTOS and EyePACS for multi-class severity grading [10].",
+      "citations": [
+        10
+      ],
+      "kind": "cited",
+      "verdict": "UNSUPPORTED",
+      "confidence": "high",
+      "evidence_span": "the EfficientNet-b0, which yielded 82% and 80% accuracies, respectively. On the EYEPACS dataset, the EfficientNet-b0 yielded a mean accuracy of 80%",
+      "numbers": [
+        "0",
+        "80%"
+      ],
+      "numbers_grounded": [
+        "0",
+        "80%"
+      ],
+      "numbers_missing": [],
+      "verified_state": "supported",
+      "verified_panel": {
+        "supporter_verdict": "SUPPORTED",
+        "skeptic_verdict": "SUPPORTED"
+      }
+    },
+    {
+      "idx": 42,
+      "text": "Hybrid approaches combine features from multiple CNN backbones to leverage complementary representations.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 43,
+      "text": "The IR-CNN model by the authors of [8] fuses InceptionV3 and ResNet50 features, achieving 96.85% accuracy, 99.28% sensitivity, and 98.92% specificity on a large fundus dataset with data augmentation [8].",
+      "citations": [
+        8,
+        8
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "evidence_span": "extracts features using two different deep learning (DL) models, Resnet50 and Inceptionv3, and concatenates them before feeding them into the CNN for classification",
+      "numbers": [
+        "3",
+        "50",
+        "96.85%",
+        "99.28%",
+        "98.92%"
+      ],
+      "numbers_grounded": [
+        "3",
+        "50",
+        "96.85%",
+        "99.28%",
+        "98.92%"
+      ],
+      "numbers_missing": []
+    },
+    {
+      "idx": 44,
+      "text": "Kumar et al. (2025) proposed a framework integrating ResNet, DenseNet, and Inception with attention-based feature fusion, achieving 97.85% accuracy, 95.68% recall, 98.12% specificity, and an AUC of 98.45% [9].",
+      "citations": [
+        9
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "evidence_span": "It utilizes ResNet, DenseNet, and Inception models, then combines their detected features using attention fusion. The framework performed well on benchmark datasets with an accuracy of 97.85%, precision of 96.72%, recall of 95.68%, specificity of 98.12%, F1 score of 96.20%, and AUC of 98.45%",
+      "numbers": [
+        "2025",
+        "97.85%",
+        "95.68%",
+        "98.12%",
+        "98.45%"
+      ],
+      "numbers_grounded": [
+        "97.85%",
+        "95.68%",
+        "98.12%",
+        "98.45%"
+      ],
+      "numbers_missing": [
+        "2025"
+      ]
+    },
+    {
+      "idx": 45,
+      "text": "Ensemble methods, such as the stacked ensemble of ResNet18, ResNet50, and EfficientNetB3, demonstrated an ROC AUC of 0.933 on the APTOS dataset, with ResNet50 as the strongest individual contributor at 83.20% accuracy [6].",
+      "citations": [
+        6
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "evidence_span": "the stacked ensemble achieving the best results: 85.27% accuracy, 0.933 ROC AUC, and 0.7352 PR AUC",
+      "numbers": [
+        "18",
+        "50",
+        "3",
+        "0.933",
+        "50",
+        "83.20%"
+      ],
+      "numbers_grounded": [
+        "18",
+        "50",
+        "3",
+        "0.933",
+        "50",
+        "83.20%"
+      ],
+      "numbers_missing": []
+    },
+    {
+      "idx": 46,
+      "text": "Lakhera et al. (2023) combined AlexNet, VGGNet, and ResNet-18 with AdaBoost on APTOS and Messidor-2 datasets, demonstrating the value of ensemble diversity in improving robustness [16].",
+      "citations": [
+        16
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "medium",
+      "evidence_span": "A hybrid DL model of three different DL pretrained models AlexNet, VGGNet, and ResNet-18 is used. Then the performance of the combined proposed model is enhanced using the AdaBoost algorithm. AdaBoost algorithm is used to exploit dependency among different DL models.",
+      "numbers": [
+        "2023",
+        "18",
+        "2"
+      ],
+      "numbers_grounded": [
+        "18",
+        "2"
+      ],
+      "numbers_missing": [
+        "2023"
+      ]
+    },
+    {
+      "idx": 47,
+      "text": "Recent research has explored integrating CNN feature extractors with transformer-based global attention.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 48,
+      "text": "The DR-CTFN model by Huang et al. (2025) fuses ConvNeXt and Swin Transformer, outperforming ConvNeXt alone by 3.14% in accuracy and achieving AUC values of 95.22% and 95.79% on APTOS and clinical datasets, respectively [21].",
+      "citations": [
+        21
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "evidence_span": "DR-CTFN outperformed ConvNeXt and Swin Transformer in accuracy by 3.14% and 8.39%, while also achieving a superior area under the curve (AUC) by 1% and 26.08%. External validation on APTOS 2019 Blindness Detection and a clinical DR dataset yielded accuracies of 84.45% and 85.31%, with AUC values of 95.22% and 95.79%, respectively.",
+      "numbers": [
+        "2025",
+        "3.14%",
+        "95.22%",
+        "95.79%"
+      ],
+      "numbers_grounded": [
+        "3.14%",
+        "95.22%",
+        "95.79%"
+      ],
+      "numbers_missing": [
+        "2025"
+      ]
+    },
+    {
+      "idx": 49,
+      "text": "Wong et al. (2025) compared classic CNNs with hybrid models, finding that MaxViT achieved a 91.8% AUC (95% CI: 90.5\u201393.1%), outperforming pure CNNs by 1.5\u20132.9% while reducing cross-dataset performance degradation by 38% [7].",
+      "citations": [
+        7
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "evidence_span": "MaxViT stood out with a 91.8% AUC (95% CI: 90.5\u201393.1%), beating CNNs by 1.5\u20132.9%, slashing cross-dataset performance dips by 38%",
+      "numbers": [
+        "2025",
+        "91.8%",
+        "95%",
+        "90.5",
+        "93.1%",
+        "1.5",
+        "2.9%",
+        "38%"
+      ],
+      "numbers_grounded": [
+        "91.8%",
+        "95%",
+        "90.5",
+        "93.1%",
+        "1.5",
+        "2.9%",
+        "38%"
+      ],
+      "numbers_missing": [
+        "2025"
+      ]
+    },
+    {
+      "idx": 50,
+      "text": "Alooghareh et al. (2025) found that the Swin-L vision transformer achieved an AUC of 0.98 for DR classification on the BRSET dataset [13].",
+      "citations": [
+        13
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "evidence_span": "Diabetic Retinopathy (2-class) (AUC = 0.98, weighted F1-score = 0.95)",
+      "numbers": [
+        "2025",
+        "0.98"
+      ],
+      "numbers_grounded": [
+        "0.98"
+      ],
+      "numbers_missing": [
+        "2025"
+      ]
+    },
+    {
+      "idx": 51,
+      "text": "Attention mechanisms have been integrated into CNN backbones to improve lesion-specific feature extraction.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 52,
+      "text": "Hannan et al. (2025) employed a dual-attention mechanism with MobileNetV3-small, EfficientNet-b0, and DenseNet-169, achieving 83.0% sensitivity, 95.5% specificity, and a kappa score of 88.2% [10].",
+      "citations": [
+        10
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "evidence_span": "we also compute an F1-score of 82.0%, a precision of 82.1%, a sensitivity of 83.0%, a specificity of 95.5%, and a kappa score of 88.2%",
+      "numbers": [
+        "2025",
+        "3",
+        "0",
+        "169",
+        "83.0%",
+        "95.5%",
+        "88.2%"
+      ],
+      "numbers_grounded": [
+        "3",
+        "0",
+        "169",
+        "83.0%",
+        "95.5%",
+        "88.2%"
+      ],
+      "numbers_missing": [
+        "2025"
+      ]
+    },
+    {
+      "idx": 53,
+      "text": "Kaur et al. (2025) compared CBAM, BAM, and ECA attention modules with ResNet50 on APTOS, finding that BAM yielded the best experimental results for multi-class DR classification [26].",
+      "citations": [
+        26
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "evidence_span": "comparison of the performance of three attention mechanisms algorithms - Convolutional Block Attention Module (CBAM), Bottleneck Attention Module (BAM) and Efficient Channel Attention (ECA) with ResNet50 as a base CNN model for multiclass classification of diabetic retinopathy. Among these, the BAM-based model achieved the best experimental results",
+      "numbers": [
+        "2025",
+        "50"
+      ],
+      "numbers_grounded": [
+        "50"
+      ],
+      "numbers_missing": [
+        "2025"
+      ]
+    },
+    {
+      "idx": 54,
+      "text": "Shailee (2025) reported that a modified DenseNet-121 achieved 99.1% sensitivity and 98.6% specificity for distinguishing No DR in smartphone-based fundus imaging [17].",
+      "citations": [
+        17
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "evidence_span": "The framework exhibits 98.6%(95% CI 98.1-99.1) specificity and 99.1%(95% CI 98.6-99.5) sensitivity for distinguishing NoDR",
+      "numbers": [
+        "2025",
+        "121",
+        "99.1%",
+        "98.6%"
+      ],
+      "numbers_grounded": [
+        "121",
+        "99.1%",
+        "98.6%"
+      ],
+      "numbers_missing": [
+        "2025"
+      ]
+    },
+    {
+      "idx": 55,
+      "text": "The choice of dataset profoundly influences reported performance metrics.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 56,
+      "text": "Key datasets used in DR screening research include:",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 57,
+      "text": "Studies that train on EyePACS and validate externally on APTOS or Messidor provide the most clinically relevant generalization evidence.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 58,
+      "text": "Smaller datasets such as IDRiD and DIARETDB serve primarily for specialized evaluations.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 59,
+      "text": "The systematic review by Alshammari et al. (2025) confirmed that EyePACS was used by the majority of evaluated works, with cross-validation on Messidor and IDRiD being common practice [24].",
+      "citations": [
+        24
+      ],
+      "kind": "cited",
+      "verdict": "UNSUPPORTED",
+      "confidence": "medium",
+      "evidence_span": "",
+      "numbers": [
+        "2025"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": [
+        "2025"
+      ],
+      "verified_state": "supported",
+      "verified_panel": {
+        "supporter_verdict": "SUPPORTED",
+        "skeptic_verdict": "SUPPORTED"
+      }
+    },
+    {
+      "idx": 60,
+      "text": "The following table summarizes key performance metrics across architectures and datasets from the reviewed studies:",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 61,
+      "text": "*Reported as recall; \u2020At fixed operating points.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 62,
+      "text": "Sensitivity represents the most critical metric for DR screening, as missed cases can lead to irreversible vision loss.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 63,
+      "text": "Across the reviewed literature, sensitivity values demonstrate substantial variation by architecture and task complexity:",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 64,
+      "text": "The observed pattern indicates that sensitivity tends to be higher for binary classification (referable vs. non-referable) and decreases for five-class severity grading.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 65,
+      "text": "Hybrid and ensemble models generally achieve higher sensitivity than individual architectures operating in isolation.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 66,
+      "text": "High specificity is important to minimize false positive referrals, which place unnecessary burden on ophthalmology services.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 67,
+      "text": "Specificity values are generally high across modern architectures (>93%), with ResNet variants and hybrid models consistently exceeding 97%.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [
+        "93%",
+        "97%"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 68,
+      "text": "The trade-off between sensitivity and specificity is evident: EfficientNet-B5 optimizes for sensitivity (98%) with somewhat lower specificity (93%), while ResNet-50 shows the inverse pattern (94% sensitivity, 97% specificity) [1].",
+      "citations": [
+        1
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "evidence_span": "EfficientNet-B5 achieved a QWK of 92%, sensitivity of 98%, specificity of 93%, and AUC of 96% on the test dataset. ResNet-50 demonstrated similarly high performance with an accuracy of 96%, QWK of 86%, sensitivity of 94%, specificity of 97%",
+      "numbers": [
+        "5",
+        "98%",
+        "93%",
+        "50",
+        "94%",
+        "97%"
+      ],
+      "numbers_grounded": [
+        "5",
+        "98%",
+        "93%",
+        "50",
+        "94%",
+        "97%"
+      ],
+      "numbers_missing": []
+    },
+    {
+      "idx": 69,
+      "text": "AUC provides a threshold-independent assessment of overall discriminative performance:",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 70,
+      "text": "The AUC evidence suggests that even lightweight models can achieve clinically acceptable discrimination (>90%), while deeper or hybrid architectures approach near-perfect discrimination on well-curated datasets.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [
+        "90%"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 71,
+      "text": "However, AUC values consistently decrease (by 2\u20135%) when models are evaluated on external datasets compared to internal validation.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [
+        "2",
+        "5%"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 72,
+      "text": "Dataset characteristics significantly influence reported performance.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 73,
+      "text": "Models trained on large-scale datasets (EyePACS, ~88,000 images) and tested on the same distribution typically report higher metrics than those evaluated cross-dataset.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [
+        "88",
+        "000"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 74,
+      "text": "Wong et al. (2025) quantified this effect, showing that ResNet50 suffered a 4.2% performance drop in cross-dataset evaluation, whereas hybrid MaxViT models reduced this gap to 2.5% [7].",
+      "citations": [
+        7
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "evidence_span": "just 2.5% drop vs. 4.2% for ResNet50",
+      "numbers": [
+        "2025",
+        "50",
+        "4.2%",
+        "2.5%"
+      ],
+      "numbers_grounded": [
+        "50",
+        "4.2%",
+        "2.5%"
+      ],
+      "numbers_missing": [
+        "2025"
+      ]
+    },
+    {
+      "idx": 75,
+      "text": "Multi-class severity grading (five classes) consistently yields lower performance than binary classification.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 76,
+      "text": "For instance, DeepPCANet achieved 99.5% sensitivity in binary mode versus 95.29% for five-class grading on the same dataset family [23].",
+      "citations": [
+        23
+      ],
+      "kind": "cited",
+      "verdict": "CONTRADICTED",
+      "confidence": "medium",
+      "evidence_span": "DeepPCANet-4 (APTOS2019, SC1)**: ACC 98.21%, SE 95.29%",
+      "numbers": [
+        "99.5%",
+        "95.29%"
+      ],
+      "numbers_grounded": [
+        "99.5%",
+        "95.29%"
+      ],
+      "numbers_missing": [],
+      "verified_state": "supported",
+      "verified_panel": {
+        "supporter_verdict": "UNSUPPORTED",
+        "skeptic_verdict": "SUPPORTED"
+      }
+    },
+    {
+      "idx": 77,
+      "text": "This pattern is replicated across the literature, with binary classification typically yielding 3\u201310% higher sensitivity and specificity values compared to multi-class grading [4], [14].",
+      "citations": [
+        4,
+        14
+      ],
+      "kind": "cited",
+      "verdict": "UNSUPPORTED",
+      "confidence": "high",
+      "evidence_span": "",
+      "numbers": [
+        "3",
+        "10%"
+      ],
+      "numbers_grounded": [
+        "3",
+        "10%"
+      ],
+      "numbers_missing": [],
+      "verified_state": "unsupported",
+      "verified_panel": {
+        "supporter_verdict": "UNSUPPORTED",
+        "skeptic_verdict": "UNSUPPORTED"
+      }
+    },
+    {
+      "idx": 78,
+      "text": "Class imbalance\u2014where mild and moderate DR cases are underrepresented\u2014further complicates multi-class performance.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 79,
+      "text": "Data augmentation, class weighting, and undersampling strategies have been employed to mitigate this effect [8], [17].",
+      "citations": [
+        8,
+        17
+      ],
+      "kind": "cited",
+      "verdict": "UNSUPPORTED",
+      "confidence": "low",
+      "evidence_span": "The undersampled Kaggle(APTOS) dataset",
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": [],
+      "verified_state": "unsupported",
+      "verified_panel": {
+        "supporter_verdict": "UNSUPPORTED",
+        "skeptic_verdict": "UNSUPPORTED"
+      }
+    },
+    {
+      "idx": 80,
+      "text": "The comparative evidence reveals several patterns in architecture-performance relationships.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 81,
+      "text": "ResNet variants (ResNet-50, ResNet-101) provide a strong balance of sensitivity, specificity, and AUC while being computationally tractable, making them the most popular backbone for DR detection [1], [22], [25].",
+      "citations": [
+        1,
+        22,
+        25
+      ],
+      "kind": "cited",
+      "verdict": "UNSUPPORTED",
+      "confidence": "medium",
+      "evidence_span": "ResNet-101 demonstrated an overall accuracy of 97%, sensitivity of 96.87%, specificity of 98.03%, F1 score of 96.95%, and AUC of 97.26%",
+      "numbers": [
+        "50",
+        "101"
+      ],
+      "numbers_grounded": [
+        "50",
+        "101"
+      ],
+      "numbers_missing": [],
+      "verified_state": "unsupported",
+      "verified_panel": {
+        "supporter_verdict": "UNSUPPORTED",
+        "skeptic_verdict": "UNSUPPORTED"
+      }
+    },
+    {
+      "idx": 82,
+      "text": "EfficientNet architectures offer competitive performance with improved computational efficiency, particularly advantageous for deployment in resource-constrained environments such as mobile screening devices [12], [17].",
+      "citations": [
+        12,
+        17
+      ],
+      "kind": "cited",
+      "verdict": "UNSUPPORTED",
+      "confidence": "medium",
+      "evidence_span": "EfficientNetV2B0 achieved an AUC of 0.93 at the same resolution, with reductions in energy consumption and training time of 66% and 70%, respectively.",
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": [],
+      "verified_state": "supported",
+      "verified_panel": {
+        "supporter_verdict": "SUPPORTED",
+        "skeptic_verdict": "SUPPORTED"
+      }
+    },
+    {
+      "idx": 83,
+      "text": "Hybrid models that combine feature extractors from different CNN families (e.g., Inception + ResNet, ConvNeXt + Swin Transformer) consistently outperform their individual components, suggesting that architectural diversity in feature extraction provides complementary information beneficial for DR classification [8], [9], [21].",
+      "citations": [
+        8,
+        9,
+        21
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "evidence_span": "These results perform much better than those from using any single model.",
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 84,
+      "text": "However, these gains come at the cost of increased model complexity and training requirements.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 85,
+      "text": "A critical challenge for clinical deployment is cross-dataset generalization.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 86,
+      "text": "Models trained exclusively on EyePACS may not perform equivalently on images from different camera systems, populations, or clinical settings.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 87,
+      "text": "The evidence shows that hybrid CNN-Transformer architectures demonstrate superior robustness to domain shift, with MaxViT reducing cross-dataset performance dips by 38% relative to pure CNNs [7].",
+      "citations": [
+        7
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "evidence_span": "slashing cross-dataset performance dips by 38% (p < 0.001; just 2.5% drop vs. 4.2% for ResNet50)",
+      "numbers": [
+        "38%"
+      ],
+      "numbers_grounded": [
+        "38%"
+      ],
+      "numbers_missing": []
+    },
+    {
+      "idx": 88,
+      "text": "External validation studies\u2014such as training on EyePACS and testing on APTOS\u2014provide the most realistic estimates of clinical performance [1], [21].",
+      "citations": [
+        1,
+        21
+      ],
+      "kind": "cited",
+      "verdict": "UNSUPPORTED",
+      "confidence": "high",
+      "evidence_span": "",
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": [],
+      "verified_state": "unsupported",
+      "verified_panel": {
+        "supporter_verdict": "UNSUPPORTED",
+        "skeptic_verdict": "UNSUPPORTED"
+      }
+    },
+    {
+      "idx": 89,
+      "text": "The systematic review by Alshammari et al. (2025) noted that while CNN-based models consistently achieve accuracy above 90% on internal validation, performance on external datasets and in real clinical workflows can be lower due to variations in image quality, camera type, and patient demographics [24].",
+      "citations": [
+        24
+      ],
+      "kind": "cited",
+      "verdict": "UNSUPPORTED",
+      "confidence": "medium",
+      "evidence_span": "CNN-based models consistently achieved accuracy above 90% on internal validation sets.",
+      "numbers": [
+        "2025",
+        "90%"
+      ],
+      "numbers_grounded": [
+        "90%"
+      ],
+      "numbers_missing": [
+        "2025"
+      ],
+      "verified_state": "unsupported",
+      "verified_panel": {
+        "supporter_verdict": "UNSUPPORTED",
+        "skeptic_verdict": "UNSUPPORTED"
+      }
+    },
+    {
+      "idx": 90,
+      "text": "The distinction between binary (referable vs. non-referable) and multi-class (five severity grades) classification is fundamental to interpreting performance comparisons.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 91,
+      "text": "Binary classification is more clinically aligned with screening programs, where the primary goal is identifying patients requiring specialist referral.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 92,
+      "text": "Multi-class grading provides finer clinical granularity but is significantly more challenging due to subtle inter-class differences, particularly between mild and moderate NPDR stages [4], [5].",
+      "citations": [
+        4,
+        5
+      ],
+      "kind": "cited",
+      "verdict": "UNSUPPORTED",
+      "confidence": "high",
+      "evidence_span": "",
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": [],
+      "verified_state": "unsupported",
+      "verified_panel": {
+        "supporter_verdict": "UNSUPPORTED",
+        "skeptic_verdict": "UNSUPPORTED"
+      }
+    },
+    {
+      "idx": 93,
+      "text": "Studies reporting very high metrics (>98% sensitivity, >98% specificity) often employ binary classification or evaluate specific severity boundaries rather than full five-class grading [2], [8].",
+      "citations": [
+        2,
+        8
+      ],
+      "kind": "cited",
+      "verdict": "CONTRADICTED",
+      "confidence": "medium",
+      "evidence_span": "The EyePACS dataset, containing images categorized into five DR severity levels, was used for model training.",
+      "numbers": [
+        "98%",
+        "98%"
+      ],
+      "numbers_grounded": [
+        "98%",
+        "98%"
+      ],
+      "numbers_missing": [],
+      "verified_state": "unsupported",
+      "verified_panel": {
+        "supporter_verdict": "UNSUPPORTED",
+        "skeptic_verdict": "UNSUPPORTED"
+      }
+    },
+    {
+      "idx": 94,
+      "text": "This must be considered when comparing results across studies.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 95,
+      "text": "Several limitations affect the interpretability of reported performance across studies:",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 96,
+      "text": "1. **Inconsistent metric reporting:** Not all studies report the same set of metrics.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [
+        "1"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 97,
+      "text": "Some report only accuracy or AUC without sensitivity and specificity, making direct comparison difficult [5], [16], [26].",
+      "citations": [
+        5,
+        16,
+        26
+      ],
+      "kind": "cited",
+      "verdict": "UNSUPPORTED",
+      "confidence": "medium",
+      "evidence_span": "",
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": [],
+      "verified_state": "unsupported",
+      "verified_panel": {
+        "supporter_verdict": "UNSUPPORTED",
+        "skeptic_verdict": "UNSUPPORTED"
+      }
+    },
+    {
+      "idx": 98,
+      "text": "2. **Dataset overlap and leakage:** Many studies use the same public datasets (EyePACS, APTOS), raising concerns about indirect data leakage through overlapping preprocessing pipelines or architectures optimized for specific dataset characteristics [24].",
+      "citations": [
+        24
+      ],
+      "kind": "cited",
+      "verdict": "UNSUPPORTED",
+      "confidence": "high",
+      "evidence_span": "",
+      "numbers": [
+        "2"
+      ],
+      "numbers_grounded": [
+        "2"
+      ],
+      "numbers_missing": [],
+      "verified_state": "unsupported",
+      "verified_panel": {
+        "supporter_verdict": "UNSUPPORTED",
+        "skeptic_verdict": "UNSUPPORTED"
+      }
+    },
+    {
+      "idx": 99,
+      "text": "3. **Preprocessing variability:** Different studies apply varying preprocessing techniques (CLAHE, cropping, resizing, augmentation), which can significantly impact performance and limit reproducibility [26], [6].",
+      "citations": [
+        26,
+        6
+      ],
+      "kind": "cited",
+      "verdict": "UNSUPPORTED",
+      "confidence": "medium",
+      "evidence_span": "",
+      "numbers": [
+        "3"
+      ],
+      "numbers_grounded": [
+        "3"
+      ],
+      "numbers_missing": [],
+      "verified_state": "unsupported",
+      "verified_panel": {
+        "supporter_verdict": "UNSUPPORTED",
+        "skeptic_verdict": "UNSUPPORTED"
+      }
+    },
+    {
+      "idx": 100,
+      "text": "4. **Limited real-world validation:** Most studies evaluate on curated datasets rather than prospective clinical cohorts, which may overestimate real-world screening performance [24].",
+      "citations": [
+        24
+      ],
+      "kind": "cited",
+      "verdict": "UNSUPPORTED",
+      "confidence": "medium",
+      "evidence_span": "",
+      "numbers": [
+        "4"
+      ],
+      "numbers_grounded": [
+        "4"
+      ],
+      "numbers_missing": [],
+      "verified_state": "unsupported",
+      "verified_panel": {
+        "supporter_verdict": "UNSUPPORTED",
+        "skeptic_verdict": "UNSUPPORTED"
+      }
+    },
+    {
+      "idx": 101,
+      "text": "5. **Class imbalance:** The uneven distribution of DR severity levels in most datasets particularly affects sensitivity for mild DR, which is the most important stage for early intervention [3], [10].",
+      "citations": [
+        3,
+        10
+      ],
+      "kind": "cited",
+      "verdict": "UNSUPPORTED",
+      "confidence": "high",
+      "evidence_span": "imbalanced data distribution in the dataset becomes a bottleneck in the generalisation of deep learning models trained for DR classification",
+      "numbers": [
+        "5"
+      ],
+      "numbers_grounded": [
+        "5"
+      ],
+      "numbers_missing": [],
+      "verified_state": "unsupported",
+      "verified_panel": {
+        "supporter_verdict": "UNSUPPORTED",
+        "skeptic_verdict": "UNSUPPORTED"
+      }
+    },
+    {
+      "idx": 102,
+      "text": "Based on the reviewed evidence, several directions are recommended for advancing deep learning-based DR screening:",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 103,
+      "text": "1. **Standardized benchmarking:** The field would benefit from standardized evaluation protocols that consistently report sensitivity, specificity, and AUC at predefined operating points, alongside confidence intervals, to facilitate fair comparison across architectures [3], [24].",
+      "citations": [
+        3,
+        24
+      ],
+      "kind": "cited",
+      "verdict": "UNSUPPORTED",
+      "confidence": "medium",
+      "evidence_span": "",
+      "numbers": [
+        "1"
+      ],
+      "numbers_grounded": [
+        "1"
+      ],
+      "numbers_missing": [],
+      "verified_state": "not_a_claim",
+      "verified_panel": {
+        "supporter_verdict": "NOT_A_FACTUAL_CLAIM",
+        "skeptic_verdict": "UNSUPPORTED"
+      }
+    },
+    {
+      "idx": 104,
+      "text": "2. **Cross-dataset and prospective validation:** Future studies should prioritize multi-center, prospective validation to assess real-world clinical utility rather than relying solely on retrospective evaluations on public datasets [1], [7].",
+      "citations": [
+        1,
+        7
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "low",
+      "evidence_span": "Future work should focus on clinical validation and integration into public health systems to improve early DR detection",
+      "numbers": [
+        "2"
+      ],
+      "numbers_grounded": [
+        "2"
+      ],
+      "numbers_missing": []
+    },
+    {
+      "idx": 105,
+      "text": "3. **Efficient architectures for deployment:** Models such as EfficientNet and MobileNet that balance performance with computational efficiency are particularly relevant for deployment in resource-limited settings through smartphone-based screening [12], [17].",
+      "citations": [
+        12,
+        17
+      ],
+      "kind": "cited",
+      "verdict": "UNSUPPORTED",
+      "confidence": "medium",
+      "evidence_span": "underscoring the need for models that strike a balance between performance and efficiency",
+      "numbers": [
+        "3"
+      ],
+      "numbers_grounded": [
+        "3"
+      ],
+      "numbers_missing": [],
+      "verified_state": "supported",
+      "verified_panel": {
+        "supporter_verdict": "SUPPORTED",
+        "skeptic_verdict": "SUPPORTED"
+      }
+    },
+    {
+      "idx": 106,
+      "text": "4. **Hybrid architectures and attention mechanisms:** CNN-Transformer fusion models and attention-enhanced architectures represent promising directions for improving both performance and interpretability [21], [10], [26].",
+      "citations": [
+        21,
+        10,
+        26
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "medium",
+      "evidence_span": "we present a convolutional neural network-transformer fusion model (DR-CTFN) that integrates ConvNeXt and Swin Transformer algorithms with a lightweight attention block (LAB) to enhance feature extraction",
+      "numbers": [
+        "4"
+      ],
+      "numbers_grounded": [
+        "4"
+      ],
+      "numbers_missing": []
+    },
+    {
+      "idx": 107,
+      "text": "5. **Explainability and clinical trust:** Integration of interpretability tools such as Grad-CAM, SHAP, and attention visualization is essential for clinical adoption, enabling ophthalmologists to understand and verify model decisions [2], [6].",
+      "citations": [
+        2,
+        6
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "medium",
+      "evidence_span": "The integration of SHAP interpretability bridges the gap between AI predictions and clinical trust",
+      "numbers": [
+        "5"
+      ],
+      "numbers_grounded": [
+        "5"
+      ],
+      "numbers_missing": []
+    },
+    {
+      "idx": 108,
+      "text": "6. **Addressing class imbalance:** Advanced augmentation, synthetic data generation, and cost-sensitive learning strategies should be further explored to improve detection of mild and early-stage DR [8], [14].",
+      "citations": [
+        8,
+        14
+      ],
+      "kind": "cited",
+      "verdict": "UNSUPPORTED",
+      "confidence": "medium",
+      "evidence_span": "",
+      "numbers": [
+        "6"
+      ],
+      "numbers_grounded": [
+        "6"
+      ],
+      "numbers_missing": [],
+      "verified_state": "unsupported",
+      "verified_panel": {
+        "supporter_verdict": "UNSUPPORTED",
+        "skeptic_verdict": "UNSUPPORTED"
+      }
+    },
+    {
+      "idx": 109,
+      "text": "Deep learning-based approaches for diabetic retinopathy screening from retinal fundus images have achieved performance levels approaching or exceeding those of expert ophthalmologists across multiple metrics.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 110,
+      "text": "Performance varies substantially with task complexity (binary vs. multi-class), dataset characteristics, and evaluation methodology.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 111,
+      "text": "The most clinically meaningful evaluations are those performing external validation across different datasets and populations.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 112,
+      "text": "While the field has made remarkable progress, the path to widespread clinical deployment requires continued focus on generalization, standardized reporting, computational efficiency, and integration within existing healthcare workflows.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    }
+  ]
+}

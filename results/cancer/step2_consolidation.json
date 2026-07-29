@@ -1,0 +1,22 @@
+{
+  "step": "2_consolidation",
+  "n_combined": 98,
+  "provenance_rate": 1.0,
+  "provenance_breakdown": {
+    "by_doi": 95,
+    "by_title_exact": 3,
+    "by_title_fuzzy": 0
+  },
+  "fabricated_count": 0,
+  "fabricated_titles": [],
+  "merge_doi_drift_count": 0,
+  "merge_year_drift_count": 0,
+  "duplicate_group_count": 0,
+  "duplicate_extra_rows": 0,
+  "retrieval_recall_note": {
+    "raw_source_rows": 240,
+    "unique_source_papers": 233,
+    "kept_in_combined": 98,
+    "comment": "raw->combined drop is retrieval recall (Task 2), logged not scored"
+  }
+}

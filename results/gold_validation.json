@@ -1,0 +1,145 @@
+{
+  "summary": {
+    "step": "judge_gold_validation",
+    "n": 12,
+    "accuracy": 1.0,
+    "cohens_kappa": 1.0,
+    "interpretation": "almost perfect",
+    "per_class": {
+      "SUPPORTED": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "support": 6
+      },
+      "UNSUPPORTED": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "support": 3
+      },
+      "CONTRADICTED": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "support": 3
+      }
+    },
+    "confusion_gold_x_judge": {
+      "SUPPORTED": {
+        "SUPPORTED": 6,
+        "UNSUPPORTED": 0,
+        "CONTRADICTED": 0
+      },
+      "UNSUPPORTED": {
+        "SUPPORTED": 0,
+        "UNSUPPORTED": 3,
+        "CONTRADICTED": 0
+      },
+      "CONTRADICTED": {
+        "SUPPORTED": 0,
+        "UNSUPPORTED": 0,
+        "CONTRADICTED": 3
+      }
+    }
+  },
+  "disagreements": [],
+  "rows": [
+    {
+      "id": "syn-1",
+      "gold": "SUPPORTED",
+      "judge": "SUPPORTED",
+      "agree": true,
+      "claim": "About 90% of serotonin is produced in the gut."
+    },
+    {
+      "id": "syn-2",
+      "gold": "CONTRADICTED",
+      "judge": "CONTRADICTED",
+      "agree": true,
+      "claim": "Serotonin is produced entirely in the brain."
+    },
+    {
+      "id": "syn-3",
+      "gold": "UNSUPPORTED",
+      "judge": "UNSUPPORTED",
+      "agree": true,
+      "claim": "Gut microbiota cause Parkinson's disease via serotonin."
+    },
+    {
+      "id": "cell-5-neuro",
+      "gold": "SUPPORTED",
+      "judge": "SUPPORTED",
+      "agree": true,
+      "claim": "The gut microbiota-tryptophan-serotonin axis drives anxiety-like behav"
+    },
+    {
+      "id": "cell-9-neuro-supp",
+      "gold": "SUPPORTED",
+      "judge": "SUPPORTED",
+      "agree": true,
+      "claim": "Prebiotics and probiotics reduced colonic 5-HT while increasing 5-HT i"
+    },
+    {
+      "id": "cell-9-neuro-contra",
+      "gold": "CONTRADICTED",
+      "judge": "CONTRADICTED",
+      "agree": true,
+      "claim": "Prebiotics and probiotics increased colonic 5-HT."
+    },
+    {
+      "id": "cell-9-neuro-unsupp",
+      "gold": "UNSUPPORTED",
+      "judge": "UNSUPPORTED",
+      "agree": true,
+      "claim": "The study reported a 30% reduction in HbA1c."
+    },
+    {
+      "id": "cell-9-design",
+      "gold": "SUPPORTED",
+      "judge": "SUPPORTED",
+      "agree": true,
+      "claim": "The study used fifty rats separated into a control group and four othe"
+    },
+    {
+      "id": "cell-9-behav",
+      "gold": "SUPPORTED",
+      "judge": "SUPPORTED",
+      "agree": true,
+      "claim": "Depressive-like behaviors were measured using the sucrose preference t"
+    },
+    {
+      "id": "report-90pct-vs-9",
+      "gold": "UNSUPPORTED",
+      "judge": "UNSUPPORTED",
+      "agree": true,
+      "claim": "Approximately 90% of the body's serotonin is synthesized in the gastro"
+    },
+    {
+      "id": "cell-9-noeffect-contra",
+      "gold": "CONTRADICTED",
+      "judge": "CONTRADICTED",
+      "agree": true,
+      "claim": "Gut microbiota had no effect on serotonin metabolism in this study."
+    },
+    {
+      "id": "cell-3-neuro",
+      "gold": "SUPPORTED",
+      "judge": "SUPPORTED",
+      "agree": true,
+      "claim": "Gut microbiota influence GABA and serotonin production relevant to moo"
+    }
+  ],
+  "usage": {
+    "model": "claude-opus-4-8",
+    "judge_calls": 12,
+    "input_tokens": 13290,
+    "output_tokens": 1358,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cost_usd": {
+      "input": 0.0664,
+      "output": 0.034,
+      "cache_read": 0.0,
+      "cache_write": 0.0,
+      "total": 0.1004
+    }
+  }
+}

@@ -1,0 +1,4120 @@
+{
+  "summary": {
+    "step": "5_report_generation",
+    "total_claim_sentences": 277,
+    "cited_sentences": 73,
+    "uncited_synthesis_sentences": 204,
+    "graded_cited": 73,
+    "citation_precision": 0.6027,
+    "verdict_breakdown": {
+      "SUPPORTED": 44,
+      "UNSUPPORTED": 29,
+      "CONTRADICTED": 0
+    },
+    "numeric_fidelity": 0.8723,
+    "numbers_checked": 47,
+    "numbers_missing": 6,
+    "verified": {
+      "graded_cited": 73,
+      "flagged_rechecked": 29,
+      "supported": 49,
+      "report_contradictions": 0,
+      "unsupported": 21,
+      "citation_precision": 0.6712,
+      "first_pass_citation_precision": 0.6027,
+      "first_pass_contradictions": 0
+    }
+  },
+  "usage": {
+    "model": "claude-opus-4-8",
+    "judge_calls": 73,
+    "input_tokens": 187023,
+    "output_tokens": 12165,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cost_usd": {
+      "input": 0.9351,
+      "output": 0.3041,
+      "cache_read": 0.0,
+      "cache_write": 0.0,
+      "total": 1.2392
+    }
+  },
+  "sentences": [
+    {
+      "idx": 0,
+      "text": "Artificial intelligence has emerged as a transformative technology in early cancer detection, with applications spanning multiple data modalities and cancer types.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 1,
+      "text": "This comprehensive comparative report analyzes 30 highly relevant studies to evaluate three primary AI approaches: imaging-based, genomics-based, and multimodal methods.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [
+        "30"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 2,
+      "text": "The analysis focuses on performance metrics including Area Under the Curve (AUC), sensitivity, and specificity across various cancer types.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 3,
+      "text": "Key findings reveal that multimodal approaches, which integrate imaging with genomics, clinical biomarkers, and demographic data, consistently achieve superior performance compared to single-modality methods.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 4,
+      "text": "Imaging-based approaches demonstrate strong performance with AUC values ranging from 0.85 to 0.96, particularly in breast and lung cancer screening.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [
+        "0.85",
+        "0.96"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 5,
+      "text": "Genomics-based methods remain underrepresented in the current literature but show promise for early detection when combined with other data sources.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 6,
+      "text": "Multimodal systems achieve the highest reported performance, with AUC values reaching 0.96 and sensitivity exceeding 92% in early-stage detection scenarios.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [
+        "0.96",
+        "92%"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 7,
+      "text": "The report identifies critical trends including the dominance of deep convolutional neural networks for imaging analysis, the emerging role of transformer architectures, and the increasing adoption of attention-based fusion mechanisms for multimodal integration.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 8,
+      "text": "Clinical translation remains a key challenge, with most studies reporting retrospective validation rather than prospective clinical trials.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 9,
+      "text": "2. [Background and Theoretical Foundations](#2-background-and-theoretical-foundations)",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [
+        "2",
+        "2"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 10,
+      "text": "3. [Imaging-Based Approaches](#3-imaging-based-approaches)",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [
+        "3",
+        "3"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 11,
+      "text": "4. [Genomics-Based Approaches](#4-genomics-based-approaches)",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [
+        "4",
+        "4"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 12,
+      "text": "5. [Multimodal Approaches](#5-multimodal-approaches)",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [
+        "5",
+        "5"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 13,
+      "text": "6. [Comparative Performance Analysis](#6-comparative-performance-analysis)",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [
+        "6",
+        "6"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 14,
+      "text": "8. [Future Directions and Recommendations](#8-future-directions-and-recommendations)",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [
+        "8",
+        "8"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 15,
+      "text": "Early cancer detection remains one of the most critical challenges in oncology, with timely diagnosis significantly improving patient survival rates and treatment outcomes.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 16,
+      "text": "Traditional screening methods, while effective, face limitations including inter-observer variability, resource constraints, and challenges in detecting subtle early-stage malignancies.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 17,
+      "text": "Artificial intelligence, particularly deep learning, has emerged as a powerful tool to augment and potentially transform cancer detection paradigms [1], [2].",
+      "citations": [
+        1,
+        2
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "evidence_span": "Artificial Intelligence (AI) offers a transformative opportunity for early oncology diagnostics",
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 18,
+      "text": "The application of AI in cancer detection has evolved along three primary trajectories: imaging-based approaches that analyze medical images such as mammograms, CT scans, and histopathology slides; genomics-based methods that leverage molecular and genetic data; and multimodal approaches that integrate multiple data sources for comprehensive analysis.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 19,
+      "text": "Each approach offers distinct advantages and faces unique challenges in terms of data requirements, interpretability, and clinical integration [3].",
+      "citations": [
+        3
+      ],
+      "kind": "cited",
+      "verdict": "UNSUPPORTED",
+      "confidence": "high",
+      "evidence_span": "",
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": [],
+      "verified_state": "unsupported",
+      "verified_panel": {
+        "supporter_verdict": "UNSUPPORTED",
+        "skeptic_verdict": "UNSUPPORTED"
+      }
+    },
+    {
+      "idx": 20,
+      "text": "This report provides a structured comparative analysis of these three approaches, drawing on 30 highly relevant studies identified through systematic searches across multiple academic databases.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [
+        "30"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 21,
+      "text": "The analysis focuses on quantitative performance metrics\u2014particularly AUC, sensitivity, and specificity\u2014to enable objective comparison across methodologies and cancer types.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 22,
+      "text": "The goal is to provide evidence-based insights for researchers, clinicians, and healthcare decision-makers regarding the current state and future potential of AI-based early cancer detection.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 23,
+      "text": "Early-stage cancer detection fundamentally alters treatment options and patient prognosis.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 24,
+      "text": "For many cancer types, five-year survival rates exceed 90% when detected at stage I but drop dramatically for advanced-stage diagnoses.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [
+        "90%"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 25,
+      "text": "This clinical reality drives the urgent need for more sensitive, specific, and scalable screening technologies [4].",
+      "citations": [
+        4
+      ],
+      "kind": "cited",
+      "verdict": "UNSUPPORTED",
+      "confidence": "high",
+      "evidence_span": "",
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": [],
+      "verified_state": "unsupported",
+      "verified_panel": {
+        "supporter_verdict": "UNSUPPORTED",
+        "skeptic_verdict": "UNSUPPORTED"
+      }
+    },
+    {
+      "idx": 26,
+      "text": "Modern AI approaches for cancer detection primarily leverage deep learning architectures, particularly convolutional neural networks (CNNs) for image analysis.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 27,
+      "text": "CNNs excel at learning hierarchical feature representations from raw pixel data, enabling automated detection of subtle patterns that may escape human observation [5], [6].",
+      "citations": [
+        5,
+        6
+      ],
+      "kind": "cited",
+      "verdict": "UNSUPPORTED",
+      "confidence": "high",
+      "evidence_span": "",
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": [],
+      "verified_state": "unsupported",
+      "verified_panel": {
+        "supporter_verdict": "UNSUPPORTED",
+        "skeptic_verdict": "UNSUPPORTED"
+      }
+    },
+    {
+      "idx": 28,
+      "text": "Recent advances include 3D CNNs for volumetric medical imaging, transformer architectures for capturing long-range dependencies, and attention mechanisms for interpretable feature selection [7], [8].",
+      "citations": [
+        7,
+        8
+      ],
+      "kind": "cited",
+      "verdict": "UNSUPPORTED",
+      "confidence": "high",
+      "evidence_span": "",
+      "numbers": [
+        "3"
+      ],
+      "numbers_grounded": [
+        "3"
+      ],
+      "numbers_missing": [],
+      "verified_state": "unsupported",
+      "verified_panel": {
+        "supporter_verdict": "UNSUPPORTED",
+        "skeptic_verdict": "UNSUPPORTED"
+      }
+    },
+    {
+      "idx": 29,
+      "text": "For genomics-based detection, machine learning algorithms including random forests, support vector machines, and neural networks process high-dimensional molecular data to identify cancer-associated signatures.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 30,
+      "text": "The integration of multiple data modalities\u2014termed multimodal learning\u2014represents the frontier of AI cancer detection, mimicking the holistic approach of expert clinicians who synthesize diverse information sources [9], [10].",
+      "citations": [
+        9,
+        10
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "medium",
+      "evidence_span": "including patient metadata, which mimics the diagnostic approach of clinicians in the early detection of oral cancer",
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 31,
+      "text": "This report focuses on three critical performance metrics.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 32,
+      "text": "The Area Under the Receiver Operating Characteristic Curve (AUC) provides an aggregate measure of diagnostic accuracy across all classification thresholds, with values ranging from 0.5 (random chance) to 1.0 (perfect classification).",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [
+        "0.5",
+        "1.0"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 33,
+      "text": "Sensitivity (true positive rate) measures the proportion of actual cancer cases correctly identified, a critical metric for screening applications where missing cancers carries severe consequences.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 34,
+      "text": "Specificity (true negative rate) measures the proportion of non-cancer cases correctly classified, important for minimizing false positives that lead to unnecessary biopsies and patient anxiety [11].",
+      "citations": [
+        11
+      ],
+      "kind": "cited",
+      "verdict": "UNSUPPORTED",
+      "confidence": "high",
+      "evidence_span": "",
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": [],
+      "verified_state": "not_a_claim",
+      "verified_panel": {
+        "supporter_verdict": "NOT_A_FACTUAL_CLAIM",
+        "skeptic_verdict": "NOT_A_FACTUAL_CLAIM"
+      }
+    },
+    {
+      "idx": 35,
+      "text": "Imaging-based AI approaches analyze medical images including mammography, computed tomography (CT), magnetic resonance imaging (MRI), and histopathology slides.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 36,
+      "text": "These methods leverage the rich spatial information in medical images to detect morphological and textural patterns associated with malignancy.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 37,
+      "text": "Among the 30 reviewed studies, 14 employed purely imaging-based approaches, representing the most mature and widely deployed category of AI cancer detection systems.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [
+        "30",
+        "14"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 38,
+      "text": "Breast cancer screening via mammography represents one of the most extensively studied applications of AI in oncology.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 39,
+      "text": "McKinney et al. demonstrated that an ensemble of three deep learning models achieved superior performance to human radiologists in an international evaluation, with AUC values exceeding the average radiologist by an absolute margin of 11.5% [12].",
+      "citations": [
+        12
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "medium",
+      "evidence_span": "the area under the receiver operating characteristic curve (AUC-ROC) for the AI system was greater than the AUC-ROC for the average radiologist by an absolute margin of 11.5%",
+      "numbers": [
+        "11.5%"
+      ],
+      "numbers_grounded": [
+        "11.5%"
+      ],
+      "numbers_missing": []
+    },
+    {
+      "idx": 40,
+      "text": "The system reduced false positives by 5.7% in US datasets and 1.2% in UK datasets, while simultaneously reducing false negatives by 9.4% and 2.7% respectively.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [
+        "5.7%",
+        "1.2%",
+        "9.4%",
+        "2.7%"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 41,
+      "text": "External evaluation of three commercial AI algorithms by Salim et al. revealed AUC values ranging from 0.920 to 0.956 for cancer detection on screening mammograms [13].",
+      "citations": [
+        13
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "evidence_span": "the area under the receiver operating curve for cancer detection was 0.956 (95% CI, 0.948-0.965) for AI-1, 0.922 (95% CI, 0.910-0.934) for AI-2, and 0.920 (95% CI, 0.909-0.931) for AI-3",
+      "numbers": [
+        "0.920",
+        "0.956"
+      ],
+      "numbers_grounded": [
+        "0.920",
+        "0.956"
+      ],
+      "numbers_missing": []
+    },
+    {
+      "idx": 42,
+      "text": "The best-performing algorithm (AI-1, based on ResNet34 architecture) achieved 81.9% sensitivity at the radiologists' specificity of 96.6%.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [
+        "1",
+        "34",
+        "81.9%",
+        "96.6%"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 43,
+      "text": "When combined with first-reader radiologists, the system achieved 88.6% sensitivity at 93.0% specificity, demonstrating the potential for AI-human collaboration to exceed either approach alone.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [
+        "88.6%",
+        "93.0%"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 44,
+      "text": "Raafat et al. reported that AI achieved 96.6% sensitivity for breast cancer detection on digital mammograms, compared to 87.3% for conventional mammography interpretation [14].",
+      "citations": [
+        14
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "evidence_span": "The sensitivity of AI was 96.6%, and false negative rate was 3.4%, while mammography sensitivity was 87.3%",
+      "numbers": [
+        "96.6%",
+        "87.3%"
+      ],
+      "numbers_grounded": [
+        "96.6%",
+        "87.3%"
+      ],
+      "numbers_missing": []
+    },
+    {
+      "idx": 45,
+      "text": "The AI system demonstrated 100% sensitivity for detecting suspicious calcifications and asymmetry/distortion patterns, highlighting its particular strength in identifying subtle morphological abnormalities.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [
+        "100%"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 46,
+      "text": "For lung cancer screening, AI systems analyzing CT scans have demonstrated strong performance in nodule detection and characterization.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 47,
+      "text": "Gandhi et al.'s systematic review comparing AI algorithms and radiologists found that AI models achieved higher sensitivity, particularly for small nodules less than 6mm in diameter, while also reducing detection times [15].",
+      "citations": [
+        15
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "evidence_span": "AI models achieved higher sensitivity, especially with nodules &lt;6mm, and reduced detection times",
+      "numbers": [
+        "6"
+      ],
+      "numbers_grounded": [
+        "6"
+      ],
+      "numbers_missing": []
+    },
+    {
+      "idx": 48,
+      "text": "However, specificity remained variable across different algorithms and datasets, indicating ongoing challenges in reducing false positives.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 49,
+      "text": "Miao et al. developed a radiomics nomogram integrating radiological features for preoperative prediction of lung nodule invasiveness, though specific performance metrics were not reported in the abstract [16].",
+      "citations": [
+        16
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "evidence_span": "This study aims to develop a nodule-level composite model using radiomics methods and compare its performance with the Lung CT Screening Reporting and Data System (Lung-RADS) in predicting the invasiveness",
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 50,
+      "text": "The approach represents the growing trend toward radiomics\u2014extracting quantitative features from medical images to characterize tissue properties beyond visual assessment.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 51,
+      "text": "AI imaging approaches have been applied across diverse cancer types.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 52,
+      "text": "For prostate cancer, Ciccone et al.'s systematic review reported that AI-based technologies analyzing multiparametric MRI achieved a median AUC of 0.88 (range 0.70-0.93), with median sensitivity of 0.86 and median specificity of 0.83 [17].",
+      "citations": [
+        17
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "evidence_span": "AI-based technologies achieved a median AUC-ROC of 0.88 (range 0.70\u20130.93), with median sensitivity and specificity of 0.86 and 0.83, respectively.",
+      "numbers": [
+        "0.88",
+        "0.70",
+        "0.93",
+        "0.86",
+        "0.83"
+      ],
+      "numbers_grounded": [
+        "0.88",
+        "0.70",
+        "0.93",
+        "0.86",
+        "0.83"
+      ],
+      "numbers_missing": []
+    },
+    {
+      "idx": 53,
+      "text": "For oral cancer, Aarthi et al. developed CNN architectures for automated detection of basement membrane breaches in histopathological images, a critical indicator of invasiveness [18].",
+      "citations": [
+        18
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "evidence_span": "This study aimed to develop and benchmark convolutional neural network (CNN) models for the automated detection of BM breaches in OSCC",
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 54,
+      "text": "Skin cancer detection using dermoscopic images has also received substantial attention.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 55,
+      "text": "Aburass et al. integrated anisotropic heat flow and transformer encoders in CNNs for skin cancer classification, reporting superior performance across accuracy, precision, recall, F1-score, and AUC compared to baseline models, though specific numerical values were not provided [19].",
+      "citations": [
+        19
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "evidence_span": "Our model, integrated with various layers of DenseNet121, consistently outperformed these benchmarks across key metrics such as accuracy, precision, recall, F1 score, and AUC",
+      "numbers": [
+        "1"
+      ],
+      "numbers_grounded": [
+        "1"
+      ],
+      "numbers_missing": []
+    },
+    {
+      "idx": 56,
+      "text": "Huang et al. developed spectrum-aided visual enhancement techniques to improve AI-based skin cancer detection [20].",
+      "citations": [
+        20
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "medium",
+      "evidence_span": "SAVE: Spectrum-Aided Visual Enhancement for AI-Based Skin Cancer Detection.",
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 57,
+      "text": "Imaging-based AI systems consistently demonstrate strong performance across multiple cancer types, with AUC values typically ranging from 0.85 to 0.96 for well-studied applications like breast and lung cancer screening.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [
+        "0.85",
+        "0.96"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 58,
+      "text": "Sensitivity values frequently exceed 80%, with some systems achieving over 95% for specific cancer types or morphological patterns.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [
+        "80%",
+        "95%"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 59,
+      "text": "The primary architectural approach remains deep CNNs, with ResNet, DenseNet, and custom 3D CNN architectures dominating the literature.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [
+        "3"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 60,
+      "text": "Challenges include variable specificity across different datasets and populations, limited generalization to external validation cohorts, and the need for large annotated training datasets [13], [14], [15].",
+      "citations": [
+        13,
+        14,
+        15
+      ],
+      "kind": "cited",
+      "verdict": "UNSUPPORTED",
+      "confidence": "medium",
+      "evidence_span": "specificity remained variable",
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": [],
+      "verified_state": "unsupported",
+      "verified_panel": {
+        "supporter_verdict": "UNSUPPORTED",
+        "skeptic_verdict": "UNSUPPORTED"
+      }
+    },
+    {
+      "idx": 61,
+      "text": "Genomics-based approaches for early cancer detection utilize molecular and genetic data including gene expression profiles, DNA methylation patterns, circulating tumor DNA, and protein biomarkers.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 62,
+      "text": "Surprisingly, among the 30 top-ranked studies reviewed, only one employed a purely genomics-based approach, highlighting a significant gap in the current literature focused on early detection applications.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [
+        "30"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 63,
+      "text": "Wu et al. developed machine learning algorithms based on laboratory indicators to establish a diagnostic model for lung cancer, specifically aiming to distinguish benign pulmonary nodules from early- and advanced-stage lung cancer [21].",
+      "citations": [
+        21
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "evidence_span": "This study aimed to compare multiple machine learning algorithms and identify the optimal model for distinguishing benign pulmonary nodules from early- and advanced-stage lung cancer.",
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 64,
+      "text": "The study compared multiple machine learning algorithms to identify optimal models, though specific performance metrics were not reported in the available abstract.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 65,
+      "text": "This approach represents the potential for non-invasive screening using blood-based biomarkers, which could complement or reduce the need for imaging-based screening in certain populations.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 66,
+      "text": "The limited representation of pure genomics-based approaches in early cancer detection literature likely reflects several factors.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 67,
+      "text": "First, genomic and molecular testing typically requires tissue samples or specialized blood tests, making them less suitable for population-wide screening compared to imaging.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 68,
+      "text": "Second, the biological heterogeneity of early-stage cancers may limit the sensitivity of molecular signatures.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 69,
+      "text": "Third, many genomic approaches have focused on cancer characterization and treatment selection rather than initial detection.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 70,
+      "text": "However, emerging technologies including liquid biopsy for circulating tumor DNA detection, multi-cancer early detection tests analyzing cell-free DNA methylation patterns, and integration of proteomics data represent promising directions.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 71,
+      "text": "The integration of genomic data with imaging and clinical information\u2014the multimodal approach\u2014appears to be the dominant paradigm for leveraging molecular information in early detection contexts [22].",
+      "citations": [
+        22
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "medium",
+      "evidence_span": "This evidence supports the paradigm of MML as a superior analytical framework.",
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 72,
+      "text": "Multimodal approaches integrate multiple data sources\u2014typically combining imaging with genomics, clinical biomarkers, demographic information, or patient history\u2014to achieve more comprehensive and accurate cancer detection.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 73,
+      "text": "This paradigm mirrors clinical decision-making, where physicians synthesize diverse information streams.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 74,
+      "text": "Among the reviewed studies, 10 employed explicitly multimodal approaches, representing the fastest-growing category in AI cancer detection research.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [
+        "10"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 75,
+      "text": "Several studies demonstrated the power of combining imaging and genomic data.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 76,
+      "text": "Shafique et al. developed fine-tuned multi-deep neural networks (FT-MDNNMDs) that integrated data from The Cancer Genome Atlas (TCGA) genomic database with clinical breast imaging datasets [23].",
+      "citations": [
+        23
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "evidence_span": "The model integrates data from The Cancer Genome Atlas (TCGA) and a private clinical image dataset collected from hospitals in Pakistan.",
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 77,
+      "text": "The system achieved 99.57% accuracy, substantially outperforming conventional machine learning approaches including Support Vector Machines (94.46%), Decision Trees (93.54%), and Na\u00efve Bayes (91.22%).",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [
+        "99.57%",
+        "94.46%",
+        "93.54%",
+        "91.22%"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 78,
+      "text": "While AUC, sensitivity, and specificity were not reported, the high accuracy and Matthews Correlation Coefficient (99.46%) suggest strong overall performance.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [
+        "99.46%"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 79,
+      "text": "Sangeetha et al. conducted an empirical analysis comparing transformer-based and CNN approaches for cancer detection using multimodal imaging and genomic data [24].",
+      "citations": [
+        24
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "evidence_span": "The proposed study assesses the effectiveness of Transformer-based models and Convolutional Neural Networks (CNN) in cancer diagnosis with respect to multimodal imaging and genomic data.",
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 80,
+      "text": "Their proposed multimodal model achieved accuracy ranging from 92.5% to 93.2%, with F1-scores between 91.5% and 92.2%, demonstrating consistent performance across multiple evaluation metrics.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [
+        "92.5%",
+        "93.2%",
+        "1",
+        "91.5%",
+        "92.2%"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 81,
+      "text": "A related study by the same research group developed an enhanced multimodal fusion deep neural network (MFDNN) for lung cancer classification, integrating medical imaging, genomics, and clinical data to achieve 92.5% accuracy with 87.4% precision and 86.4% recall [25].",
+      "citations": [
+        25
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "evidence_span": "The Multimodal Fusion Deep Neural Network (MFDNN) achieves an exceptional accuracy rate of 92.5%, marking a significant breakthrough in the realm of medical AI. MFDNN excels in precision, with 87.4% accuracy in predicting cancer cases, and equally impresses in recall, capturing approximately 86.4% of actual cancerous cases.",
+      "numbers": [
+        "92.5%",
+        "87.4%",
+        "86.4%"
+      ],
+      "numbers_grounded": [
+        "92.5%",
+        "87.4%",
+        "86.4%"
+      ],
+      "numbers_missing": []
+    },
+    {
+      "idx": 82,
+      "text": "The integration of imaging with clinical biomarkers and demographic data represents another successful multimodal paradigm.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 83,
+      "text": "The LungGuard system developed for early lung cancer detection fused low-dose CT scans with clinical biomarkers (serum tumor markers, smoking history, family history) and demographic features (age, sex, environmental exposures) using a 3D CNN backbone and attention-based fusion module [1].",
+      "citations": [
+        1
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "evidence_span": "LungGuard uses a 3D convolutional neural network backbone to process volumetric CT scans, a fully connected network for the clinical biomarkers and demographics, and an attention-based fusion module to combine features.",
+      "numbers": [
+        "3"
+      ],
+      "numbers_grounded": [
+        "3"
+      ],
+      "numbers_missing": []
+    },
+    {
+      "idx": 84,
+      "text": "This multimodal approach achieved AUC of 0.96, sensitivity of 92%, and specificity of 90% for early-stage (I & II) lung cancer detection, outperforming radiologists by approximately 5% in accuracy.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [
+        "0.96",
+        "92%",
+        "90%",
+        "5%"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 85,
+      "text": "Zhang et al. developed an AI system for clinically significant prostate cancer diagnosis based on multimodal data including demographics, clinical characteristics, laboratory tests, and ultrasound reports [26].",
+      "citations": [
+        26
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "evidence_span": "The multimodal data, including demographics, clinical characteristics, laboratory tests, and ultrasound reports, of consecutive participants were retrieved",
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 86,
+      "text": "The system achieved AUC values ranging from 0.807 to 0.853 across training and multiple validation cohorts.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [
+        "0.807",
+        "0.853"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 87,
+      "text": "At a fixed sensitivity of 95%, the system could avoid 17.6% to 32.2% of unnecessary biopsies while missing less than 5% of clinically significant cancers, demonstrating substantial clinical utility.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [
+        "95%",
+        "17.6%",
+        "32.2%",
+        "5%"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 88,
+      "text": "Devindi et al. proposed a multimodal deep CNN pipeline for oral cancer detection that combined oral lesion images with patient metadata [27].",
+      "citations": [
+        27
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "evidence_span": "proposing a multimodal deep-learning pipeline incorporating diverse data sources, including patient metadata, which mimics the diagnostic approach of clinicians in the early detection of oral cancer",
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 89,
+      "text": "The system achieved 81% accuracy, 79% precision, 79% recall, and 78% F1-score, with a Matthews Correlation Coefficient of 0.57.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [
+        "81%",
+        "79%",
+        "79%",
+        "78%",
+        "1",
+        "0.57"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 90,
+      "text": "While performance was moderate compared to other applications, the study demonstrated the feasibility of multimodal approaches for less-studied cancer types.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 91,
+      "text": "Several studies explored comprehensive integration of imaging, genomics, and clinical data.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 92,
+      "text": "Rafique et al. conducted a systematic review of multimodal machine learning models integrating imaging, genomics, and clinical data sources for early disease detection [28].",
+      "citations": [
+        28
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "evidence_span": "This systematic review aimed to determine whether MML models for early disease detection yield superior accuracy and diagnostic reliability compared to unimodal models.",
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 93,
+      "text": "The review reported that multimodal models achieved absolute increases in AUC of 0.04 to 0.10 over unimodal comparators, providing quantitative evidence for the superiority of data integration approaches.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [
+        "0.04",
+        "0.10"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 94,
+      "text": "Walsh et al. reviewed AI applications in renal cancer, highlighting systems that integrate radiological images, genomic data, histopathological results, and clinical records [29].",
+      "citations": [
+        29
+      ],
+      "kind": "cited",
+      "verdict": "UNSUPPORTED",
+      "confidence": "medium",
+      "evidence_span": "",
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": [],
+      "verified_state": "supported",
+      "verified_panel": {
+        "supporter_verdict": "SUPPORTED",
+        "skeptic_verdict": "SUPPORTED"
+      }
+    },
+    {
+      "idx": 95,
+      "text": "The review emphasized AI's potential for early clinical outcome prediction, renal carcinoma subtyping, grading, staging, and disease identification, though specific performance metrics were not reported.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 96,
+      "text": "Haue et al. explored AI-aided data mining of medical records for cancer detection and screening, using multiple machine learning algorithms and neural networks applied to multimodal medical record data [30].",
+      "citations": [
+        30
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "evidence_span": "It uses multiple machine learning algorithms or neural networks for data mining of medical records.",
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 97,
+      "text": "This approach represents a distinct paradigm where AI systems analyze unstructured clinical documentation to identify patients at high cancer risk or with undiagnosed malignancies.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 98,
+      "text": "Multimodal approaches consistently demonstrate superior or comparable performance to single-modality methods, with several studies reporting AUC values of 0.95 or higher and sensitivity exceeding 90%.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [
+        "0.95",
+        "90%"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 99,
+      "text": "The integration of complementary data sources appears to reduce both false positives and false negatives, addressing a key limitation of imaging-only approaches.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 100,
+      "text": "Attention-based fusion mechanisms and ensemble architectures are emerging as preferred methods for combining heterogeneous data types.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 101,
+      "text": "However, multimodal systems face challenges including increased data requirements, greater model complexity, and difficulties in clinical deployment where all data modalities may not be routinely available [1], [23], [28].",
+      "citations": [
+        1,
+        23,
+        28
+      ],
+      "kind": "cited",
+      "verdict": "UNSUPPORTED",
+      "confidence": "medium",
+      "evidence_span": "",
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": [],
+      "verified_state": "unsupported",
+      "verified_panel": {
+        "supporter_verdict": "UNSUPPORTED",
+        "skeptic_verdict": "UNSUPPORTED"
+      }
+    },
+    {
+      "idx": 102,
+      "text": "Table 1 summarizes the performance metrics reported across the three primary approaches for studies with complete AUC, sensitivity, and specificity data.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [
+        "1"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 103,
+      "text": "**Table 1: Comparative Performance Metrics by Approach Type**",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [
+        "1"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 104,
+      "text": "*Absolute margin above average radiologist; **At radiologist specificity; ***Fixed sensitivity threshold; ****Range across readers and AI combinations; *****For micro-metastases in ultrasound; NR = Not Reported",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 105,
+      "text": "For studies reporting AUC values, multimodal approaches achieved the highest performance, with the LungGuard system reaching 0.96 for early-stage lung cancer detection [1].",
+      "citations": [
+        1
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "medium",
+      "evidence_span": "LungGuard achieves AUC \u2248 0.96, sensitivity \u2248 92%, specificity \u2248 90% in early-stage (I & II) lung cancer detection",
+      "numbers": [
+        "0.96"
+      ],
+      "numbers_grounded": [
+        "0.96"
+      ],
+      "numbers_missing": []
+    },
+    {
+      "idx": 106,
+      "text": "Imaging-based approaches showed strong but more variable performance, with breast cancer screening systems achieving AUC values from 0.82 to 0.96 [12], [13], [31].",
+      "citations": [
+        12,
+        13,
+        31
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "evidence_span": "the area under the receiver operating curve for cancer detection was 0.956 (95% CI, 0.948-0.965) for AI-1",
+      "numbers": [
+        "0.82",
+        "0.96"
+      ],
+      "numbers_grounded": [
+        "0.82",
+        "0.96"
+      ],
+      "numbers_missing": []
+    },
+    {
+      "idx": 107,
+      "text": "The median AUC for prostate cancer detection using imaging was 0.88 [17], while multimodal prostate cancer systems achieved 0.81-0.85 across multiple validation cohorts [26].",
+      "citations": [
+        17,
+        26
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "evidence_span": "AI-based technologies achieved a median AUC-ROC of 0.88 (range 0.70\u20130.93)",
+      "numbers": [
+        "0.88",
+        "0.81",
+        "0.85"
+      ],
+      "numbers_grounded": [
+        "0.88",
+        "0.85"
+      ],
+      "numbers_missing": [
+        "0.81"
+      ]
+    },
+    {
+      "idx": 108,
+      "text": "Rafique et al.'s systematic review provided quantitative evidence that multimodal models achieve absolute AUC increases of 0.04 to 0.10 compared to unimodal approaches [28].",
+      "citations": [
+        28
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "evidence_span": "MML models achieving absolute increases in the Area Under the Curve (AUC) of 0.04 to 0.10 over the best unimodal comparator",
+      "numbers": [
+        "0.04",
+        "0.10"
+      ],
+      "numbers_grounded": [
+        "0.04",
+        "0.10"
+      ],
+      "numbers_missing": []
+    },
+    {
+      "idx": 109,
+      "text": "This consistent improvement across multiple studies and cancer types suggests that data integration provides genuine added value beyond single-modality analysis.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 110,
+      "text": "Sensitivity\u2014the ability to correctly identify cancer cases\u2014is critical for screening applications where missing cancers carries severe consequences.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 111,
+      "text": "Multimodal approaches demonstrated high sensitivity, with LungGuard achieving 92% for early-stage lung cancer [1] and Zhang et al.'s prostate cancer system maintaining 95% sensitivity while reducing unnecessary biopsies [26].",
+      "citations": [
+        1,
+        26
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "evidence_span": "sensitivity \u2248 92%, specificity \u2248 90% in early-stage (I & II) lung cancer detection",
+      "numbers": [
+        "92%",
+        "95%"
+      ],
+      "numbers_grounded": [
+        "92%",
+        "95%"
+      ],
+      "numbers_missing": []
+    },
+    {
+      "idx": 112,
+      "text": "Imaging-based approaches showed variable sensitivity depending on cancer type and specific application.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 113,
+      "text": "For breast cancer, reported sensitivity ranged from 67% to 96.6% [13], [14], with higher values typically achieved at the cost of lower specificity.",
+      "citations": [
+        13,
+        14
+      ],
+      "kind": "cited",
+      "verdict": "UNSUPPORTED",
+      "confidence": "medium",
+      "evidence_span": "the sensitivities were 81.9% for AI-1, 67.0% for AI-2, 67.4% for AI-3",
+      "numbers": [
+        "67%",
+        "96.6%"
+      ],
+      "numbers_grounded": [
+        "67%",
+        "96.6%"
+      ],
+      "numbers_missing": [],
+      "verified_state": "supported",
+      "verified_panel": {
+        "supporter_verdict": "SUPPORTED",
+        "skeptic_verdict": "SUPPORTED"
+      }
+    },
+    {
+      "idx": 114,
+      "text": "The combination of AI with radiologist assessment achieved 88.6% to 91.7% sensitivity [11], [13], suggesting that hybrid human-AI systems may optimize sensitivity while maintaining acceptable specificity.",
+      "citations": [
+        11,
+        13
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "evidence_span": "The results of the combined assessment of AI and Reader First-1 showed a specificity of 72.7% and sensitivity of 91.7%.",
+      "numbers": [
+        "88.6%",
+        "91.7%"
+      ],
+      "numbers_grounded": [
+        "88.6%",
+        "91.7%"
+      ],
+      "numbers_missing": []
+    },
+    {
+      "idx": 115,
+      "text": "Specificity\u2014the ability to correctly identify non-cancer cases\u2014is crucial for minimizing false positives that lead to unnecessary follow-up procedures, patient anxiety, and healthcare costs.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 116,
+      "text": "Imaging-based breast cancer screening systems achieved specificity ranging from 56% to 96.6% [11], [13], with commercial systems typically optimized for high specificity to match clinical workflows.",
+      "citations": [
+        11,
+        13
+      ],
+      "kind": "cited",
+      "verdict": "UNSUPPORTED",
+      "confidence": "medium",
+      "evidence_span": "the cut point was defined by the mean specificity of the first-reader radiologists (96.6%)",
+      "numbers": [
+        "56%",
+        "96.6%"
+      ],
+      "numbers_grounded": [
+        "56%",
+        "96.6%"
+      ],
+      "numbers_missing": [],
+      "verified_state": "supported",
+      "verified_panel": {
+        "supporter_verdict": "SUPPORTED",
+        "skeptic_verdict": "SUPPORTED"
+      }
+    },
+    {
+      "idx": 117,
+      "text": "The LungGuard multimodal system achieved 90% specificity for early-stage lung cancer detection [1], while the multimodal prostate cancer system demonstrated the ability to avoid 17.6% to 32.2% of unnecessary biopsies at 95% sensitivity [26].",
+      "citations": [
+        1,
+        26
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "evidence_span": "LungGuard achieves AUC \u2248 0.96, sensitivity \u2248 92%, specificity \u2248 90% in early-stage (I & II) lung cancer detection",
+      "numbers": [
+        "90%",
+        "17.6%",
+        "32.2%",
+        "95%"
+      ],
+      "numbers_grounded": [
+        "90%",
+        "17.6%",
+        "32.2%",
+        "95%"
+      ],
+      "numbers_missing": []
+    },
+    {
+      "idx": 118,
+      "text": "These results suggest that multimodal approaches may achieve better sensitivity-specificity trade-offs than single-modality systems by leveraging complementary information sources.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 119,
+      "text": "Breast cancer detection represents the most mature application area, with multiple commercial systems achieving AUC values above 0.90 and sensitivity exceeding 80% at clinically acceptable specificity levels [12], [13], [14].",
+      "citations": [
+        12,
+        13,
+        14
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "evidence_span": "The area under the receiver operating curve for cancer detection was 0.956 (95% CI, 0.948-0.965) for AI-1, 0.922 (95% CI, 0.910-0.934) for AI-2, and 0.920 (95% CI, 0.909-0.931) for AI-3. At the specificity of the radiologists, the sensitivities were 81.9% for AI-1",
+      "numbers": [
+        "0.90",
+        "80%"
+      ],
+      "numbers_grounded": [
+        "0.90",
+        "80%"
+      ],
+      "numbers_missing": []
+    },
+    {
+      "idx": 120,
+      "text": "Lung cancer detection shows strong performance for nodule identification, particularly for small nodules, though specificity challenges remain [15].",
+      "citations": [
+        15
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "evidence_span": "AI models achieved higher sensitivity, especially with nodules &lt;6mm, and reduced detection times; however, specificity remained variable",
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 121,
+      "text": "Prostate cancer detection using AI achieved median AUC of 0.88 with median sensitivity of 86% [17], [26].",
+      "citations": [
+        17,
+        26
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "evidence_span": "AI-based technologies achieved a median AUC-ROC of 0.88 (range 0.70\u20130.93), with median sensitivity and specificity of 0.86 and 0.83, respectively.",
+      "numbers": [
+        "0.88",
+        "86%"
+      ],
+      "numbers_grounded": [
+        "0.88",
+        "86%"
+      ],
+      "numbers_missing": []
+    },
+    {
+      "idx": 122,
+      "text": "Less-studied cancer types including oral, skin, and renal cancers show promising initial results but require further validation [18], [19], [27], [29].",
+      "citations": [
+        18,
+        19,
+        27,
+        29
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "low",
+      "evidence_span": "Before applying this in daily practice, healthcare practitioners must understand the fundamentals and interact across different fields to standardize datasets, establish relevant outcomes, and merge interpretations.",
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 123,
+      "text": "Direct comparison of performance metrics across studies is complicated by several factors.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 124,
+      "text": "Studies used different datasets, validation approaches (retrospective vs. prospective), and patient populations (screening vs. diagnostic cohorts).",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 125,
+      "text": "Performance metrics are often reported at different operating points (e.g., fixed sensitivity vs. fixed specificity), making direct comparison challenging.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 126,
+      "text": "Many studies lack complete reporting of all three key metrics (AUC, sensitivity, specificity), limiting comprehensive comparison.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 127,
+      "text": "External validation on independent datasets remains uncommon, raising questions about generalizability [13], [17].",
+      "citations": [
+        13,
+        17
+      ],
+      "kind": "cited",
+      "verdict": "UNSUPPORTED",
+      "confidence": "medium",
+      "evidence_span": "",
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": [],
+      "verified_state": "unsupported",
+      "verified_panel": {
+        "supporter_verdict": "UNSUPPORTED",
+        "skeptic_verdict": "UNSUPPORTED"
+      }
+    },
+    {
+      "idx": 128,
+      "text": "The evidence strongly supports the superiority of multimodal approaches that integrate imaging with genomics, clinical biomarkers, and demographic data.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 129,
+      "text": "Multiple studies demonstrated that data fusion achieves higher AUC values, better sensitivity-specificity trade-offs, and more robust performance across diverse patient populations compared to single-modality methods [1], [23], [28].",
+      "citations": [
+        1,
+        23,
+        28
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "medium",
+      "evidence_span": "MML models achieving absolute increases in the Area Under the Curve (AUC) of 0.04 to 0.10 over the best unimodal comparator",
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 130,
+      "text": "This finding aligns with clinical intuition\u2014expert physicians synthesize multiple information sources when making diagnostic decisions, and AI systems that mimic this holistic approach achieve superior performance.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 131,
+      "text": "The mechanisms underlying multimodal superiority likely include complementary information capture (different modalities reveal different aspects of cancer biology), error compensation (weaknesses in one modality are offset by strengths in others), and improved generalization (multiple data sources reduce overfitting to specific patterns in any single modality).",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 132,
+      "text": "Attention-based fusion mechanisms enable models to dynamically weight different modalities based on their relevance for specific cases, further enhancing performance [1].",
+      "citations": [
+        1
+      ],
+      "kind": "cited",
+      "verdict": "UNSUPPORTED",
+      "confidence": "medium",
+      "evidence_span": "an attention\u2010based fusion module to combine features",
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": [],
+      "verified_state": "unsupported",
+      "verified_panel": {
+        "supporter_verdict": "UNSUPPORTED",
+        "skeptic_verdict": "UNSUPPORTED"
+      }
+    },
+    {
+      "idx": 133,
+      "text": "Imaging-based AI systems, particularly for breast cancer mammography screening, have reached a level of maturity enabling clinical deployment.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 134,
+      "text": "Multiple commercial systems have undergone rigorous external validation and demonstrate performance comparable to or exceeding expert radiologists [12], [13].",
+      "citations": [
+        12,
+        13
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "medium",
+      "evidence_span": "The results of this study indicated that a commercially available AI computer-aided detection algorithm can assess screening mammograms with a sufficient diagnostic performance to be further evaluated as an independent reader in prospective clinical trials.",
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 135,
+      "text": "The regulatory pathway for these systems is increasingly well-defined, with several AI mammography systems receiving FDA clearance and CE marking.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 136,
+      "text": "Performance varies substantially across different imaging devices, acquisition protocols, and patient populations, necessitating careful validation before deployment in new settings [32].",
+      "citations": [
+        32
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "medium",
+      "evidence_span": "device-specific domain shifts may limit generalizability",
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 137,
+      "text": "The \"black box\" nature of deep learning models raises concerns about interpretability and trust, though explainability methods like Grad-CAM and SHAP are increasingly incorporated [1].",
+      "citations": [
+        1
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "medium",
+      "evidence_span": "Explainability methods (Grad-CAM, SHAP) are used to highlight imaging regions and biomarker contributions.",
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 138,
+      "text": "Integration into clinical workflows requires careful consideration of how AI recommendations are presented to radiologists and how human-AI collaboration is optimized [13].",
+      "citations": [
+        13
+      ],
+      "kind": "cited",
+      "verdict": "UNSUPPORTED",
+      "confidence": "high",
+      "evidence_span": "",
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": [],
+      "verified_state": "unsupported",
+      "verified_panel": {
+        "supporter_verdict": "UNSUPPORTED",
+        "skeptic_verdict": "UNSUPPORTED"
+      }
+    },
+    {
+      "idx": 139,
+      "text": "The limited representation of pure genomics-based approaches in early cancer detection literature represents both a gap and an opportunity.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 140,
+      "text": "While genomic testing has transformed cancer treatment selection and monitoring, its application to initial detection remains underdeveloped.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 141,
+      "text": "This likely reflects the challenges of obtaining tissue or blood samples for population screening and the limited sensitivity of current molecular signatures for early-stage disease.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 142,
+      "text": "However, emerging technologies including multi-cancer early detection (MCED) tests that analyze cell-free DNA methylation patterns in blood samples show promise for detecting multiple cancer types from a single test.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 143,
+      "text": "As these technologies mature and costs decrease, genomics-based screening may become more prevalent, particularly when integrated with imaging and clinical data in multimodal systems [22].",
+      "citations": [
+        22
+      ],
+      "kind": "cited",
+      "verdict": "UNSUPPORTED",
+      "confidence": "medium",
+      "evidence_span": "",
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": [],
+      "verified_state": "not_a_claim",
+      "verified_panel": {
+        "supporter_verdict": "UNSUPPORTED",
+        "skeptic_verdict": "NOT_A_FACTUAL_CLAIM"
+      }
+    },
+    {
+      "idx": 144,
+      "text": "Despite impressive performance metrics in research settings, clinical translation of AI cancer detection systems faces substantial challenges.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 145,
+      "text": "Most studies report retrospective validation on curated datasets, which may not reflect the complexity and variability of real-world clinical practice.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 146,
+      "text": "Prospective clinical trials demonstrating improved patient outcomes (not just diagnostic accuracy) remain rare.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 147,
+      "text": "Integration with existing healthcare IT infrastructure, including picture archiving and communication systems (PACS) and electronic health records, requires substantial technical effort.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 148,
+      "text": "Regulatory pathways for AI medical devices are evolving, with questions about how to handle continuous learning systems that improve over time.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 149,
+      "text": "Reimbursement models for AI-assisted diagnosis remain unclear in many healthcare systems.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 150,
+      "text": "Liability concerns arise regarding responsibility when AI systems contribute to diagnostic errors.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 151,
+      "text": "Addressing these challenges requires collaboration among researchers, clinicians, regulators, payers, and patients [15], [30].",
+      "citations": [
+        15,
+        30
+      ],
+      "kind": "cited",
+      "verdict": "UNSUPPORTED",
+      "confidence": "high",
+      "evidence_span": "",
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": [],
+      "verified_state": "unsupported",
+      "verified_panel": {
+        "supporter_verdict": "UNSUPPORTED",
+        "skeptic_verdict": "UNSUPPORTED"
+      }
+    },
+    {
+      "idx": 152,
+      "text": "AI systems trained predominantly on data from specific populations may not generalize well to underrepresented groups, potentially exacerbating healthcare disparities.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 153,
+      "text": "Several studies noted performance variations across different demographic groups and imaging devices [12], [32].",
+      "citations": [
+        12,
+        32
+      ],
+      "kind": "cited",
+      "verdict": "UNSUPPORTED",
+      "confidence": "medium",
+      "evidence_span": "Native Mirai showed lower performance on TE images than on Hologic or PV images.",
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": [],
+      "verified_state": "unsupported",
+      "verified_panel": {
+        "supporter_verdict": "UNSUPPORTED",
+        "skeptic_verdict": "UNSUPPORTED"
+      }
+    },
+    {
+      "idx": 154,
+      "text": "Ensuring equitable performance requires diverse training data, careful validation across population subgroups, and ongoing monitoring of deployed systems.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 155,
+      "text": "The concentration of AI cancer detection research in high-resource settings raises questions about applicability to low- and middle-income countries where cancer burden is growing rapidly.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 156,
+      "text": "Developing AI systems that work with lower-quality imaging equipment, limited clinical data, and resource-constrained settings represents an important research priority [1].",
+      "citations": [
+        1
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "low",
+      "evidence_span": "deployment in low-resource settings",
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 157,
+      "text": "The \"black box\" nature of deep learning models poses challenges for clinical adoption.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 158,
+      "text": "Clinicians need to understand why an AI system flagged a particular case to appropriately integrate AI recommendations into their decision-making.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 159,
+      "text": "Patients and regulatory bodies require transparency about how AI systems reach conclusions.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 160,
+      "text": "Explainability methods including attention maps, saliency visualizations, and SHAP values are increasingly incorporated into AI cancer detection systems, though their clinical utility requires further validation [1], [27].",
+      "citations": [
+        1,
+        27
+      ],
+      "kind": "cited",
+      "verdict": "UNSUPPORTED",
+      "confidence": "medium",
+      "evidence_span": "Explainability methods (Grad-CAM, SHAP) are used to highlight imaging regions and biomarker contributions.",
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": [],
+      "verified_state": "unsupported",
+      "verified_panel": {
+        "supporter_verdict": "UNSUPPORTED",
+        "skeptic_verdict": "UNSUPPORTED"
+      }
+    },
+    {
+      "idx": 161,
+      "text": "Building trust in AI systems requires not only technical explainability but also rigorous validation, transparent reporting of limitations, and clear communication about appropriate use cases.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 162,
+      "text": "Hybrid human-AI systems that position AI as a decision support tool rather than autonomous decision-maker may facilitate adoption while maintaining clinical oversight [11], [13].",
+      "citations": [
+        11,
+        13
+      ],
+      "kind": "cited",
+      "verdict": "UNSUPPORTED",
+      "confidence": "medium",
+      "evidence_span": "",
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": [],
+      "verified_state": "unsupported",
+      "verified_panel": {
+        "supporter_verdict": "UNSUPPORTED",
+        "skeptic_verdict": "UNSUPPORTED"
+      }
+    },
+    {
+      "idx": 163,
+      "text": "Several key research priorities emerge from this analysis.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 164,
+      "text": "First, prospective clinical trials evaluating AI cancer detection systems in real-world settings are urgently needed to demonstrate clinical utility beyond retrospective diagnostic accuracy.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 165,
+      "text": "Second, standardized reporting frameworks for AI cancer detection studies would facilitate comparison across studies and meta-analysis.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 166,
+      "text": "Third, external validation on diverse datasets and populations should become standard practice to assess generalizability.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 167,
+      "text": "Fourth, research on optimal human-AI collaboration strategies is needed to maximize the complementary strengths of human expertise and AI capabilities [12], [13].",
+      "citations": [
+        12,
+        13
+      ],
+      "kind": "cited",
+      "verdict": "UNSUPPORTED",
+      "confidence": "medium",
+      "evidence_span": "Combining AI-1 with first-reader radiologists achieved 88.6% sensitivity at 93.0% specificity",
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": [],
+      "verified_state": "not_a_claim",
+      "verified_panel": {
+        "supporter_verdict": "NOT_A_FACTUAL_CLAIM",
+        "skeptic_verdict": "NOT_A_FACTUAL_CLAIM"
+      }
+    },
+    {
+      "idx": 168,
+      "text": "Fifth, development of multimodal systems that integrate imaging, genomics, and clinical data should be prioritized given their demonstrated superiority.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 169,
+      "text": "Sixth, explainability research should focus on clinically meaningful interpretations rather than purely technical visualizations.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 170,
+      "text": "Seventh, investigation of AI systems for less-studied cancer types (pancreatic, ovarian, esophageal) where early detection could have major impact represents an important opportunity [33].",
+      "citations": [
+        33
+      ],
+      "kind": "cited",
+      "verdict": "UNSUPPORTED",
+      "confidence": "high",
+      "evidence_span": "Radiomics-based machine-learning models can detect pancreatic cancer on prediagnostic computed tomography scans",
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": [],
+      "verified_state": "unsupported",
+      "verified_panel": {
+        "supporter_verdict": "UNSUPPORTED",
+        "skeptic_verdict": "UNSUPPORTED"
+      }
+    },
+    {
+      "idx": 171,
+      "text": "From a technical perspective, several recommendations emerge.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 172,
+      "text": "Attention-based fusion mechanisms should be preferred for multimodal integration given their ability to dynamically weight different data sources and provide interpretability [1].",
+      "citations": [
+        1
+      ],
+      "kind": "cited",
+      "verdict": "UNSUPPORTED",
+      "confidence": "medium",
+      "evidence_span": "an attention-based fusion module to combine features",
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": [],
+      "verified_state": "unsupported",
+      "verified_panel": {
+        "supporter_verdict": "UNSUPPORTED",
+        "skeptic_verdict": "UNSUPPORTED"
+      }
+    },
+    {
+      "idx": 173,
+      "text": "Ensemble approaches combining multiple models or architectures often outperform single models and should be considered despite increased computational costs [12].",
+      "citations": [
+        12
+      ],
+      "kind": "cited",
+      "verdict": "UNSUPPORTED",
+      "confidence": "high",
+      "evidence_span": "",
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": [],
+      "verified_state": "unsupported",
+      "verified_panel": {
+        "supporter_verdict": "UNSUPPORTED",
+        "skeptic_verdict": "UNSUPPORTED"
+      }
+    },
+    {
+      "idx": 174,
+      "text": "Transfer learning from large pre-trained models can improve performance, particularly for smaller datasets [23].",
+      "citations": [
+        23
+      ],
+      "kind": "cited",
+      "verdict": "UNSUPPORTED",
+      "confidence": "medium",
+      "evidence_span": "Transfer learning and fine-tuning strategies are incorporated to further improve classification performance.",
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": [],
+      "verified_state": "unsupported",
+      "verified_panel": {
+        "supporter_verdict": "UNSUPPORTED",
+        "skeptic_verdict": "UNSUPPORTED"
+      }
+    },
+    {
+      "idx": 175,
+      "text": "Three-dimensional CNNs should be employed for volumetric imaging data (CT, MRI) to capture spatial context [1].",
+      "citations": [
+        1
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "medium",
+      "evidence_span": "LungGuard uses a 3D convolutional neural network backbone to process volumetric CT scans",
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 176,
+      "text": "Transformer architectures show promise for capturing long-range dependencies and should be explored further [24].",
+      "citations": [
+        24
+      ],
+      "kind": "cited",
+      "verdict": "UNSUPPORTED",
+      "confidence": "high",
+      "evidence_span": "",
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": [],
+      "verified_state": "unsupported",
+      "verified_panel": {
+        "supporter_verdict": "UNSUPPORTED",
+        "skeptic_verdict": "UNSUPPORTED"
+      }
+    },
+    {
+      "idx": 177,
+      "text": "Radiomics approaches that extract quantitative features from images can complement end-to-end deep learning and may improve interpretability [16].",
+      "citations": [
+        16
+      ],
+      "kind": "cited",
+      "verdict": "UNSUPPORTED",
+      "confidence": "high",
+      "evidence_span": "",
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": [],
+      "verified_state": "unsupported",
+      "verified_panel": {
+        "supporter_verdict": "UNSUPPORTED",
+        "skeptic_verdict": "UNSUPPORTED"
+      }
+    },
+    {
+      "idx": 178,
+      "text": "Techniques to address class imbalance (focal loss, data augmentation, synthetic data generation) are critical given the low prevalence of cancer in screening populations [1].",
+      "citations": [
+        1
+      ],
+      "kind": "cited",
+      "verdict": "UNSUPPORTED",
+      "confidence": "medium",
+      "evidence_span": "techniques such as focal loss are used to address class imbalance",
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": [],
+      "verified_state": "supported",
+      "verified_panel": {
+        "supporter_verdict": "SUPPORTED",
+        "skeptic_verdict": "UNSUPPORTED"
+      }
+    },
+    {
+      "idx": 179,
+      "text": "For clinical implementation, several recommendations emerge.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 180,
+      "text": "AI systems should be positioned as decision support tools that augment rather than replace human expertise, at least in the near term [11], [13].",
+      "citations": [
+        11,
+        13
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "medium",
+      "evidence_span": "While the single AI algorithm did not outperform radiologists, an ensemble of AI algorithms combined with junior radiologist assessments were found to improve the overall accuracy.",
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 181,
+      "text": "Clear protocols for how radiologists or pathologists should interact with AI recommendations are needed.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 182,
+      "text": "Continuous monitoring of AI system performance in deployment is essential to detect performance degradation or bias.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 183,
+      "text": "Feedback mechanisms allowing clinicians to report errors or unexpected behavior should be incorporated.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 184,
+      "text": "Integration with existing clinical workflows and IT infrastructure should be prioritized over standalone systems.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 185,
+      "text": "Training programs for healthcare professionals on appropriate use of AI tools are necessary.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 186,
+      "text": "Patient communication strategies explaining the role of AI in their care should be developed.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 187,
+      "text": "Mechanisms for updating AI systems as new data becomes available while maintaining regulatory compliance need to be established [30].",
+      "citations": [
+        30
+      ],
+      "kind": "cited",
+      "verdict": "UNSUPPORTED",
+      "confidence": "high",
+      "evidence_span": "",
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": [],
+      "verified_state": "unsupported",
+      "verified_panel": {
+        "supporter_verdict": "UNSUPPORTED",
+        "skeptic_verdict": "UNSUPPORTED"
+      }
+    },
+    {
+      "idx": 188,
+      "text": "From a policy perspective, several recommendations emerge.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 189,
+      "text": "Regulatory frameworks should balance the need for rigorous safety and efficacy evaluation with the desire to enable rapid innovation.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 190,
+      "text": "Standards for AI system validation, including requirements for diverse datasets and external validation, should be established.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 191,
+      "text": "Reimbursement models that appropriately value AI-assisted diagnosis need to be developed.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 192,
+      "text": "Liability frameworks clarifying responsibility when AI contributes to diagnostic decisions should be established.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 193,
+      "text": "Policies promoting data sharing and creation of large, diverse, well-annotated datasets would accelerate research while protecting patient privacy.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 194,
+      "text": "International collaboration on AI cancer detection research could improve generalizability and equity.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 195,
+      "text": "Investment in AI cancer detection research for underserved populations and low-resource settings should be prioritized.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 196,
+      "text": "Ethical frameworks addressing issues of bias, equity, transparency, and patient autonomy in AI-assisted cancer detection should be developed [15], [30].",
+      "citations": [
+        15,
+        30
+      ],
+      "kind": "cited",
+      "verdict": "UNSUPPORTED",
+      "confidence": "medium",
+      "evidence_span": "highlights the need for integration strategies, ethical frameworks, and further clinical trials",
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": [],
+      "verified_state": "supported",
+      "verified_panel": {
+        "supporter_verdict": "SUPPORTED",
+        "skeptic_verdict": "UNSUPPORTED"
+      }
+    },
+    {
+      "idx": 197,
+      "text": "Several emerging technologies warrant attention.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 198,
+      "text": "Foundation models pre-trained on massive datasets and fine-tuned for specific cancer detection tasks may improve performance and reduce data requirements.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 199,
+      "text": "Federated learning approaches enabling model training across multiple institutions without sharing patient data could address privacy concerns while enabling larger training datasets.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 200,
+      "text": "Multi-cancer early detection tests analyzing circulating tumor DNA represent a paradigm shift toward blood-based screening that could complement imaging approaches.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 201,
+      "text": "Integration of AI cancer detection with risk prediction models could enable personalized screening strategies tailored to individual risk profiles.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 202,
+      "text": "Real-time AI assistance during image acquisition could improve image quality and reduce the need for repeat examinations.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 203,
+      "text": "AI systems that integrate cancer detection with characterization, staging, and treatment planning could provide comprehensive decision support throughout the cancer care continuum [29], [31].",
+      "citations": [
+        29,
+        31
+      ],
+      "kind": "cited",
+      "verdict": "UNSUPPORTED",
+      "confidence": "medium",
+      "evidence_span": "Early clinical outcome prediction, renal carcinoma subtyping, grading, staging, and disease identification are only areas in which their potential has been demonstrated.",
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": [],
+      "verified_state": "unsupported",
+      "verified_panel": {
+        "supporter_verdict": "UNSUPPORTED",
+        "skeptic_verdict": "UNSUPPORTED"
+      }
+    },
+    {
+      "idx": 204,
+      "text": "This comprehensive comparative analysis of AI-based early cancer detection reveals a rapidly maturing field with substantial clinical promise.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 205,
+      "text": "Imaging-based approaches, particularly for breast cancer mammography screening, have achieved performance levels enabling clinical deployment, with AUC values consistently exceeding 0.90 and sensitivity approaching or exceeding human expert performance.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [
+        "0.90"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 206,
+      "text": "Multimodal approaches that integrate imaging with genomics, clinical biomarkers, and demographic data demonstrate superior performance, achieving AUC values up to 0.96 and sensitivity exceeding 92% for early-stage detection while maintaining high specificity.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [
+        "0.96",
+        "92%"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 207,
+      "text": "The evidence strongly supports continued investment in multimodal AI systems that mirror the holistic decision-making of expert clinicians.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 208,
+      "text": "However, the limited representation of pure genomics-based approaches highlights an important gap, particularly as liquid biopsy and multi-cancer early detection technologies mature.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 209,
+      "text": "The field faces important challenges in clinical translation, including the need for prospective validation, integration with clinical workflows, regulatory clarity, and ensuring equitable performance across diverse populations.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 210,
+      "text": "Key recommendations include prioritizing prospective clinical trials, standardizing reporting practices, emphasizing external validation, developing optimal human-AI collaboration strategies, and addressing equity concerns through diverse training data and validation across population subgroups.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 211,
+      "text": "Technical priorities include continued development of attention-based fusion mechanisms for multimodal integration, exploration of transformer architectures, and incorporation of explainability methods that provide clinically meaningful insights.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 212,
+      "text": "As AI cancer detection systems transition from research to clinical practice, maintaining focus on patient outcomes rather than purely technical metrics will be essential.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 213,
+      "text": "The ultimate measure of success is not diagnostic accuracy in isolation but rather improved survival, reduced morbidity, enhanced quality of life, and equitable access to high-quality cancer screening.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 214,
+      "text": "With continued rigorous research, thoughtful clinical implementation, and appropriate regulatory oversight, AI-based early cancer detection has the potential to substantially reduce the global burden of cancer.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 215,
+      "text": "[1] \"LungGuard- A Multimodal Deep Learning System for Early Lung Cancer Detection via Fusion of CT Imaging, Clinical Biomarkers, and Demographic Data,\" 2025.",
+      "citations": [
+        1
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "evidence_span": "LungGuard- A Multimodal Deep Learning System for Early Lung Cancer Detection via Fusion of CT Imaging, Clinical Biomarkers, and Demographic Data",
+      "numbers": [
+        "2025"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": [
+        "2025"
+      ]
+    },
+    {
+      "idx": 216,
+      "text": "DOI: https://doi.org/10.5281/zenodo.17177686",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [
+        "10.5281",
+        "17177686"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 217,
+      "text": "Essa et al., \"Artificial intelligence in early cancer detection: a paradigm shift in oncology diagnostic,\" Journal of medical & health sciences review, 2025.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [
+        "2025"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 218,
+      "text": "Ranjithkumar et al., \"Revolutionizing Oncology: AI Driven Approaches to Early Cancer Diagnosis,\" 2025.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [
+        "2025"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 219,
+      "text": "DOI: https://doi.org/10.1109/icimia67127.2025.11200652",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [
+        "10.1109",
+        "67127.2025",
+        "11200652"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 220,
+      "text": "Malla et al., \"How AI Improves Early Cancer Detection: Focus on Precision, Speed, and Medical Impact,\" Journal of Student Research, 2024.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [
+        "2024"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 221,
+      "text": "DOI: https://doi.org/10.47611/jsrhs.v13i4.8296",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [
+        "10.47611",
+        "13",
+        "4.8296"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 222,
+      "text": "[5] D et al., \"Advancing Early Detection Paradigms in Breast Cancer: A Systematic Review of Machine Learning Approaches,\" 2025.",
+      "citations": [
+        5
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "medium",
+      "evidence_span": "Advancing Early Detection Paradigms in Breast Cancer: A Systematic Review of Machine Learning Approaches",
+      "numbers": [
+        "2025"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": [
+        "2025"
+      ]
+    },
+    {
+      "idx": 223,
+      "text": "DOI: https://doi.org/10.5281/zenodo.15095972",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [
+        "10.5281",
+        "15095972"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 224,
+      "text": "Gandhi et al., \"Systematic Review: Comparing AI-Based Algorithms and Radiologists in Identifying Lung Nodules on CT Scans,\" International Journal For Multidisciplinary Research, 2024.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [
+        "2024"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 225,
+      "text": "DOI: https://doi.org/10.36948/ijfmr.2024.v06i06.30712",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [
+        "10.36948",
+        "2024",
+        "06",
+        "06.30712"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 226,
+      "text": "Sangeetha et al., \"An Empirical Analysis of Transformer-Based and Convolutional Neural Network Approaches for Early Detection and Diagnosis of Cancer Using Multimodal Imaging and Genomic Data,\" IEEE Access, 2024.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [
+        "2024"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 227,
+      "text": "DOI: https://doi.org/10.1109/access.2024.3524564",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [
+        "10.1109",
+        "2024.3524564"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 228,
+      "text": "Aburass et al., \"Integrating anisotropic heat flow and transformer encoders in convolutional neural network for skin cancer classification,\" Frontiers in medicine, 2026.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [
+        "2026"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 229,
+      "text": "DOI: https://doi.org/10.3389/fmed.2026.1834696",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [
+        "10.3389",
+        "2026.1834696"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 230,
+      "text": "Sangeetha et al., \"An enhanced multimodal fusion deep learning neural network for lung cancer classification,\" Systems and soft computing, 2023.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [
+        "2023"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 231,
+      "text": "DOI: https://doi.org/10.1016/j.sasc.2023.200068",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [
+        "10.1016",
+        "2023.200068"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 232,
+      "text": "Devindi et al., \"Multimodal deep convolutional neural network pipeline for AI-assisted early detection of oral cancer,\" IEEE Access, 2024.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [
+        "2024"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 233,
+      "text": "DOI: https://doi.org/10.1109/access.2024.3454338",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [
+        "10.1109",
+        "2024.3454338"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 234,
+      "text": "Wan et al., \"Evaluation of the Combination of Artificial Intelligence and Radiologist Assessments to Interpret Malignant Architectural Distortion on Mammography,\" Frontiers in Oncology, 2022.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [
+        "2022"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 235,
+      "text": "DOI: https://doi.org/10.3389/fonc.2022.880150",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [
+        "10.3389",
+        "2022.880150"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 236,
+      "text": "McKinney et al., \"International evaluation of an AI system for breast cancer screening,\" Nature, 2020.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [
+        "2020"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 237,
+      "text": "DOI: https://doi.org/10.1038/S41586-019-1799-6",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [
+        "10.1038",
+        "41586",
+        "019",
+        "1799",
+        "6"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 238,
+      "text": "Salim et al., \"External Evaluation of 3 Commercial Artificial Intelligence Algorithms for Independent Assessment of Screening Mammograms,\" JAMA Oncology, 2020.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [
+        "3",
+        "2020"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 239,
+      "text": "DOI: https://doi.org/10.1001/JAMAONCOL.2020.3321",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [
+        "10.1001",
+        "2020.3321"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 240,
+      "text": "Raafat et al., \"Does artificial intelligence aid in the detection of different types of breast cancer?,\" The Egyptian Journal of Radiology and Nuclear medicine, 2022.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [
+        "2022"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 241,
+      "text": "DOI: https://doi.org/10.1186/s43055-022-00868-z",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [
+        "10.1186",
+        "43055",
+        "022",
+        "00868"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 242,
+      "text": "Gandhi et al., \"Systematic Review: Comparing AI-Based Algorithms and Radiologists in Identifying Lung Nodules on CT Scans,\" International Journal For Multidisciplinary Research, 2024.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [
+        "2024"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 243,
+      "text": "DOI: https://doi.org/10.36948/ijfmr.2024.v06i06.30712",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [
+        "10.36948",
+        "2024",
+        "06",
+        "06.30712"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 244,
+      "text": "Miao et al., \"A radiomics nomogram integrated with radiological features for preoperative prediction of lung nodule invasiveness: comparison with Lung-RADS,\" Translational lung cancer research, 2026.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [
+        "2026"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 245,
+      "text": "DOI: https://doi.org/10.21037/tlcr-2025-1083",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [
+        "10.21037",
+        "2025",
+        "1083"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 246,
+      "text": "Ciccone et al., \"Improving Early Prostate Cancer Detection Through Artificial Intelligence: Evidence from a Systematic Review,\" Cancers, 2025.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [
+        "2025"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 247,
+      "text": "DOI: https://doi.org/10.3390/cancers17213503",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [
+        "10.3390",
+        "17213503"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 248,
+      "text": "Aarthi et al., \"Automated detection of basement-membrane breaches in oral squamous cell carcinoma : A comparative study of convolutional neural network architectures,\" Journal of oral biology and craniofacial research, 2026.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [
+        "2026"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 249,
+      "text": "DOI: https://doi.org/10.1016/j.jobcr.2026.101449",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [
+        "10.1016",
+        "2026.101449"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 250,
+      "text": "Aburass et al., \"Integrating anisotropic heat flow and transformer encoders in convolutional neural network for skin cancer classification,\" Frontiers in medicine, 2026.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [
+        "2026"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 251,
+      "text": "DOI: https://doi.org/10.3389/fmed.2026.1834696",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [
+        "10.3389",
+        "2026.1834696"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 252,
+      "text": "Huang et al., \"SAVE: Spectrum-Aided Visual Enhancement for AI-Based Skin Cancer Detection,\" Diagnostics (Basel, Switzerland), 2026.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [
+        "2026"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 253,
+      "text": "DOI: https://doi.org/10.3390/diagnostics16121864",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [
+        "10.3390",
+        "16121864"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 254,
+      "text": "Wu et al., \"Using machine learning algorithms based on laboratory indicators to establish a diagnostic model for lung cancer,\" BMC cancer, 2026.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [
+        "2026"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 255,
+      "text": "DOI: https://doi.org/10.1186/s12885-026-16239-0",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [
+        "10.1186",
+        "12885",
+        "026",
+        "16239",
+        "0"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 256,
+      "text": "[22] Rafique\u00b9 et al., \"Advancing Early Disease Detection Using Multimodal Machine Learning Models Integrating Imaging, Genomics, and Clinical Data Sources,\" 2025.",
+      "citations": [
+        22
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "medium",
+      "evidence_span": "Advancing Early Disease Detection Using Multimodal Machine Learning Models Integrating Imaging, Genomics, and Clinical Data Sources",
+      "numbers": [
+        "2025"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": [
+        "2025"
+      ]
+    },
+    {
+      "idx": 257,
+      "text": "Shafique et al., \"FT-MDNNMDs: early detection of breast cancer using fine-tuned multi-deep neural networks with TCGA and clinical image datasets,\" Scientific reports, 2026.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [
+        "2026"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 258,
+      "text": "DOI: https://doi.org/10.1038/s41598-026-47731-z",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [
+        "10.1038",
+        "41598",
+        "026",
+        "47731"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 259,
+      "text": "Sangeetha et al., \"An Empirical Analysis of Transformer-Based and Convolutional Neural Network Approaches for Early Detection and Diagnosis of Cancer Using Multimodal Imaging and Genomic Data,\" IEEE Access, 2024.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [
+        "2024"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 260,
+      "text": "DOI: https://doi.org/10.1109/access.2024.3524564",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [
+        "10.1109",
+        "2024.3524564"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 261,
+      "text": "Sangeetha et al., \"An enhanced multimodal fusion deep learning neural network for lung cancer classification,\" Systems and soft computing, 2023.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [
+        "2023"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 262,
+      "text": "DOI: https://doi.org/10.1016/j.sasc.2023.200068",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [
+        "10.1016",
+        "2023.200068"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 263,
+      "text": "Zhang et al., \"Artificial intelligence for the diagnosis of clinically significant prostate cancer based on multimodal data: a multicenter study,\" BMC Medicine, 2023.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [
+        "2023"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 264,
+      "text": "DOI: https://doi.org/10.1186/s12916-023-02964-x",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [
+        "10.1186",
+        "12916",
+        "023",
+        "02964"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 265,
+      "text": "Devindi et al., \"Multimodal deep convolutional neural network pipeline for AI-assisted early detection of oral cancer,\" IEEE Access, 2024.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [
+        "2024"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 266,
+      "text": "DOI: https://doi.org/10.1109/access.2024.3454338",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [
+        "10.1109",
+        "2024.3454338"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 267,
+      "text": "[28] Rafique\u00b9 et al., \"Advancing Early Disease Detection Using Multimodal Machine Learning Models Integrating Imaging, Genomics, and Clinical Data Sources,\" 2025.",
+      "citations": [
+        28
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "evidence_span": "Advancing Early Disease Detection Using Multimodal Machine Learning Models Integrating Imaging, Genomics, and Clinical Data Sources",
+      "numbers": [
+        "2025"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": [
+        "2025"
+      ]
+    },
+    {
+      "idx": 268,
+      "text": "Walsh et al., \"Using Artificial Intelligence to Advance Renal Cancer Diagnosis, Treatment, and Precision Medicine,\" Annals of urologic oncology, 2025.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [
+        "2025"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 269,
+      "text": "DOI: https://doi.org/10.32948/auo.2025.08.20",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [
+        "10.32948",
+        "2025.08",
+        "20"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 270,
+      "text": "Haue et al., \"Artificial intelligence-aided data mining of medical records for cancer detection and screening,\" Lancet Oncology, 2024.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [
+        "2024"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 271,
+      "text": "DOI: https://doi.org/10.1016/s1470-2045(24)00277-8",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [
+        "10.1016",
+        "1470",
+        "2045",
+        "24",
+        "00277",
+        "8"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 272,
+      "text": "[31] \"AI-Powered Diagnostic Support in Oncology: A Comparative Case Study of GPT-4 Omni and Gemini Advanced in Breast Cancer Detection,\" 2025.",
+      "citations": [
+        31
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "medium",
+      "evidence_span": "AI-Powered Diagnostic Support in Oncology: A Comparative Case Study of GPT-4 Omni and Gemini Advanced in Breast Cancer Detection",
+      "numbers": [
+        "4",
+        "2025"
+      ],
+      "numbers_grounded": [
+        "4"
+      ],
+      "numbers_missing": [
+        "2025"
+      ]
+    },
+    {
+      "idx": 273,
+      "text": "DOI: https://doi.org/10.5281/zenodo.14910374",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [
+        "10.5281",
+        "14910374"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 274,
+      "text": "Sistig et al., \"Cross-Device Adaptation of Mirai for Mammography-Based Breast Cancer Risk Prediction,\" medRxiv : the preprint server for health sciences, 2026.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [
+        "2026"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 275,
+      "text": "DOI: https://doi.org/10.64898/2026.06.15.26355696",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [
+        "10.64898",
+        "2026.06",
+        "15.26355696"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 276,
+      "text": "Mukherjee et al., \"Radiomics-based machine-learning models can detect pancreatic cancer on prediagnostic computed tomography scans at a substantial lead time before clinical diagnosis,\" 2024.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [
+        "2024"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    }
+  ]
+}

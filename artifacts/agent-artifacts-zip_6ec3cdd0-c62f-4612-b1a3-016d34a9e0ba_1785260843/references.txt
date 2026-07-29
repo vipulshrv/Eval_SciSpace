@@ -1,0 +1,57 @@
+References (28)
+[1]
+F. Zaier and M. Zribi, “Artificial Intelligence for Diabetic Retinopathy Screening: Performance of Deep Learning Models,” European Journal of Public Health, vol. 35, no. Supplement_4, Oct. 2025, doi: 10.1093/eurpub/ckaf161.318.
+[2]
+R. S. Sirisati, V. Navyasri, T. Swathi, M. Akhila, and A. Astried, “Diabetic Retinopathy Prediction Using Deep Learning: Insights From CNN,” Nov. 2025, doi: 10.58723/ijaaiml.v2i3.420.
+[3]
+S. S. Patil, B. Supekar, V. V. Phule, A. Ranjane, and Dr. P. B. Thummalakunta, “Deep Insights in to Diabetic Retinopathy Detection: A Review of Techniques in Deep Learning,” Feb. 2024, doi: 10.5281/zenodo.18171975.
+[4]
+R. Reguant, S. Brunak, and S. Saha, “Understanding inherent image features in CNN-based assessment of diabetic retinopathy,” Scientific Reports, vol. 11, no. 1, pp. 9704–9704, May 2021, doi: 10.1038/S41598-021-89225-0.
+[5]
+A. Corrias, “Analysis of Diabetic Retinopathy Detection Techniques Using CNN Models,” pp. 87–102, Jan. 2022, doi: 10.1007/978-981-19-1076-0_6.
+[6]
+A. S. Filani, O. M. ADEGOKE, A. T. AMUDIPE, A. S. Filani, O. M. ADEGOKE, and A. T. AMUDIPE, “Enhancing diabetic retinopathy detection using cnn ensembles and grad-cam on retinal fundus images,” Oct. 2025, doi: 10.70382/tijsrat.v09i9.063.
+[7]
+J. Wong and I. S. Edbert, “Diabetic retinopathy detection system using hybrid convolutional neural network,” pp. 881–886, Dec. 2025, doi: 10.1109/icimcis68501.2025.11327102.
+[8]
+“A Hybrid Convolutional Neural Network Model for Automatic Diabetic Retinopathy Classification From Fundus Images,” IEEE Journal of Translational Engineering in Health and Medicine, vol. 11, pp. 341–350, Jan. 2023, doi: 10.1109/jtehm.2023.3282104.
+[9]
+M. P. Kumar and V. Khanaa, “Deep Learning Framework with Feature Fusion for Enhanced Detection of Diabetic Retinopathy in Retinal Fundus Images,” pp. 1–6, July 2025, doi: 10.1109/iccds64403.2025.11209536.
+[10]
+A. Hannan, Z. Mahmood, R. Qureshi, and H. Ali, “Enhancing diabetic retinopathy classification accuracy through dual-attention mechanism in deep learning,” Computer methods in biomechanics and biomedical engineering. Imaging & visualization, vol. 13, no. 1, July 2025, doi: 10.1080/21681163.2025.2539079.
+[11]
+G. Çinarer and K. Kiliç, “Diabetic Retinopathy Detection with Deep Transfer Learning Methods,” pp. 147–154, Aug. 2021, doi: 10.1007/978-3-030-85577-2_17.
+[12]
+T. Araújo, B. Schaan, C. M. D. S. Freitas, and P. Navaux, “The Impact of Image Input Size on the Efficiency and Suitability of Deep Learning Models in Diabetic Retinopathy,” Nov. 2025, doi: 10.5753/eramiars.2025.16713.
+[13]
+M. M. A. Alooghareh, M. M. Sheikhey, A. Sahafi, H. Pirnejad, and A. Naemi, “Deep Learning for Comprehensive Analysis of Retinal Fundus Images: Detection of Systemic and Ocular Conditions,” Bioengineering, vol. 12, no. 8, pp. 840–840, Aug. 2025, doi: 10.3390/bioengineering12080840.
+[14]
+F. Mohsen, S. Belhaouari, and Z. Shah, “Integrating Non-Linear Radon Transformation for Diabetic Retinopathy Grading,” arXiv.org, vol. abs/2504.15883, Apr. 2025, doi: 10.48550/arxiv.2504.15883.
+[15]
+X. Zeng, H. Chen, Y. Luo, and W. Ye, “Automated Detection of Diabetic Retinopathy using a Binocular Siamese-Like Convolutional Network,” pp. 1–5, May 2019, doi: 10.1109/ISCAS.2019.8702328.
+[16]
+S. Lakhera and A. Garg, “Retinal Fundus Image Classification Using Hybrid Deep Learning Model,” pp. 1–5, July 2023, doi: 10.1109/wconf58270.2023.10235233.
+[17]
+S. Shailee, “A Deep Learning-Aided Framework for Severity-Based Classification of Diabetic Retinopathy in Smartphone-Based Fundus Imaging,” pp. 1–6, Dec. 2025, doi: 10.1109/eict68394.2025.11355563.
+[18]
+D. Elsawah, A. Elnakib, and H. E.-D. Moustafa, “Deep Learning Grading System for Diabetic Retinopathy using Fundus Images. (Dept. E),” June 2024, doi: 10.60692/rqprv-t2605.
+[19]
+M. Thakuria and Y. Zhuang, “Deep Learning Models for Diabetic Retinopathy Detection: A Comparative Study,” pp. 5078–5081, Dec. 2024, doi: 10.1109/bigdata62323.2024.10825434.
+[20]
+R. Sarki, K. Ahmed, H. Wang, and Y. Zhang, “Automatic Detection of Diabetic Eye Disease Through Deep Learning Using Fundus Images: A Survey,” IEEE Access, vol. 8, pp. 151133–151149, Aug. 2020, doi: 10.1109/ACCESS.2020.3015258.
+[21]
+Huang et al., “A CNN-Transformer fusion network for Diabetic retinopathy image classification.,” Computerized medical imaging and graphics : the official journal of the Computerized Medical Imaging Society, 2025, doi: 10.1016/j.compmedimag.2025.102655.
+[22]
+A.-O. Asia et al., “Detection of Diabetic Retinopathy in Retinal Fundus Images Using CNN Classification Models,” Electronics, vol. 11, no. 17, pp. 2740–2740, Aug. 2022, doi: 10.3390/electronics11172740.
+[23]
+SON, “Designing the Architecture of a Convolutional Neural Network Automatically for Diabetic Retinopathy Diagnosis,” Mathematics, vol. 11, no. 2, pp. 307–307, Jan. 2023, doi: 10.3390/math11020307.
+[24]
+R. D. Alshammari, W. M. A. Haliqa, R. Y. Majzoub, R. D. Alshammari, W. M. A. Haliqa, and R. Y. Majzoub, “Diagnostic accuracy of AI or DL-enhanced technologies in the diagnosis of diabetic retinopathy: a systematic review,” vol. 12, no. 1, Nov. 2025, doi: 10.1007/s44326-025-00083-w.
+[25]
+P. Shetgaonkar, S. Aswale, S. Naik, A. Gaonkar, S. Gawade, and P. Mhalsekar, “Diabetic Retinopathy Detection and Classification from Fundus Images Using Deep Learning”, doi: 10.1109/ictai53825.2021.9673345.
+[26]
+P. Kaur and E. Kumar, “Attention-Based Models for Multiclass Classification of Diabetic Retinopathy,” pp. 46–51, Nov. 2025, doi: 10.1109/iccike67021.2025.11318222.
+[27]
+V. Gulshan et al., “Development and Validation of a Deep Learning Algorithm for Detection of Diabetic Retinopathy in Retinal Fundus Photographs,” JAMA, vol. 316, no. 22, pp. 2402–2410, Dec. 2016, doi: 10.1001/JAMA.2016.17216.
+[28]
+P. Uppamma and S. Bhattacharya, “Deep Learning and Medical Image Processing Techniques for Diabetic Retinopathy: A Survey of Applications, Challenges, and Future Trends,” Journal of Healthcare Engineering, vol. 2023, pp. 1–18, Feb. 2023, doi: 10.1155/2023/2728719.

@@ -1,0 +1,236 @@
+"Paper Title","Paper Link","Publication Year","Publication Type","Publication Title","Author Names","DOI","PDF Link","Abstract"
+"Development and Validation of a Deep Learning System for Diabetic Retinopathy and Related Eye Diseases Using Retinal Images From Multiethnic Populations With Diabetes.","https://scispace.com/paper/29234807","2017","Journal Article","JAMA","Ting
+Cheung
+Lim
+Tan
+Quang
+Gan
+Hamzah
+Garcia-Franco
+San Yeo
+Lee
+Wong
+Sabanayagam
+Baskaran
+Ibrahim
+Tan
+Finkelstein
+Lamoureux
+Wong
+Bressler
+Sivaprasad
+Varma
+Jonas
+He
+Cheng
+Cheung
+Aung
+Hsu
+Lee
+Wong","10.1001/jama.2017.18152","https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5820739/pdf","A deep learning system (DLS) is a machine learning technology with potential for screening diabetic retinopathy and related eye diseases."
+"Identifying Medical Diagnoses and Treatable Diseases by Image-Based Deep Learning.","https://scispace.com/paper/29474911","2018","Journal Article","Cell","Kermany
+Goldbaum
+Cai
+Valentim
+Liang
+Baxter
+McKeown
+Yang
+Wu
+Yan
+Dong
+Prasadha
+Pei
+Ting
+Zhu
+Li
+Hewett
+Dong
+Ziyar
+Shi
+Zhang
+Zheng
+Hou
+Shi
+Fu
+Duan
+Huu
+Wen
+Zhang
+Zhang
+Li
+Wang
+Singer
+Sun
+Xu
+Tafreshi
+Lewis
+Xia
+Zhang","10.1016/j.cell.2018.02.010","","The implementation of clinical-decision support algorithms for medical imaging faces challenges with reliability and interpretability. Here, we establish a diagnostic tool based on a deep-learning framework for the screening of patients with common treatable blinding retinal diseases. Our framework utilizes transfer learning, which trains a neural network with a fraction of the data of conventional approaches. Applying this approach to a dataset of optical coherence tomography images, we demonstrate performance comparable to that of human experts in classifying age-related macular degeneration and diabetic macular edema. We also provide a more transparent and interpretable diagnosis by highlighting the regions recognized by the neural network. We further demonstrate the general applicability of our AI system for diagnosis of pediatric pneumonia using chest X-ray images. This tool may ultimately aid in expediting the diagnosis and referral of these treatable conditions, thereby facilitating earlier treatment, resulting in improved clinical outcomes. VIDEO ABSTRACT."
+"A deep learning system for predicting time to progression of diabetic retinopathy.","https://scispace.com/paper/38177850","2024","Journal Article","Nature medicine","Dai
+Sheng
+Chen
+Wu
+Liu
+Cai
+Wu
+Yang
+Hamzah
+Liu
+Wang
+Guan
+Yu
+Li
+Tang
+Ran
+Che
+Chen
+Zheng
+Shu
+Huang
+Wu
+Lin
+Liu
+Li
+Wang
+Meng
+Shen
+Hou
+Deng
+Ruan
+Lu
+Chee
+Quek
+Srinivasan
+Raman
+Sun
+Wang
+Wu
+Jin
+Dai
+Shen
+Yang
+Guo
+Zhang
+Cheung
+Tan
+Tham
+Cheng
+Li
+Wong
+Jia","10.1038/s41591-023-02702-z","https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10878973/pdf","Diabetic retinopathy (DR) is the leading cause of preventable blindness worldwide. The risk of DR progression is highly variable among different individuals, making it difficult to predict risk and personalize screening intervals. We developed and validated a deep learning system (DeepDR Plus) to predict time to DR progression within 5 years solely from fundus images. First, we used 717,308 fundus images from 179,327 participants with diabetes to pretrain the system. Subsequently, we trained and validated the system with a multiethnic dataset comprising 118,868 images from 29,868 participants with diabetes. For predicting time to DR progression, the system achieved concordance indexes of 0.754-0.846 and integrated Brier scores of 0.153-0.241 for all times up to 5 years. Furthermore, we validated the system in real-world cohorts of participants with diabetes. The integration with clinical workflow could potentially extend the mean screening interval from 12 months to 31.97 months, and the percentage of participants recommended to be screened at 1-5 years was 30.62%, 20.00%, 19.63%, 11.85% and 17.89%, respectively, while delayed detection of progression to vision-threatening DR was 0.18%. Altogether, the DeepDR Plus system could predict individualized risk and time to DR progression over 5 years, potentially allowing personalized screening intervals."
+"Deep learning-enhanced diabetic retinopathy image classification.","https://scispace.com/paper/37588156","2023","Journal Article","Digital health","Alwakid
+Gouda
+Humayun
+Jhanjhi","10.1177/20552076231194942","https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10426308/pdf","Diabetic retinopathy (DR) can sometimes be treated and prevented from causing irreversible vision loss if caught and treated properly. In this work, a deep learning (DL) model is employed to accurately identify all five stages of DR."
+"A Survey on Deep-Learning-Based Diabetic Retinopathy Classification.","https://scispace.com/paper/36766451","2023","Journal Article","Diagnostics (Basel, Switzerland)","Sebastian
+Elharrouss
+Al-Maadeed
+Almaadeed","10.3390/diagnostics13030345","https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9914068/pdf","The number of people who suffer from diabetes in the world has been considerably increasing recently. It affects people of all ages. People who have had diabetes for a long time are affected by a condition called Diabetic Retinopathy (DR), which damages the eyes. Automatic detection using new technologies for early detection can help avoid complications such as the loss of vision. Currently, with the development of Artificial Intelligence (AI) techniques, especially Deep Learning (DL), DL-based methods are widely preferred for developing DR detection systems. For this purpose, this study surveyed the existing literature on diabetic retinopathy diagnoses from fundus images using deep learning and provides a brief description of the current DL techniques that are used by researchers in this field. After that, this study lists some of the commonly used datasets. This is followed by a performance comparison of these reviewed methods with respect to some commonly used metrics in computer vision tasks."
+"Ensemble deep learning and EfficientNet for accurate diagnosis of diabetic retinopathy.","https://scispace.com/paper/39695310","2024","Journal Article","Scientific reports","Arora
+Singh
+Kumar
+Gupta
+Alhalabi
+Arya
+Bansal
+Chui
+Gupta","10.1038/s41598-024-81132-4","https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11655640/pdf","Diabetic Retinopathy (DR) stands as a significant global cause of vision impairment, underscoring the critical importance of early detection in mitigating its impact. Addressing this challenge head-on, this study introduces an innovative deep learning framework tailored for DR diagnosis. The proposed framework utilizes the EfficientNetB0 architecture to classify diabetic retinopathy severity levels from retinal images. By harnessing advanced techniques in computer vision and machine learning, the proposed model aims to deliver precise and dependable DR diagnoses. Continuous testing and experimentation shows to the efficiency of the architecture, showcasing promising outcomes that could help in the transformation of both diagnosing and treatment of DR. This framework takes help from the EfficientNet Machine Learning algorithms and employing advanced CNN layering techniques. The dataset utilized in this study is titled 'Diagnosis of Diabetic Retinopathy' and is sourced from Kaggle. It consists of 35,108 retinal images, classified into five categories: No Diabetic Retinopathy (DR), Mild DR, Moderate DR, Severe DR, and Proliferative DR. Through rigorous testing, the framework yields impressive results, boasting an average accuracy of 86.53% and a loss rate of 0.5663. A comparison with alternative approaches underscores the effectiveness of EfficientNet in handling classification tasks for diabetic retinopathy, particularly highlighting its high accuracy and generalizability across DR severity levels. These findings highlight the framework's potential to significantly advance the field of DR diagnosis, given more advanced datasets and more training resources which leads it to be offering clinicians a powerful tool for early intervention and improved patient outcomes."
+"Using Deep Learning Architectures for Detection and Classification of Diabetic Retinopathy.","https://scispace.com/paper/37420891","2023","Journal Article","Sensors (Basel, Switzerland)","Mohanty
+Mahapatra
+Acharya
+Kokkoras
+Gerogiannis
+Karamitsos
+Kanavos","10.3390/s23125726","https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10301863/pdf","Diabetic retinopathy (DR) is a common complication of long-term diabetes, affecting the human eye and potentially leading to permanent blindness. The early detection of DR is crucial for effective treatment, as symptoms often manifest in later stages. The manual grading of retinal images is time-consuming, prone to errors, and lacks patient-friendliness. In this study, we propose two deep learning (DL) architectures, a hybrid network combining VGG16 and XGBoost Classifier, and the DenseNet 121 network, for DR detection and classification. To evaluate the two DL models, we preprocessed a collection of retinal images obtained from the APTOS 2019 Blindness Detection Kaggle Dataset. This dataset exhibits an imbalanced image class distribution, which we addressed through appropriate balancing techniques. The performance of the considered models was assessed in terms of accuracy. The results showed that the hybrid network achieved an accuracy of 79.50%, while the DenseNet 121 model achieved an accuracy of 97.30%. Furthermore, a comparative analysis with existing methods utilizing the same dataset revealed the superior performance of the DenseNet 121 network. The findings of this study demonstrate the potential of DL architectures for the early detection and classification of DR. The superior performance of the DenseNet 121 model highlights its effectiveness in this domain. The implementation of such automated methods can significantly improve the efficiency and accuracy of DR diagnosis, benefiting both healthcare providers and patients."
+"Enhancement of Diabetic Retinopathy Prognostication Using Deep Learning, CLAHE, and ESRGAN.","https://scispace.com/paper/37510123","2023","Journal Article","Diagnostics (Basel, Switzerland)","Alwakid
+Gouda
+Humayun","10.3390/diagnostics13142375","https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10378524/pdf","One of the primary causes of blindness in the diabetic population is diabetic retinopathy (DR). Many people could have their sight saved if only DR were detected and treated in time. Numerous Deep Learning (DL)-based methods have been presented to improve human analysis. Using a DL model with three scenarios, this research classified DR and its severity stages from fundus images using the ""APTOS 2019 Blindness Detection"" dataset. Following the adoption of the DL model, augmentation methods were implemented to generate a balanced dataset with consistent input parameters across all test scenarios. As a last step in the categorization process, the DenseNet-121 model was employed. Several methods, including Enhanced Super-resolution Generative Adversarial Networks (ESRGAN), Histogram Equalization (HIST), and Contrast Limited Adaptive HIST (CLAHE), have been used to enhance image quality in a variety of contexts. The suggested model detected the DR across all five APTOS 2019 grading process phases with the highest test accuracy of 98.36%, top-2 accuracy of 100%, and top-3 accuracy of 100%. Further evaluation criteria (precision, recall, and F1-score) for gauging the efficacy of the proposed model were established with the help of APTOS 2019. Furthermore, comparing CLAHE + ESRGAN against both state-of-the-art technology and other recommended methods, it was found that its use was more effective in DR classification."
+"Modern Approach to Diabetic Retinopathy Diagnostics.","https://scispace.com/paper/39272631","2024","Journal Article","Diagnostics (Basel, Switzerland)","Kąpa
+Koryciarz
+Kustosik
+Jurowski
+Pniakowska","10.3390/diagnostics14171846","https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11394437/pdf","This article reviews innovative diagnostic approaches for diabetic retinopathy as the prevalence of diabetes mellitus and its complications continue to escalate. Novel techniques focus on early disease detection. Technological innovations, such as teleophthalmology, smartphone-based photography, artificial intelligence with deep learning, or widefield photography, can enhance diagnostic accuracy and accelerate the treatment. The review highlights teleophthalmology and handheld photography as promising solutions for remote eye care. These methods revolutionize diabetic retinopathy screening, offering cost-effective and accessible solutions. However, the use of these techniques may be limited by insurance coverage in certain world regions. Ultra-widefield photography offers a comprehensive view of up to 80.0% of the retina in a single image, compared to the 34.0% coverage of the traditional seven-field imaging protocol. It allows retinal imaging without pupil dilation, especially for individuals with compromised mydriasis. However, they also have drawbacks, including high costs, artifacts from eyelashes, eyelid margins, and peripheral distortion. Recent advances in artificial intelligence and machine learning, particularly through convolutional neural networks, are revolutionizing diabetic retinopathy diagnostics, enhancing screening efficiency and accuracy. FDA-approved Artificial Intelligence-powered devices such as LumineticsCore™, EyeArt, and AEYE Diagnostic Screening demonstrate high sensitivity and specificity in diabetic retinopathy detection. While Artificial Intelligence offers the potential to improve patient outcomes and reduce treatment costs, challenges such as dataset biases, high initial costs, and cybersecurity risks must be considered to ensure safety and efficiency. Nanotechnology advancements further enhance diagnosis, offering highly branched polyethyleneimine particles with fluorescein sodium (PEI-NHAc-FS) for better fluorescein angiography or vanadium oxide-based metabolic fingerprinting for early detection."
+"Enhancing diabetic retinopathy classification using deep learning.","https://scispace.com/paper/37766903","2023","Journal Article","Digital health","Alwakid
+Gouda
+Humayun
+Jhanjhi","10.1177/20552076231203676","https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10521302/pdf","Prolonged hyperglycemia can cause diabetic retinopathy (DR), which is a major contributor to blindness. Numerous incidences of DR may be avoided if it were identified and addressed promptly. Throughout recent years, many deep learning (DL)-based algorithms have been proposed to facilitate psychometric testing. Utilizing DL model that encompassed four scenarios, DR and its stages were identified in this study using retinal scans from the ""Asia Pacific Tele-Ophthalmology Society (APTOS) 2019 Blindness Detection"" dataset. Adopting a DL model then led to the use of augmentation strategies that produced a comprehensive dataset with consistent hyper parameters across all test cases. As a further step in the classification process, we used a Convolutional Neural Network model. Different enhancement methods have been used to raise visual quality. The proposed approach detected the DR with a highest experimental result of 97.83%, a top-2 accuracy of 99.31%, and a top-3 accuracy of 99.88% across all the 5 severity stages of the APTOS 2019 evaluation employing CLAHE and ESRGAN techniques for image enhancement. In addition, we employed APTOS 2019 to develop a set of evaluation metrics (precision, recall, and F1-score) to use in analyzing the efficacy of the suggested model. The proposed approach was also proven to be more efficient at DR location than both state-of-the-art technology and conventional DL."
+"Deep Learning for the Detection and Classification of Diabetic Retinopathy with an Improved Activation Function.","https://scispace.com/paper/36611557","2022","Journal Article","Healthcare (Basel, Switzerland)","Bhimavarapu
+Battineni","10.3390/healthcare11010097","https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9819317/pdf","Diabetic retinopathy (DR) is an eye disease triggered due to diabetes, which may lead to blindness. To prevent diabetic patients from becoming blind, early diagnosis and accurate detection of DR are vital. Deep learning models, such as convolutional neural networks (CNNs), are largely used in DR detection through the classification of blood vessel pixels from the remaining pixels. In this paper, an improved activation function was proposed for diagnosing DR from fundus images that automatically reduces loss and processing time. The DIARETDB0, DRIVE, CHASE, and Kaggle datasets were used to train and test the enhanced activation function in the different CNN models. The ResNet-152 model has the highest accuracy of 99.41% with the Kaggle dataset. This enhanced activation function is suitable for DR diagnosis from retinal fundus images."
+"Comparing code-free and bespoke deep learning approaches in ophthalmology.","https://scispace.com/paper/38446200","2024","Journal Article","Graefe's archive for clinical and experimental ophthalmology = Albrecht von Graefes Archiv fur klinische und experimentelle Ophthalmologie","Wong
+O'Byrne
+Taribagil
+Liu
+Antaki
+Keane","10.1007/s00417-024-06432-x","https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11377500/pdf","Code-free deep learning (CFDL) allows clinicians without coding expertise to build high-quality artificial intelligence (AI) models without writing code. In this review, we comprehensively review the advantages that CFDL offers over bespoke expert-designed deep learning (DL). As exemplars, we use the following tasks: (1) diabetic retinopathy screening, (2) retinal multi-disease classification, (3) surgical video classification, (4) oculomics and (5) resource management."
+"A Deep Learning Based Approach for Grading of Diabetic Retinopathy Using Large Fundus Image Dataset.","https://scispace.com/paper/36553091","2022","Journal Article","Diagnostics (Basel, Switzerland)","Mehboob
+Akram
+Alghamdi
+Abdul Salam","10.3390/diagnostics12123084","https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9777432/pdf","Diabetic Retinopathy affects one-third of all diabetic patients and may cause vision impairment. It has four stages of progression, i.e., mild non-proliferative, moderate non-proliferative, severe non-proliferative and proliferative Diabetic Retinopathy. The disease has no noticeable symptoms at early stages and may lead to chronic destruction, thus causing permanent blindness if not detected at an early stage. The proposed research provides deep learning frameworks for autonomous detection of Diabetic Retinopathy at an early stage using fundus images. The first framework consists of cascaded neural networks, spanned in three layers where each layer classifies data into two classes, one is the desired stage and the other output is passed to another classifier until the input image is classified as one of the stages. The second framework takes normalized, HSV and RGB fundus images as input to three Convolutional Neural Networks, and the resultant probabilistic vectors are averaged together to obtain the final output of the input image. Third framework used the Long Short Term Memory Module in CNN to emphasize the network in remembering information over a long time span. Proposed frameworks were tested and compared on the large-scale Kaggle fundus image dataset EYEPAC. The evaluations have shown that the second framework outperformed others and achieved an accuracy of 78.06% and 83.78% without and with augmentation, respectively."
+"Deep learning-based automated detection for diabetic retinopathy and diabetic macular oedema in retinal fundus photographs.","https://scispace.com/paper/34211137","2022","Journal Article","Eye (London, England)","Li
+Wang
+Xu
+Dong
+Yan
+Jiang
+Zhang
+Jiang
+Wu
+Zou","10.1038/s41433-021-01552-8","https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9232645/pdf","To present and validate a deep ensemble algorithm to detect diabetic retinopathy (DR) and diabetic macular oedema (DMO) using retinal fundus images."
+"Deep learning-based hemorrhage detection for diabetic retinopathy screening.","https://scispace.com/paper/36707608","2023","Journal Article","Scientific reports","Aziz
+Charoenlarpnopparut
+Mahapakulchai","10.1038/s41598-023-28680-3","https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9883230/pdf","Diabetic retinopathy is a retinal compilation that causes visual impairment. Hemorrhage is one of the pathological symptoms of diabetic retinopathy that emerges during disease development. Therefore, hemorrhage detection reveals the presence of diabetic retinopathy in the early phase. Diagnosing the disease in its initial stage is crucial to adopt proper treatment so the repercussions can be prevented. The automatic deep learning-based hemorrhage detection method is proposed that can be used as the second interpreter for ophthalmologists to reduce the time and complexity of conventional screening methods. The quality of the images was enhanced, and the prospective hemorrhage locations were estimated in the preprocessing stage. Modified gamma correction adaptively illuminates fundus images by using gradient information to address the nonuniform brightness levels of images. The algorithm estimated the locations of potential candidates by using a Gaussian match filter, entropy thresholding, and mathematical morphology. The required objects were segmented using the regional diversity at estimated locations. The novel hemorrhage network is propounded for hemorrhage classification and compared with the renowned deep models. Two datasets benchmarked the model's performance using sensitivity, specificity, precision, and accuracy metrics. Despite being the shallowest network, the proposed network marked competitive results than LeNet-5, AlexNet, ResNet50, and VGG-16. The hemorrhage network was assessed using training time and classification accuracy through synthetic experimentation. Results showed promising accuracy in the classification stage while significantly reducing training time. The research concluded that increasing deep network layers does not guarantee good results but rather increases training time. The suitable architecture of a deep model and its appropriate parameters are critical for obtaining excellent outcomes."
+"Deep Learning-Based Prediction of Diabetic Retinopathy Using CLAHE and ESRGAN for Enhancement.","https://scispace.com/paper/36981520","2023","Journal Article","Healthcare (Basel, Switzerland)","Alwakid
+Gouda
+Humayun","10.3390/healthcare11060863","https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10048517/pdf","Vision loss can be avoided if diabetic retinopathy (DR) is diagnosed and treated promptly. The main five DR stages are none, moderate, mild, proliferate, and severe. In this study, a deep learning (DL) model is presented that diagnoses all five stages of DR with more accuracy than previous methods. The suggested method presents two scenarios: case 1 with image enhancement using a contrast limited adaptive histogram equalization (CLAHE) filtering algorithm in conjunction with an enhanced super-resolution generative adversarial network (ESRGAN), and case 2 without image enhancement. Augmentation techniques were then performed to generate a balanced dataset utilizing the same parameters for both cases. Using Inception-V3 applied to the Asia Pacific Tele-Ophthalmology Society (APTOS) datasets, the developed model achieved an accuracy of 98.7% for case 1 and 80.87% for case 2, which is greater than existing methods for detecting the five stages of DR. It was demonstrated that using CLAHE and ESRGAN improves a model's performance and learning ability."
+"Contrastive self-supervised learning for diabetic retinopathy early detection.","https://scispace.com/paper/37119374","2023","Journal Article","Medical & biological engineering & computing","Ouyang
+Mao
+Guo
+Liu
+Xu
+Wang","10.1007/s11517-023-02810-5","","Diabetic Retinopathy (DR) is the major cause of blindness, which seriously threatens the world's vision health. Limited medical resources make early diagnosis and a large-scale screening of DR difficult. Most of the current automatic diagnostic methods are mostly based on deep learning and large-scale labeled data. However, the insufficiency of manual annotations for medical images still is a great challenge of training deep neural networks. Self-supervised learning methods are proposed to learn general features from dataset without manual annotations. Inspired by this, we proposed a deep learning based DR classification model (SimCLR-DR). In this paper, we first use contrastive self-learning algorithm to pre-train the encoder based on convolution network with unlabeled retinal images, then retrain the encoder with classifier on a small annotated training data to detect referable DR. The experimental results on Kaggle dataset show that this proposed method can overcome the training data insufficiency problem and performs better than transfer learning. SimCLR-DR is a good beginning for other deep learning based medical image detection approaches facing the challenge of insufficient annotated data. Figure presents an overview of the proposed framework, which contains three main steps: (i) Data preprocessing; (ii) Pretext task of SimCLR-DR based on contrastive learning; (iii) Downstream Task of SimCLRDR based on CNN."
+"DeepDRiD: Diabetic Retinopathy-Grading and Image Quality Estimation Challenge.","https://scispace.com/paper/35755875","2022","Journal Article","Patterns (New York, N.Y.)","Liu
+Wang
+Wu
+Dai
+Fang
+Yan
+Son
+Tang
+Li
+Gao
+Galdran
+Poorneshwaran
+Liu
+Wang
+Chen
+Porwal
+Wei Tan
+Yang
+Dai
+Song
+Chen
+Li
+Jia
+Shen
+Sheng
+Zhang","10.1016/j.patter.2022.100512","https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9214346/pdf","We described a challenge named ""Diabetic Retinopathy (DR)-Grading and Image Quality Estimation Challenge"" in conjunction with ISBI 2020 to hold three sub-challenges and develop deep learning models for DR image assessment and grading. The scientific community responded positively to the challenge, with 34 submissions from 574 registrations. In the challenge, we provided the DeepDRiD dataset containing 2,000 regular DR images (500 patients) and 256 ultra-widefield images (128 patients), both having DR quality and grading annotations. We discussed details of the top 3 algorithms in each sub-challenges. The weighted kappa for DR grading ranged from 0.93 to 0.82, and the accuracy for image quality evaluation ranged from 0.70 to 0.65. The results showed that image quality assessment can be used as a further target for exploration. We also have released the DeepDRiD dataset on GitHub to help develop automatic systems and improve human judgment in DR screening and diagnosis."
+"Leveraging Multimodal Deep Learning Architecture with Retina Lesion Information to Detect Diabetic Retinopathy.","https://scispace.com/paper/32855845","2020","Journal Article","Translational vision science & technology","Tseng
+Chen
+Liang
+Tai
+Liu
+Wu
+Deng
+Lee
+Huang
+Chen","10.1167/tvst.9.2.41","https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7424907/pdf","To improve disease severity classification from fundus images using a hybrid architecture with symptom awareness for diabetic retinopathy (DR)."
+"Deep learning innovations in diagnosing diabetic retinopathy: The potential of transfer learning and the DiaCNN model.","https://scispace.com/paper/38159396","2024","Journal Article","Computers in biology and medicine","Shoaib
+Emara
+Zhao
+El-Shafai
+Soliman
+Mubarak
+Omer
+El-Samie
+Esmaiel","10.1016/j.compbiomed.2023.107834","","Diabetic retinopathy (DR) is a significant cause of vision impairment, emphasizing the critical need for early detection and timely intervention to avert visual deterioration. Diagnosing DR is inherently complex, as it necessitates the meticulous examination of intricate retinal images by experienced specialists. This makes the early diagnosis of DR essential for effective treatment and prevention of eventual blindness. Traditional diagnostic methods, relying on human interpretation of medical images, face challenges in terms of accuracy and efficiency. In the present research, we introduce a novel method that offers superior precision in DR diagnosis, compared to traditional methods, by employing advanced deep learning techniques. Central to this approach is the concept of transfer learning. This entails the utilization of pre-existing, well-established models, specifically InceptionResNetv2 and Inceptionv3, to extract features and fine-tune selected layers to cater to the unique requirements of this specific diagnostic task. Concurrently, we also present a newly devised model, DiaCNN, which is tailored for the classification of eye diseases. To prove the efficacy of the proposed methodology, we leveraged the Ocular Disease Intelligent Recognition (ODIR) dataset, which comprises eight different eye disease categories. The results are promising. The InceptionResNetv2 model, incorporating transfer learning, registered an impressive 97.5% accuracy in both the training and testing phases. Its counterpart, the Inceptionv3 model, achieved an even more commendable 99.7% accuracy during training, and 97.5% during testing. Remarkably, the DiaCNN model showcased unparalleled precision, achieving 100% accuracy in training and 98.3% in testing. These figures represent a significant leap in classification accuracy when juxtaposed with existing state-of-the-art diagnostic methods. Such advancements hold immense promise for the future, emphasizing the potential of our proposed technique to revolutionize the accuracy of DR and other eye disease diagnoses. By facilitating earlier detection and more timely interventions, this approach stands poised to significantly reduce the incidence of blindness associated with DR, thus heralding a new era of improved patient outcomes. Therefore, this work, through its novel approach and stellar results, not only pushes the boundaries of DR diagnostic accuracy but also promises a transformative impact in early detection and intervention, aiming to substantially diminish DR-induced blindness and champion enhanced patient care."

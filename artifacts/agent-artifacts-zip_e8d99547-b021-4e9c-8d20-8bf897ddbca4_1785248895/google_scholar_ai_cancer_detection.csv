@@ -1,0 +1,192 @@
+"Paper Title","Paper Link","Publication Year","Publication Type","Publication Title","Author Names","DOI","PDF Link","Snippet","Abstract"
+"Artificial intelligence in lung cancer screening: Detection, classification, prediction, and prognosis","https://scispace.com/paper/artificial-intelligence-in-lung-cancer-screening-detection-8aksja16a4","2024","","Cancer Medicine","Quanyang Wu
+Huang Yao
+Linlin Qi
+Zhang Zewei
+Donghui Hou
+Hongjia Li
+Shijun Zhao","10.1002/cam4.7140","https://onlinelibrary.wiley.com/doi/pdf/10.1002/cam4.7140","… of artificial intelligence (AI) in extracting image information … in enhancing the sensitivity of nodule detection and reducing … The first pillar is the expansion of machine learning (ML). ML …","Abstract Background The exceptional capabilities of artificial intelligence (AI) in extracting image information and processing complex models have led to its recognition across various medical fields. With the continuous evolution of AI technologies based on deep learning, particularly the advent of convolutional neural networks (CNNs), AI presents an expanded horizon of applications in lung cancer screening, including lung segmentation, nodule detection, false‐positive reduction, nodule classification, and prognosis. Methodology This review initially analyzes the current status of AI technologies. It then explores the applications of AI in lung cancer screening, including lung segmentation, nodule detection, and classification, and assesses the potential of AI in enhancing the sensitivity of nodule detection and reducing false‐positive rates. Finally, it addresses the challenges and future directions of AI in lung cancer screening. Results AI holds substantial prospects in lung cancer screening. It demonstrates significant potential in improving nodule detection sensitivity, reducing false‐positive rates, and classifying nodules, while also showing value in predicting nodule growth and pathological/genetic typing. Conclusions AI offers a promising supportive approach to lung cancer screening, presenting considerable potential in enhancing nodule detection sensitivity, reducing false‐positive rates, and classifying nodules. However, the universality and interpretability of AI results need further enhancement. Future research should focus on the large‐scale validation of new deep learning‐based algorithms and multi‐center studies to improve the efficacy of AI in lung cancer screening."
+"Multi-modal artificial intelligence for the combination of automated 3D breast ultrasound and mammograms in a population of women with predominantly dense …","https://scispace.com/paper/bViej8Z_5gEJ","","","","T Tan
+A Rodriguez-Ruiz
+T Zhang
+L Xu","","https://link.springer.com/content/pdf/10.1186/s13244-022-01352-y.pdf","… in detection performance by using deep-learning-based … (ROC) comparison (and their area under the curve, AUC) in … increase the detection performance in screening, without an …",""
+"From classical machine learning to emerging foundation models: review on multimodal data integration for cancer research","https://scispace.com/paper/from-classical-machine-learning-to-emerging-foundation-hthqf8qi4tvq","2025","Journal Article","arXiv.org","Amgad Muneer
+Muhammad Waqas
+Maliazurina Saad
+E. Showkatian
+Rukhmini Bandyopadhyay
+Hui Xu
+Wentao Li
+Joe Y Chang
+Zhongxing Liao
+Cara Haymaker
+Luisa Solis-Soto
+Carol C. Wu
+N. Vokes
+X. Le
+L. Byers
+Don L. Gibbons
+J. Heymach
+Jianjun Zhang
+Jia Wu","10.48550/arxiv.2507.09028","https://link.springer.com/content/pdf/10.1007/s10462-026-11522-9.pdf","… a detailed comparative reference (Table 4). In addition to summarizing performance, Table 4 … Others target early detection or staging (eg, nodal metastasis prediction, lesion classification…","Cancer research is increasingly driven by the integration of diverse data modalities, spanning from genomics and proteomics to imaging and clinical factors. However, extracting actionable insights from these vast and heterogeneous datasets remains a key challenge. The rise of foundation models (FMs) -- large deep-learning models pretrained on extensive amounts of data serving as a backbone for a wide range of downstream tasks -- offers new avenues for discovering biomarkers, improving diagnosis, and personalizing treatment. This paper presents a comprehensive review of widely adopted integration strategies of multimodal data to assist advance the computational approaches for data-driven discoveries in oncology. We examine emerging trends in machine learning (ML) and deep learning (DL), including methodological frameworks, validation protocols, and open-source resources targeting cancer subtype classification, biomarker discovery, treatment guidance, and outcome prediction. This study also comprehensively covers the shift from traditional ML to FMs for multimodal integration. We present a holistic view of recent FMs advancements and challenges faced during the integration of multi-omics with advanced imaging data. We identify the state-of-the-art FMs, publicly available multi-modal repositories, and advanced tools and methods for data integration. We argue that current state-of-the-art integrative methods provide the essential groundwork for developing the next generation of large-scale, pre-trained models poised to further revolutionize oncology. To the best of our knowledge, this is the first review to systematically map the transition from conventional ML to advanced FM for multimodal data integration in oncology, while also framing these developments as foundational for the forthcoming era of large-scale AI models in cancer research."
+"Radiomics-based machine-learning models can detect pancreatic cancer on prediagnostic computed tomography scans at a substantial lead time before clinical …","https://scispace.com/paper/tVjxZc-YmY4J","","","","S Mukherjee
+A Patra
+H Khasawneh
+P Korfiatis","","https://www.sciencedirect.com/science/article/am/pii/S0016508522007284","Background & Aims Our purpose was to detect pancreatic ductal adenocarcinoma (PDAC) at the prediagnostic stage (3–36 months before clinical diagnosis) using radiomics-based …",""
+"Personalized risk prediction for breast cancer pre-screening using artificial intelligence and thermal radiomics","https://scispace.com/paper/personalized-risk-prediction-for-breast-cancer-pre-screening-5gkcokycld","2020","Journal Article","Artificial Intelligence in Medicine","Siva Teja Kakileti
+Himanshu J. Madhu
+Geetha Manjunath
+Leonard Wee
+Andre Dekker
+Sudhakar Sampangi","10.1016/J.ARTMED.2020.101854","https://cris.maastrichtuniversity.nl/files/74763553/Dekker_2020_Personalized_risk_prediction_for_breast_cancer.pdf","… Machine learning over thermal images to generate a … regular screening and enable early stage breast cancer detection … the receiver-operator curve (AUC) of 0.89 when compared to an …",""
+"Artificial intelligence for the diagnosis of clinically significant prostate cancer based on multimodal data: a multicenter study","https://scispace.com/paper/artificial-intelligence-for-the-diagnosis-of-clinically-3orisktn9n","2023","Journal Article","BMC Medicine","Hui-Yan Zhang
+Jin Ji
+Zhe Liu
+Huiru Lu
+C. Qian
+Chunmeng Wei
+Shaohua Chen
+Wenhao Lu
+Chengbang Wang
+Huangmeng Xu
+Yalong Xu
+Xi Chen
+Xing He
+Zuheng Wang
+Xiao-Ling Zhao
+Wen Cheng
+Xingfa Chen
+Guijian Pang
+Guopeng Yu
+Y. Gu
+Kangxian Jiang
+Bin Xu
+Junyi Chen
+Bin Xu
+Xuedong Wei
+Ming Chen
+Rui Chen
+Jiwen Cheng
+Fubo Wang","10.1186/s12916-023-02964-x","https://link.springer.com/content/pdf/10.1186/s12916-023-02964-x.pdf","… through an automated machine learning platform (AutoML). … in the field of early detection and accurate diagnosis for PCa. … lack of a head-to-head comparison with mpMRI or other novel …","The introduction of multiparameter MRI and novel biomarkers has greatly improved the prediction of clinically significant prostate cancer (csPCa). However, decision-making regarding prostate biopsy and prebiopsy examinations is still difficult. We aimed to establish a quick and economic tool to improve the detection of csPCa based on routinely performed clinical examinations through an automated machine learning platform (AutoML).This study included a multicenter retrospective cohort and two prospective cohorts with 4747 cases from 9 hospitals across China. The multimodal data, including demographics, clinical characteristics, laboratory tests, and ultrasound reports, of consecutive participants were retrieved using extract-transform-load tools. AutoML was applied to explore potential data processing patterns and the most suitable algorithm to build the Prostate Cancer Artificial Intelligence Diagnostic System (PCAIDS). The diagnostic performance was determined by the receiver operating characteristic curve (ROC) for discriminating csPCa from insignificant prostate cancer (PCa) and benign disease. The clinical utility was evaluated by decision curve analysis (DCA) and waterfall plots.The random forest algorithm was applied in the feature selection, and the AutoML algorithm was applied for model establishment. The area under the curve (AUC) value in identifying csPCa was 0.853 in the training cohort, 0.820 in the validation cohort, 0.807 in the Changhai prospective cohort, and 0.850 in the Zhongda prospective cohort. DCA showed that the PCAIDS was superior to PSA or fPSA/tPSA for diagnosing csPCa with a higher net benefit for all threshold probabilities in all cohorts. Setting a fixed sensitivity of 95%, a total of 32.2%, 17.6%, and 26.3% of unnecessary biopsies could be avoided with less than 5% of csPCa missed in the validation cohort, Changhai and Zhongda prospective cohorts, respectively.The PCAIDS was an effective tool to inform decision-making regarding the need for prostate biopsy and prebiopsy examinations such as mpMRI. Further prospective and international studies are warranted to validate the findings of this study.Chinese Clinical Trial Registry ChiCTR2100048428. Registered on 06 July 2021. "
+"By artificial intelligence algorithms and machine learning models to diagnosis cancer","https://scispace.com/paper/by-artificial-intelligence-algorithms-and-machine-learning-2gr8bfox7e","2021","Journal Article","Materials Today: Proceedings","Seema Agarwal
+Ajay Singh Yadav
+Vennapoosa Dinesh
+Kolluru Sai Sri Vatsav
+Kolluru Sai Surya Prakash
+Sushma Jaiswal","10.1016/J.MATPR.2021.07.088","","… discriminating against individuals in comparison to the state-… that deep learning models provide a decent AUC (curve area… of early detection, including oral cancer, artificial intelligence …",""
+"Artificial intelligence for lung cancer: a systematic review of head‑to‑head CT, FDG PET/CT, and multimodal models across screening, staging, and prognosis","https://scispace.com/paper/jrEj0fZu69MJ","","","","M Eftekharian
+Z Hashemi","","https://link.springer.com/content/pdf/10.1186/s12880-026-02222-5.pdf","… potential in lung cancer imaging, particularly in detection, staging… -head comparative evidence between CT, FDG PET/CT, and … of screening, where modern deep‑learning and radiomics …",""
+"Multimodal deep convolutional neural network pipeline for AI-assisted early detection of oral cancer","https://scispace.com/paper/multimodal-deep-convolutional-neural-network-pipeline-for-ai-6z2h0m7bhm94","2024","Journal Article","IEEE Access","G.A.I. Devindi
+D. M. D. R. Dissanayake
+S. Liyanage
+Franto Francis
+M. B. D. Pavithya
+Nadisha Sewwandi Piyarathne
+P.V.K.S. Hettiarachchi
+R. M. S. G. K. Rasnayaka
+Ruwan Duminda Jayasinghe
+Roshan Ragel
+Isuru Nawinne","10.1109/access.2024.3454338","https://ieeexplore.ieee.org/iel8/6287639/6514899/10664507.pdf","… A performance comparison of six pre-trained deep-learning … methods for the early detection of oral cancer screening using … of artificial intelligence in the early diagnosis of oral cancer. …","Oral Squamous Cell Carcinoma (OSCC) poses a significant health challenge, with early detection being crucial for effective treatment and improved survival rates. While previous studies have examined the use of standard photographs, such as those from smartphones, for oral lesion classification, they typically rely solely on images, overlooking the potential benefits of incorporating multiple modalities. This study addresses this gap by proposing a multimodal deep-learning pipeline incorporating diverse data sources, including patient metadata, which mimics the diagnostic approach of clinicians in the early detection of oral cancer. The study leverages state-of-the-art image encoders to classify oral lesions into benign and potentially malignant categories. A performance comparison of six pre-trained deep-learning models (MobileNetV3-Large, MixNet-S, ResNet-50, HRNet-W18-C, DenseNet-121, and Inception_v3) is presented. The performance of the proposed pipeline achieved an overall accuracy of 81%, precision of 79%, recall of 79%, F1-score of 78%, and a Matthews Correlation Coefficient (MCC) of 0.57 using the MobileNetV3-Large image encoder. The findings highlight the efficacy of integrating multiple data modalities for more accurate early detection of potential malignancies compared to using only image data. The outcomes could pave the way for improved clinical decision-making and patient outcomes."
+"Artificial Intelligence (AI) for the early detection of breast cancer: a scoping review to assess AI's potential in breast screening practice","https://scispace.com/paper/artificial-intelligence-ai-for-the-early-detection-of-breast-1mhmcld837","2019","Journal Article","Expert Review of Medical Devices","Nehmat Houssami
+Georgia Kirkpatrick-Jones
+Naomi Noguchi
+Christoph I. Lee","10.1080/17434440.2019.1610387","https://www.tandfonline.com/doi/pdf/10.1080/17434440.2019.1610387","… machine learning algorithms for interpreting screening … or detection; (b) reported quantitative data on performance (… bias in model training, and the lack of comparative data) can …","Introduction: Various factors are driving interest in the application of artificial intelligence (AI) for breast cancer (BC) detection, but it is unclear whether the evidence warrants large-scale u..."
+"Artificial intelligence and early detection of breast, lung, and colon cancer: a narrative review","https://scispace.com/paper/artificial-intelligence-and-early-detection-of-breast-lung-9529viu4wuy5","2025","Journal Article","Cureus","Omofolarin Debellotte
+Richard L Dookie
+Fnu Rinkoo
+Akankshya Kar
+Juan Felipe Salazar González
+Pranav Saraf
+Muhammed Aflahe Iqbal
+Lilit Ghazaryan
+Annie-Cheilla Mukunde
+Areeba Khalid
+Toluwalase Olumuyiwa","10.7759/cureus.79199","https://www.cureus.com/articles/331340-artificial-intelligence-and-early-detection-of-breast-lung-and-colon-cancer-a-narrative-review.pdf","… with AI algorithms are transforming lung cancer screening by … the sensitivity and specificity of early-stage cancer detection, … as ""deep learning"", uses artificial neural networks to do image …",""
+"An enhanced multimodal fusion deep learning neural network for lung cancer classification","https://scispace.com/paper/an-enhanced-multimodal-fusion-deep-learning-neural-network-3u9u1ji5b7","2023","Journal Article","Systems and soft computing","S. K. B. Sangeetha
+Sandeep Kumar Mathivanan
+P. Karthikeyan
+Hariharan Rajadurai
+Basu Dev Shivahare
+Saurav Mallik
+Hong Qin","10.1016/j.sasc.2023.200068","","… continuous advancements in early diagnosis and treatment. … the deployment of Artificial Intelligence (AI) in clinical settings … The performance is compared with established methods like …","Cancer remains one of the leading causes of mortality worldwide, necessitating continuous advancements in early diagnosis and treatment. Deep learning, a subset of artificial intelligence, has emerged as a powerful tool in the field of medical image analysis, revolutionizing the way cancer is detected and diagnosed. The study discusses the various modalities employed in lung cancer diagnosis, such as medical imaging (e.g., radiology and pathology), genomics, and clinical data, highlighting the unique challenges associated with each domain. The proposed Multimodal Fusion Deep Neural Network (MFDNN) architecture design effectively integrates information from different modalities (e.g., medical imaging, genomics, clinical data) to enhance lung cancer diagnostic accuracy. Furthermore, it delves into the integration of clinical data, electronic health records, and multimodal approaches to improve the accuracy and reliability of lung cancer diagnosis. Moreover, we highlight the ethical considerations surrounding the deployment of Artificial Intelligence (AI) in clinical settings and the need for robust validation and regulatory guidelines. The Multimodal Fusion Deep Neural Network (MFDNN) achieves an exceptional accuracy rate of 92.5%, marking a significant breakthrough in the realm of medical AI. MFDNN excels in precision, with 87.4% accuracy in predicting cancer cases, and equally impresses in recall, capturing approximately 86.4% of actual cancerous cases. The F1-score of 86.2 further exemplifies MFDNN's ability to strike a harmonious equilibrium, ensuring both diagnostic accuracy and minimized missed diagnoses. The performance is compared with established methods like CNN, DNN, and ResNet. The results underscore MFDNN's pivotal role in revolutionizing lung cancer diagnosis, promising more accurate and timely identification of this critical condition. "
+"A comprehensive investigation of multimodal deep learning fusion strategies for breast cancer classification","https://scispace.com/paper/a-comprehensive-investigation-of-multimodal-deep-learning-7a3s8v7tf08d","2024","Journal Article","Artificial Intelligence Review","Fatima-Zahrae Nakach
+Ali Idri
+Evgin Göçeri","10.1007/s10462-024-10984-z","https://link.springer.com/content/pdf/10.1007/s10462-024-10984-z.pdf","… each multimodal fusion approach and providing a comparative … on the performance metrics utilized for evaluating multimodal … DL networks for BC detection and use multiple modalities. …","In breast cancer research, diverse data types and formats, such as radiological images, clinical records, histological data, and expression analysis, are employed. Given the intricate nature of natural phenomena, relying on the features of a single modality is seldom sufficient for comprehensive analysis. Therefore, it is possible to guarantee medical relevance and achieve improved clinical outcomes by combining several modalities. The presen study carefully maps and reviews 47 primary articles from six well-known digital libraries that were published between 2018 and 2023 for breast cancer classification based on multimodal deep learning fusion (MDLF) techniques. This systematic literature review encompasses various aspects, including the medical modalities combined, the datasets utilized in these studies, the techniques, models, and architectures used in MDLF and it also discusses the advantages and limitations of each approach. The analysis of selected papers has revealed a compelling trend: the emergence of new modalities and combinations that were previously unexplored in the context of breast cancer classification. This exploration has not only expanded the scope of predictive models but also introduced fresh perspectives for addressing diverse targets, ranging from screening to diagnosis and prognosis. The practical advantages of MDLF are evident in its ability to enhance the predictive capabilities of machine learning models, resulting in improved accuracy across diverse applications. The prevalence of deep learning models underscores their success in autonomously discerning complex patterns, offering a substantial departure from traditional machine learning approaches. Furthermore, the paper explores the challenges and future directions in this field, including the need for larger datasets, the use of ensemble learning methods, and the interpretation of multimodal models."
+"Looking to the future of early detection in cancer: liquid biopsies, imaging, and artificial intelligence","https://scispace.com/paper/looking-to-the-future-of-early-detection-in-cancer-liquid-1czrud4bay","2024","Journal Article","Clinical Chemistry","Stefan Foser
+Kenneth Maiese
+Subba R. Digumarthy
+Joan Anton Puig-Butille
+Christian Rebhan","10.1093/clinchem/hvad196","https://academic.oup.com/clinchem/article-pdf/70/1/27/56253625/hvad196.pdf","… improve the specificity of other early screening tests such as … predictive value, and comparative concordance data), and … Christian Rebhan: AI and machine learning can supercharge …",""
+"Predicting cancer outcomes with radiomics and artificial intelligence in radiology","https://scispace.com/paper/predicting-cancer-outcomes-with-radiomics-and-artificial-1d2zymu7xr","2021","Journal Article","Nature Reviews Clinical Oncology","Kaustav Bera
+Kaustav Bera
+Nathaniel Braman
+Amit Gupta
+Amit Gupta
+Vamsidhar Velcheti
+Anant Madabhushi","10.1038/S41571-021-00560-7","https://pmc.ncbi.nlm.nih.gov/articles/PMC9034765/pdf/nihms-1790912.pdf","… approaches and deep learning-derived representations, with … success with AI in breast cancer detection 5 paved the way for AI … Table 1 Comparison of hand-crafted radiomic and DL …","The successful use of artificial intelligence (AI) for diagnostic purposes has prompted the application of AI-based cancer imaging analysis to address other, more complex, clinical needs. In this Perspective, we discuss the next generation of challenges in clinical decision-making that AI tools can solve using radiology images, such as prognostication of outcome across multiple cancers, prediction of response to various treatment modalities, discrimination of benign treatment confounders from true progression, identification of unusual response patterns and prediction of the mutational and molecular profile of tumours. We describe the evolution of and opportunities for AI in oncology imaging, focusing on hand-crafted radiomic approaches and deep learning-derived representations, with examples of their application for decision support. We also address the challenges faced on the path to clinical adoption, including data curation and annotation, interpretability, and regulatory and reimbursement issues. We hope to demystify AI in radiology for clinicians by helping them to understand its limitations and challenges, as well as the opportunities it provides as a decision-support tool in cancer management."
+"Artificial intelligence-aided data mining of medical records for cancer detection and screening","https://scispace.com/paper/artificial-intelligence-aided-data-mining-of-medical-records-36ck4sz24gw2","2024","Journal Article","Lancet Oncology","Amalie Dahl Haue
+Jessica Xin Hjaltelin
+Peter Christoffer Holm
+Davide Placido
+Søren Brunak","10.1016/s1470-2045(24)00277-8","","… Multiple machine learning algorithms or neural networks … separation of diagnostic sensitivity and specificity; however, a … from existing screening programmes and other multimodal data…",""
+"Artificial Intelligence-Enhanced Liquid Biopsy and Radiomics in Early-Stage Lung Cancer Detection: A Precision Oncology Paradigm","https://scispace.com/paper/artificial-intelligence-enhanced-liquid-biopsy-and-radiomics-xan53gvcpm1r","2025","Journal Article","Cancers","Swathi Priya Cherukuri
+Anmolpreet Kaur
+Bipasha Goyal
+Hanisha Reddy Kukunoor
+Areesh Fatima Sahito
+Pratyush Sachdeva
+Gayathri Yerrapragada
+E. Poonguzhali
+Mohammed Naveed Shariff
+T.K. Natarajan
+Jayarajasekaran Janarthanan
+Samuel Richard
+Shakthidevi Pallikaranai Venkatesaprasath
+Shiva Sankari Karuppiah
+Vivek N. Iyer
+Scott A. Helgeson
+Shivaram P. Arunachalam","10.3390/cancers17193165","","… Artificial intelligence (AI) and machine learning (ML) now play a critical role in improving the sensitivity and accuracy of biomarker detection … and cross-study comparison. Few head-to-…","Background: Lung cancer remains the leading cause of cancer-related mortality globally, largely due to delayed diagnosis in its early stages. While conventional diagnostic tools like low-dose CT and tissue biopsy are routinely used, they suffer from limitations including invasiveness, radiation exposure, cost, and limited sensitivity for early-stage detection. Liquid biopsy, a minimally invasive alternative that captures circulating tumor-derived biomarkers such as ctDNA, cfRNA, and exosomes from body fluids, offers promising diagnostic potential—yet its sensitivity in early disease remains suboptimal. Recent advances in Artificial Intelligence (AI) and radiomics are poised to bridge this gap. Objective: This review aims to explore how AI, in combination with radiomics, enhances the diagnostic capabilities of liquid biopsy for early detection of lung cancer and facilitates personalized monitoring strategies. Content Overview: We begin by outlining the molecular heterogeneity of lung cancer, emphasizing the need for earlier, more accurate detection strategies. The discussion then transitions into liquid biopsy and its key analytes, followed by an in-depth overview of AI techniques—including machine learning (e.g., SVMs, Random Forest) and deep learning models (e.g., CNNs, RNNs, GANs)—that enable robust pattern recognition across multi-omics datasets. The role of radiomics, which quantitatively extracts spatial and morphological features from imaging modalities such as CT and PET, is explored in conjunction with AI to provide an integrative, multimodal approach. This convergence supports the broader vision of precision medicine by integrating omics data, imaging, and electronic health records. Discussion: The synergy between AI, liquid biopsy, and radiomics signifies a shift from traditional diagnostics toward dynamic, patient-specific decision-making. Radiomics contributes spatial information, while AI improves pattern detection and predictive modeling. Despite these advancements, challenges remain—including data standardization, limited annotated datasets, the interpretability of deep learning models, and ethical considerations. A push toward rigorous validation and multimodal AI frameworks is necessary to facilitate clinical adoption. Conclusion: The integration of AI with liquid biopsy and radiomics holds transformative potential for early lung cancer detection. This non-invasive, scalable, and individualized diagnostic paradigm could significantly reduce lung cancer mortality through timely and targeted interventions. As technology and regulatory pathways mature, collaborative research is crucial to standardize methodologies and translate this innovation into routine clinical practice. "
+"Artificial intelligence in cancer imaging: clinical challenges and applications","https://scispace.com/paper/artificial-intelligence-in-cancer-imaging-clinical-48txzgikhk","2019","Journal Article","CA: A Cancer Journal for Clinicians","Wenya Linda Bi
+Ahmed Hosny
+Matthew B. Schabath
+Maryellen L. Giger
+Nicolai Juul Birkbak
+Nicolai Juul Birkbak
+Alireza Mehrtash
+Alireza Mehrtash
+Tavis Allison
+Tavis Allison
+Omar Arnaout
+Christopher Abbosh
+Christopher Abbosh
+Ian F. Dunn
+Raymond H. Mak
+Rulla M. Tamimi
+Clare M. Tempany
+Charles Swanton
+Charles Swanton
+Udo Hoffmann
+Lawrence H. Schwartz
+Lawrence H. Schwartz
+Robert J. Gillies
+Raymond Y. Huang
+Hugo J.W.L. Aerts
+Hugo J.W.L. Aerts","10.3322/CAAC.21552","https://acsjournals.onlinelibrary.wiley.com/doi/pdf/10.3322/caac.21552","… In comparison, a rapidly evolving field called radiomics is … the early detection and characterization of lung cancer by … , to machine learning, to deep learning, we contend that AI …","Judgement, as one of the core tenets of medicine, relies upon the integration of multilayered data with nuanced decision making. Cancer offers a unique context for medical decisions given not only its variegated forms with evolution of disease but also the need to take into account the individual condition of patients, their ability to receive treatment, and their responses to treatment. Challenges remain in the accurate detection, characterization, and monitoring of cancers despite improved technologies. Radiographic assessment of disease most commonly relies upon visual evaluations, the interpretations of which may be augmented by advanced computational analyses. In particular, artificial intelligence (AI) promises to make great strides in the qualitative interpretation of cancer imaging by expert clinicians, including volumetric delineation of tumors over time, extrapolation of the tumor genotype and biological course from its radiographic phenotype, prediction of clinical outcome, and assessment of the impact of disease and treatment on adjacent organs. AI may automate processes in the initial interpretation of images and shift the clinical workflow of radiographic detection, management decisions on whether or not to administer an intervention, and subsequent observation to a yet to be envisioned paradigm. Here, the authors review the current state of AI as applied to medical imaging of cancer and describe advances in 4 tumor types (lung, brain, breast, and prostate) to illustrate how common clinical problems are being addressed. Although most studies evaluating AI applications in oncology to date have not been vigorously validated for reproducibility and generalizability, the results do highlight increasingly concerted efforts in pushing AI technology to clinical use and to impact future directions in cancer care."
+"The role of artificial intelligence in early cancer diagnosis","https://scispace.com/paper/the-role-of-artificial-intelligence-in-early-cancer-1xgt5wzs","2022","Journal Article","Cancers","B. Hunter
+Sumeet Hindocha
+R. Lee","10.3390/cancers14061524","https://scispace.com/pdf/the-role-of-artificial-intelligence-in-early-cancer-1xgt5wzs.pdf","… as well as deep learning and neural networks, and highlight their early … that screening can improve early cancer detection and … of image-distinct subpopulations with varying sensitivity to …","Simple Summary Diagnosing cancer at an early stage increases the chance of performing effective treatment in many tumour groups. Key approaches include screening patients who are at risk but have no symptoms, and rapidly and appropriately investigating those who do. Machine learning, whereby computers learn complex data patterns to make predictions, has the potential to revolutionise early cancer diagnosis. Here, we provide an overview of how such algorithms can assist doctors through analyses of routine health records, medical images, biopsy samples and blood tests to improve risk stratification and early diagnosis. Such tools will be increasingly utilised in the coming years. Abstract Improving the proportion of patients diagnosed with early-stage cancer is a key priority of the World Health Organisation. In many tumour groups, screening programmes have led to improvements in survival, but patient selection and risk stratification are key challenges. In addition, there are concerns about limited diagnostic workforces, particularly in light of the COVID-19 pandemic, placing a strain on pathology and radiology services. In this review, we discuss how artificial intelligence algorithms could assist clinicians in (1) screening asymptomatic patients at risk of cancer, (2) investigating and triaging symptomatic patients, and (3) more effectively diagnosing cancer recurrence. We provide an overview of the main artificial intelligence approaches, including historical models such as logistic regression, as well as deep learning and neural networks, and highlight their early diagnosis applications. Many data types are suitable for computational analysis, including electronic healthcare records, diagnostic images, pathology slides and peripheral blood, and we provide examples of how these data can be utilised to diagnose cancer. We also discuss the potential clinical implications for artificial intelligence algorithms, including an overview of models currently used in clinical practice. Finally, we discuss the potential limitations and pitfalls, including ethical concerns, resource demands, data security and reporting standards."
+"Artificial intelligence and machine learning for early detection and diagnosis of colorectal cancer in sub-Saharan Africa","https://scispace.com/paper/artificial-intelligence-and-machine-learning-for-early-2x7ogn6v","2022","Journal Article","Gut","Akbar K. Waljee
+Eileen M Weinheimer-Haus
+Amina Imam Abubakar
+Anthony K. Ngugi
+Geoffrey H. Siwo
+Gifty Kwakye
+Amit G. Singal
+Arvind Rao
+Sameer D. Saini
+Andrew J. Read
+Jessica A Baker
+Ulysses J. Balis
+Christopher K Opio
+Ji Zhu
+Mansoor N. Saleh","10.1136/gutjnl-2022-327211","https://gut.bmj.com/content/gutjnl/71/7/1259.full.pdf","… Data were split into 70% training and 30% validation sets for … Using whole slide imaging data from the Cancer Genome … test performance for colorectal cancer screening in Nigeria. …","and access data, select tools and workflows, and run analyses through collaborative workspaces. It will also deliver the organisational framework for the direction and management of the initiative’s common activities; (3) Research training programmes will create multi- tiered curricula to build skills in foundational health data science, with options ranging from master’s and doctoral degree tracks to postdoctoral training and faculty development; and (4) The ethical, legal and social implications (ELSI) projects will address data science issues that present challenges in Africa such as data privacy and ownership, cybersecurity and sensitivities concerning the use of geospatial information for research or public health surveillance. (B) Led by the Aga Khan University—East Africa, Kenya Medical Research Institute- Wellcome Trust Research Programme, and the University of Michigan, the research hub will implement two research projects around maternal, newborn and child health as well as mental health, which will be supported by three cores: Admin core, Data Management and Analysis Core (DMAC) and Dissemination and Sustainability Core (DSC). The Admin Core will lead the UZIMA- DS researchhub, fostering synergy and integration of all hub components and partnerships and facilitating participation in DS- I cross- consortium activities. The DMAC will employ FAIR (Findable, Accessible, Interoperable, Reusable) principles to support the hub’s data ecosystem through data governance, facilitating data analytics within the projects, and fostering data sharing and interoperability throughout the greater DS- I Africa consortium. The DSC will promote engagement with stakeholders to identify sustainable model dissemination pathways into target communities. Through multisectoral partnerships with government, healthcare and non- profit sectors, the core will: facilitate the development of best practices and policies with stakeholders using data- driven approaches to inform guidelines; and promote engagement with private sectors to explore sustainable commercialisation opportunities and pathways. UZIMA- DS, UtiliZing Health Information for Meaningful Impact in East Africa Through Data Science."

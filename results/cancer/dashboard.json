@@ -1,0 +1,286 @@
+{
+  "query": "cancer",
+  "citation_mode": "reference_list",
+  "citation_confidence": "high",
+  "summaries": {
+    "step1_retrieval": {
+      "step": "1_literature_retrieval",
+      "unique_dois_checked": 230,
+      "per_source": [
+        {
+          "source": "pubmed",
+          "rows": 20,
+          "with_doi": 20,
+          "resolved": 20,
+          "not_found": 0,
+          "errors": 0,
+          "title_match": 20,
+          "year_match": 20,
+          "year_checked": 20,
+          "not_found_titles": [],
+          "mismatch_examples": [],
+          "doi_completeness": 1.0,
+          "resolve_rate": 1.0,
+          "title_accuracy": 1.0,
+          "year_accuracy": 1.0
+        },
+        {
+          "source": "google_scholar",
+          "rows": 20,
+          "with_doi": 17,
+          "resolved": 16,
+          "not_found": 1,
+          "errors": 0,
+          "title_match": 16,
+          "year_match": 14,
+          "year_checked": 16,
+          "not_found_titles": [
+            "From classical machine learning to emerging foundation model"
+          ],
+          "mismatch_examples": [],
+          "doi_completeness": 0.85,
+          "resolve_rate": 0.941,
+          "title_accuracy": 1.0,
+          "year_accuracy": 0.875
+        },
+        {
+          "source": "scispace_abstract",
+          "rows": 100,
+          "with_doi": 100,
+          "resolved": 77,
+          "not_found": 23,
+          "errors": 0,
+          "title_match": 77,
+          "year_match": 71,
+          "year_checked": 76,
+          "not_found_titles": [
+            "LungGuard- A Multimodal Deep Learning System for Early Lung ",
+            "Advancing Early Detection Paradigms in Breast Cancer: A Syst",
+            "From biomarkers to breakthroughs - advancing early cancer de",
+            "OncoAIFusion: A Unified Artificial Intelligence System for M",
+            "OncoAIFusion: A Unified Artificial Intelligence System for M"
+          ],
+          "mismatch_examples": [],
+          "doi_completeness": 1.0,
+          "resolve_rate": 0.77,
+          "title_accuracy": 1.0,
+          "year_accuracy": 0.934
+        },
+        {
+          "source": "scispace_fulltext",
+          "rows": 100,
+          "with_doi": 100,
+          "resolved": 95,
+          "not_found": 5,
+          "errors": 0,
+          "title_match": 95,
+          "year_match": 94,
+          "year_checked": 95,
+          "not_found_titles": [
+            "Medical AI for Early Detection of Lung Cancer: A Survey",
+            "An updated overview of radiomics-based artificial intelligen",
+            "Artificial Intelligence-Informed Handheld Breast Ultrasound ",
+            "Intelligent Detection for Pancreatic Cancer Diagnosis: Futur",
+            "AI in Oncology: Transforming Cancer Detection through Machin"
+          ],
+          "mismatch_examples": [],
+          "doi_completeness": 1.0,
+          "resolve_rate": 0.95,
+          "title_accuracy": 1.0,
+          "year_accuracy": 0.989
+        }
+      ]
+    },
+    "step2_consolidation": {
+      "step": "2_consolidation",
+      "n_combined": 98,
+      "provenance_rate": 1.0,
+      "provenance_breakdown": {
+        "by_doi": 95,
+        "by_title_exact": 3,
+        "by_title_fuzzy": 0
+      },
+      "fabricated_count": 0,
+      "fabricated_titles": [],
+      "merge_doi_drift_count": 0,
+      "merge_year_drift_count": 0,
+      "duplicate_group_count": 0,
+      "duplicate_extra_rows": 0,
+      "retrieval_recall_note": {
+        "raw_source_rows": 240,
+        "unique_source_papers": 233,
+        "kept_in_combined": 98,
+        "comment": "raw->combined drop is retrieval recall (Task 2), logged not scored"
+      }
+    },
+    "step3_criteria": {
+      "step": "3_criteria_identification",
+      "query_dimensions": 2,
+      "dimensions_covered": 2,
+      "coverage_rate": 1.0,
+      "uncovered_dimensions": [],
+      "columns_total": 3,
+      "spurious_columns": [],
+      "spurious_count": 0
+    },
+    "step4_extraction": {
+      "step": "4_data_extraction",
+      "content_cells_graded": 76,
+      "groundedness_rate_lower_bound": 0.7895,
+      "verdict_breakdown": {
+        "SUPPORTED_grounded": 60,
+        "CONTRADICTED_intrinsic_hallucination": 1,
+        "UNSUPPORTED": 15
+      },
+      "reliable_signals": {
+        "grounded": 60,
+        "intrinsic_hallucinations": 1,
+        "extrinsic_hallucinations_vs_fulltext": 5
+      },
+      "unverifiable_needs_fulltext": 10,
+      "groundedness_by_source_level": {
+        "abstract_only": {
+          "graded": 45,
+          "supported": 42,
+          "rate": 0.933
+        },
+        "fulltext_downloaded": {
+          "graded": 21,
+          "supported": 15,
+          "rate": 0.714
+        },
+        "fulltext_excerpt": {
+          "graded": 6,
+          "supported": 2,
+          "rate": 0.333
+        },
+        "snippet_only": {
+          "graded": 4,
+          "supported": 1,
+          "rate": 0.25
+        }
+      },
+      "nodata_cells": 5,
+      "false_na_under_extraction": 0,
+      "verified": {
+        "flagged_rechecked": 6,
+        "grounded": 66,
+        "confirmed_contradictions": 0,
+        "confirmed_extrinsic": 0,
+        "false_absence_under_extraction": 0,
+        "uncertain_or_not_claim": 0,
+        "adjudicable": 66,
+        "hallucination_rate": 0.0,
+        "grounded_rate": 1.0,
+        "first_pass_flagged": 1
+      }
+    },
+    "step5_report": {
+      "step": "5_report_generation",
+      "total_claim_sentences": 277,
+      "cited_sentences": 73,
+      "uncited_synthesis_sentences": 204,
+      "graded_cited": 73,
+      "citation_precision": 0.6027,
+      "verdict_breakdown": {
+        "SUPPORTED": 44,
+        "UNSUPPORTED": 29,
+        "CONTRADICTED": 0
+      },
+      "numeric_fidelity": 0.8723,
+      "numbers_checked": 47,
+      "numbers_missing": 6,
+      "verified": {
+        "graded_cited": 73,
+        "flagged_rechecked": 29,
+        "supported": 49,
+        "report_contradictions": 0,
+        "unsupported": 21,
+        "citation_precision": 0.6712,
+        "first_pass_citation_precision": 0.6027,
+        "first_pass_contradictions": 0
+      }
+    }
+  },
+  "usage_by_step": {
+    "step3_criteria": {
+      "model": "claude-opus-4-8",
+      "judge_calls": 1,
+      "input_tokens": 776,
+      "output_tokens": 321,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "cost_usd": {
+        "input": 0.0039,
+        "output": 0.008,
+        "cache_read": 0.0,
+        "cache_write": 0.0,
+        "total": 0.0119
+      }
+    },
+    "step4_extraction": {
+      "model": "claude-opus-4-8",
+      "judge_calls": 78,
+      "input_tokens": 471888,
+      "output_tokens": 12451,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "cost_usd": {
+        "input": 2.3594,
+        "output": 0.3113,
+        "cache_read": 0.0,
+        "cache_write": 0.0,
+        "total": 2.6707
+      }
+    },
+    "step5_report": {
+      "model": "claude-opus-4-8",
+      "judge_calls": 73,
+      "input_tokens": 187023,
+      "output_tokens": 12165,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "cost_usd": {
+        "input": 0.9351,
+        "output": 0.3041,
+        "cache_read": 0.0,
+        "cache_write": 0.0,
+        "total": 1.2392
+      }
+    }
+  },
+  "total_cost_usd": 3.9218,
+  "scorecard": {
+    "integrity_gates": {
+      "retrieval_metadata_accuracy": 1.0,
+      "consolidation_provenance": 1.0,
+      "consolidation_fabricated": 0,
+      "criteria_coverage": 1.0,
+      "criteria_spurious_columns": 0,
+      "criteria_uncovered": []
+    },
+    "hallucination_profile": {
+      "extraction": {
+        "verified": true,
+        "adjudicable_cells": 66,
+        "grounded": 66,
+        "contradictions_intrinsic": 0,
+        "extrinsic_vs_fulltext": 0,
+        "hallucination_rate": 0.0,
+        "grounded_rate": 1.0,
+        "false_absence_under_extraction": 0,
+        "unverifiable_fragment_only": 10,
+        "fulltext_coverage": 0.2763
+      },
+      "report": {
+        "verified": true,
+        "citation_confidence": "high",
+        "cited_sentences": 73,
+        "citation_precision": 0.6712,
+        "report_contradictions": 0,
+        "numeric_fidelity": 0.8723,
+        "uncited_synthesis": 204
+      }
+    }
+  }
+}

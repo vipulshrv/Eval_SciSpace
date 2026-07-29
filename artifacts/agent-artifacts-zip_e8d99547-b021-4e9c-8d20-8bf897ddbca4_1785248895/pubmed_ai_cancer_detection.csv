@@ -1,0 +1,148 @@
+"Paper Title","Paper Link","Publication Year","Publication Type","Publication Title","Author Names","DOI","PDF Link","Abstract"
+"Cross-Device Adaptation of Mirai for Mammography-Based Breast Cancer Risk Prediction.","https://scispace.com/paper/42369455","2026","Journal Article","medRxiv : the preprint server for health sciences","Sistig
+Rothstein
+Gadgil
+Achacoso
+Alexeeff
+Gerstley
+Klein
+Margolies
+Pu
+Gueye
+Villaseñor
+Westley
+Habel
+Arasu
+Sieh
+Shen","10.64898/2026.06.15.26355696","https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13308276/pdf","Fine-tuning can adapt pretrained medical imaging models to new clinical datasets, but device-specific domain shifts may limit generalizability. We evaluated Mirai, a mammography-based deep learning model for breast cancer risk prediction, in a large screening cohort containing Hologic and General Electric (GE) full-field digital mammography systems, including GE Premium View (GE PV) and Tissue Equalization (GE TE) post-processing software. Native Mirai showed lower performance on TE images than on Hologic or PV images. Fine-tuning on TE images improved TE performance, particularly for short-term risk prediction, but substantially reduced performance on Hologic images, consistent with catastrophic forgetting. To mitigate this effect, we developed a device-invariant model using interleaved multi-device sampling and conditional adversarial training. This approach largely restored Hologic performance while maintaining improved TE performance, providing better robustness across heterogeneous imaging platforms. Comparison of cumulative and annual risk AUCs over a five-year time horizon further showed that performance gains were driven mainly by short- and intermediate-term predictions. These findings highlight both the value and dangers of device-specific fine-tuning and support balanced domain-adaptation strategies for deploying mammography-based risk models across diverse clinical imaging environments."
+"Hybrid Metaheuristic Feature Selection for Breast Cancer Detection in Digital Mammography: A Feasibility Study with Nested Validation, Benchmarking, and External Stress Testing.","https://scispace.com/paper/42356014","2026","Journal Article","Journal of clinical medicine","Alshreef
+Kariri","10.3390/jcm15124846","https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13302462/pdf",""
+"A Multi-Criterion Selection of Hybrid Features in Mammographic Imaging for Early Computer-Assisted Sensing and Detection of Breast Cancer.","https://scispace.com/paper/42356847","2026","Journal Article","Sensors (Basel, Switzerland)","Zaylaa
+Yassine
+Kourtian","10.3390/s26123874","https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13306496/pdf","Feature selection represents a critical step in developing accurate and interpretable models for early breast cancer detection. Despite extensive research in the field of mammographic image analysis, no consensus has yet been reached on the optimal feature subsets that distinguish normal from malignant tissues. To address this gap, the present study aims to identify the most discriminative and significant features through a comprehensive multi-criterion selection framework. The aim is to integrate, as new frameworks, different combinations of "
+"Synergistic Deep Learning Fusion for Precision Lung Cancer Staging.","https://scispace.com/paper/42345183","2026","Journal Article","Asian Pacific journal of cancer prevention : APJCP","P
+Albert
+M
+G
+S","10.31557/APJCP.2026.27.6.2335","","To develop and evaluate an automated deep learning-based lung cancer staging system using computed tomography (CT) scan images."
+"SAVE: Spectrum-Aided Visual Enhancement for AI-Based Skin Cancer Detection.","https://scispace.com/paper/42351523","2026","Journal Article","Diagnostics (Basel, Switzerland)","Huang
+Nagisetti
+Mukundan
+Karmarkar
+Libu
+Liu
+Wang","10.3390/diagnostics16121864","https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13298513/pdf",""
+"Integrating anisotropic heat flow and transformer encoders in convolutional neural network for skin cancer classification.","https://scispace.com/paper/42344491","2026","Journal Article","Frontiers in medicine","Aburass
+Dorgham
+Aljarah","10.3389/fmed.2026.1834696","https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13286795/pdf","The early detection and classification of skin cancer are pivotal in improving patient outcomes and reducing healthcare burdens. However, traditional deep learning models in dermatological diagnostics often struggle with the nuanced differentiation of skin lesions. This paper introduces an approach to integrate an Advanced Heat Flow Layer into deep learning architectures for skin cancer classification, this method is centered on the principles of anisotropic diffusion, distinguishing itself from conventional image processing techniques by selectively smoothing image areas while preserving critical edge details, essential for accurate lesion identification. In our research, we utilized the Ham10000 dataset, enriched with data augmentation to simulate real-world variability, we conducted a comprehensive comparison of our model, featuring the Advanced Heat Flow Layer, against several benchmark deep learning models, including Sobel Edge Detection Layer. Our model, integrated with various layers of DenseNet121, consistently outperformed these benchmarks across key metrics such as accuracy, precision, recall, F1 score, and AUC, particularly with augmented data, this indicates a significant enhancement in the model's ability to generalize and maintain critical diagnostic features under diverse conditions. Our code is available at, https://github.com/sanadv/SkinCancerClassificationModels/blob/main/Models.ipynb."
+"Using machine learning algorithms based on laboratory indicators to establish a diagnostic model for lung cancer.","https://scispace.com/paper/42337448","2026","Journal Article","BMC cancer","Wu
+Zhang
+Zhang
+Gao
+Wang
+Zheng
+Xu
+Ding
+Shen
+Yan","10.1186/s12885-026-16239-0","","Lung cancer remains one of the leading causes of cancer-related mortality worldwide. Current diagnostic strategies rely primarily on imaging examinations and histopathological biopsy, which are invasive and unsuitable for longitudinal monitoring. Therefore, there is an urgent need for non-invasive and efficient predictive models to facilitate early detection and disease staging. This study aimed to compare multiple machine learning algorithms and identify the optimal model for distinguishing benign pulmonary nodules from early- and advanced-stage lung cancer."
+"Management of suspicious nodules in lung cancer screening - a narrative review of monitoring strategies based on nodule features and further needs.","https://scispace.com/paper/42318481","2026","Journal Article","Frontiers in oncology","Anghel
+Moga
+Folea
+Zgură
+Şerbănescu
+Toma
+Marinescu
+Şerban
+Bîlteanu","10.3389/fonc.2026.1744385","https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13272302/pdf","Low-dose computed tomography screening plays a pivotal role in early lung cancer detection. This narrative review aims to evaluate nodule characteristics, especially volume doubling time (VDT), and their relevance to lung cancer suspicion, staging, and clinical outcomes, to support more accurate risk stratification in screening programs for lung cancer."
+"Interpretable multi-center machine learning model driven by facial image features for non-invasive early risk assessment of lung cancer.","https://scispace.com/paper/42222284","2026","Journal Article","Frontiers in physiology","Shi
+Chun
+Zhang
+Xu
+Chen
+Jiao
+Wang
+Tu
+Xu","10.3389/fphys.2026.1835790","https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13218986/pdf","Early identification of lung cancer is critical for improving patient survival and prognosis. Conventional pathological biopsy is invasive, and computed tomography (CT) involves ionizing radiation risks. Facial imaging, as a non-invasive and accessible biological signal, is a promising novel approach for lung cancer auxiliary diagnosis."
+"A long-term image-derived AI-based risk model for primary prevention of breast cancer in individuals at high risk.","https://scispace.com/paper/42160452","2026","Journal Article","Science translational medicine","Eriksson
+Czene
+Scott
+Stoddard
+Smith
+Hall
+Vachon","10.1126/scitranslmed.ady7414","","Image-derived artificial intelligence (AI) risk models have shown promise in short-term risk assessment for improving breast cancer (BC) screening. No image-derived long-term AI risk model for primary prevention has been developed and externally validated. Individuals aged 31 to 94 years were recruited between 2010 and 2020 in two population-based case cohorts (Olmsted County, Minnesota, US, and KARMA, Sweden) and one hospital-based case-control study (EMBED, Atlanta, US). Median follow-up in the case cohorts was 10 years, with BCs diagnosed through June 2022. Additional validation was performed in EMBED with 3-year follow-up. An AI risk model was developed in Sweden, and we report independent validation in Olmsted/KARMA/EMBED. Absolute 10-year risks were estimated at study entry. Time-dependent discriminatory performance [AUC("
+"Transferring thrombus labels from CTPA to non-contrast CT via accurate pulmonary vessel registration: a critical step toward AI-based pulmonary embolism detection.","https://scispace.com/paper/42147888","2026","Journal Article","Quantitative imaging in medicine and surgery","Gong
+Jia
+Zhang
+Tan
+He
+Ye
+Xing","10.21037/qims-2025-aw-2373","https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13178320/pdf","Pulmonary embolism (PE) remains a leading cause of cardiovascular mortality with a low early diagnosis rate, highlighting the urgent need for more efficient detection methods. Non-contrast-enhanced computed tomography (NCCT) offers a promising alternative to computed tomography pulmonary angiography (CTPA) but requires accurate image registration for artificial intelligence (AI) model training. This study evaluates and compares three commonly used image registration algorithms (Elastix, ANTs, and Demons) to determine their efficacy in aligning pulmonary arteries on CTPA and NCCT images for potential AI applications in PE detection."
+"Artificial Intelligence for Digital Breast Tomosynthesis Screening with and without Prior Examinations in BreastScreen Norway.","https://scispace.com/paper/42126307","2026","Journal Article","Radiology. Artificial intelligence","Moshina
+Larsen
+Holen
+Aase
+Obst-Gleditsch
+Bartsch
+Oltedal
+Chen
+Hofvind","10.1148/ryai.250988","","Purpose To evaluate the performance of an artificial intelligence (AI) model for digital breast tomosynthesis (DBT) with and without prior screening examinations by using independent double reading by radiologists as the reference standard. Materials and Methods This retrospective study included women screened in BreastScreen Norway, 2018-2019. The AI model provided continuous malignancy risk and categorical scores (ie, 1-10) with and without the inclusion of prior examinations for 24 315 women with prior examinations. The area under the receiver operating characteristic curve (AUC) was calculated for AI using screening-detected and interval cancers as true-positives. The positive predictive value for a score of 10 was defined as the proportion of screening-detected cancers among all examinations scored 10. Results Among 30 724 DBT examinations of women (mean age ± SD, 61.3 years ± 5.0), the sensitivity of radiologists was 86.0% (95% CI: 81.3, 89.7). Among comparisons that included prior examinations, the AUC of the AI model was 0.93 (95% CI: 0.91, 0.95), with 81.0% (95% CI: 75.8, 85.3) scored 10 (screening-detected: 88.3% [95% CI: 83.4, 91.9] vs interval cancers: 36.1% [95% CI: 22.5, 52.4]). The positive predictive value was 10.2% (95% CI: 8.9, 11.6). Among cases without prior examinations, the AUC was 0.93 (95% CI: 0.91, 0.95; "
+"Machine Learning Applications for Opioid Use Management in Chronic Cancer Pain: A Systematic Scoping Review.","https://scispace.com/paper/42124742","2026","Journal Article","Cureus","Zompola
+Asimakopoulos
+Iosifidou
+Monopatis
+Braimakis
+Kouroukli","10.7759/cureus.106838","https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13159388/pdf","Chronic pain remains a critical clinical issue worldwide, with adverse effects on the quality of life of oncology patients. Meanwhile, the overuse of opioids to treat or alleviate chronic cancer pain has contributed to a global opioid crisis. The increasing accessibility of high-quality clinical datasets and computational frameworks has promoted the use of machine learning (ML) techniques in clinical practice to manage opioid consumption. This review investigates the current bibliography referring to the role of applied ML techniques in opioid administration in patients with chronic cancer pain. The objective of the current scoping review, according to population, intervention, comparison, and outcome (PICO) standards, was to evaluate the effectiveness of ML techniques in monitoring opioid consumption in patients with chronic cancer pain. This review includes scientific journal papers published from 2010 to 2024 that use healthcare data from patients with chronic cancer pain, apply machine learning techniques, and may address the potential consequences of the misuse of opioids. A systematic literature search, following the Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA) guidelines, was performed in PubMed and Google Scholar databases. Data extracted include the study's goal, dataset used, cohort selected, types of ML models created, model evaluation metrics, and the details of the ML tools and techniques used to create the models. After conducting the screening process, 50 articles were identified, but only four focused specifically on or included data of patients with chronic cancer pain where ML techniques were applied. The four included studies showed high performance (area under the curve {AUC}: >0.8) in predicting opioid adherence, misuse, and long-term use. Although generalizability remains limited due to small sample sizes and a lack of external validation, it sets distinct limits in applying these methods in clinical use. After a thorough review of recent literature, ML models demonstrated promising accuracy in predicting opioid adherence, misuse, and long-term use among patients with chronic cancer pain. However, these findings are based on studies with limited sample sizes and a lack of external validation, which restricts their generalizability. Future research should focus specifically on populations with chronic cancer pain and expand predictive models to incorporate a combination of clinical, psychosocial, biometric, and genomic data. This approach may enable more accurate, personalized, and safer opioid management in oncology care."
+"Automated detection of basement-membrane breaches in oral squamous cell carcinoma : A comparative study of convolutional neural network architectures.","https://scispace.com/paper/42058437","2026","Journal Article","Journal of oral biology and craniofacial research","Samyuktha Aarthi
+Yuwanati
+Yadalam","10.1016/j.jobcr.2026.101449","https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13122810/pdf","Oral squamous cell carcinoma (OSCC) remains a leading cause of cancer-related morbidity and mortality worldwide. The ability to detect early histopathological evidence of invasion-particularly basement membrane (BM) discontinuity at the epithelium-connective tissue interface-is crucial for timely intervention; yet, this subtle feature is often overlooked in automated image analysis research. This study aimed to develop and benchmark convolutional neural network (CNN) models for the automated detection of BM breaches in OSCC, introducing the first publicly available, expert-annotated dataset dedicated to this diagnostic hallmark."
+"Clinical Performance Tradeoffs of ChatGPT-5.2 Thinking (OpenAI) Compared with Radiologist Interpretation in Biopsy-Referred Mammography: Cancer Detection, False Positives, and Laterality.","https://scispace.com/paper/42042933","2026","Journal Article","Tomography (Ann Arbor, Mich.)","Alarifi
+Aloufi
+Jabour
+Abanomy
+Alahmad
+Alenazi
+Alshedi
+Almanaa","10.3390/tomography12040045","https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13120468/pdf",""
+"Next-generation AI for visually occult pancreatic cancer detection in a low-prevalence setting with longitudinal stability and multi-institutional generalisability.","https://scispace.com/paper/42049489","2026","Journal Article","Gut","Mukherjee
+Antony
+Patnam
+Trivedi
+Karbhari
+Bhinder
+Zarrintan
+Fletcher
+Truty
+Johnson
+Chari
+Goenka","10.1136/gutjnl-2025-337266","https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13242846/pdf","Failure of conventional imaging to detect pancreatic ductal adenocarcinoma (PDA) at its visually occult pre-diagnostic stage is a primary barrier to improving its otherwise poor rate of survival."
+"The DeepJoint Algorithm: An Innovative Approach for Studying the Longitudinal Evolution of Quantitative Mammographic Density and Its Association With Screen-Detected Breast Cancer Risk.","https://scispace.com/paper/42032926","2026","Journal Article","Biometrical journal. Biometrische Zeitschrift","Rakez
+Guillaumin
+Chick
+Coureau
+Chamming's
+Fillard
+Amadeo
+Rondeau","10.1002/bimj.70135","https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13109635/pdf","High mammographic density is a well-known risk factor for breast cancer and reduces the sensitivity of mammography-based screening. While automated machine and deep learning-based methods provide more consistent and precise measurements compared to subjective Breast Imaging Reporting and Data System (BI-RADS) assessments, they often fail to account for the longitudinal evolution of density. Many of these methods assess mammographic density in a cross-sectional manner, overlooking correlations in repeated measures, irregular visit intervals, missing data, and informative dropouts. Joint models address these limitations by simultaneously modeling the relationship between longitudinal biomarkers and time-to-event outcomes. We introduce the DeepJoint algorithm, an open-source method combining deep learning-based mammographic density estimation with joint modeling to assess its longitudinal relationship with breast cancer risk. Our approach adequately analyzes processed mammograms from various manufacturers, estimating both dense area and percent density, two established risk factors for breast cancer. We utilize a joint model to explore their association with breast cancer risk and provide individualized risk predictions. Bayesian inference and the consensus Monte Carlo algorithm make the approach reliable for large screening datasets. By integrating deep learning with joint modeling, our new method provides a robust, comprehensive framework for evaluating breast cancer risk based on longitudinal density profiles. The complete pipeline is publicly available, promoting broader application and comparison with other methods."
+"From ABCD to AI: Assessing the Diagnostic Reliability of MLLMs in Cutaneous Melanoma Screening-A Head-to-Head Comparison.","https://scispace.com/paper/41975788","2026","Journal Article","Diagnostics (Basel, Switzerland)","Andrei
+Nodiți-Cuc
+Voinea
+Bordea
+Blidaru","10.3390/diagnostics16071077","https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13073771/pdf",""
+"A radiomics nomogram integrated with radiological features for preoperative prediction of lung nodule invasiveness: comparison with Lung-RADS.","https://scispace.com/paper/41982688","2026","Journal Article","Translational lung cancer research","Miao
+Han
+Wang
+Liu
+Li
+Li
+Wang
+Gao
+Xiong
+Luo
+Huang
+Qiu
+Wang
+Wang","10.21037/tlcr-2025-1083","https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13071717/pdf","Preoperative identification of early-stage lung adenocarcinoma, particularly minimal lesions, holds critical implications for clinical decision-making. However, accurate diagnosis of pulmonary nodules' malignancy remains challenging when relying solely on conventional clinical parameters or radiological features, due to the lack of specificity in certain instances of early lesions. This study aims to develop a nodule-level composite model using radiomics methods and compare its performance with the Lung CT Screening Reporting and Data System (Lung-RADS) in predicting the invasiveness using preoperative low-dose computed tomography (LDCT) scan with 1 mm slice thickness."
+"FT-MDNNMDs: early detection of breast cancer using fine-tuned multi-deep neural networks with TCGA and clinical image datasets.","https://scispace.com/paper/41986442","2026","Journal Article","Scientific reports","Shafique
+Mehmood
+Al-Qudah
+Zakaria","10.1038/s41598-026-47731-z","https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13243525/pdf","Breast cancer remains one of the leading causes of cancer-related mortality among women worldwide. Early and accurate detection is critical for improving survival rates and enabling effective treatment. This research proposes a fine-tuned Multi-Deep Neural Network model with Multiple Datasets (FT-MDNNMDs). The proposed system employs a hierarchical classification strategy, first distinguishing cancer from normal cases, and subsequently classifying cancer-positive cases into Stage II and Stage III categories. The model integrates data from The Cancer Genome Atlas (TCGA) and a private clinical image dataset collected from hospitals in Pakistan. Preprocessing techniques, including image normalization, filtering, and Principal Component Analysis (PCA), are applied to enhance feature quality and reduce redundancy. Transfer learning and fine-tuning strategies are incorporated to further improve classification performance. The proposed model effectively distinguishes between benign and malignant tumors and accurately identifies stage II and stage III cases. Experimental results demonstrate that the fine-tuned MDNNMDs model achieves an accuracy of 99.57%, outperforming conventional machine learning algorithms such as Support Vector Machine (94.46%), Decision Tree (93.54%), and Naïve Bayes (91.22%). The model also achieved superior MCC (99.46%), F-score (99.57%), and recall (99.63%). In addition to algorithmic comparison, the performance of the proposed model is compared with existing breast cancer detection models, and it is revealed that the proposed model provides more accurate results than existing ones, with 1.5% to 3.0% better accuracy."

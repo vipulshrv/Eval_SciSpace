@@ -1,0 +1,34 @@
+{
+    "query": "liraglutide weight loss cardiovascular outcomes adverse events SCALE LEADER clinical trials",
+    "criteria": {
+        "required_relevance_criteria": [
+            {
+                "name": "liraglutide",
+                "description": "The paper must discuss liraglutide.",
+                "weight": 0.2
+            },
+            {
+                "name": "outcomes_and_events",
+                "description": "The paper must discuss weight loss, cardiovascular outcomes, or adverse events in the context of liraglutide.",
+                "weight": 0.4
+            },
+            {
+                "name": "clinical_trials",
+                "description": "The paper must discuss liraglutide in the context of clinical trials, specifically mentioning SCALE, LEADER, or both.",
+                "weight": 0.4
+            }
+        ],
+        "nice_to_have_relevance_criteria": [
+            {
+                "name": "SCALE_trial",
+                "description": "The paper specifically discusses the SCALE clinical trial.",
+                "weight": 0.2
+            },
+            {
+                "name": "LEADER_trial",
+                "description": "The paper specifically discusses the LEADER clinical trial.",
+                "weight": 0.2
+            }
+        ]
+    }
+}

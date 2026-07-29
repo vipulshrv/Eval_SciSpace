@@ -1,0 +1,156 @@
+{
+  "per_query": {
+    "gut_brain": {
+      "citation_confidence": "high",
+      "scorecard": {
+        "integrity_gates": {
+          "retrieval_metadata_accuracy": 0.9953,
+          "consolidation_provenance": 1.0,
+          "consolidation_fabricated": 0,
+          "criteria_coverage": 1.0,
+          "criteria_spurious_columns": 0,
+          "criteria_uncovered": []
+        },
+        "hallucination_profile": {
+          "extraction": {
+            "verified": true,
+            "adjudicable_cells": 72,
+            "grounded": 71,
+            "contradictions_intrinsic": 0,
+            "extrinsic_vs_fulltext": 1,
+            "hallucination_rate": 0.0139,
+            "grounded_rate": 0.9861,
+            "false_absence_under_extraction": 0,
+            "unverifiable_fragment_only": 15,
+            "fulltext_coverage": 0.2644
+          },
+          "report": {
+            "verified": true,
+            "citation_confidence": "high",
+            "cited_sentences": 138,
+            "citation_precision": 0.9638,
+            "report_contradictions": 0,
+            "numeric_fidelity": 0.963,
+            "uncited_synthesis": 212
+          }
+        }
+      },
+      "cost_usd": 7.3871
+    },
+    "cancer": {
+      "citation_confidence": "high",
+      "scorecard": {
+        "integrity_gates": {
+          "retrieval_metadata_accuracy": 1.0,
+          "consolidation_provenance": 1.0,
+          "consolidation_fabricated": 0,
+          "criteria_coverage": 1.0,
+          "criteria_spurious_columns": 0,
+          "criteria_uncovered": []
+        },
+        "hallucination_profile": {
+          "extraction": {
+            "verified": true,
+            "adjudicable_cells": 66,
+            "grounded": 66,
+            "contradictions_intrinsic": 0,
+            "extrinsic_vs_fulltext": 0,
+            "hallucination_rate": 0.0,
+            "grounded_rate": 1.0,
+            "false_absence_under_extraction": 0,
+            "unverifiable_fragment_only": 10,
+            "fulltext_coverage": 0.2763
+          },
+          "report": {
+            "verified": true,
+            "citation_confidence": "high",
+            "cited_sentences": 73,
+            "citation_precision": 0.6712,
+            "report_contradictions": 0,
+            "numeric_fidelity": 0.8723,
+            "uncited_synthesis": 204
+          }
+        }
+      },
+      "cost_usd": 3.9218
+    },
+    "glp1_weight_loss": {
+      "citation_confidence": "high",
+      "scorecard": {
+        "integrity_gates": {
+          "retrieval_metadata_accuracy": 0.9727,
+          "consolidation_provenance": 1.0,
+          "consolidation_fabricated": 0,
+          "criteria_coverage": 1.0,
+          "criteria_spurious_columns": 0,
+          "criteria_uncovered": []
+        },
+        "hallucination_profile": {
+          "extraction": {
+            "verified": true,
+            "adjudicable_cells": 195,
+            "grounded": 186,
+            "contradictions_intrinsic": 4,
+            "extrinsic_vs_fulltext": 5,
+            "hallucination_rate": 0.0462,
+            "grounded_rate": 0.9538,
+            "false_absence_under_extraction": 6,
+            "unverifiable_fragment_only": 47,
+            "fulltext_coverage": 0.3004
+          },
+          "report": {
+            "verified": true,
+            "citation_confidence": "high",
+            "cited_sentences": 73,
+            "citation_precision": 0.6301,
+            "report_contradictions": 2,
+            "numeric_fidelity": 0.8027,
+            "uncited_synthesis": 101
+          }
+        }
+      },
+      "cost_usd": 17.9146
+    },
+    "diabetic_retinopathy": {
+      "citation_confidence": "high",
+      "scorecard": {
+        "integrity_gates": {
+          "retrieval_metadata_accuracy": 0.9968,
+          "consolidation_provenance": 1.0,
+          "consolidation_fabricated": 0,
+          "criteria_coverage": 0.8,
+          "criteria_spurious_columns": 0,
+          "criteria_uncovered": [
+            "Dataset"
+          ]
+        },
+        "hallucination_profile": {
+          "extraction": {
+            "verified": true,
+            "adjudicable_cells": 24,
+            "grounded": 24,
+            "contradictions_intrinsic": 0,
+            "extrinsic_vs_fulltext": 0,
+            "hallucination_rate": 0.0,
+            "grounded_rate": 1.0,
+            "false_absence_under_extraction": 0,
+            "unverifiable_fragment_only": 6,
+            "fulltext_coverage": 0.2333
+          },
+          "report": {
+            "verified": true,
+            "citation_confidence": "high",
+            "cited_sentences": 51,
+            "citation_precision": 0.6471,
+            "report_contradictions": 0,
+            "numeric_fidelity": 0.8657,
+            "uncited_synthesis": 62
+          }
+        }
+      },
+      "cost_usd": 1.8832
+    }
+  },
+  "total_cost_usd": 31.1067,
+  "note": "No single composite score: steps measure different constructs over different denominators. Read integrity gates and the hallucination profile separately."
+}

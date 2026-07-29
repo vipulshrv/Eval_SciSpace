@@ -1,0 +1,3420 @@
+{
+  "summary": {
+    "step": "5_report_generation",
+    "total_claim_sentences": 174,
+    "cited_sentences": 73,
+    "uncited_synthesis_sentences": 101,
+    "graded_cited": 73,
+    "citation_precision": 0.4521,
+    "verdict_breakdown": {
+      "SUPPORTED": 33,
+      "UNSUPPORTED": 36,
+      "CONTRADICTED": 4
+    },
+    "numeric_fidelity": 0.8027,
+    "numbers_checked": 299,
+    "numbers_missing": 59,
+    "verified": {
+      "graded_cited": 73,
+      "flagged_rechecked": 40,
+      "supported": 46,
+      "report_contradictions": 2,
+      "unsupported": 25,
+      "citation_precision": 0.6301,
+      "first_pass_citation_precision": 0.4521,
+      "first_pass_contradictions": 4
+    }
+  },
+  "usage": {
+    "model": "claude-opus-4-8",
+    "judge_calls": 73,
+    "input_tokens": 182027,
+    "output_tokens": 11963,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cost_usd": {
+      "input": 0.9101,
+      "output": 0.2991,
+      "cache_read": 0.0,
+      "cache_write": 0.0,
+      "total": 1.2092
+    }
+  },
+  "sentences": [
+    {
+      "idx": 0,
+      "text": "This report provides a comprehensive comparison of three glucagon-like peptide-1 (GLP-1) receptor agonists\u2014semaglutide, tirzepatide, and liraglutide\u2014for the treatment of obesity and overweight.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [
+        "1",
+        "1"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 1,
+      "text": "Based on systematic analysis of Phase 3 randomized controlled trials, meta-analyses, and cardiovascular outcome trials, tirzepatide demonstrates superior weight loss efficacy (15.0\u201320.9% body weight reduction at 72 weeks), followed by semaglutide (14.9\u201316.0% at 68 weeks), and liraglutide (approximately 8% at 56 weeks).",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [
+        "3",
+        "15.0",
+        "20.9%",
+        "72",
+        "14.9",
+        "16.0%",
+        "68",
+        "8%",
+        "56"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 2,
+      "text": "All three agents show favorable cardiovascular safety profiles, with semaglutide demonstrating a 26% reduction in major adverse cardiovascular events (MACE) in high-risk populations.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [
+        "26%"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 3,
+      "text": "Gastrointestinal adverse events are common across all agents but generally mild-to-moderate and transient.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 4,
+      "text": "Tirzepatide, as a dual GIP/GLP-1 receptor agonist, represents the most potent weight loss therapy currently available, though with slightly higher discontinuation rates at the highest dose.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [
+        "1"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 5,
+      "text": "These findings support the use of GLP-1 receptor agonists as effective pharmacotherapy for obesity management with acceptable safety profiles.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [
+        "1"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 6,
+      "text": "2. [Background and Mechanism of Action](#2-background-and-mechanism-of-action)",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [
+        "2",
+        "2"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 7,
+      "text": "3. [Methods and Evidence Base](#3-methods-and-evidence-base)",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [
+        "3",
+        "3"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 8,
+      "text": "4. [Weight Loss Efficacy: Comparative Analysis](#4-weight-loss-efficacy-comparative-analysis)",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [
+        "4",
+        "4"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 9,
+      "text": "5. [Cardiovascular Outcomes](#5-cardiovascular-outcomes)",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [
+        "5",
+        "5"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 10,
+      "text": "6. [Adverse Events and Safety Profile](#6-adverse-events-and-safety-profile)",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [
+        "6",
+        "6"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 11,
+      "text": "8. [Clinical Implications and Recommendations](#8-clinical-implications-and-recommendations)",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [
+        "8",
+        "8"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 12,
+      "text": "Obesity represents a global health crisis affecting over 650 million adults worldwide, contributing substantially to cardiovascular disease, type 2 diabetes, and premature mortality.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [
+        "650",
+        "2"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 13,
+      "text": "Traditional lifestyle interventions achieve modest weight loss (3\u20135%), often insufficient to reverse obesity-related complications.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [
+        "3",
+        "5%"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 14,
+      "text": "Pharmacotherapy has emerged as a critical adjunct to lifestyle modification, with GLP-1 receptor agonists demonstrating unprecedented efficacy in weight reduction.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [
+        "1"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 15,
+      "text": "This report systematically compares three GLP-1 receptor agonists approved or investigated for weight management: semaglutide (Wegovy\u00ae, 2.4 mg subcutaneous weekly), tirzepatide (Zepbound\u00ae, 5\u201315 mg subcutaneous weekly), and liraglutide (Saxenda\u00ae, 3.0 mg subcutaneous daily).",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [
+        "1",
+        "2.4",
+        "5",
+        "15",
+        "3.0"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 16,
+      "text": "We evaluate their comparative efficacy in percent body weight reduction, cardiovascular outcomes, and adverse event profiles to inform clinical decision-making.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 17,
+      "text": "GLP-1 receptor agonists mimic the action of endogenous glucagon-like peptide-1, an incretin hormone secreted by intestinal L-cells in response to nutrient intake.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [
+        "1",
+        "1"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 18,
+      "text": "These agents promote weight loss through multiple mechanisms: enhanced satiety via hypothalamic appetite centers, delayed gastric emptying, reduced food intake, and improved glucose-dependent insulin secretion [11].",
+      "citations": [
+        11
+      ],
+      "kind": "cited",
+      "verdict": "UNSUPPORTED",
+      "confidence": "medium",
+      "evidence_span": "GLP-1RAs work by reducing the appetite and feelings of hunger, slowing the release of food from the stomach, and increasing feelings of fullness after eating",
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": [],
+      "verified_state": "supported",
+      "verified_panel": {
+        "supporter_verdict": "SUPPORTED",
+        "skeptic_verdict": "SUPPORTED"
+      }
+    },
+    {
+      "idx": 19,
+      "text": "Tirzepatide represents a novel pharmacological class as a dual glucose-dependent insulinotropic polypeptide (GIP) and GLP-1 receptor agonist.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [
+        "1"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 20,
+      "text": "This dual mechanism enhances weight loss efficacy beyond selective GLP-1 agonism, with GIP contributing to improved insulin sensitivity, enhanced lipolysis, and potentially greater central appetite suppression [21], [22].",
+      "citations": [
+        21,
+        22
+      ],
+      "kind": "cited",
+      "verdict": "UNSUPPORTED",
+      "confidence": "high",
+      "evidence_span": "",
+      "numbers": [
+        "1"
+      ],
+      "numbers_grounded": [
+        "1"
+      ],
+      "numbers_missing": [],
+      "verified_state": "unsupported",
+      "verified_panel": {
+        "supporter_verdict": "UNSUPPORTED",
+        "skeptic_verdict": "UNSUPPORTED"
+      }
+    },
+    {
+      "idx": 21,
+      "text": "Semaglutide and tirzepatide are administered once weekly, offering superior adherence compared to liraglutide's daily dosing.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 22,
+      "text": "Semaglutide has a half-life of approximately 1 week, while tirzepatide has a half-life of approximately 5 days.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [
+        "1",
+        "5"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 23,
+      "text": "Liraglutide, with a 13-hour half-life, requires daily administration [19].",
+      "citations": [
+        19
+      ],
+      "kind": "cited",
+      "verdict": "UNSUPPORTED",
+      "confidence": "high",
+      "evidence_span": "",
+      "numbers": [
+        "13"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": [
+        "13"
+      ],
+      "verified_state": "unsupported",
+      "verified_panel": {
+        "supporter_verdict": "UNSUPPORTED",
+        "skeptic_verdict": "UNSUPPORTED"
+      }
+    },
+    {
+      "idx": 24,
+      "text": "This comparative analysis synthesizes evidence from three comprehensive literature searches encompassing:",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 25,
+      "text": "Evidence was prioritized from Phase 3 randomized controlled trials (RCTs), systematic reviews, meta-analyses, and cardiovascular outcome trials.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [
+        "3"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 26,
+      "text": "Weight loss outcomes are reported as mean percent body weight reduction from baseline, with proportions achieving clinically meaningful thresholds (\u22655%, \u226510%, \u226515% weight loss).",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [
+        "5%",
+        "10%",
+        "15%"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 27,
+      "text": "Cardiovascular outcomes focus on MACE (composite of cardiovascular death, nonfatal myocardial infarction, and nonfatal stroke) and heart failure events.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 28,
+      "text": "Adverse events emphasize gastrointestinal tolerability and discontinuation rates.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 29,
+      "text": "Semaglutide 2.4 mg once weekly demonstrates robust and sustained weight loss across the STEP clinical trial program.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [
+        "2.4"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 30,
+      "text": "In STEP 1, participants without type 2 diabetes achieved a mean body weight reduction of **14.9%** over 68 weeks, with 86.4% achieving \u22655%, 69.1% achieving \u226510%, and 50.5% achieving \u226515% weight loss [5].",
+      "citations": [
+        5
+      ],
+      "kind": "cited",
+      "verdict": "UNSUPPORTED",
+      "confidence": "high",
+      "evidence_span": "",
+      "numbers": [
+        "1",
+        "2",
+        "14.9%",
+        "68",
+        "86.4%",
+        "5%",
+        "69.1%",
+        "10%",
+        "50.5%",
+        "15%"
+      ],
+      "numbers_grounded": [
+        "1",
+        "2",
+        "68",
+        "5%",
+        "10%"
+      ],
+      "numbers_missing": [
+        "14.9%",
+        "86.4%",
+        "69.1%",
+        "50.5%",
+        "15%"
+      ],
+      "verified_state": "unsupported",
+      "verified_panel": {
+        "supporter_verdict": "UNSUPPORTED",
+        "skeptic_verdict": "UNSUPPORTED"
+      }
+    },
+    {
+      "idx": 31,
+      "text": "STEP 3, which combined semaglutide with intensive behavioral therapy, reported even greater efficacy with **16.0%** mean weight reduction (95% CI, -12.0 to -8.6), with 86.6% achieving \u22655%, 75.3% achieving \u226510%, and 55.8% achieving \u226515% weight loss [4].",
+      "citations": [
+        4
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "medium",
+      "evidence_span": "the estimated mean body weight change from baseline was -16.0% for semaglutide vs -5.7% for placebo (difference, -10.3 percentage points [95% CI, -12.0 to -8.6]",
+      "numbers": [
+        "3",
+        "16.0%",
+        "95%",
+        "12.0",
+        "8.6",
+        "86.6%",
+        "5%",
+        "75.3%",
+        "10%",
+        "55.8%",
+        "15%"
+      ],
+      "numbers_grounded": [
+        "3",
+        "16.0%",
+        "95%",
+        "12.0",
+        "8.6",
+        "86.6%",
+        "5%",
+        "75.3%",
+        "10%",
+        "55.8%",
+        "15%"
+      ],
+      "numbers_missing": []
+    },
+    {
+      "idx": 32,
+      "text": "Long-term efficacy was confirmed in STEP 5, where 104 weeks of treatment resulted in **15.2%** mean body weight reduction (95% CI, -15.3 to -9.8), with 77.1% achieving \u22655%, 61.8% achieving \u226510%, and 52.1% achieving \u226515% weight loss [2].",
+      "citations": [
+        2
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "evidence_span": "The proportion of patients achieving weight loss from baseline at week 104 was 77.1% for \u22655%, 61.8% for \u226510%, and 52.1% for \u226515%.",
+      "numbers": [
+        "5",
+        "104",
+        "15.2%",
+        "95%",
+        "15.3",
+        "9.8",
+        "77.1%",
+        "5%",
+        "61.8%",
+        "10%",
+        "52.1%",
+        "15%"
+      ],
+      "numbers_grounded": [
+        "5",
+        "104",
+        "15.2%",
+        "95%",
+        "15.3",
+        "9.8",
+        "77.1%",
+        "5%",
+        "61.8%",
+        "10%",
+        "52.1%",
+        "15%"
+      ],
+      "numbers_missing": []
+    },
+    {
+      "idx": 33,
+      "text": "A meta-analysis of three RCTs (n=2,783) reported a weighted mean difference of **-12.0%** (95% CI -13.9%, -10.2%) at 68 weeks, with 86.5% of participants achieving \u22655% weight loss compared to 34.8% with placebo [8].",
+      "citations": [
+        8
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "evidence_span": "Three RCTs (n=2,783, 6.0% overweight [BMI 27 to 29.9 kg/m",
+      "numbers": [
+        "2",
+        "783",
+        "12.0%",
+        "95%",
+        "13.9%",
+        "10.2%",
+        "68",
+        "86.5%",
+        "5%",
+        "34.8%"
+      ],
+      "numbers_grounded": [
+        "2",
+        "783",
+        "12.0%",
+        "95%",
+        "13.9%",
+        "10.2%",
+        "68",
+        "86.5%",
+        "5%",
+        "34.8%"
+      ],
+      "numbers_missing": []
+    },
+    {
+      "idx": 34,
+      "text": "In the SELECT trial, which enrolled participants with preexisting cardiovascular disease, semaglutide achieved a mean weight reduction of **10.2%** sustained over 208 weeks (4 years), demonstrating durability of effect [15].",
+      "citations": [
+        15
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "evidence_span": "At 208 weeks, semaglutide was associated with mean reduction in weight (\u221210.2%)",
+      "numbers": [
+        "10.2%",
+        "208",
+        "4"
+      ],
+      "numbers_grounded": [
+        "10.2%",
+        "208",
+        "4"
+      ],
+      "numbers_missing": []
+    },
+    {
+      "idx": 35,
+      "text": "Tirzepatide demonstrates dose-dependent weight loss superior to semaglutide.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 36,
+      "text": "In the pivotal SURMOUNT-1 trial (72 weeks), tirzepatide achieved mean body weight reductions of **15.0%** (5 mg), **19.5%** (10 mg), and **20.9%** (15 mg), compared to **3.1%** with placebo [22], [26].",
+      "citations": [
+        22,
+        26
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "evidence_span": "Mean percentage changes were -15.0% (5 mg), -19.5% (10 mg), and -20.9% (15 mg), compared to -3.1% for placebo.",
+      "numbers": [
+        "1",
+        "72",
+        "15.0%",
+        "5",
+        "19.5%",
+        "10",
+        "20.9%",
+        "15",
+        "3.1%"
+      ],
+      "numbers_grounded": [
+        "1",
+        "72",
+        "15.0%",
+        "5",
+        "19.5%",
+        "10",
+        "20.9%",
+        "15",
+        "3.1%"
+      ],
+      "numbers_missing": []
+    },
+    {
+      "idx": 37,
+      "text": "The proportion achieving \u22655% weight loss was 85% (5 mg), 89% (10 mg), and 91% (15 mg).",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [
+        "5%",
+        "85%",
+        "5",
+        "89%",
+        "10",
+        "91%",
+        "15"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 38,
+      "text": "Notably, 48% (5 mg), 67% (10 mg), and 71% (15 mg) achieved \u226520% weight loss, a threshold rarely reached with other pharmacotherapies [22].",
+      "citations": [
+        22
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "evidence_span": "Proportion achieving \u226520% weight loss: 48% (5 mg), 67% (10 mg), 71% (15 mg).",
+      "numbers": [
+        "48%",
+        "5",
+        "67%",
+        "10",
+        "71%",
+        "15",
+        "20%"
+      ],
+      "numbers_grounded": [
+        "48%",
+        "5",
+        "67%",
+        "10",
+        "71%",
+        "15",
+        "20%"
+      ],
+      "numbers_missing": []
+    },
+    {
+      "idx": 39,
+      "text": "A systematic review and meta-analysis including SURMOUNT-2 reported dose-dependent weight loss: **-8.07%** (5 mg), **-10.79%** (10 mg), and **-11.83%** (15 mg) over 12\u201372 weeks [27].",
+      "citations": [
+        27
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "evidence_span": "The mean difference (MD) in the percentage change in body weight (BW) was \u22128.07% (95% CI \u221211.01, \u22125.13; p &lt; 0.00001), \u221210.79% (95% CI \u221213.86, \u22127.71; p &lt; 0.00001), and \u221211.83% (95% CI \u221214.52, \u22129.14; p &lt; 0.00001), respectively.",
+      "numbers": [
+        "2",
+        "8.07%",
+        "5",
+        "10.79%",
+        "10",
+        "11.83%",
+        "15",
+        "12",
+        "72"
+      ],
+      "numbers_grounded": [
+        "2",
+        "8.07%",
+        "5",
+        "10.79%",
+        "10",
+        "11.83%",
+        "15",
+        "12",
+        "72"
+      ],
+      "numbers_missing": []
+    },
+    {
+      "idx": 40,
+      "text": "In SURMOUNT-2, which enrolled participants with type 2 diabetes and obesity, tirzepatide 10 mg and 15 mg achieved **12.8%** and **14.7%** mean weight reduction, respectively [32].",
+      "citations": [
+        32
+      ],
+      "kind": "cited",
+      "verdict": "CONTRADICTED",
+      "confidence": "high",
+      "evidence_span": "excluding diabetes",
+      "numbers": [
+        "2",
+        "2",
+        "10",
+        "15",
+        "12.8%",
+        "14.7%"
+      ],
+      "numbers_grounded": [
+        "2",
+        "2",
+        "10",
+        "15"
+      ],
+      "numbers_missing": [
+        "12.8%",
+        "14.7%"
+      ],
+      "verified_state": "unsupported",
+      "verified_panel": {
+        "supporter_verdict": "UNSUPPORTED",
+        "skeptic_verdict": "UNSUPPORTED"
+      }
+    },
+    {
+      "idx": 41,
+      "text": "Real-world evidence from routine clinical practice demonstrated tirzepatide achieved **-16.3%** (95% CI, -16.7 to -15.9) mean weight reduction over 12 months, exceeding semaglutide in head-to-head comparison [30].",
+      "citations": [
+        30
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "evidence_span": "tirzepatide showed greater reductions in weight (\u201316.3% [95% CI, \u201316.7 to \u201315.9] vs. \u201311.4% [\u201311.6 to \u201311.2])",
+      "numbers": [
+        "16.3%",
+        "95%",
+        "16.7",
+        "15.9",
+        "12"
+      ],
+      "numbers_grounded": [
+        "16.3%",
+        "95%",
+        "16.7",
+        "15.9",
+        "12"
+      ],
+      "numbers_missing": []
+    },
+    {
+      "idx": 42,
+      "text": "Liraglutide 3.0 mg daily demonstrates more modest but clinically meaningful weight loss.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [
+        "3.0"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 43,
+      "text": "In the SCALE trials, liraglutide achieved a mean weight loss of **8.4 \u00b1 7.3 kg** compared to **2.8 \u00b1 6.5 kg** with placebo over 56 weeks, corresponding to approximately **8.0 \u00b1 6.7%** body weight reduction [1], [2].",
+      "citations": [
+        1,
+        2
+      ],
+      "kind": "cited",
+      "verdict": "UNSUPPORTED",
+      "confidence": "high",
+      "evidence_span": "",
+      "numbers": [
+        "8.4",
+        "7.3",
+        "2.8",
+        "6.5",
+        "56",
+        "8.0",
+        "6.7%"
+      ],
+      "numbers_grounded": [
+        "7.3",
+        "2.8"
+      ],
+      "numbers_missing": [
+        "8.4",
+        "6.5",
+        "56",
+        "8.0",
+        "6.7%"
+      ],
+      "verified_state": "unsupported",
+      "verified_panel": {
+        "supporter_verdict": "UNSUPPORTED",
+        "skeptic_verdict": "UNSUPPORTED"
+      }
+    },
+    {
+      "idx": 44,
+      "text": "The proportion achieving \u22655% weight loss was 63.2% with liraglutide versus 27.1% with placebo [1].",
+      "citations": [
+        1
+      ],
+      "kind": "cited",
+      "verdict": "UNSUPPORTED",
+      "confidence": "high",
+      "evidence_span": "",
+      "numbers": [
+        "5%",
+        "63.2%",
+        "27.1%"
+      ],
+      "numbers_grounded": [
+        "5%"
+      ],
+      "numbers_missing": [
+        "63.2%",
+        "27.1%"
+      ],
+      "verified_state": "unsupported",
+      "verified_panel": {
+        "supporter_verdict": "UNSUPPORTED",
+        "skeptic_verdict": "UNSUPPORTED"
+      }
+    },
+    {
+      "idx": 45,
+      "text": "The SCALE Diabetes trial, which enrolled participants with type 2 diabetes, reported similar efficacy with liraglutide 3.0 mg [12].",
+      "citations": [
+        12
+      ],
+      "kind": "cited",
+      "verdict": "UNSUPPORTED",
+      "confidence": "high",
+      "evidence_span": "",
+      "numbers": [
+        "2",
+        "3.0"
+      ],
+      "numbers_grounded": [
+        "2"
+      ],
+      "numbers_missing": [
+        "3.0"
+      ],
+      "verified_state": "unsupported",
+      "verified_panel": {
+        "supporter_verdict": "UNSUPPORTED",
+        "skeptic_verdict": "UNSUPPORTED"
+      }
+    },
+    {
+      "idx": 46,
+      "text": "Long-term real-world data confirmed sustained weight loss over 12 months in clinical practice settings [20].",
+      "citations": [
+        20
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "medium",
+      "evidence_span": "One-year weight reduction with semaglutide or liraglutide in clinical practice",
+      "numbers": [
+        "12"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": [
+        "12"
+      ]
+    },
+    {
+      "idx": 47,
+      "text": "Comparative Weight Loss Efficacy at Primary Endpoints**",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 48,
+      "text": "Tirzepatide 15 mg demonstrates the highest weight loss efficacy, achieving approximately **5% greater absolute weight reduction** than semaglutide 2.4 mg and **12% greater** than liraglutide 3.0 mg.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [
+        "15",
+        "5%",
+        "2.4",
+        "12%",
+        "3.0"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 49,
+      "text": "Semaglutide shows intermediate efficacy, with approximately **7% greater absolute weight reduction** than liraglutide.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [
+        "7%"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 50,
+      "text": "Semaglutide demonstrates significant cardiovascular benefits in high-risk populations.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 51,
+      "text": "In the SUSTAIN 6 trial, subcutaneous semaglutide (0.5 mg or 1.0 mg weekly) reduced the risk of MACE by **26%** (HR 0.74; 95% CI 0.58\u20130.95; p=0.02 for superiority), primarily driven by a reduction in nonfatal stroke [5], [7].",
+      "citations": [
+        5,
+        7
+      ],
+      "kind": "cited",
+      "verdict": "UNSUPPORTED",
+      "confidence": "high",
+      "evidence_span": "In SUSTAIN 6, subcutaneous semaglutide reduced the risk of MACE (CV death, nonfatal myocardial infarction, and nonfatal stroke) compared with placebo (HR 0.74; 95% CI 0.58\u20130.95)",
+      "numbers": [
+        "6",
+        "0.5",
+        "1.0",
+        "26%",
+        "0.74",
+        "95%",
+        "0.58",
+        "0.95",
+        "0.02"
+      ],
+      "numbers_grounded": [
+        "6",
+        "0.5",
+        "0.74",
+        "95%",
+        "0.58",
+        "0.95"
+      ],
+      "numbers_missing": [
+        "1.0",
+        "26%",
+        "0.02"
+      ],
+      "verified_state": "supported",
+      "verified_panel": {
+        "supporter_verdict": "SUPPORTED",
+        "skeptic_verdict": "SUPPORTED"
+      }
+    },
+    {
+      "idx": 52,
+      "text": "The SELECT trial, which enrolled 17,604 participants with preexisting cardiovascular disease, overweight or obesity, and without diabetes, demonstrated that semaglutide 2.4 mg reduced MACE by **20%** over a median follow-up of 40 months [15].",
+      "citations": [
+        15
+      ],
+      "kind": "cited",
+      "verdict": "UNSUPPORTED",
+      "confidence": "medium",
+      "evidence_span": "semaglutide showed a 20% reduction in major adverse cardiovascular events in 17,604 adults with preexisting cardiovascular disease, overweight or obesity, without diabetes",
+      "numbers": [
+        "17",
+        "604",
+        "2.4",
+        "20%",
+        "40"
+      ],
+      "numbers_grounded": [
+        "17",
+        "604",
+        "20%",
+        "40"
+      ],
+      "numbers_missing": [
+        "2.4"
+      ],
+      "verified_state": "supported",
+      "verified_panel": {
+        "supporter_verdict": "SUPPORTED",
+        "skeptic_verdict": "SUPPORTED"
+      }
+    },
+    {
+      "idx": 53,
+      "text": "A meta-analysis reported that semaglutide reduced composite major cardiovascular events by **14%** (HR 0.86; 95% CI 0.80\u20130.93), myocardial infarction by **13%** (HR 0.87; 95% CI 0.77\u20130.98), stroke by **18%** (HR 0.82; 95% CI 0.73\u20130.92), and death from cardiovascular disease by **13%** (HR 0.87; 95% CI 0.81\u20130.94) [14].",
+      "citations": [
+        14
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "evidence_span": "Semaglutide reduced composite major CV events by 14% (HR, 0.86; 95% CI, 0.80 to 0.93), myocardial infarction by 13% (HR, 0.87; 95% CI, 0.77 to 0.98), stroke by 18% (HR, 0.82; 95% CI, 0.73 to 0.92), and death from CV disease by 13% (HR, 0.87; 95% CI, 0.81 to 0.94) in a meta-analysis.",
+      "numbers": [
+        "14%",
+        "0.86",
+        "95%",
+        "0.80",
+        "0.93",
+        "13%",
+        "0.87",
+        "95%",
+        "0.77",
+        "0.98",
+        "18%",
+        "0.82",
+        "95%",
+        "0.73",
+        "0.92",
+        "13%",
+        "0.87",
+        "95%",
+        "0.81",
+        "0.94"
+      ],
+      "numbers_grounded": [
+        "14%",
+        "0.86",
+        "95%",
+        "0.80",
+        "0.93",
+        "13%",
+        "0.87",
+        "95%",
+        "0.77",
+        "0.98",
+        "18%",
+        "0.82",
+        "95%",
+        "0.73",
+        "0.92",
+        "13%",
+        "0.87",
+        "95%",
+        "0.81",
+        "0.94"
+      ],
+      "numbers_missing": []
+    },
+    {
+      "idx": 54,
+      "text": "In the STEP-HFpEF trial, semaglutide improved symptoms, physical function, and exercise capacity in patients with heart failure with preserved ejection fraction (HFpEF) and obesity, with benefits proportional to the magnitude of weight loss [3].",
+      "citations": [
+        3
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "evidence_span": "semaglutide improved symptoms, physical limitations and exercise function and reduced inflammation and body weight across obesity categories. In semaglutide-treated patients, the magnitude of benefit was directly related to the extent of weight loss",
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 55,
+      "text": "Tirzepatide demonstrates cardiovascular safety with emerging evidence of benefit.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 56,
+      "text": "A prespecified meta-analysis of the SURPASS trials in type 2 diabetes reported hazard ratios of **0.8** (95% CI 0.57\u20131.11) for MACE-4, **0.9** (95% CI 0.50\u20131.61) for cardiovascular death, **0.76** (95% CI 0.45\u20131.28) for myocardial infarction, and **0.81** (95% CI 0.39\u20131.68) for ischemic stroke [31].",
+      "citations": [
+        31
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "evidence_span": "Tirzepatide showed a hazard ratio (HR) of 0.8 (95% CI, 0.57-1.11) for MACE-4 outcomes, 0.9 (95% CI, 0.50-1.61) for cardiovascular death, 0.76 (95% CI, 0.45-1.28) for myocardial infarction, and 0.81 (95% CI, 0.39-1.68) for ischemic stroke.",
+      "numbers": [
+        "2",
+        "0.8",
+        "95%",
+        "0.57",
+        "1.11",
+        "4",
+        "0.9",
+        "95%",
+        "0.50",
+        "1.61",
+        "0.76",
+        "95%",
+        "0.45",
+        "1.28",
+        "0.81",
+        "95%",
+        "0.39",
+        "1.68"
+      ],
+      "numbers_grounded": [
+        "2",
+        "0.8",
+        "95%",
+        "0.57",
+        "1.11",
+        "4",
+        "0.9",
+        "95%",
+        "0.50",
+        "1.61",
+        "0.76",
+        "95%",
+        "0.45",
+        "1.28",
+        "0.81",
+        "95%",
+        "0.39",
+        "1.68"
+      ],
+      "numbers_missing": []
+    },
+    {
+      "idx": 57,
+      "text": "For MACE-6 (including heart failure events), the HR was **0.79** (95% CI 0.58\u20131.06) [31].",
+      "citations": [
+        31
+      ],
+      "kind": "cited",
+      "verdict": "UNSUPPORTED",
+      "confidence": "medium",
+      "evidence_span": "",
+      "numbers": [
+        "6",
+        "0.79",
+        "95%",
+        "0.58",
+        "1.06"
+      ],
+      "numbers_grounded": [
+        "6",
+        "0.79",
+        "95%",
+        "0.58",
+        "1.06"
+      ],
+      "numbers_missing": [],
+      "verified_state": "supported",
+      "verified_panel": {
+        "supporter_verdict": "SUPPORTED",
+        "skeptic_verdict": "SUPPORTED"
+      }
+    },
+    {
+      "idx": 58,
+      "text": "Post-hoc analyses of SURMOUNT-1 demonstrated that tirzepatide significantly reduced the 10-year predicted risk of developing atherosclerotic cardiovascular disease (ASCVD).",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [
+        "1",
+        "10"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 59,
+      "text": "At week 72, the relative change in ASCVD risk from baseline was **-16.4%**, **-23.5%**, and **-22.4%** for tirzepatide 5, 10, and 15 mg, respectively, compared to **12.7%** for placebo [24].",
+      "citations": [
+        24
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "evidence_span": "At week 72, MMRM-estimated relative change in risk from baseline was -16.4%, -23.5%, -22.4%, and 12.7% for TZP 5/10/15mg and PBO",
+      "numbers": [
+        "72",
+        "16.4%",
+        "23.5%",
+        "22.4%",
+        "5",
+        "10",
+        "15",
+        "12.7%"
+      ],
+      "numbers_grounded": [
+        "72",
+        "16.4%",
+        "23.5%",
+        "22.4%",
+        "5",
+        "10",
+        "15",
+        "12.7%"
+      ],
+      "numbers_missing": []
+    },
+    {
+      "idx": 60,
+      "text": "In the SUMMIT trial, tirzepatide demonstrated symptomatic and functional improvements in patients with heart failure with preserved ejection fraction and obesity, with fewer worsening heart failure events versus placebo [25].",
+      "citations": [
+        25
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "evidence_span": "the SUMMIT outcomes trial have demonstrated symptomatic and functional improvements, reverse cardiac remodelling on imaging, reduced circulating markers of myocardial stress and fewer worsening heart\u2010failure events versus placebo",
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 61,
+      "text": "The ongoing SURPASS-CVOT trial will provide definitive cardiovascular outcomes data in patients with type 2 diabetes and established cardiovascular disease [27].",
+      "citations": [
+        27
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "medium",
+      "evidence_span": "the ongoing SURPASS-CVOT trial (NCT04255433) is anticipated to yield conclusive answers regarding its effect on major cardiovascular events",
+      "numbers": [
+        "2"
+      ],
+      "numbers_grounded": [
+        "2"
+      ],
+      "numbers_missing": []
+    },
+    {
+      "idx": 62,
+      "text": "Liraglutide 1.8 mg (approved for type 2 diabetes) demonstrated cardiovascular benefit in the LEADER trial.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [
+        "1.8",
+        "2"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 63,
+      "text": "The primary composite outcome (cardiovascular death, nonfatal myocardial infarction, or nonfatal stroke) occurred at a significantly lower rate with liraglutide (HR 0.87; 95% CI 0.78\u20130.97), with significant reductions in cardiovascular mortality (4.7% vs 6.0%) and all-cause mortality (8.2% vs 9.6%) over 3.8 years [1], [15].",
+      "citations": [
+        1,
+        15
+      ],
+      "kind": "cited",
+      "verdict": "UNSUPPORTED",
+      "confidence": "high",
+      "evidence_span": "",
+      "numbers": [
+        "0.87",
+        "95%",
+        "0.78",
+        "0.97",
+        "4.7%",
+        "6.0%",
+        "8.2%",
+        "9.6%",
+        "3.8"
+      ],
+      "numbers_grounded": [
+        "9.6%"
+      ],
+      "numbers_missing": [
+        "0.87",
+        "95%",
+        "0.78",
+        "0.97",
+        "4.7%",
+        "6.0%",
+        "8.2%",
+        "3.8"
+      ],
+      "verified_state": "unsupported",
+      "verified_panel": {
+        "supporter_verdict": "UNSUPPORTED",
+        "skeptic_verdict": "UNSUPPORTED"
+      }
+    },
+    {
+      "idx": 64,
+      "text": "For liraglutide 3.0 mg (weight management dose), a post-hoc analysis of SCALE trials reported the primary composite cardiovascular outcome occurred in 8 participants (1.54 events/1000 person-years) versus 10 participants (3.65 events/1000 person-years) in comparators, yielding a HR of **0.42** (95% CI 0.17\u20131.08), though with wide confidence intervals due to the low event rate [16].",
+      "citations": [
+        16
+      ],
+      "kind": "cited",
+      "verdict": "UNSUPPORTED",
+      "confidence": "high",
+      "evidence_span": "",
+      "numbers": [
+        "3.0",
+        "8",
+        "1.54",
+        "1000",
+        "10",
+        "3.65",
+        "1000",
+        "0.42",
+        "95%",
+        "0.17",
+        "1.08"
+      ],
+      "numbers_grounded": [
+        "8",
+        "10",
+        "95%"
+      ],
+      "numbers_missing": [
+        "3.0",
+        "1.54",
+        "1000",
+        "3.65",
+        "1000",
+        "0.42",
+        "0.17",
+        "1.08"
+      ],
+      "verified_state": "unsupported",
+      "verified_panel": {
+        "supporter_verdict": "UNSUPPORTED",
+        "skeptic_verdict": "UNSUPPORTED"
+      }
+    },
+    {
+      "idx": 65,
+      "text": "All three GLP-1 receptor agonists demonstrate cardiovascular safety, with semaglutide and liraglutide showing established cardiovascular benefit in high-risk populations.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [
+        "1"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 66,
+      "text": "Semaglutide's 20\u201326% MACE reduction in SELECT and SUSTAIN 6 represents robust evidence of cardiovascular protection.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [
+        "20",
+        "26%",
+        "6"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 67,
+      "text": "Tirzepatide shows promising cardiovascular safety signals, with ongoing trials expected to confirm benefit.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 68,
+      "text": "Liraglutide's cardiovascular benefit is well-established at the 1.8 mg diabetes dose, with emerging evidence at the 3.0 mg weight management dose.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [
+        "1.8",
+        "3.0"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 69,
+      "text": "Gastrointestinal adverse events are the most common side effects of semaglutide, occurring in **82\u201383%** of participants in STEP trials.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [
+        "82",
+        "83%"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 70,
+      "text": "In STEP 5, nausea occurred in **53.3%**, diarrhea in **34.9%**, and vomiting in **30.3%** of participants [2].",
+      "citations": [
+        2
+      ],
+      "kind": "cited",
+      "verdict": "UNSUPPORTED",
+      "confidence": "medium",
+      "evidence_span": "",
+      "numbers": [
+        "5",
+        "53.3%",
+        "34.9%",
+        "30.3%"
+      ],
+      "numbers_grounded": [
+        "5",
+        "53.3%",
+        "34.9%",
+        "30.3%"
+      ],
+      "numbers_missing": [],
+      "verified_state": "supported",
+      "verified_panel": {
+        "supporter_verdict": "SUPPORTED",
+        "skeptic_verdict": "SUPPORTED"
+      }
+    },
+    {
+      "idx": 71,
+      "text": "In STEP 3, gastrointestinal disorders affected **82.8%**, with nausea in **58.2%**, constipation in **36.9%**, and diarrhea in **36.1%** [4].",
+      "citations": [
+        4
+      ],
+      "kind": "cited",
+      "verdict": "UNSUPPORTED",
+      "confidence": "medium",
+      "evidence_span": "",
+      "numbers": [
+        "3",
+        "82.8%",
+        "58.2%",
+        "36.9%",
+        "36.1%"
+      ],
+      "numbers_grounded": [
+        "3",
+        "82.8%",
+        "58.2%",
+        "36.9%",
+        "36.1%"
+      ],
+      "numbers_missing": [],
+      "verified_state": "supported",
+      "verified_panel": {
+        "supporter_verdict": "SUPPORTED",
+        "skeptic_verdict": "SUPPORTED"
+      }
+    },
+    {
+      "idx": 72,
+      "text": "These events are typically mild-to-moderate in severity, transient, and occur predominantly during dose escalation.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 73,
+      "text": "Discontinuation due to adverse events ranged from **5.9%** to **7.0%** across STEP trials, with **3.9\u20134.3%** discontinuing specifically due to gastrointestinal disorders [2], [5].",
+      "citations": [
+        2,
+        5
+      ],
+      "kind": "cited",
+      "verdict": "UNSUPPORTED",
+      "confidence": "medium",
+      "evidence_span": "",
+      "numbers": [
+        "5.9%",
+        "7.0%",
+        "3.9",
+        "4.3%"
+      ],
+      "numbers_grounded": [
+        "5.9%",
+        "3.9"
+      ],
+      "numbers_missing": [
+        "7.0%",
+        "4.3%"
+      ],
+      "verified_state": "unsupported",
+      "verified_panel": {
+        "supporter_verdict": "UNSUPPORTED",
+        "skeptic_verdict": "UNSUPPORTED"
+      }
+    },
+    {
+      "idx": 74,
+      "text": "Serious adverse events occurred in **7.9\u20139.8%** of participants [2], [4].",
+      "citations": [
+        2,
+        4
+      ],
+      "kind": "cited",
+      "verdict": "CONTRADICTED",
+      "confidence": "medium",
+      "evidence_span": "Serious adverse events occurred in 7.9%.",
+      "numbers": [
+        "7.9",
+        "9.8%"
+      ],
+      "numbers_grounded": [
+        "7.9",
+        "9.8%"
+      ],
+      "numbers_missing": [],
+      "verified_state": "supported",
+      "verified_panel": {
+        "supporter_verdict": "UNSUPPORTED",
+        "skeptic_verdict": "SUPPORTED"
+      }
+    },
+    {
+      "idx": 75,
+      "text": "Notable safety concerns include gallbladder-related disorders (**2.6\u20134.9%**), with cholelithiasis risk increased at **1.4%** [2], [10].",
+      "citations": [
+        2,
+        10
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "medium",
+      "evidence_span": "An increased risk for cholelithiasis was observed (1.4% injective, 1.0% oral).",
+      "numbers": [
+        "2.6",
+        "4.9%",
+        "1.4%"
+      ],
+      "numbers_grounded": [
+        "2.6",
+        "4.9%",
+        "1.4%"
+      ],
+      "numbers_missing": []
+    },
+    {
+      "idx": 76,
+      "text": "A meta-analysis reported increased risk of gastrointestinal adverse events (RR 3.26; 95% CI 1.99\u20135.34) and treatment discontinuation (RR 2.03; 95% CI 1.87\u20132.20), but no significant difference in serious adverse events (RR 1.07; 95% CI 0.70\u20131.62) [16].",
+      "citations": [
+        16
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "evidence_span": "increases in the risk to discontinued treatment (RR: 2.03; 95%CI: 1.87 - 2.20; CoE: High) and gastrointestinal adverse events (RR: 3.26; 95%CI: 1.99 - 5.34; CoE: Moderate)",
+      "numbers": [
+        "3.26",
+        "95%",
+        "1.99",
+        "5.34",
+        "2.03",
+        "95%",
+        "1.87",
+        "2.20",
+        "1.07",
+        "95%",
+        "0.70",
+        "1.62"
+      ],
+      "numbers_grounded": [
+        "3.26",
+        "95%",
+        "1.99",
+        "5.34",
+        "2.03",
+        "95%",
+        "1.87",
+        "2.20",
+        "1.07",
+        "95%",
+        "0.70",
+        "1.62"
+      ],
+      "numbers_missing": []
+    },
+    {
+      "idx": 77,
+      "text": "In SUSTAIN 6, semaglutide was associated with increased risk of diabetic retinopathy complications (HR 1.76; p=0.02), though most events occurred early in treatment [10].",
+      "citations": [
+        10
+      ],
+      "kind": "cited",
+      "verdict": "UNSUPPORTED",
+      "confidence": "medium",
+      "evidence_span": "Caution is advised for patients with proliferative diabetic retinopathy due to increased risk for retinal complications (HR 1.76, P = 0.02)",
+      "numbers": [
+        "6",
+        "1.76",
+        "0.02"
+      ],
+      "numbers_grounded": [
+        "6",
+        "1.76",
+        "0.02"
+      ],
+      "numbers_missing": [],
+      "verified_state": "supported",
+      "verified_panel": {
+        "supporter_verdict": "SUPPORTED",
+        "skeptic_verdict": "SUPPORTED"
+      }
+    },
+    {
+      "idx": 78,
+      "text": "Semaglutide carries a boxed warning for thyroid C-cell tumors based on rodent studies, contraindicating use in patients with personal or family history of medullary thyroid carcinoma or Multiple Endocrine Neoplasia syndrome type 2 [10].",
+      "citations": [
+        10
+      ],
+      "kind": "cited",
+      "verdict": "UNSUPPORTED",
+      "confidence": "medium",
+      "evidence_span": "Semaglutide carries a warning for thyroid C-cell cancer, contraindicated in those with a personal or family history of medullary thyroid cancer.",
+      "numbers": [
+        "2"
+      ],
+      "numbers_grounded": [
+        "2"
+      ],
+      "numbers_missing": [],
+      "verified_state": "supported",
+      "verified_panel": {
+        "supporter_verdict": "SUPPORTED",
+        "skeptic_verdict": "SUPPORTED"
+      }
+    },
+    {
+      "idx": 79,
+      "text": "Tirzepatide's adverse event profile is qualitatively similar to semaglutide, with gastrointestinal events predominating.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 80,
+      "text": "In SURMOUNT-1, nausea occurred in **24.6\u201333.3%**, diarrhea in **18.7\u201323.0%**, and vomiting in **8.3\u201312.2%** of participants receiving tirzepatide 5\u201315 mg [26].",
+      "citations": [
+        26
+      ],
+      "kind": "cited",
+      "verdict": "UNSUPPORTED",
+      "confidence": "medium",
+      "evidence_span": "",
+      "numbers": [
+        "1",
+        "24.6",
+        "33.3%",
+        "18.7",
+        "23.0%",
+        "8.3",
+        "12.2%",
+        "5",
+        "15"
+      ],
+      "numbers_grounded": [
+        "1",
+        "24.6",
+        "33.3%",
+        "18.7",
+        "23.0%",
+        "8.3",
+        "12.2%",
+        "5",
+        "15"
+      ],
+      "numbers_missing": [],
+      "verified_state": "supported",
+      "verified_panel": {
+        "supporter_verdict": "SUPPORTED",
+        "skeptic_verdict": "SUPPORTED"
+      }
+    },
+    {
+      "idx": 81,
+      "text": "These rates are numerically lower than semaglutide, though direct head-to-head comparisons are limited.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 82,
+      "text": "Discontinuation rates due to adverse events were dose-dependent: **5.1%** (5 mg), **9.1%** (10 mg), and **25%** (15 mg) in one analysis [31].",
+      "citations": [
+        31
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "evidence_span": "Discontinuation rates due to adverse events were 5.1% (5 mg), 9.1% (10 mg), and 25% (15 mg).",
+      "numbers": [
+        "5.1%",
+        "5",
+        "9.1%",
+        "10",
+        "25%",
+        "15"
+      ],
+      "numbers_grounded": [
+        "5.1%",
+        "5",
+        "9.1%",
+        "10",
+        "25%",
+        "15"
+      ],
+      "numbers_missing": []
+    },
+    {
+      "idx": 83,
+      "text": "However, other SURMOUNT trials reported lower discontinuation rates of **4.6\u20137.3%** across doses [23], [27].",
+      "citations": [
+        23,
+        27
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "medium",
+      "evidence_span": "leading to a discontinuation rate of 4.6%",
+      "numbers": [
+        "4.6",
+        "7.3%"
+      ],
+      "numbers_grounded": [
+        "4.6",
+        "7.3%"
+      ],
+      "numbers_missing": []
+    },
+    {
+      "idx": 84,
+      "text": "Serious adverse events occurred in **5\u20137%** of participants [22], [31].",
+      "citations": [
+        22,
+        31
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "evidence_span": "Serious adverse events were reported in 5-7% of patients.",
+      "numbers": [
+        "5",
+        "7%"
+      ],
+      "numbers_grounded": [
+        "5",
+        "7%"
+      ],
+      "numbers_missing": []
+    },
+    {
+      "idx": 85,
+      "text": "A comprehensive analysis of SURMOUNT-1 to -4 trials found that **27.8\u201372.8%** of tirzepatide-treated participants reported gastrointestinal adverse events (nausea, vomiting, diarrhea, dyspepsia) compared to **12.2\u201332.5%** with placebo.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [
+        "1",
+        "4",
+        "27.8",
+        "72.8%",
+        "12.2",
+        "32.5%"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 86,
+      "text": "Most were non-serious and occurred during dose escalation.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 87,
+      "text": "Discontinuation due to gastrointestinal adverse events ranged from **1.0% to 10.5%** [28].",
+      "citations": [
+        28
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "evidence_span": "Between 1.0% and 10.5% of tirzepatide\u2010treated participants discontinued treatment due to GI AEs.",
+      "numbers": [
+        "1.0%",
+        "10.5%"
+      ],
+      "numbers_grounded": [
+        "1.0%",
+        "10.5%"
+      ],
+      "numbers_missing": []
+    },
+    {
+      "idx": 88,
+      "text": "Importantly, mediation analyses demonstrated that gastrointestinal adverse events contributed only **up to 3.1%** of total weight reduction with tirzepatide, indicating that weight loss is primarily driven by pharmacological mechanisms rather than adverse event-related food aversion [28].",
+      "citations": [
+        28
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "evidence_span": "Mediation analyses suggested that N/V/D and dyspepsia were associated with up to 3.1% of total weight reduction.",
+      "numbers": [
+        "3.1%"
+      ],
+      "numbers_grounded": [
+        "3.1%"
+      ],
+      "numbers_missing": []
+    },
+    {
+      "idx": 89,
+      "text": "Hypoglycemia risk was low (**<10%** in most studies), with no severe hypoglycemic events reported in participants without diabetes [22], [31].",
+      "citations": [
+        22,
+        31
+      ],
+      "kind": "cited",
+      "verdict": "UNSUPPORTED",
+      "confidence": "medium",
+      "evidence_span": "Hypoglycemia was low, mostly below 10%, except for 17.9% in the 15 mg group, with none severe.",
+      "numbers": [
+        "10%"
+      ],
+      "numbers_grounded": [
+        "10%"
+      ],
+      "numbers_missing": [],
+      "verified_state": "supported",
+      "verified_panel": {
+        "supporter_verdict": "SUPPORTED",
+        "skeptic_verdict": "SUPPORTED"
+      }
+    },
+    {
+      "idx": 90,
+      "text": "Pancreatitis and cholecystitis were rarely encountered [31].",
+      "citations": [
+        31
+      ],
+      "kind": "cited",
+      "verdict": "UNSUPPORTED",
+      "confidence": "medium",
+      "evidence_span": "",
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": [],
+      "verified_state": "supported",
+      "verified_panel": {
+        "supporter_verdict": "SUPPORTED",
+        "skeptic_verdict": "SUPPORTED"
+      }
+    },
+    {
+      "idx": 91,
+      "text": "Liraglutide 3.0 mg demonstrates a gastrointestinal adverse event profile consistent with the GLP-1 receptor agonist class.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [
+        "3.0",
+        "1"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 92,
+      "text": "In SCALE trials, the main side effects included nausea, vomiting, and diarrhea, with a **5%** discontinuation rate due to adverse events compared to **2.7%** with placebo [1].",
+      "citations": [
+        1
+      ],
+      "kind": "cited",
+      "verdict": "UNSUPPORTED",
+      "confidence": "high",
+      "evidence_span": "",
+      "numbers": [
+        "5%",
+        "2.7%"
+      ],
+      "numbers_grounded": [
+        "5%"
+      ],
+      "numbers_missing": [
+        "2.7%"
+      ],
+      "verified_state": "unsupported",
+      "verified_panel": {
+        "supporter_verdict": "UNSUPPORTED",
+        "skeptic_verdict": "UNSUPPORTED"
+      }
+    },
+    {
+      "idx": 93,
+      "text": "Specific gastrointestinal event rates in one analysis included nausea (**39.3%**), diarrhea (**20.9%**), and vomiting (**15.7%**) with liraglutide 3.0 mg, compared to **13.8%**, **9.9%**, and **6.2%** with placebo, respectively [13].",
+      "citations": [
+        13
+      ],
+      "kind": "cited",
+      "verdict": "UNSUPPORTED",
+      "confidence": "high",
+      "evidence_span": "",
+      "numbers": [
+        "39.3%",
+        "20.9%",
+        "15.7%",
+        "3.0",
+        "13.8%",
+        "9.9%",
+        "6.2%"
+      ],
+      "numbers_grounded": [
+        "6.2%"
+      ],
+      "numbers_missing": [
+        "39.3%",
+        "20.9%",
+        "15.7%",
+        "3.0",
+        "13.8%",
+        "9.9%"
+      ],
+      "verified_state": "unsupported",
+      "verified_panel": {
+        "supporter_verdict": "UNSUPPORTED",
+        "skeptic_verdict": "UNSUPPORTED"
+      }
+    },
+    {
+      "idx": 94,
+      "text": "These events typically resolved after 2\u20133 months of treatment [13].",
+      "citations": [
+        13
+      ],
+      "kind": "cited",
+      "verdict": "UNSUPPORTED",
+      "confidence": "high",
+      "evidence_span": "",
+      "numbers": [
+        "2",
+        "3"
+      ],
+      "numbers_grounded": [
+        "2",
+        "3"
+      ],
+      "numbers_missing": [],
+      "verified_state": "unsupported",
+      "verified_panel": {
+        "supporter_verdict": "UNSUPPORTED",
+        "skeptic_verdict": "UNSUPPORTED"
+      }
+    },
+    {
+      "idx": 95,
+      "text": "Discontinuation due to adverse events was **4.3%** in pooled analyses [13].",
+      "citations": [
+        13
+      ],
+      "kind": "cited",
+      "verdict": "UNSUPPORTED",
+      "confidence": "high",
+      "evidence_span": "",
+      "numbers": [
+        "4.3%"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": [
+        "4.3%"
+      ],
+      "verified_state": "unsupported",
+      "verified_panel": {
+        "supporter_verdict": "UNSUPPORTED",
+        "skeptic_verdict": "UNSUPPORTED"
+      }
+    },
+    {
+      "idx": 96,
+      "text": "Serious adverse events included more injection site reactions (p=0.002) and acute gallstone disease (p<0.001) with liraglutide compared to placebo [13].",
+      "citations": [
+        13
+      ],
+      "kind": "cited",
+      "verdict": "UNSUPPORTED",
+      "confidence": "high",
+      "evidence_span": "",
+      "numbers": [
+        "0.002",
+        "0.001"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": [
+        "0.002",
+        "0.001"
+      ],
+      "verified_state": "unsupported",
+      "verified_panel": {
+        "supporter_verdict": "UNSUPPORTED",
+        "skeptic_verdict": "UNSUPPORTED"
+      }
+    },
+    {
+      "idx": 97,
+      "text": "Neoplasms were numerically higher but not statistically significant [13].",
+      "citations": [
+        13
+      ],
+      "kind": "cited",
+      "verdict": "UNSUPPORTED",
+      "confidence": "high",
+      "evidence_span": "",
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": [],
+      "verified_state": "unsupported",
+      "verified_panel": {
+        "supporter_verdict": "UNSUPPORTED",
+        "skeptic_verdict": "UNSUPPORTED"
+      }
+    },
+    {
+      "idx": 98,
+      "text": "Liraglutide is contraindicated in pregnant patients and those with a history of medullary thyroid carcinoma or Multiple Endocrine Neoplasia type 2, consistent with the class warning [1].",
+      "citations": [
+        1
+      ],
+      "kind": "cited",
+      "verdict": "UNSUPPORTED",
+      "confidence": "high",
+      "evidence_span": "",
+      "numbers": [
+        "2"
+      ],
+      "numbers_grounded": [
+        "2"
+      ],
+      "numbers_missing": [],
+      "verified_state": "unsupported",
+      "verified_panel": {
+        "supporter_verdict": "UNSUPPORTED",
+        "skeptic_verdict": "UNSUPPORTED"
+      }
+    },
+    {
+      "idx": 99,
+      "text": "Semaglutide demonstrates the highest rates of gastrointestinal adverse events, particularly nausea (53\u201358%), though most are mild-to-moderate and transient.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [
+        "53",
+        "58%"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 100,
+      "text": "Tirzepatide shows numerically lower gastrointestinal event rates, with dose-dependent discontinuation rates.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 101,
+      "text": "Liraglutide demonstrates intermediate tolerability, with the disadvantage of daily dosing potentially prolonging exposure to gastrointestinal side effects during dose escalation.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 102,
+      "text": "All three agents share class-wide safety considerations including gallbladder disease risk, thyroid C-cell tumor warning (based on rodent data), and contraindication in pregnancy.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 103,
+      "text": "Importantly, none of the agents significantly increase hypoglycemia risk in patients without diabetes.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 104,
+      "text": "This comparative analysis establishes a clear efficacy hierarchy: tirzepatide > semaglutide > liraglutide.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 105,
+      "text": "Tirzepatide 15 mg achieves approximately **20.9%** mean body weight reduction at 72 weeks, representing a **5-percentage-point advantage** over semaglutide 2.4 mg (14.9\u201316.0%) and a **12-percentage-point advantage** over liraglutide 3.0 mg (~8%).",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [
+        "15",
+        "20.9%",
+        "72",
+        "5",
+        "2.4",
+        "14.9",
+        "16.0%",
+        "12",
+        "3.0",
+        "8%"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 106,
+      "text": "This translates to clinically meaningful differences in the proportion of patients achieving substantial weight loss thresholds.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 107,
+      "text": "The superior efficacy of tirzepatide likely reflects its dual GIP/GLP-1 receptor agonism.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [
+        "1"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 108,
+      "text": "GIP contributes to enhanced insulin sensitivity, increased energy expenditure, and potentially greater central appetite suppression beyond GLP-1 effects alone [21], [22].",
+      "citations": [
+        21,
+        22
+      ],
+      "kind": "cited",
+      "verdict": "UNSUPPORTED",
+      "confidence": "high",
+      "evidence_span": "",
+      "numbers": [
+        "1"
+      ],
+      "numbers_grounded": [
+        "1"
+      ],
+      "numbers_missing": [],
+      "verified_state": "unsupported",
+      "verified_panel": {
+        "supporter_verdict": "UNSUPPORTED",
+        "skeptic_verdict": "UNSUPPORTED"
+      }
+    },
+    {
+      "idx": 109,
+      "text": "The dose-response relationship observed with tirzepatide (15 mg > 10 mg > 5 mg) suggests that higher receptor occupancy drives greater weight loss, though at the cost of increased gastrointestinal adverse events.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [
+        "15",
+        "10",
+        "5"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 110,
+      "text": "Semaglutide's intermediate efficacy reflects potent and selective GLP-1 receptor agonism with optimized pharmacokinetics enabling once-weekly dosing.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [
+        "1"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 111,
+      "text": "The consistency of weight loss across STEP 1, 3, and 5 trials (14.9\u201316.0%) demonstrates reproducibility and durability of effect.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [
+        "1",
+        "3",
+        "5",
+        "14.9",
+        "16.0%"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 112,
+      "text": "Notably, semaglutide combined with intensive behavioral therapy (STEP 3) achieved 16.0% weight loss, suggesting additive benefits of pharmacotherapy and lifestyle intervention [4].",
+      "citations": [
+        4
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "evidence_span": "the estimated mean body weight change from baseline was -16.0% for semaglutide",
+      "numbers": [
+        "3",
+        "16.0%"
+      ],
+      "numbers_grounded": [
+        "3",
+        "16.0%"
+      ],
+      "numbers_missing": []
+    },
+    {
+      "idx": 113,
+      "text": "Liraglutide's more modest efficacy (~8% weight loss) reflects both its selective GLP-1 agonism and shorter half-life necessitating daily dosing.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [
+        "8%",
+        "1"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 114,
+      "text": "While less potent than newer agents, liraglutide represents an important option with established long-term safety data and cardiovascular benefit.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 115,
+      "text": "All three GLP-1 receptor agonists demonstrate cardiovascular safety, with semaglutide and liraglutide showing established cardiovascular benefit.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [
+        "1"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 116,
+      "text": "Semaglutide's 20\u201326% MACE reduction in SELECT and SUSTAIN 6 trials represents robust evidence of cardiovascular protection extending beyond glycemic control [5], [14], [15].",
+      "citations": [
+        5,
+        14,
+        15
+      ],
+      "kind": "cited",
+      "verdict": "UNSUPPORTED",
+      "confidence": "medium",
+      "evidence_span": "semaglutide showed a 20% reduction in major adverse cardiovascular events in 17,604 adults with preexisting cardiovascular disease, overweight or obesity, without diabetes",
+      "numbers": [
+        "20",
+        "26%",
+        "6"
+      ],
+      "numbers_grounded": [
+        "20",
+        "6"
+      ],
+      "numbers_missing": [
+        "26%"
+      ],
+      "verified_state": "unsupported",
+      "verified_panel": {
+        "supporter_verdict": "UNSUPPORTED",
+        "skeptic_verdict": "UNSUPPORTED"
+      }
+    },
+    {
+      "idx": 117,
+      "text": "The SELECT trial is particularly notable for demonstrating benefit in patients without diabetes, suggesting that cardiovascular protection is mediated by weight loss, blood pressure reduction, and anti-inflammatory effects rather than glucose lowering alone.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 118,
+      "text": "Liraglutide's cardiovascular benefit in LEADER (13% MACE reduction, HR 0.87) is well-established, with significant reductions in cardiovascular and all-cause mortality [1], [15].",
+      "citations": [
+        1,
+        15
+      ],
+      "kind": "cited",
+      "verdict": "UNSUPPORTED",
+      "confidence": "high",
+      "evidence_span": "",
+      "numbers": [
+        "13%",
+        "0.87"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": [
+        "13%",
+        "0.87"
+      ],
+      "verified_state": "unsupported",
+      "verified_panel": {
+        "supporter_verdict": "UNSUPPORTED",
+        "skeptic_verdict": "UNSUPPORTED"
+      }
+    },
+    {
+      "idx": 119,
+      "text": "The mechanisms likely include improved endothelial function, reduced arterial stiffness, decreased systemic inflammation, and favorable effects on blood pressure and lipids.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 120,
+      "text": "Tirzepatide's cardiovascular profile is evolving.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 121,
+      "text": "While prespecified meta-analyses show hazard ratios favoring tirzepatide for MACE (HR 0.8), myocardial infarction (HR 0.76), and stroke (HR 0.81), confidence intervals cross 1.0, precluding definitive conclusions [31].",
+      "citations": [
+        31
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "evidence_span": "Tirzepatide showed a hazard ratio (HR) of 0.8 (95% CI, 0.57-1.11) for MACE-4 outcomes",
+      "numbers": [
+        "0.8",
+        "0.76",
+        "0.81",
+        "1.0"
+      ],
+      "numbers_grounded": [
+        "0.8",
+        "0.76",
+        "0.81",
+        "1.0"
+      ],
+      "numbers_missing": []
+    },
+    {
+      "idx": 122,
+      "text": "Post-hoc analyses demonstrating 16\u201324% reductions in predicted 10-year ASCVD risk are encouraging [24].",
+      "citations": [
+        24
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "evidence_span": "MMRM-estimated relative change in risk from baseline was -16.4%, -23.5%, -22.4%, and 12.7% for TZP 5/10/15mg and PBO",
+      "numbers": [
+        "16",
+        "24%",
+        "10"
+      ],
+      "numbers_grounded": [
+        "16",
+        "24%",
+        "10"
+      ],
+      "numbers_missing": []
+    },
+    {
+      "idx": 123,
+      "text": "The ongoing SURPASS-CVOT trial will provide definitive evidence of cardiovascular benefit in high-risk populations.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 124,
+      "text": "The STEP-HFpEF and SUMMIT trials demonstrate that both semaglutide and tirzepatide improve symptoms, physical function, and exercise capacity in patients with heart failure with preserved ejection fraction and obesity, with benefits proportional to weight loss magnitude [3], [25].",
+      "citations": [
+        3,
+        25
+      ],
+      "kind": "cited",
+      "verdict": "UNSUPPORTED",
+      "confidence": "medium",
+      "evidence_span": "In semaglutide-treated patients, the magnitude of benefit was directly related to the extent of weight loss.",
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": [],
+      "verified_state": "supported",
+      "verified_panel": {
+        "supporter_verdict": "SUPPORTED",
+        "skeptic_verdict": "SUPPORTED"
+      }
+    },
+    {
+      "idx": 125,
+      "text": "This represents a novel therapeutic indication for GLP-1 receptor agonists beyond traditional cardiometabolic disease.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [
+        "1"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 126,
+      "text": "Gastrointestinal adverse events represent the primary tolerability challenge for all GLP-1 receptor agonists.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [
+        "1"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 127,
+      "text": "Semaglutide demonstrates the highest rates (82\u201383% any GI event, 53\u201358% nausea), followed by liraglutide (39% nausea), and tirzepatide (25\u201333% nausea) [2], [4], [13], [26].",
+      "citations": [
+        2,
+        4,
+        13,
+        26
+      ],
+      "kind": "cited",
+      "verdict": "UNSUPPORTED",
+      "confidence": "high",
+      "evidence_span": "Gastrointestinal adverse events, mostly mild-to-moderate, were reported more often with semaglutide than with placebo (82.2% versus 53.9%).",
+      "numbers": [
+        "82",
+        "83%",
+        "53",
+        "58%",
+        "39%",
+        "25",
+        "33%"
+      ],
+      "numbers_grounded": [
+        "82",
+        "83%",
+        "53",
+        "58%",
+        "33%"
+      ],
+      "numbers_missing": [
+        "39%",
+        "25"
+      ],
+      "verified_state": "unsupported",
+      "verified_panel": {
+        "supporter_verdict": "UNSUPPORTED",
+        "skeptic_verdict": "UNSUPPORTED"
+      }
+    },
+    {
+      "idx": 128,
+      "text": "However, these events are typically mild-to-moderate, transient, and occur predominantly during dose escalation.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 129,
+      "text": "Discontinuation rates due to adverse events are relatively low across all agents (4.3\u20137.0%), suggesting acceptable tolerability despite high GI event rates [2], [5], [13], [27].",
+      "citations": [
+        2,
+        5,
+        13,
+        27
+      ],
+      "kind": "cited",
+      "verdict": "UNSUPPORTED",
+      "confidence": "medium",
+      "evidence_span": "Discontinuation due to adverse events was 5.9%, with 3.9% specifically for GI disorders.",
+      "numbers": [
+        "4.3",
+        "7.0%"
+      ],
+      "numbers_grounded": [
+        "4.3"
+      ],
+      "numbers_missing": [
+        "7.0%"
+      ],
+      "verified_state": "unsupported",
+      "verified_panel": {
+        "supporter_verdict": "UNSUPPORTED",
+        "skeptic_verdict": "UNSUPPORTED"
+      }
+    },
+    {
+      "idx": 130,
+      "text": "The critical finding from tirzepatide analyses is that gastrointestinal adverse events contribute only 3.1% of total weight reduction, indicating that weight loss is primarily pharmacologically mediated rather than driven by adverse event-related food aversion [28].",
+      "citations": [
+        28
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "evidence_span": "Mediation analyses suggested that N/V/D and dyspepsia were associated with up to 3.1% of total weight reduction.",
+      "numbers": [
+        "3.1%"
+      ],
+      "numbers_grounded": [
+        "3.1%"
+      ],
+      "numbers_missing": []
+    },
+    {
+      "idx": 131,
+      "text": "Once-weekly dosing with semaglutide and tirzepatide offers adherence advantages over liraglutide's daily dosing.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 132,
+      "text": "Real-world persistence data will be critical to understanding comparative effectiveness in clinical practice, where adherence challenges are magnified compared to controlled trial settings.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 133,
+      "text": "Emerging evidence suggests that patient phenotype may influence treatment response.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 134,
+      "text": "Semaglutide demonstrates consistent efficacy across obesity classes, baseline BMI, sex, and age [6].",
+      "citations": [
+        6
+      ],
+      "kind": "cited",
+      "verdict": "CONTRADICTED",
+      "confidence": "medium",
+      "evidence_span": "The exception was sex and baseline body weight; female sex and a low baseline body weight were associated with a greater response to semaglutide.",
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": [],
+      "verified_state": "contradiction",
+      "verified_panel": {
+        "supporter_verdict": "CONTRADICTED",
+        "skeptic_verdict": "CONTRADICTED"
+      }
+    },
+    {
+      "idx": 135,
+      "text": "However, greater weight loss is observed in females and those with lower baseline body weight [6].",
+      "citations": [
+        6
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "evidence_span": "female sex and a low baseline body weight were associated with a greater response to semaglutide",
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 136,
+      "text": "Tirzepatide similarly shows consistent efficacy across demographic subgroups, with dose-dependent effects across all obesity categories [26].",
+      "citations": [
+        26
+      ],
+      "kind": "cited",
+      "verdict": "UNSUPPORTED",
+      "confidence": "high",
+      "evidence_span": "",
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": [],
+      "verified_state": "unsupported",
+      "verified_panel": {
+        "supporter_verdict": "UNSUPPORTED",
+        "skeptic_verdict": "UNSUPPORTED"
+      }
+    },
+    {
+      "idx": 137,
+      "text": "For patients with type 2 diabetes and obesity, both semaglutide and tirzepatide offer dual benefits of glycemic control and weight loss.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [
+        "2"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 138,
+      "text": "STEP 2 (semaglutide in T2D) achieved 9.6% weight loss, while SURMOUNT-2 (tirzepatide in T2D) achieved 12.8\u201314.7% weight loss [5], [32].",
+      "citations": [
+        5,
+        32
+      ],
+      "kind": "cited",
+      "verdict": "UNSUPPORTED",
+      "confidence": "high",
+      "evidence_span": "",
+      "numbers": [
+        "2",
+        "2",
+        "9.6%",
+        "2",
+        "2",
+        "12.8",
+        "14.7%"
+      ],
+      "numbers_grounded": [
+        "2",
+        "2",
+        "9.6%",
+        "2",
+        "2"
+      ],
+      "numbers_missing": [
+        "12.8",
+        "14.7%"
+      ],
+      "verified_state": "unsupported",
+      "verified_panel": {
+        "supporter_verdict": "UNSUPPORTED",
+        "skeptic_verdict": "UNSUPPORTED"
+      }
+    },
+    {
+      "idx": 139,
+      "text": "Tirzepatide may offer advantages in this population given superior glycemic efficacy demonstrated in SURPASS trials.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 140,
+      "text": "For patients with established cardiovascular disease, semaglutide has the strongest evidence base from SELECT, demonstrating 20% MACE reduction in patients with obesity and preexisting CVD [15].",
+      "citations": [
+        15
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "evidence_span": "semaglutide showed a 20% reduction in major adverse cardiovascular events in 17,604 adults with preexisting cardiovascular disease, overweight or obesity, without diabetes",
+      "numbers": [
+        "20%"
+      ],
+      "numbers_grounded": [
+        "20%"
+      ],
+      "numbers_missing": []
+    },
+    {
+      "idx": 141,
+      "text": "For patients with heart failure with preserved ejection fraction and obesity, both semaglutide (STEP-HFpEF) and tirzepatide (SUMMIT) demonstrate symptomatic and functional benefits [3], [25].",
+      "citations": [
+        3,
+        25
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "evidence_span": "Randomised clinical programmes and the SUMMIT outcomes trial have demonstrated symptomatic and functional improvements",
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 142,
+      "text": "Several limitations warrant consideration.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 143,
+      "text": "First, direct head-to-head trials comparing all three agents are limited.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 144,
+      "text": "The STEP 8 trial compared semaglutide 2.4 mg to liraglutide 3.0 mg, demonstrating superior weight loss with semaglutide (15.8% vs 6.4%) [9], [18].",
+      "citations": [
+        9,
+        18
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "medium",
+      "evidence_span": "Semaglutide showed a 15.8% mean body weight change over 68 weeks in the STEP 8 trial, compared to 6.4% with liraglutide.",
+      "numbers": [
+        "8",
+        "2.4",
+        "3.0",
+        "15.8%",
+        "6.4%"
+      ],
+      "numbers_grounded": [
+        "8",
+        "2.4",
+        "15.8%",
+        "6.4%"
+      ],
+      "numbers_missing": [
+        "3.0"
+      ]
+    },
+    {
+      "idx": 145,
+      "text": "Real-world data suggest tirzepatide achieves greater weight loss than semaglutide (-16.3% vs approximately -14%) [30], but randomized controlled trial data are needed.",
+      "citations": [
+        30
+      ],
+      "kind": "cited",
+      "verdict": "CONTRADICTED",
+      "confidence": "high",
+      "evidence_span": "tirzepatide showed greater reductions in weight (\u201316.3% [95% CI, \u201316.7 to \u201315.9] vs. \u201311.4% [\u201311.6 to \u201311.2])",
+      "numbers": [
+        "16.3%",
+        "14%"
+      ],
+      "numbers_grounded": [
+        "16.3%",
+        "14%"
+      ],
+      "numbers_missing": [],
+      "verified_state": "contradiction",
+      "verified_panel": {
+        "supporter_verdict": "CONTRADICTED",
+        "skeptic_verdict": "CONTRADICTED"
+      }
+    },
+    {
+      "idx": 146,
+      "text": "Second, long-term safety data beyond 2\u20133 years are limited for semaglutide and tirzepatide.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [
+        "2",
+        "3"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 147,
+      "text": "Liraglutide has the longest safety track record, with LEADER providing 3.8 years of follow-up [1].",
+      "citations": [
+        1
+      ],
+      "kind": "cited",
+      "verdict": "UNSUPPORTED",
+      "confidence": "high",
+      "evidence_span": "",
+      "numbers": [
+        "3.8"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": [
+        "3.8"
+      ],
+      "verified_state": "unsupported",
+      "verified_panel": {
+        "supporter_verdict": "UNSUPPORTED",
+        "skeptic_verdict": "UNSUPPORTED"
+      }
+    },
+    {
+      "idx": 148,
+      "text": "The durability of weight loss and cardiovascular benefit beyond trial durations remains uncertain, particularly given high rates of weight regain upon discontinuation [17].",
+      "citations": [
+        17
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "medium",
+      "evidence_span": "Weight regain and cardiometabolic effects after withdrawal of semaglutide",
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 149,
+      "text": "Third, cost-effectiveness analyses are needed to inform formulary decisions and access policies.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 150,
+      "text": "The superior efficacy of tirzepatide must be weighed against higher acquisition costs and potentially higher discontinuation rates at the 15 mg dose.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [
+        "15"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 151,
+      "text": "Real-world effectiveness studies accounting for adherence, persistence, and healthcare utilization are critical.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 152,
+      "text": "Fourth, the mechanisms underlying individual variability in treatment response remain incompletely understood.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 153,
+      "text": "Predictive biomarkers or clinical characteristics that identify optimal responders to each agent would enable personalized treatment selection.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 154,
+      "text": "Based on the evidence reviewed, we propose the following treatment selection considerations:",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 155,
+      "text": "All three agents require gradual dose escalation to mitigate gastrointestinal adverse events:",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 156,
+      "text": "Slower titration schedules may improve tolerability in patients with gastrointestinal sensitivity.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 157,
+      "text": "Antiemetic prophylaxis (e.g., ondansetron) during dose escalation may reduce nausea-related discontinuation, though evidence is limited.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 158,
+      "text": "Patients should be counseled on gastrointestinal adverse events, expected time course (peak during dose escalation, resolution over 2\u20133 months), and strategies to mitigate symptoms (smaller, more frequent meals; avoidance of high-fat foods; adequate hydration).",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [
+        "2",
+        "3"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 159,
+      "text": "Emerging evidence suggests potential roles for combination or sequential therapy.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 160,
+      "text": "The STEP 1 extension demonstrated substantial weight regain upon semaglutide discontinuation, highlighting the chronic nature of obesity and need for long-term pharmacotherapy [17].",
+      "citations": [
+        17
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "medium",
+      "evidence_span": "Weight regain and cardiometabolic effects after withdrawal of semaglutide: The STEP 1 trial extension",
+      "numbers": [
+        "1"
+      ],
+      "numbers_grounded": [
+        "1"
+      ],
+      "numbers_missing": []
+    },
+    {
+      "idx": 161,
+      "text": "For patients with inadequate response to one agent, switching to a more potent agent (e.g., liraglutide \u2192 semaglutide \u2192 tirzepatide) represents a rational strategy, though evidence is limited.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 162,
+      "text": "Combination therapy with complementary mechanisms (e.g., GLP-1 RA + amylin analog, GLP-1 RA + SGLT2 inhibitor) is under investigation.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [
+        "1",
+        "1",
+        "2"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 163,
+      "text": "The SURMOUNT-3 trial demonstrated that adding tirzepatide after intensive lifestyle intervention achieved additional 18.4% weight loss, suggesting additive benefits of pharmacotherapy and behavioral intervention [29].",
+      "citations": [
+        29
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "evidence_span": "additional mean per cent weight change from randomization to week 72 was met with changes of -18.4% (standard error (s.e.) 0.7) with tirzepatide",
+      "numbers": [
+        "3",
+        "18.4%"
+      ],
+      "numbers_grounded": [
+        "3",
+        "18.4%"
+      ],
+      "numbers_missing": []
+    },
+    {
+      "idx": 164,
+      "text": "GLP-1 receptor agonists represent a transformative advance in obesity pharmacotherapy, achieving weight loss magnitudes previously attainable only through bariatric surgery.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [
+        "1"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 165,
+      "text": "This comparative analysis establishes tirzepatide as the most efficacious agent (15.0\u201320.9% weight loss), followed by semaglutide (14.9\u201316.0%), and liraglutide (~8%).",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [
+        "15.0",
+        "20.9%",
+        "14.9",
+        "16.0%",
+        "8%"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 166,
+      "text": "All three agents demonstrate favorable cardiovascular safety profiles, with semaglutide and liraglutide showing established cardiovascular benefit in high-risk populations.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 167,
+      "text": "Gastrointestinal adverse events are common but generally mild-to-moderate and transient, with discontinuation rates of 4.3\u20137.0%.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [
+        "4.3",
+        "7.0%"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 168,
+      "text": "The choice among agents should be individualized based on patient phenotype, comorbidities, treatment goals, tolerability, and cost considerations.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 169,
+      "text": "Tirzepatide offers maximal weight loss efficacy for patients requiring substantial weight reduction.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 170,
+      "text": "Semaglutide provides robust weight loss with proven cardiovascular benefit.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 171,
+      "text": "Liraglutide represents an established option with long-term safety data.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 172,
+      "text": "Future research priorities include head-to-head comparative effectiveness trials, long-term safety and durability studies, predictive biomarkers for treatment response, and cost-effectiveness analyses to inform access and reimbursement policies.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 173,
+      "text": "As the obesity pharmacotherapy landscape continues to evolve with novel agents and combinations, GLP-1 receptor agonists will remain cornerstone therapies for patients with obesity and related cardiometabolic complications.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [
+        "1"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    }
+  ]
+}

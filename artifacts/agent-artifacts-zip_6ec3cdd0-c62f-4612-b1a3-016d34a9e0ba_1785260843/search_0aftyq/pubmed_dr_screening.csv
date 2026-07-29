@@ -1,0 +1,193 @@
+"Paper Title","Paper Link","Publication Year","Publication Type","Publication Title","Author Names","DOI","PDF Link","Abstract"
+"Artificial intelligence promotes the diagnosis and screening of diabetic retinopathy.","https://scispace.com/paper/36246896","2022","Journal Article","Frontiers in endocrinology","Huang
+Wang
+She
+Feng
+Liu
+Hu
+Chen
+Tao","10.3389/fendo.2022.946915","https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9559815/pdf","Deep learning evolves into a new form of machine learning technology that is classified under artificial intelligence (AI), which has substantial potential for large-scale healthcare screening and may allow the determination of the most appropriate specific treatment for individual patients. Recent developments in diagnostic technologies facilitated studies on retinal conditions and ocular disease in metabolism and endocrinology. Globally, diabetic retinopathy (DR) is regarded as a major cause of vision loss. Deep learning systems are effective and accurate in the detection of DR from digital fundus photographs or optical coherence tomography. Thus, using AI techniques, systems with high accuracy and efficiency can be developed for diagnosing and screening DR at an early stage and without the resources that are only accessible in special clinics. Deep learning enables early diagnosis with high specificity and sensitivity, which makes decisions based on minimally handcrafted features paving the way for personalized DR progression real-time monitoring and in-time ophthalmic or endocrine therapies. This review will discuss cutting-edge AI algorithms, the automated detecting systems of DR stage grading and feature segmentation, the prediction of DR outcomes and therapeutics, and the ophthalmic indications of other systemic diseases revealed by AI."
+"A deep learning system for predicting time to progression of diabetic retinopathy.","https://scispace.com/paper/38177850","2024","Journal Article","Nature medicine","Dai
+Sheng
+Chen
+Wu
+Liu
+Cai
+Wu
+Yang
+Hamzah
+Liu
+Wang
+Guan
+Yu
+Li
+Tang
+Ran
+Che
+Chen
+Zheng
+Shu
+Huang
+Wu
+Lin
+Liu
+Li
+Wang
+Meng
+Shen
+Hou
+Deng
+Ruan
+Lu
+Chee
+Quek
+Srinivasan
+Raman
+Sun
+Wang
+Wu
+Jin
+Dai
+Shen
+Yang
+Guo
+Zhang
+Cheung
+Tan
+Tham
+Cheng
+Li
+Wong
+Jia","10.1038/s41591-023-02702-z","https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10878973/pdf","Diabetic retinopathy (DR) is the leading cause of preventable blindness worldwide. The risk of DR progression is highly variable among different individuals, making it difficult to predict risk and personalize screening intervals. We developed and validated a deep learning system (DeepDR Plus) to predict time to DR progression within 5 years solely from fundus images. First, we used 717,308 fundus images from 179,327 participants with diabetes to pretrain the system. Subsequently, we trained and validated the system with a multiethnic dataset comprising 118,868 images from 29,868 participants with diabetes. For predicting time to DR progression, the system achieved concordance indexes of 0.754-0.846 and integrated Brier scores of 0.153-0.241 for all times up to 5 years. Furthermore, we validated the system in real-world cohorts of participants with diabetes. The integration with clinical workflow could potentially extend the mean screening interval from 12 months to 31.97 months, and the percentage of participants recommended to be screened at 1-5 years was 30.62%, 20.00%, 19.63%, 11.85% and 17.89%, respectively, while delayed detection of progression to vision-threatening DR was 0.18%. Altogether, the DeepDR Plus system could predict individualized risk and time to DR progression over 5 years, potentially allowing personalized screening intervals."
+"Deep learning-based hemorrhage detection for diabetic retinopathy screening.","https://scispace.com/paper/36707608","2023","Journal Article","Scientific reports","Aziz
+Charoenlarpnopparut
+Mahapakulchai","10.1038/s41598-023-28680-3","https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9883230/pdf","Diabetic retinopathy is a retinal compilation that causes visual impairment. Hemorrhage is one of the pathological symptoms of diabetic retinopathy that emerges during disease development. Therefore, hemorrhage detection reveals the presence of diabetic retinopathy in the early phase. Diagnosing the disease in its initial stage is crucial to adopt proper treatment so the repercussions can be prevented. The automatic deep learning-based hemorrhage detection method is proposed that can be used as the second interpreter for ophthalmologists to reduce the time and complexity of conventional screening methods. The quality of the images was enhanced, and the prospective hemorrhage locations were estimated in the preprocessing stage. Modified gamma correction adaptively illuminates fundus images by using gradient information to address the nonuniform brightness levels of images. The algorithm estimated the locations of potential candidates by using a Gaussian match filter, entropy thresholding, and mathematical morphology. The required objects were segmented using the regional diversity at estimated locations. The novel hemorrhage network is propounded for hemorrhage classification and compared with the renowned deep models. Two datasets benchmarked the model's performance using sensitivity, specificity, precision, and accuracy metrics. Despite being the shallowest network, the proposed network marked competitive results than LeNet-5, AlexNet, ResNet50, and VGG-16. The hemorrhage network was assessed using training time and classification accuracy through synthetic experimentation. Results showed promising accuracy in the classification stage while significantly reducing training time. The research concluded that increasing deep network layers does not guarantee good results but rather increases training time. The suitable architecture of a deep model and its appropriate parameters are critical for obtaining excellent outcomes."
+"Deep Learning for Diabetic Retinopathy Analysis: A Review, Research Challenges, and Future Directions.","https://scispace.com/paper/36146130","2022","Journal Article","Sensors (Basel, Switzerland)","Nadeem
+Goh
+Hussain
+Liew
+Andonovic
+Khan","10.3390/s22186780","https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9505428/pdf","Deep learning (DL) enables the creation of computational models comprising multiple processing layers that learn data representations at multiple levels of abstraction. In the recent past, the use of deep learning has been proliferating, yielding promising results in applications across a growing number of fields, most notably in image processing, medical image analysis, data analysis, and bioinformatics. DL algorithms have also had a significant positive impact through yielding improvements in screening, recognition, segmentation, prediction, and classification applications across different domains of healthcare, such as those concerning the abdomen, cardiac, pathology, and retina. Given the extensive body of recent scientific contributions in this discipline, a comprehensive review of deep learning developments in the domain of diabetic retinopathy (DR) analysis, viz., screening, segmentation, prediction, classification, and validation, is presented here. A critical analysis of the relevant reported techniques is carried out, and the associated advantages and limitations highlighted, culminating in the identification of research gaps and future challenges that help to inform the research community to develop more efficient, robust, and accurate DL models for the various challenges in the monitoring and diagnosis of DR."
+"Deep Learning-Based Algorithms in Screening of Diabetic Retinopathy: A Systematic Review of Diagnostic Performance.","https://scispace.com/paper/31014679","2019","Journal Article","Ophthalmology. Retina","Nielsen
+Lautrup
+Andersen
+Savarimuthu
+Grauslund","10.1016/j.oret.2018.10.014","","Diagnostic performance of deep learning-based algorithms in screening patients with diabetes for diabetic retinopathy (DR). The algorithms were compared with the current gold standard of classification by human specialists."
+"Fundus photograph-based deep learning algorithms in detecting diabetic retinopathy.","https://scispace.com/paper/30401899","2019","Journal Article","Eye (London, England)","Raman
+Srinivasan
+Virmani
+Sivaprasad
+Rao
+Rajalakshmi","10.1038/s41433-018-0269-y","https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6328553/pdf","Remarkable advances in biomedical research have led to the generation of large amounts of data. Using artificial intelligence, it has become possible to extract meaningful information from large volumes of data, in a shorter frame of time, with very less human interference. In effect, convolutional neural networks (a deep learning method) have been taught to recognize pathological lesions from images. Diabetes has high morbidity, with millions of people who need to be screened for diabetic retinopathy (DR). Deep neural networks offer a great advantage of screening for DR from retinal images, in improved identification of DR lesions and risk factors for diseases, with high accuracy and reliability. This review aims to compare the current evidences on various deep learning models for diagnosis of diabetic retinopathy (DR)."
+"Performance and Limitation of Machine Learning Algorithms for Diabetic Retinopathy Screening: Meta-analysis.","https://scispace.com/paper/34407500","2021","Journal Article","Journal of medical Internet research","Wu
+Liu
+Hsu
+Ho
+Lee","10.2196/23863","https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8406115/pdf","Diabetic retinopathy (DR), whose standard diagnosis is performed by human experts, has high prevalence and requires a more efficient screening method. Although machine learning (ML)-based automated DR diagnosis has gained attention due to recent approval of IDx-DR, performance of this tool has not been examined systematically, and the best ML technique for use in a real-world setting has not been discussed."
+"Federated Learning for Diabetic Retinopathy Detection in a Multi-center Fundus Screening Network.","https://scispace.com/paper/38082571","2023","Journal Article","Annual International Conference of the IEEE Engineering in Medicine and Biology Society. IEEE Engineering in Medicine and Biology Society. Annual International Conference","Matta
+Hassine
+Lecat
+Borderie
+Guilcher
+Massin
+Cochener
+Lamard
+Quellec","10.1109/EMBC40787.2023.10340772","","Federated learning (FL) is a machine learning framework that allows remote clients to collaboratively learn a global model while keeping their training data localized. It has emerged as an effective tool to solve the problem of data privacy protection. In particular, in the medical field, it is gaining relevance for achieving collaborative learning while protecting sensitive data. In this work, we demonstrate the feasibility of FL in the development of a deep learning model for screening diabetic retinopathy (DR) in fundus photographs. To this end, we conduct a simulated FL framework using nearly 700,000 fundus photographs collected from OPHDIAT, a French multi-center screening network for detecting DR. We develop two FL algorithms: 1) a cross-center FL algorithm using data distributed across the OPHDIAT centers and 2) a cross-grader FL algorithm using data distributed across the OPHDIAT graders. We explore and assess different FL strategies and compare them to a conventional learning algorithm, namely centralized learning (CL), where all the data is stored in a centralized repository. For the task of referable DR detection, our simulated FL algorithms achieved similar performance to CL, in terms of area under the ROC curve (AUC): AUC =0.9482 for CL, AUC = 0.9317 for cross-center FL and AUC = 0.9522 for cross-grader FL. Our work indicates that the FL algorithm is a viable and reliable framework that can be applied in a screening network.Clinical relevance- Given that data sharing is regarded as an essential component of modern medical research, achieving collaborative learning while protecting sensitive data is key."
+"Screening and evaluation of diabetic retinopathy ","https://scispace.com/paper/39676804","2024","Journal Article","World journal of diabetes","Yao
+Cao
+Yu
+Shu
+Fan
+Zhang","10.4239/wjd.v15.i12.2302","https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11580591/pdf","Diabetic retinopathy (DR) is one of the most common serious complications in diabetic patients, and early screening and diagnosis are essential to prevent visual impairment. With the rapid development of deep learning technology, network models based on attention mechanisms have shown significant advantages in medical image analysis, which can improve the accuracy and efficiency of screening."
+"Deep Learning Fundus Image Analysis for Diabetic Retinopathy and Macular Edema Grading.","https://scispace.com/paper/31341220","2019","Journal Article","Scientific reports","Sahlsten
+Jaskari
+Kivinen
+Turunen
+Jaanio
+Hietala
+Kaski","10.1038/s41598-019-47181-w","https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6656880/pdf","Diabetes is a globally prevalent disease that can cause visible microvascular complications such as diabetic retinopathy and macular edema in the human eye retina, the images of which are today used for manual disease screening and diagnosis. This labor-intensive task could greatly benefit from automatic detection using deep learning technique. Here we present a deep learning system that identifies referable diabetic retinopathy comparably or better than presented in the previous studies, although we use only a small fraction of images (<1/4) in training but are aided with higher image resolutions. We also provide novel results for five different screening and clinical grading systems for diabetic retinopathy and macular edema classification, including state-of-the-art results for accurately classifying images according to clinical five-grade diabetic retinopathy and for the first time for the four-grade diabetic macular edema scales. These results suggest, that a deep learning system could increase the cost-effectiveness of screening and diagnosis, while attaining higher than recommended performance, and that the system could be applied in clinical examinations requiring finer grading."
+"Different fundus imaging modalities and technical factors in AI screening for diabetic retinopathy: a review.","https://scispace.com/paper/32313813","2020","Journal Article","Eye and vision (London, England)","Lim
+Bellemo
+Xie
+Lee
+Yip
+Ting","10.1186/s40662-020-00182-7","https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7155252/pdf","Effective screening is a desirable method for the early detection and successful treatment for diabetic retinopathy, and fundus photography is currently the dominant medium for retinal imaging due to its convenience and accessibility. Manual screening using fundus photographs has however involved considerable costs for patients, clinicians and national health systems, which has limited its application particularly in less-developed countries. The advent of artificial intelligence, and in particular deep learning techniques, has however raised the possibility of widespread automated screening."
+"Deep learning-based detection and stage grading for optimising diagnosis of diabetic retinopathy.","https://scispace.com/paper/33713564","2021","Journal Article","Diabetes/metabolism research and reviews","Wang
+Yu
+Hu
+Jin
+Li
+Zhang
+Zhang
+Gong
+Wu
+Zhang
+Yang
+Li
+Yuan
+Mo
+Wei
+Zhao
+Ding
+Yang
+Li
+Yu
+Chen","10.1002/dmrr.3445","","To establish an automated method for identifying referable diabetic retinopathy (DR), defined as moderate nonproliferative DR and above, using deep learning-based lesion detection and stage grading."
+"Risk Stratification for Diabetic Retinopathy Screening Order Using Deep Learning: A Multicenter Prospective Study.","https://scispace.com/paper/38079169","2023","Journal Article","Translational vision science & technology","Bora
+Tiwari
+Bavishi
+Virmani
+Huang
+Traynis
+Corrado
+Peng
+Webster
+Varadarajan
+Pattanapongpaiboon
+Chopra
+Ruamviboonsuk","10.1167/tvst.12.12.11","https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10715315/pdf","Real-world evaluation of a deep learning model that prioritizes patients based on risk of progression to moderate or worse (MOD+) diabetic retinopathy (DR)."
+"Automated diabetic retinopathy screening for primary care settings using deep learning.","https://scispace.com/paper/35528965","2021","Journal Article","Intelligence-based medicine","Bhuiyan
+Govindaiah
+Deobhakta
+Hossain
+Rosen
+Smith","10.1016/j.ibmed.2021.100045","https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9071157/pdf","Diabetic Retinopathy (DR) is one of the leading causes of blindness in the United States and other high-income countries. Early detection is key to prevention, which could be achieved effectively with a fully automated screening tool performing well on clinically relevant measures in primary care settings. We have built an artificial intelligence-based tool on a cloud-based platform for large-scale screening of DR as referable or non-referable. In this paper, we aim to validate this tool built using deep learning based techniques. The cloud-based screening model was developed and tested using deep learning techniques with 88702 images from the Kaggle dataset and externally validated using 1748 high-resolution images of the retina (or fundus images) from the Messidor-2 dataset. For validation in the primary care settings, 264 images were taken prospectively from two diabetes clinics in Queens, New York. The images were uploaded to the cloud-based software for testing the automated system as compared to expert ophthalmologists' evaluations of referable DR. Measures used were area under the curve (AUC), sensitivity, and specificity of the screening model with respect to professional graders. The screening system achieved a high sensitivity of 99.21% and a specificity of 97.59% on the Kaggle test dataset with an AUC of 0.9992. The system was also externally validated in Messidor-2, where it achieved a sensitivity of 97.63% and a specificity of 99.49% (AUC, 0.9985). On primary care data, the sensitivity was 92.3% overall (12/13 referable images are correctly identified), and overall specificity was 94.8% (233/251 non-referable images). The proposed DR screening tool achieves state-of-the-art performance among the publicly available datasets: Kaggle and Messidor-2 to the best of our knowledge. The performance on various clinically relevant measures demonstrates that the tool is suitable for screening and early diagnosis of DR in primary care settings."
+"Artificial intelligence for retinal diseases.","https://scispace.com/paper/39209215","2024","Journal Article","Asia-Pacific journal of ophthalmology (Philadelphia, Pa.)","Lim
+Rachitskaya
+Hallak
+Gholami
+Alam","10.1016/j.apjo.2024.100096","","To discuss the worldwide applications and potential impact of artificial intelligence (AI) for the diagnosis, management and analysis of treatment outcomes of common retinal diseases."
+"Diabetic Retinopathy Screening Using Artificial Intelligence and Handheld Smartphone-Based Retinal Camera.","https://scispace.com/paper/33435711","2022","Journal Article","Journal of diabetes science and technology","Malerbi
+Andrade
+Morales
+Stuchi
+Lencione
+de Paulo
+Carvalho
+Nunes
+Rocha
+Ferraz
+Belfort","10.1177/1932296820985567","https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9294565/pdf","Portable retinal cameras and deep learning (DL) algorithms are novel tools adopted by diabetic retinopathy (DR) screening programs. Our objective is to evaluate the diagnostic accuracy of a DL algorithm and the performance of portable handheld retinal cameras in the detection of DR in a large and heterogenous type 2 diabetes population in a real-world, high burden setting."
+"Deep learning algorithms for detection of diabetic retinopathy in retinal fundus photographs: A systematic review and meta-analysis.","https://scispace.com/paper/32088490","2020","Journal Article","Computer methods and programs in biomedicine","Islam
+Yang
+Poly
+Jian
+Jack Li","10.1016/j.cmpb.2020.105320","","Diabetic retinopathy (DR) is one of the leading causes of blindness globally. Earlier detection and timely treatment of DR are desirable to reduce the incidence and progression of vision loss. Currently, deep learning (DL) approaches have offered better performance in detecting DR from retinal fundus images. We, therefore, performed a systematic review with a meta-analysis of relevant studies to quantify the performance of DL algorithms for detecting DR."
+"Prospective validation of deep-learning algorithms for diabetic retinopathy screening: A systematic review and meta-analysis.","https://scispace.com/paper/41344407","2026","Journal Article","Survey of ophthalmology","Wang
+Luo
+Tu
+Chou
+Wu","10.1016/j.survophthal.2025.11.012","","Deep-learning (DL) algorithms are widely promoted for diabetic-retinopathy (DR) screening, yet their prospective diagnostic accuracy is not well defined. PubMed, EMBASE and ClinicalTrials.gov were searched to April, 2025, for prospective evaluations of DL systems using color-fundus images. Two reviewers screened records, extracted data, and applied QUADAS-2. Hierarchical bivariate random-effects models produced pooled sensitivity and specificity for referable and vision-threatening DR), analyzed separately at patient and eye level. Twenty-one prespecified moderators were explored with uni- and multi-variate meta-regression; publication bias was assessed with Deeks' test Seventy-three studies from 23 countries (255,330 examinations) met the criteria. Pooled patient-level sensitivity was 0.94 (95 % CI 0.92-0.95) and specificity 0.90 (95 % CI 0.87-0.93); eye-level values were 0.93 (95 % CI 0.91-0.95) and 0.94 (95 % CI 0.92-0.96). DR subtype, retinal-field strategy, camera form factor, and prevalence independently explained heterogeneity (p < 0.05). Performance matched or exceeded pivotal FDA trials (IDx-DR, EyeArt). AI gradability was ≥ 95 % in 60 % of cohorts, including handheld and smartphone systems. DL-based DR screening achieves consistent, high accuracy across devices and care settings, enabling scalable deployment in primary care, pharmacies, and mobile clinics. Quality assurance and ongoing monitoring are essential to maximize population-level benefits."
+"Screening Referable Diabetic Retinopathy Using a Semi-automated Deep Learning Algorithm Assisted Approach.","https://scispace.com/paper/34901058","2021","Journal Article","Frontiers in medicine","Wang
+Shi
+Tan
+Niu
+Jiang
+Xiong
+Peng
+He","10.3389/fmed.2021.740987","https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8656222/pdf",""
+"Deep image mining for diabetic retinopathy screening.","https://scispace.com/paper/28511066","2017","Journal Article","Medical image analysis","Quellec
+Charrière
+Boudi
+Cochener
+Lamard","10.1016/j.media.2017.04.012","","Deep learning is quickly becoming the leading methodology for medical image analysis. Given a large medical archive, where each image is associated with a diagnosis, efficient pathology detectors or classifiers can be trained with virtually no expert knowledge about the target pathologies. However, deep learning algorithms, including the popular ConvNets, are black boxes: little is known about the local patterns analyzed by ConvNets to make a decision at the image level. A solution is proposed in this paper to create heatmaps showing which pixels in images play a role in the image-level predictions. In other words, a ConvNet trained for image-level classification can be used to detect lesions as well. A generalization of the backpropagation method is proposed in order to train ConvNets that produce high-quality heatmaps. The proposed solution is applied to diabetic retinopathy (DR) screening in a dataset of almost 90,000 fundus photographs from the 2015 Kaggle Diabetic Retinopathy competition and a private dataset of almost 110,000 photographs (e-ophtha). For the task of detecting referable DR, very good detection performance was achieved: A"

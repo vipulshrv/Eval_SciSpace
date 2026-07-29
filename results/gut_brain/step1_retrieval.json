@@ -1,0 +1,91 @@
+{
+  "summary": {
+    "step": "1_literature_retrieval",
+    "unique_dois_checked": 213,
+    "per_source": [
+      {
+        "source": "pubmed",
+        "rows": 20,
+        "with_doi": 20,
+        "resolved": 20,
+        "not_found": 0,
+        "errors": 0,
+        "title_match": 20,
+        "year_match": 19,
+        "year_checked": 20,
+        "not_found_titles": [],
+        "mismatch_examples": [],
+        "doi_completeness": 1.0,
+        "resolve_rate": 1.0,
+        "title_accuracy": 1.0,
+        "year_accuracy": 0.95
+      },
+      {
+        "source": "google_scholar",
+        "rows": 20,
+        "with_doi": 14,
+        "resolved": 14,
+        "not_found": 0,
+        "errors": 0,
+        "title_match": 14,
+        "year_match": 12,
+        "year_checked": 13,
+        "not_found_titles": [],
+        "mismatch_examples": [],
+        "doi_completeness": 0.7,
+        "resolve_rate": 1.0,
+        "title_accuracy": 1.0,
+        "year_accuracy": 0.923
+      },
+      {
+        "source": "scispace_abstract",
+        "rows": 100,
+        "with_doi": 97,
+        "resolved": 86,
+        "not_found": 11,
+        "errors": 0,
+        "title_match": 86,
+        "year_match": 82,
+        "year_checked": 85,
+        "not_found_titles": [
+          "Microbiome and mind: current insights and future directions ",
+          "The Role of the Microbiota-Gut-Brain Axis in Psychiatric and",
+          "Microbiome and mind: current insights and future directions ",
+          "The Role of the Microbiota-Gut-Brain Axis in Psychiatric and",
+          "The Role of the Gut Microbiota in the Pathophysiology of Men"
+        ],
+        "mismatch_examples": [],
+        "doi_completeness": 0.97,
+        "resolve_rate": 0.887,
+        "title_accuracy": 1.0,
+        "year_accuracy": 0.965
+      },
+      {
+        "source": "scispace_fulltext",
+        "rows": 100,
+        "with_doi": 95,
+        "resolved": 93,
+        "not_found": 2,
+        "errors": 0,
+        "title_match": 92,
+        "year_match": 91,
+        "year_checked": 93,
+        "not_found_titles": [
+          "The microbiota-gut-brain axis. a study in zebrafish (danio r",
+          "The prebiotic inulin beneficially modulates the gut-brain ax"
+        ],
+        "mismatch_examples": [
+          {
+            "agent_title": "Microbial\u2013host metabolic systems interactions and the gut\u2013br",
+            "crossref_title": "Microbiome\u2013host systems interactions: Protective effects of ",
+            "ratio": 0.8
+          }
+        ],
+        "doi_completeness": 0.95,
+        "resolve_rate": 0.979,
+        "title_accuracy": 0.989,
+        "year_accuracy": 0.978
+      }
+    ]
+  }
+}

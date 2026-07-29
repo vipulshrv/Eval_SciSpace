@@ -1,0 +1,4898 @@
+{
+  "summary": {
+    "step": "5_report_generation",
+    "total_claim_sentences": 350,
+    "cited_sentences": 138,
+    "uncited_synthesis_sentences": 212,
+    "graded_cited": 138,
+    "citation_precision": 0.9058,
+    "verdict_breakdown": {
+      "SUPPORTED": 125,
+      "UNSUPPORTED": 13,
+      "CONTRADICTED": 0
+    },
+    "numeric_fidelity": 0.963,
+    "numbers_checked": 27,
+    "numbers_missing": 1,
+    "verified": {
+      "graded_cited": 138,
+      "flagged_rechecked": 13,
+      "supported": 133,
+      "report_contradictions": 0,
+      "unsupported": 5,
+      "citation_precision": 0.9638,
+      "first_pass_citation_precision": 0.9058,
+      "first_pass_contradictions": 0
+    }
+  },
+  "usage": {
+    "model": "claude-opus-4-8",
+    "judge_calls": 138,
+    "input_tokens": 433200,
+    "output_tokens": 23052,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cost_usd": {
+      "input": 2.166,
+      "output": 0.5763,
+      "cache_read": 0.0,
+      "cache_write": 0.0,
+      "total": 2.7423
+    }
+  },
+  "sentences": [
+    {
+      "idx": 0,
+      "text": "The microbiota-gut-brain axis represents a bidirectional communication network linking the gastrointestinal microbiome with central nervous system function through multiple neurochemical signaling pathways.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 1,
+      "text": "This comprehensive review synthesizes evidence from 94 peer-reviewed studies, focusing on the top 30 most relevant investigations spanning human clinical trials and animal models.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [
+        "94",
+        "30"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 2,
+      "text": "The analysis reveals that gut microbiota modulate key neurotransmitter systems including serotonin, dopamine, GABA, and glutamate through mechanisms involving vagus nerve signaling, short-chain fatty acid production, and tryptophan metabolism.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 3,
+      "text": "These neurochemical alterations correlate with significant behavioral outcomes across domains of mood regulation, anxiety, social behavior, cognitive function, and stress response.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 4,
+      "text": "Emerging evidence demonstrates that microbiota-targeted interventions\u2014including probiotics, prebiotics, and fecal microbiota transplantation\u2014can ameliorate behavioral symptoms in neuropsychiatric disorders such as depression, autism spectrum disorder, and anxiety disorders.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 5,
+      "text": "The findings underscore the therapeutic potential of modulating the gut microbiome to influence brain function and behavior, while highlighting critical gaps in translating preclinical findings to human applications.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 6,
+      "text": "Neurochemical Signaling Pathways in the Microbiota-Gut-Brain Axis",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 7,
+      "text": "Comparative Analysis of Study Designs and Models",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 8,
+      "text": "Microbiota-Targeted Interventions and Therapeutic Applications",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 9,
+      "text": "Mechanisms of Gut-Brain Communication: An Integrative Perspective",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 10,
+      "text": "Future Directions and Clinical Implications",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 11,
+      "text": "The human gastrointestinal tract harbors a complex ecosystem of trillions of microorganisms collectively termed the gut microbiota, which has emerged as a critical regulator of host physiology extending far beyond digestive function [26].",
+      "citations": [
+        26
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "low",
+      "evidence_span": "The microbial communities are in symbiosis with the host, contributing to homeostasis and regulating immune function.",
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 12,
+      "text": "Over the past two decades, accumulating evidence has established the existence of a bidirectional communication network\u2014the microbiota-gut-brain axis\u2014through which intestinal microbes influence central nervous system function, behavior, and mental health [17], [18], [19].",
+      "citations": [
+        17,
+        18,
+        19
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "evidence_span": "Research has consistently shown bidirectional communication between the gut and the brain through neuronal, endocrine, and immunological, and chemical pathways.",
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 13,
+      "text": "This axis operates through multiple interconnected pathways including neural routes via the vagus nerve and enteric nervous system, endocrine signaling through the hypothalamic-pituitary-adrenal (HPA) axis, immune modulation via cytokine production, and direct neurochemical signaling through microbial metabolites [20], [25].",
+      "citations": [
+        20,
+        25
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "medium",
+      "evidence_span": "This bidirectional network integrates neural pathways, endocrine signalling, immune mechanisms, and microbial metabolites",
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 14,
+      "text": "The clinical relevance of the microbiota-gut-brain axis has been demonstrated across a spectrum of neuropsychiatric and neurological conditions.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 15,
+      "text": "Alterations in gut microbiota composition\u2014termed dysbiosis\u2014have been consistently associated with major depressive disorder, anxiety disorders, autism spectrum disorder (ASD), schizophrenia, and neurodegenerative diseases including Alzheimer's and Parkinson's disease [7], [17], [19], [23].",
+      "citations": [
+        7,
+        17,
+        19,
+        23
+      ],
+      "kind": "cited",
+      "verdict": "UNSUPPORTED",
+      "confidence": "medium",
+      "evidence_span": "Recent neuroscience studies have linked changes in the microbiome and microbial metabolites to various neuropsychiatric disorders such as autism, depression, anxiety, schizophrenia, eating disorders, and neurocognitive disorders.",
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": [],
+      "verified_state": "supported",
+      "verified_panel": {
+        "supporter_verdict": "SUPPORTED",
+        "skeptic_verdict": "SUPPORTED"
+      }
+    },
+    {
+      "idx": 16,
+      "text": "These associations have prompted intensive investigation into the mechanisms by which gut microbes influence brain chemistry and behavior, as well as the therapeutic potential of microbiota-targeted interventions.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 17,
+      "text": "This report provides a comprehensive analysis of microbiota-gut-brain axis interactions, with particular emphasis on neurochemical signaling pathways and their associated behavioral outcomes.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 18,
+      "text": "Drawing from 94 studies identified through systematic searches across multiple databases, we synthesize evidence from both animal models and human clinical investigations to elucidate the mechanisms underlying gut-brain communication and evaluate the translational potential of microbiota-based therapeutics for neuropsychiatric disorders.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [
+        "94"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 19,
+      "text": "Serotonin (5-hydroxytryptamine, 5-HT) represents one of the most extensively studied neurotransmitters in the context of microbiota-gut-brain interactions.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [
+        "5",
+        "5"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 20,
+      "text": "Approximately 90% of the body's serotonin is synthesized in the gastrointestinal tract, where gut microbiota play a crucial role in regulating its production and metabolism [9], [12].",
+      "citations": [
+        9,
+        12
+      ],
+      "kind": "cited",
+      "verdict": "UNSUPPORTED",
+      "confidence": "high",
+      "evidence_span": "",
+      "numbers": [
+        "90%"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": [
+        "90%"
+      ],
+      "verified_state": "unsupported",
+      "verified_panel": {
+        "supporter_verdict": "UNSUPPORTED",
+        "skeptic_verdict": "UNSUPPORTED"
+      }
+    },
+    {
+      "idx": 21,
+      "text": "The serotonergic system is fundamentally dependent on tryptophan, an essential amino acid whose metabolism is significantly influenced by gut microbial composition.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 22,
+      "text": "Multiple studies have demonstrated that gut microbiota regulate tryptophan metabolism through competing pathways that determine the availability of this precursor for serotonin synthesis [2], [5], [9].",
+      "citations": [
+        2,
+        5,
+        9
+      ],
+      "kind": "cited",
+      "verdict": "UNSUPPORTED",
+      "confidence": "medium",
+      "evidence_span": "",
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": [],
+      "verified_state": "unsupported",
+      "verified_panel": {
+        "supporter_verdict": "UNSUPPORTED",
+        "skeptic_verdict": "UNSUPPORTED"
+      }
+    },
+    {
+      "idx": 23,
+      "text": "Zhou et al. investigated the roles of gut microbiota in regulating tryptophan-derived neurotransmitters in adolescent depression, finding that microbiota alterations influenced tryptophan metabolic pathways and correlated with depression-related behaviors in both mice and humans [2].",
+      "citations": [
+        2
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "medium",
+      "evidence_span": "roles of the gut microbiota in the regulation of tryptophan-derived neurotransmitters and behaviors in human and mice",
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 24,
+      "text": "Similarly, Xing et al. analyzed gut microbiota and intestinal mucosal neurotransmitter changes in adolescent depression mice, observing that shifts in gut microbiota composition correlated with alterations in the 5-HT pathway metabolites and depressive-like behavioral phenotypes [12].",
+      "citations": [
+        12
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "evidence_span": "This paper discusses alterations in the 5-HT pathway metabolites, which are correlated with shifts in gut microbiota and depressive-like behavioral phenotypes in adolescent depression mice.",
+      "numbers": [
+        "5"
+      ],
+      "numbers_grounded": [
+        "5"
+      ],
+      "numbers_missing": []
+    },
+    {
+      "idx": 25,
+      "text": "A particularly compelling mechanistic study by Zhou et al. elucidated the gut microbiota-tryptophan-serotonin axis in driving anxiety-like behavior via NLRP3-mediated neuronal pyroptosis in the medial prefrontal cortex [5].",
+      "citations": [
+        5
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "evidence_span": "Gut microbiota-tryptophan-serotonin axis drives anxiety-like behavior via NLRP3-mediated neuronal pyroptosis in the medial prefrontal cortex",
+      "numbers": [
+        "3"
+      ],
+      "numbers_grounded": [
+        "3"
+      ],
+      "numbers_missing": []
+    },
+    {
+      "idx": 26,
+      "text": "This work revealed that gut microbiota-derived tryptophan metabolism leads to serotonin production, which in turn drives anxiety-like behavior through inflammatory neuronal death pathways, directly linking neurochemical signaling to behavioral outcomes.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 27,
+      "text": "Li et al. examined the effects of regulating gut microbiota on serotonin metabolism in a chronic unpredictable mild stress rat model, demonstrating that prebiotics and probiotics ameliorated stress-induced depressive-like behaviors [9].",
+      "citations": [
+        9
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "evidence_span": "Prebiotics and probiotics all ameliorated the CUMS-induced loss of weight and depressive-like behaviors to a certain extent",
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 28,
+      "text": "Importantly, these interventions tended to reduce colonic 5-HT while increasing 5-HT levels in the frontal cortex and hippocampus, suggesting that microbiota modulation can differentially affect peripheral versus central serotonergic signaling.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [
+        "5",
+        "5"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 29,
+      "text": "The study revealed considerable correlations between perturbed microbiota and altered 5-HT metabolism, supporting a causal gut microbiota-serotonin pathway.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [
+        "5"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 30,
+      "text": "The clinical implications of serotonergic dysregulation through microbiota alterations extend to multiple psychiatric conditions.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 31,
+      "text": "Du et al. reviewed the crosstalk between the microbiota-gut-brain axis and depression, noting that disruption of serotonin biosynthesis can lead to altered serotonergic signaling and that germ-free mice lacking healthy microbiota exhibit different behaviors compared to control mice [13].",
+      "citations": [
+        13
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "evidence_span": "the disruption of serotonin biosynthesis can lead to altered serotonergic signaling",
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 32,
+      "text": "This body of evidence establishes tryptophan-serotonin metabolism as a critical neurochemical pathway through which gut microbiota influence mood and emotional behavior.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 33,
+      "text": "Gamma-aminobutyric acid (GABA) and glutamate represent the primary inhibitory and excitatory neurotransmitters in the mammalian central nervous system, respectively.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 34,
+      "text": "Emerging evidence indicates that gut microbiota can directly produce these neurotransmitters and modulate their central nervous system concentrations through multiple mechanisms [3], [7], [15], [23].",
+      "citations": [
+        3,
+        7,
+        15,
+        23
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "evidence_span": "The gut microbiota produces and modulates neurotransmitters such as GABA, serotonin, dopamine, glutamate, etc.",
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 35,
+      "text": "A landmark study by Bravo et al. demonstrated that chronic treatment with *Lactobacillus rhamnosus* (JB-1) altered GABA receptor expression in various brain regions, specifically modulating GABA(B1b) and GABA(A\u03b12) mRNA expression [8].",
+      "citations": [
+        8
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "evidence_span": "chronic treatment with L. rhamnosus (JB-1) induced region-dependent alterations in GABA(B1b) mRNA in the brain",
+      "numbers": [
+        "1",
+        "1",
+        "2"
+      ],
+      "numbers_grounded": [
+        "1",
+        "1",
+        "2"
+      ],
+      "numbers_missing": []
+    },
+    {
+      "idx": 36,
+      "text": "These neurochemical changes, along with reduced stress-induced corticosterone and decreased anxiety- and depression-related behaviors, were mediated via the vagus nerve.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 37,
+      "text": "Critically, the neurochemical and behavioral effects were absent in vagotomized mice, establishing the vagus nerve as a major communication pathway between gut bacteria and the brain for GABA receptor modulation.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 38,
+      "text": "The clinical relevance of GABAergic dysregulation in neurodevelopmental disorders has been highlighted by Wang et al., who identified an elevated GABA to glutamate ratio as a metabolic signature in mild autism spectrum disorder [15].",
+      "citations": [
+        15
+      ],
+      "kind": "cited",
+      "verdict": "UNSUPPORTED",
+      "confidence": "high",
+      "evidence_span": "regression-based analysis for metabolomic profiling identifies an elevated \\u03b3-aminobutyric acid (GABA) to glutamate (Glu) ratio as a metabolic signature of ASD",
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": [],
+      "verified_state": "supported",
+      "verified_panel": {
+        "supporter_verdict": "SUPPORTED",
+        "skeptic_verdict": "SUPPORTED"
+      }
+    },
+    {
+      "idx": 39,
+      "text": "Integrated analysis revealed a correlation between overrepresented *Escherichia* species and disrupted GABA metabolism.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 40,
+      "text": "Remarkably, social behavioral impairments were observed in weaning mice transplanted with *E. coli*, suggesting a direct link between gut microbiota composition, GABA/glutamate imbalance, and ASD symptomatology.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 41,
+      "text": "Lico's comprehensive review of gut microbes and autism spectrum disorders emphasized that gut microbiota influence neurochemical pathways such as GABA and serotonin production, which are crucial for mood and behavior regulation [3].",
+      "citations": [
+        3
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "evidence_span": "Gut microbiota influence neurochemical pathways such as gamma-aminobutyric acid (GABA) and 5-hydroxytryptamine (serotonin) production, crucial for mood and behavior regulation.",
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 42,
+      "text": "Alterations in gut microbes can affect these neurotransmitter levels through vagus nerve signaling and short-chain fatty acid production, impacting cognitive and behavioral functions.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 43,
+      "text": "The review documented that microbial interventions improved social behaviors and reduced anxiety-like behaviors in ASD models, supporting the therapeutic potential of targeting GABAergic pathways through microbiota modulation.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 44,
+      "text": "Mhanna et al.'s narrative review summarized the modulation role of gut microbiota in four prominent neurotransmitter systems, including GABA and glutamate, and their association with psychiatric disorders including schizophrenia, depression, anxiety disorders, and autism spectrum disorder [7].",
+      "citations": [
+        7
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "evidence_span": "This review aims to summarize the modulation role of the gut microbiota in 4 prominent neurotransmitters (tryptophan and serotonergic system, dopamine, gamma-aminobutyric acid, and glutamate), as well as its association with 4 psychiatric disorders (schizophrenia, depression, anxiety disorders, and autism spectrum disorder).",
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 45,
+      "text": "The review emphasized that disruption of gut microbiota composition or function\u2014dysbiosis\u2014is associated with the pathogenesis of these mental disorders, implicating GABAergic and glutamatergic signaling as critical mediators.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 46,
+      "text": "Bhatia et al. further elaborated that gut microbiota produce and modulate neurotransmitters including GABA, serotonin, dopamine, and glutamate, suggesting a biological link between the microbiota, immune signaling, and the central nervous system [23].",
+      "citations": [
+        23
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "evidence_span": "The gut microbiota produces and modulates neurotransmitters such as GABA, serotonin, dopamine, glutamate, etc. Furthermore, there is a presence of a biological link between the microbiota, immune signaling, and CNS",
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 47,
+      "text": "This bidirectional communication impacts neurological disorders through microbial metabolites that could regulate both neurological and immunological activities in the brain.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 48,
+      "text": "Dopamine, a catecholamine neurotransmitter critical for reward processing, motivation, motor control, and cognitive function, is also subject to modulation by gut microbiota.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 49,
+      "text": "While less extensively studied than serotonergic and GABAergic pathways, emerging evidence indicates that gut microbes influence dopaminergic signaling through multiple mechanisms [6], [7], [16], [23].",
+      "citations": [
+        6,
+        7,
+        16,
+        23
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "medium",
+      "evidence_span": "gut microbiota modulate neurochemical pathways involving serotonin, dopamine, GABA, and glutamate",
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 50,
+      "text": "Huang and Wu's review of brain neurotransmitter modulation by gut microbiota in anxiety and depression specifically examined dopaminergic neurotransmission alongside serotonergic and noradrenergic systems [6].",
+      "citations": [
+        6
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "evidence_span": "we focus on combining the intestinal microbiota with serotonergic, dopaminergic, and noradrenergic neurotransmission in brain",
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 51,
+      "text": "The review emphasized how gut microbiota influence these pathways in the context of anxiety- and depression-like behaviors in stress-related rodent models, including germ-free animals, those treated with antibiotics, and those receiving probiotics.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 52,
+      "text": "The findings strongly supported that gut microbiota-mediated neurotransmitter modulation, including dopaminergic signaling, is crucial for the physiopathology of anxiety and depression.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 53,
+      "text": "Diotaiuti et al.'s mechanistic and therapeutic review documented that gut microbiota modulate neurochemical pathways involving serotonin, dopamine, GABA, and glutamate [16].",
+      "citations": [
+        16
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "evidence_span": "Evidence indicates that gut microbiota modulate neurochemical pathways involving serotonin, dopamine, GABA, and glutamate",
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 54,
+      "text": "The review noted that microbial imbalance contributes to low-grade systemic inflammation, impaired neuroplasticity, and altered stress responses, all linked to mood and cognitive disturbances.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 55,
+      "text": "These complex neuroimmune and neuroendocrine mechanisms highlight the foundational role of gut microbiota in shaping emotional and cognitive functions through dopaminergic and other neurotransmitter systems.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 56,
+      "text": "The correlation between gut microbiota and dopaminergic function extends to neurodegenerative disorders.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 57,
+      "text": "Zeng's review of mechanisms of gut microbial effects on the human brain discussed how therapeutic interventions, such as engineered GLP1-expressing *Lactobacillus lactis*, alleviated motor deficits in a Parkinson's disease model by suppressing neuroinflammation and synuclein aggregation [22].",
+      "citations": [
+        22
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "evidence_span": "In a Parkinson's disease model, the therapeutic use of engineered GLP1expressing Lactobacillus lactis has been shown to alleviate motor deficits by suppressing neuroinflammation and synuclein aggregation.",
+      "numbers": [
+        "1"
+      ],
+      "numbers_grounded": [
+        "1"
+      ],
+      "numbers_missing": []
+    },
+    {
+      "idx": 58,
+      "text": "While not exclusively focused on dopamine, this work suggests that microbiota-targeted interventions can influence dopaminergic pathways relevant to motor function and neurodegenerative processes.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 59,
+      "text": "Beyond classical neurotransmitters, gut microbiota influence neuropeptide signaling systems that regulate social behavior, stress response, and emotional processing.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 60,
+      "text": "Oxytocin, a neuropeptide hormone critical for social bonding, maternal behavior, and trust, has emerged as a key mediator of microbiota effects on social behavior [1].",
+      "citations": [
+        1
+      ],
+      "kind": "cited",
+      "verdict": "UNSUPPORTED",
+      "confidence": "medium",
+      "evidence_span": "probiotic treatment, which leads to downstream increased circulation of endogenous oxytocin, a neuropeptide hormone relevant to sociability",
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": [],
+      "verified_state": "supported",
+      "verified_panel": {
+        "supporter_verdict": "SUPPORTED",
+        "skeptic_verdict": "SUPPORTED"
+      }
+    },
+    {
+      "idx": 61,
+      "text": "Weber et al. investigated the gut microbiome's role in sociability, demonstrating that gut microbiota communicate with the host's brain through the vagus nerve and other signaling pathways [1].",
+      "citations": [
+        1
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "evidence_span": "gut microbiota communicate with the host's brain in an elaborate network of signaling pathways, including the vagus nerve",
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 62,
+      "text": "Research in animal models showed that probiotic treatment led to increased circulation of endogenous oxytocin, a neuropeptide hormone relevant to sociability.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 63,
+      "text": "This mechanism suggests that gut microbiota can impact neurochemical signaling related to social behavior through oxytocin modulation, with potential therapeutic applications for alleviating social symptoms associated with neurodevelopmental and psychiatric diseases.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 64,
+      "text": "The oxytocin pathway represents a particularly promising target for microbiota-based interventions in conditions characterized by social deficits, including autism spectrum disorder and social anxiety disorder.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 65,
+      "text": "The ability of specific probiotic strains to enhance endogenous oxytocin production provides a mechanistic explanation for observed improvements in social behavior following microbiota modulation.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 66,
+      "text": "Short-chain fatty acids (SCFAs), particularly acetate, propionate, and butyrate, represent major metabolic products of gut microbial fermentation of dietary fibers.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 67,
+      "text": "These metabolites serve as critical signaling molecules in the microbiota-gut-brain axis, exerting neuroactive effects through multiple mechanisms including blood-brain barrier modulation, neuroinflammation regulation, and direct effects on neuronal function [3], [18], [20], [25], [27].",
+      "citations": [
+        3,
+        18,
+        20,
+        25,
+        27
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "evidence_span": "short-chain fatty acids, bile acids, and microbial-derived indoles exert neuroactive effects, modulating synaptic plasticity and immune responses",
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 68,
+      "text": "Lico's review emphasized that gut bacteria produce SCFAs that support brain function and reduce inflammation, affecting neurodevelopment [3].",
+      "citations": [
+        3
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "evidence_span": "gut bacteria produce short-chain fatty acids (SCFAs) that support brain function and reduce inflammation, affecting neurodevelopment",
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 69,
+      "text": "The gut-brain axis, involving the vagus nerve, mediates communication, and these SCFAs play a crucial role in this bidirectional signaling.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 70,
+      "text": "Jain and Jain elaborated that microbial-derived SCFAs, bile acids, and indoles exert neuroactive effects, modulating synaptic plasticity and immune responses, thereby playing a central role in microbiota-gut-brain axis communication [20].",
+      "citations": [
+        20
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "evidence_span": "short-chain fatty acids, bile acids, and microbial-derived indoles exert neuroactive effects, modulating synaptic plasticity and immune responses",
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 71,
+      "text": "Xu et al. discussed the roles of gut microbiota and chronic low-grade inflammation in older adults with frailty, noting that SCFAs can reduce amyloid deposition in the brain [27].",
+      "citations": [
+        27
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "evidence_span": "SCFAs can reduce amyloid deposition in the brain.",
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 72,
+      "text": "The brain influences gut microbiota composition via the hypothalamic-pituitary-adrenal (HPA) axis, which increases cortisol secretion affecting intestinal barrier integrity.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 73,
+      "text": "Conversely, gut microbiota and its metabolites impact the brain and behavior through the vagus nerve and enteric nervous system, with SCFAs serving as key mediators.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 74,
+      "text": "Mohajeri et al.'s comprehensive review of the relationship between gut microbiome and brain function highlighted that SCFAs produced by gut microbes impact the blood-brain barrier and can facilitate neuronal plasticity and memory formation [25].",
+      "citations": [
+        25
+      ],
+      "kind": "cited",
+      "verdict": "UNSUPPORTED",
+      "confidence": "medium",
+      "evidence_span": "",
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": [],
+      "verified_state": "supported",
+      "verified_panel": {
+        "supporter_verdict": "SUPPORTED",
+        "skeptic_verdict": "SUPPORTED"
+      }
+    },
+    {
+      "idx": 75,
+      "text": "Probiotic strains can produce neurotransmitters like GABA, acetylcholine, and serotonin, directly influencing brain excitability, while SCFAs provide an additional layer of metabolic signaling that influences brain function and behavior.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 76,
+      "text": "The neuroprotective and anti-inflammatory properties of SCFAs have been demonstrated across multiple disease models.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 77,
+      "text": "Wang et al. investigated microplastic neurotoxicity from a microbiota-gut-brain axis perspective, showing that probiotic interventions with *Lactobacillus plantarum* DP189 and galactooligosaccharides effectively mitigated microplastic-induced cognitive dysfunction [4].",
+      "citations": [
+        4
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "evidence_span": "the DP189&GOS interventions effectively mitigated the MPs-induced cognitive dysfunction",
+      "numbers": [
+        "189"
+      ],
+      "numbers_grounded": [
+        "189"
+      ],
+      "numbers_missing": []
+    },
+    {
+      "idx": 78,
+      "text": "The intervention led to a rebound in acetylcholine release, indicating that gut microbiota influences cholinergic signaling and cognitive function through metabolite production.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 79,
+      "text": "The vagus nerve represents a primary neural communication route between the gut and brain, serving as a bidirectional information highway that transmits signals about gut microbiota composition and activity to the central nervous system [1], [3], [8], [24], [25], [27].",
+      "citations": [
+        1,
+        3,
+        8,
+        24,
+        25,
+        27
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "evidence_span": "identifying the vagus as a major modulatory constitutive communication pathway between the bacteria exposed to the gut and the brain",
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 80,
+      "text": "The critical role of vagal signaling was definitively established by Bravo et al., who demonstrated that the neurochemical and behavioral effects of *Lactobacillus rhamnosus* (JB-1) on GABA receptor expression and emotional behavior were completely absent in vagotomized mice [8].",
+      "citations": [
+        8
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "evidence_span": "the neurochemical and behavioral effects were not found in vagotomized mice, identifying the vagus as a major modulatory constitutive communication pathway between the bacteria exposed to the gut and the brain",
+      "numbers": [
+        "1"
+      ],
+      "numbers_grounded": [
+        "1"
+      ],
+      "numbers_missing": []
+    },
+    {
+      "idx": 81,
+      "text": "This finding established the vagus nerve as a major communication pathway between gut bacteria and the brain, mediating effects on GABA receptor expression and stress responses.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 82,
+      "text": "Bercik and Collins examined the effects of inflammation, infection, and antibiotics on the microbiota-gut-brain axis, noting that anxiety-like behavior in early enteric infection is mediated through vagal ascending pathways [24].",
+      "citations": [
+        24
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "evidence_span": "the early phase of enteric infection is accompanied by anxiety-like behavior, which is mediated through vagal ascending pathways",
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 83,
+      "text": "The effects of inflammation and infection on behavior, such as anxiety and depression, are likely immune-mediated, involving changes in pro-inflammatory cytokines and altered metabolism of kynurenine/tryptophan pathways, with the vagus nerve serving as a critical conduit for these signals.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 84,
+      "text": "Mohajeri et al. emphasized that the vagus nerve is a major communication route mediating effects on GABA receptor expression and stress responses [25].",
+      "citations": [
+        25
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "evidence_span": "The vagus nerve is a major communication route, mediating effects on GABA receptor expression and stress responses.",
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 85,
+      "text": "Tryptophan metabolism, a precursor to serotonin, links diet, microbiome, neurotransmission, and behavioral changes, with vagal signaling playing a central role in transmitting information about these metabolic processes to the brain.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 86,
+      "text": "Zeng's review identified a novel sensory mechanism involving TLR5+ neuroglial cells in the colon detecting bacterial flagellin, which regulates feeding behavior [22].",
+      "citations": [
+        22
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "evidence_span": "The study identified a novel sensory mechanism in which TLR5+ neuroglial cells in the colon detect bacterial flagellin within milliseconds, thereby regulating feeding.",
+      "numbers": [
+        "5"
+      ],
+      "numbers_grounded": [
+        "5"
+      ],
+      "numbers_missing": []
+    },
+    {
+      "idx": 87,
+      "text": "This discovery expands our understanding of how gut microbiota communicate with the nervous system beyond traditional vagal pathways, suggesting multiple parallel mechanisms of gut-brain signaling.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 88,
+      "text": "Depression and anxiety disorders represent the most extensively studied behavioral outcomes in microbiota-gut-brain axis research, with consistent evidence demonstrating associations between gut dysbiosis and mood disturbances across both animal models and human studies [2], [5], [6], [9], [12], [13], [14], [16].",
+      "citations": [
+        2,
+        5,
+        6,
+        9,
+        12,
+        13,
+        14,
+        16
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "medium",
+      "evidence_span": "There is growing evidence indicating that changes in the composition of the gut microbiota are related to mental health including anxiety and depression.",
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 89,
+      "text": "In animal models of depression, multiple studies have demonstrated that microbiota modulation can ameliorate depressive-like behaviors.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 90,
+      "text": "Li et al. used a chronic unpredictable mild stress (CUMS) rat model to examine the effects of regulating gut microbiota on serotonin metabolism [9].",
+      "citations": [
+        9
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "evidence_span": "This study was to inspect the antidepressant-like effect of prebiotics and probiotics, and to explore the effect of modulating gut microbiota on the serotonin (5-HT) metabolism.",
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 91,
+      "text": "The study employed fifty rats separated into control and four treatment groups, with CUMS intervention inducing decreased body weight, increased immobility in the forced swimming test, and decreased sucrose preference\u2014all indicators of depressive-like behavior.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 92,
+      "text": "Critically, prebiotics and probiotics (*Bifidobacterium longum*, *L. rhamnosus*) ameliorated these CUMS-induced depressive-like behaviors and weight loss, while tending to reduce colonic 5-HT and increase 5-HT in the frontal cortex and hippocampus.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [
+        "5",
+        "5"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 93,
+      "text": "Zhou et al. investigated the roles of gut microbiota in regulating tryptophan-derived neurotransmitters in adolescent depression, conducting analysis in both humans and mice [2].",
+      "citations": [
+        2
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "evidence_span": "roles of the gut microbiota in the regulation of tryptophan-derived neurotransmitters and behaviors in human and mice",
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 94,
+      "text": "The research examined the beneficial effects along the gut-brain axis and observed metabolic pathway-derived neurotransmitters and behavioral changes in mice, linking gut microbiota-tryptophan metabolism to depression-related behaviors in both species.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 95,
+      "text": "Xing et al.'s analysis of gut microbiota and intestinal mucosal neurotransmitter changes in adolescent depression mice revealed that shifts in gut microbiota composition correlated with alterations in intestinal 5-HT pathway metabolites and depressive-like behavioral phenotypes [12].",
+      "citations": [
+        12
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "evidence_span": "alterations in the 5-HT pathway metabolites, which are correlated with shifts in gut microbiota and depressive-like behavioral phenotypes in adolescent depression mice",
+      "numbers": [
+        "5"
+      ],
+      "numbers_grounded": [
+        "5"
+      ],
+      "numbers_missing": []
+    },
+    {
+      "idx": 96,
+      "text": "This work established a direct correlation between microbiota composition, neurochemical changes, and behavioral manifestations of depression.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 97,
+      "text": "Anxiety-like behaviors have been similarly linked to microbiota-gut-brain axis dysfunction.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 98,
+      "text": "Zhou et al. demonstrated that the gut microbiota-tryptophan-serotonin axis drives anxiety-like behavior via NLRP3-mediated neuronal pyroptosis in the medial prefrontal cortex [5].",
+      "citations": [
+        5
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "evidence_span": "Gut microbiota-tryptophan-serotonin axis drives anxiety-like behavior via NLRP3-mediated neuronal pyroptosis in the medial prefrontal cortex",
+      "numbers": [
+        "3"
+      ],
+      "numbers_grounded": [
+        "3"
+      ],
+      "numbers_missing": []
+    },
+    {
+      "idx": 99,
+      "text": "This mechanistic study in mice revealed that gut microbiota-derived tryptophan metabolism leads to serotonin production, which drives anxiety-like behavior through inflammatory neuronal death pathways.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 100,
+      "text": "Chen et al. investigated polystyrene micro- and nanoparticles exposure in adult mice, finding that 30-day and 60-day exposure remarkably induced anxiety-like behaviors compared with control groups, as assessed by open field test and elevated plus maze [14].",
+      "citations": [
+        14
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "evidence_span": "Behavioral tests showed PS-NPs and PS-MPs treatment remarkedly induced anxiety-like behaviors compared with the control group.",
+      "numbers": [
+        "30",
+        "60"
+      ],
+      "numbers_grounded": [
+        "30",
+        "60"
+      ],
+      "numbers_missing": []
+    },
+    {
+      "idx": 101,
+      "text": "The study found that PS-NPs and PS-MPs reduced beneficial gut microbiota and increased pathogenic bacteria, impacting metabolic pathways including amino acid biosynthesis.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 102,
+      "text": "This suggests that gut microbiota dysbiosis influences neurochemical changes, potentially through the gut-brain axis, contributing to anxiety disorders.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 103,
+      "text": "Huang and Wu's comprehensive review examined brain neurotransmitter modulation by gut microbiota in anxiety and depression, focusing on serotonergic, dopaminergic, and noradrenergic neurotransmission [6].",
+      "citations": [
+        6
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "evidence_span": "we focus on combining the intestinal microbiota with serotonergic, dopaminergic, and noradrenergic neurotransmission in brain, with special emphasis on the anxiety- and depression-like behaviors",
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 104,
+      "text": "The review emphasized how gut microbiota influence these pathways in stress-related rodent models, including germ-free animals, those treated with antibiotics, and those receiving probiotics.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 105,
+      "text": "The findings strongly supported that gut microbiota-mediated neurotransmitter modulation is crucial for the physiopathology of anxiety and depression.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 106,
+      "text": "Du et al.'s review of crosstalk between the microbiota-gut-brain axis and depression noted that disruption of serotonin biosynthesis can lead to altered serotonergic signaling, and that germ-free mice lacking healthy microbiota exhibit different behaviors compared to control mice [13].",
+      "citations": [
+        13
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "evidence_span": "disruption of serotonin biosynthesis can lead to altered serotonergic signaling",
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 107,
+      "text": "The review highlighted depression-related behavioral changes linked to neurochemical mechanisms such as serotonergic disruption.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 108,
+      "text": "Diotaiuti et al. conducted a comprehensive narrative review synthesizing peer-reviewed articles from multiple databases, examining microbiota-related effects on behavior, mood, cognition, and decision-making in both human and animal models [16].",
+      "citations": [
+        16
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "evidence_span": "A comprehensive narrative review was conducted using peer-reviewed articles retrieved from PubMed, Scopus, and Web of Science up to August 2025. Studies were included if they explored microbiota-related effects on behavior, mood, cognition, or decision-making using human or animal models.",
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 109,
+      "text": "The review found that dysbiosis was associated with impaired neuroplasticity, altered stress responses, and disturbances in mood and cognition, including depression, anxiety, impulsivity, cognitive decline, and addiction.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 110,
+      "text": "Interventions like probiotics and fecal microbiota transplantation showed promise in modulating these outcomes.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 111,
+      "text": "Social behavior deficits represent a core feature of autism spectrum disorder and have been extensively investigated in the context of microbiota-gut-brain axis dysfunction [1], [3], [7], [10], [15], [26].",
+      "citations": [
+        1,
+        3,
+        7,
+        10,
+        15,
+        26
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "evidence_span": "we observe social behavioral impairments in weaning mice transplanted with E. coli, suggesting a potential link to ASD symptomatology",
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 112,
+      "text": "Weber et al.'s investigation of the gut microbiome and sociability demonstrated that probiotic treatment in animal models led to increased circulation of endogenous oxytocin, a neuropeptide hormone relevant to sociability [1].",
+      "citations": [
+        1
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "evidence_span": "probiotic treatment, which leads to downstream increased circulation of endogenous oxytocin, a neuropeptide hormone relevant to sociability",
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 113,
+      "text": "The research explored how gut-brain pathways can alleviate social symptoms associated with neurodevelopmental and psychiatric diseases, focusing on sociability and social development as key behavioral outcomes.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 114,
+      "text": "Lico's comprehensive review of research advances in gut microbes and autism spectrum disorders documented that gut microbiota interventions influenced several behavioral outcomes in ASD [3].",
+      "citations": [
+        3
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "evidence_span": "This paper indicates that gut microbiota interventions influenced several behavioral outcomes in ASD.",
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 115,
+      "text": "Studies reported improved social behaviors, reduced anxiety-like behaviors, and decreased repetitive stereotyped behaviors.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 116,
+      "text": "Cognitive function was also noted to be affected, with some interventions restoring neural activity and improving neurological symptoms.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 117,
+      "text": "Conversely, certain gut microbiota compositions in ASD patients were linked to impaired social behavior and cognitive dysfunction, and increased behavioral abnormalities.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 118,
+      "text": "Wang et al. identified gut microbial GABA imbalance as a metabolic signature in mild autism spectrum disorder linked to overrepresented *Escherichia* [15].",
+      "citations": [
+        15
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "evidence_span": "identifies an elevated \u03b3-aminobutyric acid (GABA) to glutamate (Glu) ratio as a metabolic signature of ASD",
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 119,
+      "text": "The study employed multi-omics approaches on stool samples from two distinct human cohorts comprising 203 children with mild ASD or typical development.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [
+        "203"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 120,
+      "text": "Additionally, weaning mice transplanted with *E. coli* exhibited social behavioral impairments, suggesting a potential link to ASD symptomatology.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 121,
+      "text": "This work demonstrated that overrepresented *Escherichia* and disrupted GABA metabolism correlate with observed social behavioral impairments in the mouse model.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 122,
+      "text": "Xu et al. investigated gut-brain axis dysfunction mediating neurotoxicity of embryonic p-phenylenediamine exposure in zebrafish [10].",
+      "citations": [
+        10
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "evidence_span": "Our findings demonstrate that embryonic PPD exposure induces neurotoxicity mediated through gut-brain axis disruption",
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 123,
+      "text": "Embryonic PPD exposure led to impaired fish growth and distinct behavioral alterations.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 124,
+      "text": "Specifically, CPPD induced hyperactivity, aggression, and social deficit; IPPD caused hyperactivity and loose shoaling behavior; and 77PD resulted in social deficits and reduced social cohesion.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [
+        "77"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 125,
+      "text": "These changes were alleviated by antibiotic treatment, suggesting gut-brain axis disruption.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 126,
+      "text": "Mhanna et al.'s narrative review summarized the association of gut microbiota with psychiatric disorders, specifically schizophrenia, depression, anxiety disorders, and autism spectrum disorder [7].",
+      "citations": [
+        7
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "evidence_span": "as well as its association with 4 psychiatric disorders (schizophrenia, depression, anxiety disorders, and autism spectrum disorder)",
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 127,
+      "text": "The review discussed how disruptions in gut microbiota composition or function (dysbiosis) are linked to the pathogenesis of these mental disorders, implying an observed correlation between microbiota alterations and social behavioral deficits.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 128,
+      "text": "Hou et al.'s comprehensive review of microbiota in health and diseases documented that mouse models showed altered region-dependent brain activity affecting neurophysiology and behavior, with maternal high-fat diet inducing offspring social deficits [26].",
+      "citations": [
+        26
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "evidence_span": "Mouse models showed altered region-dependent brain activity affecting neurophysiology and behavior, with maternal high-fat diet inducing offspring social deficits.",
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 129,
+      "text": "Mice with social deficits improved with *Lactobacillus reuteri* treatment.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 130,
+      "text": "The study also noted that autistic children showed decreased behavioral ASD scoring following microbiota interventions, supporting the therapeutic potential of targeting the gut-brain axis in autism.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 131,
+      "text": "Cognitive function, including learning and memory processes, has emerged as a critical behavioral domain influenced by microbiota-gut-brain axis interactions [4], [16], [24], [25], [27], [30].",
+      "citations": [
+        4,
+        16,
+        24,
+        25,
+        27,
+        30
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "evidence_span": "performance in learning and memory tasks",
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 132,
+      "text": "Wang et al. investigated oxidized/unmodified-polyethylene microplastics neurotoxicity in mice from a microbiota-gut-brain axis perspective [4].",
+      "citations": [
+        4
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "evidence_span": "the neurotoxicity and mechanism of oxidized polyethylene (Ox-PE) MPs to organisms remain unclear",
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 133,
+      "text": "The study used C57BL/6 J mice continuously orally gavaged with LDPE-MPs/Ox-LDPE-MPs for 28 days, observing behavioral changes that led to cognitive dysfunction.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [
+        "57",
+        "6",
+        "28"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 134,
+      "text": "The research demonstrated that cholinergic synaptic signaling pathways were significantly disrupted after exposure to microplastics, leading to reduced acetylcholine concentration and cognitive dysfunction.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 135,
+      "text": "Critically, probiotic interventions with *Lactobacillus plantarum* DP189 and galactooligosaccharides effectively mitigated the MPs-induced cognitive dysfunction, with the intervention leading to a rebound in acetylcholine release.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [
+        "189"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 136,
+      "text": "Xu et al. examined the roles of gut microbiota and chronic low-grade inflammation in older adults with frailty, noting that older mice exhibited increased anxiety-like behaviors and spatial memory deficits [27].",
+      "citations": [
+        27
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "evidence_span": "Older mice exhibited increased anxiety-like behaviors and spatial memory deficits.",
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 137,
+      "text": "The gut microbiota-brain axis dysregulation is involved in neurological disorders, and changes in gut microbiota have been linked to cognitive impairment, with probiotics potentially delaying aging-related cognitive deficits.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 138,
+      "text": "Intestinal dysbacteriosis also affects neurodegeneration.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 139,
+      "text": "Bercik and Collins reviewed the effects of inflammation, infection, and antibiotics on the microbiota-gut-brain axis, noting that clinical studies linked chronic gastrointestinal infections to impaired cognitive function due to malnutrition and stunting [24].",
+      "citations": [
+        24
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "evidence_span": "Clinical studies have shown that chronic gastrointestinal infections lead to malnutrition and stunting, resulting in impaired cognitive function.",
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 140,
+      "text": "Animal studies showed that early enteric infection caused anxiety-like behavior via vagal pathways, while chronic infection altered feeding patterns, anxiety, and depression-like behavior.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 141,
+      "text": "Antibiotic-induced intestinal dysbiosis also led to changes in behavior.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 142,
+      "text": "Mohajeri et al.'s comprehensive review of the relationship between gut microbiome and brain function documented several behavioral outcomes, including cognitive function, learning, and memory [25].",
+      "citations": [
+        25
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "evidence_span": "having an impact on stress, anxiety, depression, and cognition",
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 143,
+      "text": "The review synthesized findings from in vitro, in vivo, and human studies, with animal models frequently including germ-free mice subjected to probiotic interventions, fecal transplantation, or antibiotic treatments.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 144,
+      "text": "Cognitive function, learning, and memory were assessed, showing improvements or impairments depending on the intervention or condition.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 145,
+      "text": "Vuong et al.'s review of the microbiome and host behavior discussed emerging roles for gut microbiota in modulating performance in learning and memory tasks [30].",
+      "citations": [
+        30
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "evidence_span": "we discuss emerging roles for the gut microbiota in modulating host social and communicative behavior, stressor-induced behavior, and performance in learning and memory tasks",
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 146,
+      "text": "The gut microbiota influences host social and communicative behavior, stressor-induced behavior, and performance in learning and memory tasks.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 147,
+      "text": "Dysbiosis is linked to neurobehavioral diseases like autism spectrum disorder and major depression, with the review discussing modulating these behaviors through microbiota effects on neurophysiology.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 148,
+      "text": "Diotaiuti et al.'s mechanistic and therapeutic review found that dysbiosis was associated with impaired neuroplasticity, altered stress responses, and disturbances in mood and cognition, including cognitive decline [16].",
+      "citations": [
+        16
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "evidence_span": "Dysbiosis was associated with impaired neuroplasticity, altered stress responses, and disturbances in mood and cognition, including depression, anxiety, impulsivity, cognitive decline, and addiction.",
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 149,
+      "text": "The review emphasized that gut microbiota modulate neurochemical pathways involving serotonin, dopamine, GABA, and glutamate, with microbial imbalance contributing to cognitive disturbances.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 150,
+      "text": "The hypothalamic-pituitary-adrenal (HPA) axis represents a critical neuroendocrine system regulating stress response, and accumulating evidence demonstrates that gut microbiota significantly influence HPA axis function and stress-related behaviors [8], [11], [16], [21], [25], [27].",
+      "citations": [
+        8,
+        11,
+        16,
+        21,
+        25,
+        27
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "evidence_span": "gut microbiota influences the development and maturation of the hypothalamic-pituitary-adrenal axis",
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 151,
+      "text": "Bravo et al.'s landmark study demonstrated that chronic treatment with *Lactobacillus rhamnosus* (JB-1) reduced stress-induced corticosterone, anxiety-related behavior, and depression-related behavior in mice [8].",
+      "citations": [
+        8
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "evidence_span": "L. rhamnosus (JB-1) reduced stress-induced corticosterone and anxiety- and depression-related behavior",
+      "numbers": [
+        "1"
+      ],
+      "numbers_grounded": [
+        "1"
+      ],
+      "numbers_missing": []
+    },
+    {
+      "idx": 152,
+      "text": "These neurochemical and behavioral effects were absent in vagotomized mice, indicating the vagus nerve's crucial role in this gut-brain communication.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 153,
+      "text": "The study suggested that certain bacteria may be useful therapeutic adjuncts for stress-related disorders.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 154,
+      "text": "Hayer et al. investigated antibiotic-induced gut dysbiosis in a nonhuman primate model using common marmosets (*Callithrix jacchus*) [11].",
+      "citations": [
+        11
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "evidence_span": "evaluate if antibiotic-induced gut dysbiosis can elicit changes in gut metabolites and behavior indicative of gut-brain axis disruption in common marmosets (Callithrix jacchus) - a nonhuman primate model",
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 155,
+      "text": "Researchers administered a custom antibiotic cocktail (vancomycin, enrofloxacin, and neomycin) orally for 28 days to induce dysbiosis.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [
+        "28"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 156,
+      "text": "The study observed changes in behavior, stress reactivity, and neuroendocrine markers.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 157,
+      "text": "Specifically, antibiotic-administered marmosets showed an increase in affiliative behavior and sociability, which was suggested as a coping mechanism for dysbiosis-induced stress.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 158,
+      "text": "Urinary cortisol levels increased after multiple stressors, providing evidence of disrupted gut-brain communication.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 159,
+      "text": "Ignatova's review of the influence of gut microbiota on behavior and its disturbances noted that disruption of gut-brain axis function is associated with alterations in the stress response [21].",
+      "citations": [
+        21
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "evidence_span": "Disruption of gut-brain axis function is associated with alterations in the stress response",
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 160,
+      "text": "The gut microbiota influences the development and maturation of the hypothalamic-pituitary-adrenal axis, affects the development and function of the immune system, regulates the blood-brain barrier, modulates neurotransmitter synthesis, regulates neurogenesis, and supports brain development and function.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 161,
+      "text": "Xu et al. discussed that the brain influences gut microbiota composition via the hypothalamic-pituitary-adrenal (HPA) axis, which increases cortisol secretion affecting intestinal barrier integrity [27].",
+      "citations": [
+        27
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "evidence_span": "The brain influences gut microbiota composition via the hypothalamic-pituitary-adrenal (HPA) axis, which increases cortisol secretion affecting intestinal barrier integrity.",
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 162,
+      "text": "Conversely, gut microbiota and its metabolites impact the brain and behavior through the vagus nerve and enteric nervous system, creating a bidirectional stress-responsive system.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 163,
+      "text": "Mohajeri et al.'s review documented that the stress response, particularly HPA axis activity, was measured across multiple studies, with interventions often leading to a dampened or normalized response [25].",
+      "citations": [
+        25
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "evidence_span": "The stress response, particularly the HPA axis activity, was measured, with interventions often leading to a dampened or normalized response.",
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 164,
+      "text": "Probiotic strains can produce neurotransmitters like GABA, acetylcholine, and serotonin, directly influencing brain excitability and stress responses.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 165,
+      "text": "The vagus nerve serves as a major communication route, mediating effects on GABA receptor expression and stress responses.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 166,
+      "text": "Diotaiuti et al.'s review found that dysbiosis was associated with altered stress responses, with microbial imbalance contributing to low-grade systemic inflammation, impaired neuroplasticity, and altered stress responses, all linked to mood and cognitive disturbances [16].",
+      "citations": [
+        16
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "evidence_span": "Microbial imbalance contributes to low-grade systemic inflammation, impaired neuroplasticity, and altered stress responses, all of which are linked to mood and cognitive disturbances.",
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 167,
+      "text": "Interventions like probiotics and fecal microbiota transplantation showed promise in modulating these stress-related outcomes.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 168,
+      "text": "Animal models have been instrumental in establishing causal relationships between gut microbiota alterations and behavioral outcomes, with rodents representing the most commonly employed experimental system [4], [5], [6], [8], [9], [12], [14], [26], [27].",
+      "citations": [
+        4,
+        5,
+        6,
+        8,
+        9,
+        12,
+        14,
+        26,
+        27
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "evidence_span": "Rodent models, particularly mouse and rat models, are frequently used to study microbiota's pathogenic and therapeutic potential, with germ-free (GF) mouse models being popular for gut microbiota research.",
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 169,
+      "text": "Rodent models offer several advantages including genetic tractability, well-characterized behavioral assays, and the ability to employ germ-free animals to definitively establish microbiota causality.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 170,
+      "text": "Li et al.'s study using a chronic unpredictable mild stress rat model with fifty rats demonstrated the utility of rodent models for investigating depression-related behaviors [9].",
+      "citations": [
+        9
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "evidence_span": "Fifty rats were separated into control and other four groups randomly. The four groups underwent the chronic unpredictable mild stress (CUMS) intervention",
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 171,
+      "text": "The study employed behavioral tests including the sucrose preference test and forced swimming test, standard assays for depressive-like behavior in rodents.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 172,
+      "text": "Mouse models have been particularly valuable for mechanistic investigations.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 173,
+      "text": "Zhou et al. used mice to investigate the gut microbiota-tryptophan-serotonin axis in driving anxiety-like behavior via NLRP3-mediated neuronal pyroptosis in the medial prefrontal cortex [5].",
+      "citations": [
+        5
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "medium",
+      "evidence_span": "The research was conducted using an animal model, specifically mice, to explore the interplay of gut microbiota and tryptophan metabolism in the gut-brain axis.",
+      "numbers": [
+        "3"
+      ],
+      "numbers_grounded": [
+        "3"
+      ],
+      "numbers_missing": []
+    },
+    {
+      "idx": 174,
+      "text": "Wang et al. employed C57BL/6 J mice continuously orally gavaged with microplastics for 28 days to investigate neurotoxicity from a microbiota-gut-brain axis perspective [4].",
+      "citations": [
+        4
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "evidence_span": "continuously orally gavage of C57BL/6 J mice with LDPE-MPs/Ox-LDPE-MPs for 28 days",
+      "numbers": [
+        "57",
+        "6",
+        "28"
+      ],
+      "numbers_grounded": [
+        "57",
+        "6",
+        "28"
+      ],
+      "numbers_missing": []
+    },
+    {
+      "idx": 175,
+      "text": "Chen et al. used adult mice with 30-day and 60-day exposure protocols to investigate polystyrene micro- and nanoparticles effects on anxiety-like behaviors, employing open field test and elevated plus maze assessments [14].",
+      "citations": [
+        14
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "evidence_span": "This study explored the behavioral effects of 30-day and 60-day exposure to PS-NPs and PS-MPs using the open field test (OFT) and elevated plus maze (EPM) test.",
+      "numbers": [
+        "30",
+        "60"
+      ],
+      "numbers_grounded": [
+        "30",
+        "60"
+      ],
+      "numbers_missing": []
+    },
+    {
+      "idx": 176,
+      "text": "The landmark study by Bravo et al. utilized mice with vagotomy to definitively establish the vagus nerve's role in mediating probiotic effects on GABA receptor expression and emotional behavior [8].",
+      "citations": [
+        8
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "evidence_span": "the neurochemical and behavioral effects were not found in vagotomized mice, identifying the vagus as a major modulatory constitutive communication pathway between the bacteria exposed to the gut and the brain",
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 177,
+      "text": "This experimental approach\u2014comparing intact versus vagotomized animals\u2014provided critical mechanistic insight that would be difficult to obtain through other methods.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 178,
+      "text": "Hou et al.'s comprehensive review highlighted that rodent models, particularly mouse and rat models, are frequently used to study microbiota's pathogenic and therapeutic potential, with germ-free mouse models being particularly popular for gut microbiota research [26].",
+      "citations": [
+        26
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "evidence_span": "Rodent models, particularly mouse and rat models, are frequently used to study microbiota's pathogenic and therapeutic potential, with germ-free (GF) mouse models being popular for gut microbiota research.",
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 179,
+      "text": "The review documented various interventions including probiotic administration, antibiotic treatment, and fecal microbiota transplantation in these models.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 180,
+      "text": "Zebrafish have emerged as an alternative vertebrate model offering unique advantages including optical transparency, rapid development, and high-throughput screening capabilities.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 181,
+      "text": "Xu et al. investigated gut-brain axis dysfunction mediating neurotoxicity of embryonic p-phenylenediamine exposure in zebrafish [10].",
+      "citations": [
+        10
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "evidence_span": "Our findings demonstrate that embryonic PPD exposure induces neurotoxicity mediated through gut-brain axis disruption",
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 182,
+      "text": "The experimental model involved exposing zebrafish embryos to sublethal concentrations of three PPDs, with additional antibiotic metronidazole treatment to alleviate PPDs-induced effects.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 183,
+      "text": "The study demonstrated that embryonic PPD exposure led to impaired fish growth and distinct behavioral alterations including hyperactivity, aggression, social deficit, and loose shoaling behavior.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 184,
+      "text": "Nonhuman primates represent the most translationally relevant animal model due to their phylogenetic proximity to humans and complex social behaviors.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 185,
+      "text": "Hayer et al. established a novel nonhuman primate model using common marmosets to evaluate the impact of antibiotic-induced gut dysbiosis [11].",
+      "citations": [
+        11
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "evidence_span": "This study is a first attempt to establish common marmosets as a novel model to study the impact of severe gut dysbiosis on gut-brain axis cross-talk and behavior.",
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 186,
+      "text": "Researchers administered a custom antibiotic cocktail orally for 28 days to induce dysbiosis, studying gut-brain axis disruption, changes in gut metabolites, and behavioral and neuroendocrine alterations.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [
+        "28"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 187,
+      "text": "The study observed changes in behavior, stress reactivity, and neuroendocrine markers, with antibiotic-administered marmosets showing increased affiliative behavior and sociability as a potential coping mechanism.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 188,
+      "text": "Urinary cortisol levels increased after multiple stressors, providing evidence of disrupted gut-brain communication in a primate model.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 189,
+      "text": "While animal models have been essential for establishing mechanistic relationships, human clinical studies are critical for validating translational relevance and therapeutic potential [2], [15], [16], [25].",
+      "citations": [
+        2,
+        15,
+        16,
+        25
+      ],
+      "kind": "cited",
+      "verdict": "UNSUPPORTED",
+      "confidence": "low",
+      "evidence_span": "although further translational research is needed to define optimal therapeutic strategies and address individual variability",
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": [],
+      "verified_state": "unsupported",
+      "verified_panel": {
+        "supporter_verdict": "UNSUPPORTED",
+        "skeptic_verdict": "UNSUPPORTED"
+      }
+    },
+    {
+      "idx": 190,
+      "text": "Zhou et al. conducted analysis in both humans and mice to investigate the roles of gut microbiota in regulating tryptophan-derived neurotransmitters in adolescent depression [2].",
+      "citations": [
+        2
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "evidence_span": "roles of the gut microbiota in the regulation of tryptophan-derived neurotransmitters and behaviors in human and mice",
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 191,
+      "text": "This dual-species approach allowed the researchers to examine the beneficial effects along the gut-brain axis and observe metabolic pathway-derived neurotransmitters and behavioral changes, linking gut microbiota-tryptophan metabolism to depression-related behaviors in both mice and humans.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 192,
+      "text": "Wang et al. employed multi-omics approaches on stool samples from two distinct human cohorts comprising 203 children with mild ASD or typical development [15].",
+      "citations": [
+        15
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "evidence_span": "employing multi-omics approaches, we investigate stool samples from two distinct cohorts comprising 203 children with mild ASD or typical development",
+      "numbers": [
+        "203"
+      ],
+      "numbers_grounded": [
+        "203"
+      ],
+      "numbers_missing": []
+    },
+    {
+      "idx": 193,
+      "text": "This substantial sample size provided statistical power to identify gut microbial GABA imbalance as a metabolic signature in mild autism spectrum disorder linked to overrepresented *Escherichia*.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 194,
+      "text": "The study complemented human findings with animal model experiments, where weaning mice transplanted with *E. coli* exhibited social behavioral impairments.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 195,
+      "text": "Diotaiuti et al. conducted a comprehensive narrative review synthesizing peer-reviewed articles from PubMed, Scopus, and Web of Science up to August 2025 [16].",
+      "citations": [
+        16
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "evidence_span": "A comprehensive narrative review was conducted using peer-reviewed articles retrieved from PubMed, Scopus, and Web of Science up to August 2025.",
+      "numbers": [
+        "2025"
+      ],
+      "numbers_grounded": [
+        "2025"
+      ],
+      "numbers_missing": []
+    },
+    {
+      "idx": 196,
+      "text": "The review included studies exploring microbiota-related effects on behavior, mood, cognition, or decision-making, utilizing both human and animal models.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 197,
+      "text": "Emphasis was placed on molecular mechanisms, microbiome-targeted therapies like probiotics, prebiotics, psychobiotics, and fecal microbiota transplantation, and methodological advances including germ-free models.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 198,
+      "text": "Mohajeri et al.'s comprehensive review synthesized findings from in vitro, in vivo, and human studies [25].",
+      "citations": [
+        25
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "evidence_span": "In vitro, in vivo, and human studies reporting an association between a change in the gut microbiome and functional changes in the brain are highlighted",
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 199,
+      "text": "Human studies involved randomized, double-blind, placebo-controlled trials, often using probiotic supplements in healthy individuals or patients with conditions like depression or Alzheimer's.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 200,
+      "text": "This methodological rigor is essential for establishing clinical efficacy of microbiota-targeted interventions.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 201,
+      "text": "The translation from animal models to human clinical applications faces several challenges including species differences in microbiota composition, dietary variations, and the complexity of human behavior and psychiatric disorders.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 202,
+      "text": "Nevertheless, converging evidence from both animal and human studies strengthens confidence in the clinical relevance of microbiota-gut-brain axis interactions.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 203,
+      "text": "Germ-free animals and antibiotic-treated models represent powerful experimental approaches for establishing causal relationships between gut microbiota and behavioral outcomes [6], [11], [13], [16], [20], [24], [25], [26].",
+      "citations": [
+        6,
+        11,
+        13,
+        16,
+        20,
+        24,
+        25,
+        26
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "evidence_span": "Preclinical models using germ-free animals, faecal microbiota transplantation, and probiotic interventions demonstrate causal links between gut microbiota and behavioural or cognitive changes",
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 204,
+      "text": "Huang and Wu's review emphasized studies on germ-free rodents, antibiotic-treated animals, and probiotic usage, which strongly support the gut microbiota's indispensable role in the physiopathology of anxiety and depression [6].",
+      "citations": [
+        6
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "evidence_span": "we reviewed studies conducted on germ-free rodents, or in animals subjected to microbiota absence using antibiotics, as well as via the usage of probiotics. All the results strongly support that the brain neurotransmitter modulation by gut microbiota is indispensable to the physiopathology of anxiety and depression",
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 205,
+      "text": "The review focused on stress-related rodent models to investigate brain neurotransmitter modulation by gut microbiota, specifically examining studies conducted on germ-free rodents and animals subjected to microbiota absence using antibiotics.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 206,
+      "text": "Du et al. noted that germ-free mice lacking healthy microbiota exhibit different behaviors compared to control mice, providing direct evidence that the presence of gut microbiota is necessary for normal behavioral development [13].",
+      "citations": [
+        13
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "medium",
+      "evidence_span": "germ-free mice, lacking healthy microbiota, exhibit different behaviors compared to control mice",
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 207,
+      "text": "This approach definitively establishes that observed behavioral differences are attributable to microbiota rather than confounding factors.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 208,
+      "text": "Hayer et al. used antibiotic-induced gut dysbiosis in marmosets to establish a novel model for severe gut dysbiosis [11].",
+      "citations": [
+        11
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "evidence_span": "This study is a first attempt to establish common marmosets as a novel model to study the impact of severe gut dysbiosis on gut-brain axis cross-talk and behavior.",
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 209,
+      "text": "The administration of a custom antibiotic cocktail (vancomycin, enrofloxacin, and neomycin) for 28 days induced dysbiosis and led to altered gut metabolite profiles, including significant changes in concentrations of neurotransmitters like GABA and serotonin.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [
+        "28"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 210,
+      "text": "This approach allowed researchers to examine the consequences of microbiota depletion on gut-brain axis communication.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 211,
+      "text": "Bercik and Collins reviewed studies demonstrating that antibiotic-induced intestinal dysbiosis led to changes in behavior and brain chemistry [24].",
+      "citations": [
+        24
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "evidence_span": "Both animal and clinical studies have demonstrated changes in behavior and brain chemistry after induction of intestinal dysbiosis by administration of antibiotics.",
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 212,
+      "text": "Both animal and clinical studies investigated behavioral and brain chemistry changes following intestinal dysbiosis induced by antibiotics, providing evidence that microbiota alterations can drive behavioral changes.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 213,
+      "text": "Hou et al. highlighted that germ-free mouse models are particularly popular for gut microbiota research [26].",
+      "citations": [
+        26
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "evidence_span": "germ-free (GF) mouse models being popular for gut microbiota research",
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 214,
+      "text": "The review documented that GF mice exhibited altered gene expression in brain systems, providing mechanistic insight into how absence of microbiota affects neural development and function.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 215,
+      "text": "Diotaiuti et al.'s review emphasized methodological advances including germ-free models, which allow researchers to examine the effects of complete microbiota absence and subsequent colonization [16].",
+      "citations": [
+        16
+      ],
+      "kind": "cited",
+      "verdict": "UNSUPPORTED",
+      "confidence": "medium",
+      "evidence_span": "The review highlights methodological advances including germ-free models, metagenomic profiling, and neuroimaging studies that clarify causal pathways.",
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": [],
+      "verified_state": "supported",
+      "verified_panel": {
+        "supporter_verdict": "SUPPORTED",
+        "skeptic_verdict": "SUPPORTED"
+      }
+    },
+    {
+      "idx": 216,
+      "text": "Jain and Jain discussed preclinical models utilizing germ-free animals, fecal microbiota transplantation, and probiotic interventions to demonstrate causal links between gut microbiota and behavioral or cognitive changes [20].",
+      "citations": [
+        20
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "evidence_span": "Preclinical models using germ-free animals, faecal microbiota transplantation, and probiotic interventions demonstrate causal links between gut microbiota and behavioural or cognitive changes",
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 217,
+      "text": "Mohajeri et al. noted that animal models frequently include germ-free mice, often subjected to probiotic interventions, fecal transplantation, or antibiotic treatments to observe changes in brain function and behavior [25].",
+      "citations": [
+        25
+      ],
+      "kind": "cited",
+      "verdict": "UNSUPPORTED",
+      "confidence": "medium",
+      "evidence_span": "",
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": [],
+      "verified_state": "supported",
+      "verified_panel": {
+        "supporter_verdict": "SUPPORTED",
+        "skeptic_verdict": "SUPPORTED"
+      }
+    },
+    {
+      "idx": 218,
+      "text": "This experimental approach provides the strongest evidence for causal relationships between microbiota and behavioral outcomes.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 219,
+      "text": "Probiotics\u2014live microorganisms that confer health benefits when administered in adequate amounts\u2014and prebiotics\u2014non-digestible food components that selectively stimulate beneficial gut bacteria\u2014represent the most extensively studied microbiota-targeted interventions for modulating brain function and behavior [1], [3], [4], [6], [8], [9], [16], [20], [23], [25], [26], [27].",
+      "citations": [
+        1,
+        3,
+        4,
+        6,
+        8,
+        9,
+        16,
+        20,
+        23,
+        25,
+        26,
+        27
+      ],
+      "kind": "cited",
+      "verdict": "UNSUPPORTED",
+      "confidence": "medium",
+      "evidence_span": "",
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": [],
+      "verified_state": "unsupported",
+      "verified_panel": {
+        "supporter_verdict": "UNSUPPORTED",
+        "skeptic_verdict": "UNSUPPORTED"
+      }
+    },
+    {
+      "idx": 220,
+      "text": "Bravo et al.'s landmark study demonstrated that chronic treatment with *Lactobacillus rhamnosus* (JB-1) altered GABA receptor expression in various brain regions and reduced stress-induced corticosterone, anxiety-related behavior, and depression-related behavior in mice [8].",
+      "citations": [
+        8
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "evidence_span": "L. rhamnosus (JB-1) reduced stress-induced corticosterone and anxiety- and depression-related behavior",
+      "numbers": [
+        "1"
+      ],
+      "numbers_grounded": [
+        "1"
+      ],
+      "numbers_missing": []
+    },
+    {
+      "idx": 221,
+      "text": "This study established that specific probiotic strains can directly influence central neurotransmitter systems and emotional behavior through vagus nerve-mediated pathways.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 222,
+      "text": "Li et al. examined the effects of prebiotics and probiotics (*Bifidobacterium longum*, *L. rhamnosus*) in a chronic unpredictable mild stress rat model [9].",
+      "citations": [
+        9
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "evidence_span": "The four groups underwent the chronic unpredictable mild stress (CUMS) intervention with or without prebiotics and probiotics (Bifidobacterium longum, L. rhamnosus) treatment.",
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 223,
+      "text": "The interventions ameliorated CUMS-induced depressive-like behaviors and weight loss, while tending to reduce colonic 5-HT and increase 5-HT in the frontal cortex and hippocampus.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [
+        "5",
+        "5"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 224,
+      "text": "This differential effect on peripheral versus central serotonin demonstrates the sophisticated mechanisms by which microbiota modulation can influence neurochemical signaling.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 225,
+      "text": "Wang et al. demonstrated that probiotic interventions with *Lactobacillus plantarum* DP189 and galactooligosaccharides effectively mitigated microplastic-induced cognitive dysfunction and intestinal microbiota alteration [4].",
+      "citations": [
+        4
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "evidence_span": "the DP189&GOS interventions effectively mitigated the MPs-induced cognitive dysfunction and intestinal microbiota alteration",
+      "numbers": [
+        "189"
+      ],
+      "numbers_grounded": [
+        "189"
+      ],
+      "numbers_missing": []
+    },
+    {
+      "idx": 226,
+      "text": "The intervention led to a rebound in acetylcholine release, indicating that gut microbiota influences cholinergic signaling and cognitive function.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 227,
+      "text": "This work highlights the neuroprotective potential of probiotic interventions against environmental neurotoxicants.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 228,
+      "text": "Weber et al. documented that probiotic treatment in animal models led to increased circulation of endogenous oxytocin, a neuropeptide hormone relevant to sociability [1].",
+      "citations": [
+        1
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "evidence_span": "probiotic treatment, which leads to downstream increased circulation of endogenous oxytocin, a neuropeptide hormone relevant to sociability",
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 229,
+      "text": "This finding suggests that probiotics can modulate neuropeptide systems involved in social behavior, with potential therapeutic applications for neurodevelopmental and psychiatric diseases characterized by social deficits.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 230,
+      "text": "Lico's review of gut microbes and autism spectrum disorders documented that interventions with probiotics (e.g., *Lactobacillus reuteri*, *Bacteroides fragilis* BF839, *Bifidobacterium longum* NCC3001) and prebiotics improved social behaviors, reduced anxiety-like behaviors, and decreased repetitive stereotyped behaviors [3].",
+      "citations": [
+        3
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "evidence_span": "Studies reported improved social behaviors, reduced anxiety-like behaviors, and decreased repetitive stereotyped behaviors.",
+      "numbers": [
+        "839",
+        "3001"
+      ],
+      "numbers_grounded": [
+        "839",
+        "3001"
+      ],
+      "numbers_missing": []
+    },
+    {
+      "idx": 231,
+      "text": "Some interventions restored neural activity and improved neurological symptoms, supporting the therapeutic potential of microbiota modulation in ASD.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 232,
+      "text": "Huang and Wu's review emphasized that studies on probiotic usage strongly support the gut microbiota's indispensable role in the physiopathology of anxiety and depression [6].",
+      "citations": [
+        6
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "evidence_span": "as well as via the usage of probiotics. All the results strongly support that the brain neurotransmitter modulation by gut microbiota is indispensable to the physiopathology of anxiety and depression",
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 233,
+      "text": "The review highlighted how gut microbiota provide a novel way to alter neurotransmitter modulation in the brain and treat gut-brain axis diseases.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 234,
+      "text": "Hou et al. documented that *Lactobacillus rhamnosus* ingestion regulated emotional behavior and that mice with social deficits improved with *Lactobacillus reuteri* treatment [26].",
+      "citations": [
+        26
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "evidence_span": "Lactobacillus rhamnosus ingestion regulated emotional behavior. Rats with acute indole overproduction showed decreased motor activity, while chronic indole increase showed enhanced anxiety-like behavior. Mice with social deficits improved with Lactobacillus reuteri.",
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 235,
+      "text": "The review also noted that autistic children showed decreased behavioral ASD scoring following microbiota interventions, supporting clinical translation.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 236,
+      "text": "Xu et al. noted that probiotics potentially delay aging-related cognitive deficits, suggesting therapeutic applications for age-related cognitive decline [27].",
+      "citations": [
+        27
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "evidence_span": "changes in gut microbiota have been linked to cognitive impairment, with probiotics potentially delaying aging-related cognitive deficits",
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 237,
+      "text": "Mohajeri et al.'s comprehensive review documented that human studies involved randomized, double-blind, placebo-controlled trials using probiotic supplements in healthy individuals or patients with conditions like depression or Alzheimer's [25].",
+      "citations": [
+        25
+      ],
+      "kind": "cited",
+      "verdict": "UNSUPPORTED",
+      "confidence": "medium",
+      "evidence_span": "In vitro, in vivo, and human studies reporting an association between a change in the gut microbiome and functional changes in the brain are highlighted",
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": [],
+      "verified_state": "supported",
+      "verified_panel": {
+        "supporter_verdict": "SUPPORTED",
+        "skeptic_verdict": "SUPPORTED"
+      }
+    },
+    {
+      "idx": 238,
+      "text": "Bhatia et al.'s review covered the effects of probiotics and prebiotics on neurological disorders, including clinical studies for each [23].",
+      "citations": [
+        23
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "evidence_span": "The effects of probiotics, and prebiotics on neurological disorders are also discussed, along with the clinical studies for each of them.",
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 239,
+      "text": "Jain and Jain discussed clinical studies highlighting the therapeutic potential of psychobiotics, prebiotics, synbiotics, and diet-based strategies [20].",
+      "citations": [
+        20
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "evidence_span": "clinical studies increasingly highlight the therapeutic potential of psychobiotics, prebiotics, synbiotics, and diet-based strategies",
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 240,
+      "text": "Diotaiuti et al.'s review found that interventions like probiotics showed promise in modulating mood, cognition, and decision-making outcomes [16].",
+      "citations": [
+        16
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "evidence_span": "interventions such as probiotics, prebiotics, psychobiotics, and fecal microbiota transplantation (FMT) have shown promise in modulating these outcomes",
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 241,
+      "text": "Fecal microbiota transplantation (FMT)\u2014the transfer of fecal material from a healthy donor to a recipient\u2014represents a more comprehensive approach to microbiota modulation, introducing entire microbial communities rather than single strains [3], [16], [20], [26].",
+      "citations": [
+        3,
+        16,
+        20,
+        26
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "medium",
+      "evidence_span": "FMT, which involves transplanting gut microbes from healthy individuals into ASD patients, has demonstrated significant improvements in both gut and behavioral symptoms",
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 242,
+      "text": "Lico's review documented that fecal microbiota transplantation in ASD patients demonstrated significant improvements in both gut and behavioral symptoms [3].",
+      "citations": [
+        3
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "evidence_span": "FMT, which involves transplanting gut microbes from healthy individuals into ASD patients, has demonstrated significant improvements in both gut and behavioral symptoms in several studies",
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 243,
+      "text": "The review noted that FMT, which involves transplanting gut microbes from healthy individuals into ASD patients, showed promise as a therapeutic intervention.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 244,
+      "text": "Hou et al. noted that FMT trials have a high response rate for recurrent *Clostridium difficile* infection, and the technique is being explored for neuropsychiatric applications [26].",
+      "citations": [
+        26
+      ],
+      "kind": "cited",
+      "verdict": "UNSUPPORTED",
+      "confidence": "medium",
+      "evidence_span": "with FMT trials having a high response rate for recurrent *Clostridium difficile* infection",
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": [],
+      "verified_state": "supported",
+      "verified_panel": {
+        "supporter_verdict": "SUPPORTED",
+        "skeptic_verdict": "SUPPORTED"
+      }
+    },
+    {
+      "idx": 245,
+      "text": "The review discussed various study designs including human microbiota transplantation models used to investigate behavioral and physiological changes.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 246,
+      "text": "Diotaiuti et al.'s review emphasized microbiome-targeted therapies including fecal microbiota transplantation, finding that FMT showed promise in modulating mood, cognition, and decision-making outcomes [16].",
+      "citations": [
+        16
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "evidence_span": "interventions such as probiotics, prebiotics, psychobiotics, and fecal microbiota transplantation (FMT) have shown promise in modulating these outcomes",
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 247,
+      "text": "The review noted that dysbiosis was associated with impaired neuroplasticity, altered stress responses, and disturbances in mood and cognition, which could potentially be addressed through FMT.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 248,
+      "text": "Jain and Jain discussed preclinical models utilizing fecal microbiota transplantation to demonstrate causal links between gut microbiota and behavioral or cognitive changes [20].",
+      "citations": [
+        20
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "evidence_span": "Preclinical models using germ-free animals, faecal microbiota transplantation, and probiotic interventions demonstrate causal links between gut microbiota and behavioural or cognitive changes",
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 249,
+      "text": "The review highlighted the therapeutic potential of FMT alongside other microbiota-targeted interventions.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 250,
+      "text": "While FMT shows promise, several challenges remain including standardization of donor selection, preparation protocols, administration routes, and long-term safety monitoring.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 251,
+      "text": "The technique's invasiveness and potential risks also limit its application compared to probiotic interventions, suggesting that FMT may be most appropriate for severe or treatment-resistant cases.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 252,
+      "text": "Dietary interventions represent a non-invasive approach to modulating gut microbiota composition and function, with accumulating evidence supporting the role of diet in influencing the microbiota-gut-brain axis [3], [20], [25].",
+      "citations": [
+        3,
+        20,
+        25
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "medium",
+      "evidence_span": "clinical studies increasingly highlight the therapeutic potential of psychobiotics, prebiotics, synbiotics, and diet-based strategies",
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 253,
+      "text": "Lico's review noted that dietary modifications including gluten-free, casein-free, and high-fiber diets were investigated in ASD research [3].",
+      "citations": [
+        3
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "evidence_span": "dietary modifications (e.g., gluten-free, casein-free, high-fiber diets) are also covered",
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 254,
+      "text": "These dietary interventions can alter gut microbiota composition and metabolic activity, potentially influencing neurochemical signaling and behavioral outcomes.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 255,
+      "text": "Mohajeri et al. emphasized that tryptophan metabolism, a precursor to serotonin, links diet, microbiome, neurotransmission, and behavioral changes [25].",
+      "citations": [
+        25
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "evidence_span": "It affects tryptophan metabolism, a precursor to serotonin, thereby linking diet, microbiome, neurotransmission, and behavioral changes.",
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 256,
+      "text": "This connection highlights how dietary intake of specific amino acids can influence neurotransmitter synthesis through microbiota-mediated pathways.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 257,
+      "text": "Jain and Jain discussed diet-based strategies as part of the therapeutic potential for modulating the microbiota-gut-brain axis [20].",
+      "citations": [
+        20
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "evidence_span": "clinical studies increasingly highlight the therapeutic potential of psychobiotics, prebiotics, synbiotics, and diet-based strategies",
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 258,
+      "text": "The review emphasized that dietary interventions can influence microbial-derived metabolites including short-chain fatty acids, bile acids, and indoles, which exert neuroactive effects.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 259,
+      "text": "The advantage of dietary interventions lies in their accessibility, safety, and potential for long-term adherence.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 260,
+      "text": "However, individual variability in microbiota composition and dietary response presents challenges for developing standardized dietary recommendations.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 261,
+      "text": "Personalized nutrition approaches based on individual microbiota profiles may represent a future direction for optimizing dietary modulation of the gut-brain axis.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 262,
+      "text": "The microbiota-gut-brain axis operates through multiple interconnected pathways that function in parallel and interact synergistically to influence brain function and behavior [17], [18], [19], [20], [21], [25], [28], [30].",
+      "citations": [
+        17,
+        18,
+        19,
+        20,
+        21,
+        25,
+        28,
+        30
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "medium",
+      "evidence_span": "This bidirectional network integrates neural pathways, endocrine signalling, immune mechanisms, and microbial metabolites, enabling dynamic communication between the gut and brain.",
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 263,
+      "text": "Shin and Kim's review of pathophysiological mechanisms in neuropsychiatric disorders indicated that bidirectional communication between the gut and the brain involves immunological, metabolic, and endocrine systems, regulated by microbes through microbiota-derived neurochemicals and metabolites [17].",
+      "citations": [
+        17
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "evidence_span": "The immunological, metabolic, and endocrine systems are involved in bidirectional communication between the gut and the brain, which is regulated by microbes through the microbiota-derived neurochemicals and metabolites.",
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 264,
+      "text": "The review highlighted that gut microbiota have effects on neurodevelopment and immunity maturation, with gut dysbiosis leading to neuropsychiatric disorders through various mechanisms.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 265,
+      "text": "Salam and Salam's review emphasized that the microbiota-gut-brain axis involves neural pathways including the vagus and enteric nervous system, immune modulation, and neuroendocrine and circulatory systems [18].",
+      "citations": [
+        18
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "evidence_span": "neural pathways involving vagus and enteric nervous system (ENS), immune modulation, neuroendocrine and circulatory systems",
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 266,
+      "text": "These systems communicate via the production of cytokines, neuroactive substances, metabolites, and hormones.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 267,
+      "text": "Gut microbiota dysbiosis is linked to neuropsychiatric and metabolic conditions, suggesting their influence on these signaling mechanisms.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 268,
+      "text": "Lee et al.'s IUPHAR review discussed bidirectional communication between the gut and the brain through neuronal, endocrine, immunological, and chemical pathways [19].",
+      "citations": [
+        19
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "evidence_span": "Research has consistently shown bidirectional communication between the gut and the brain through neuronal, endocrine, and immunological, and chemical pathways.",
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 269,
+      "text": "The review linked changes in the microbiome and microbial metabolites to various neuropsychiatric disorders, emphasizing the complexity of gut-brain communication.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 270,
+      "text": "Jain and Jain elaborated that the gut microbiota influences neurochemical pathways by impacting neurotransmitter synthesis and tryptophan metabolism [20].",
+      "citations": [
+        20
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "evidence_span": "microbial alterations influence neurodevelopment, neurotransmitter synthesis, tryptophan metabolism",
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 271,
+      "text": "Microbial alterations also affect neurodevelopment, neuroinflammation, and the integrity of the blood-brain and intestinal barriers.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 272,
+      "text": "Furthermore, microbial-derived short-chain fatty acids, bile acids, and indoles exert neuroactive effects, modulating synaptic plasticity and immune responses.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 273,
+      "text": "Ignatova's review highlighted that the gut microbiota influences the synthesis and recognition of neurotransmitters and regulates neurogenesis [21].",
+      "citations": [
+        21
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "evidence_span": "modulates the synthesis and recognition of neurotransmitters, regulates neurogenesis",
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 274,
+      "text": "It also impacts the development and maturation of the hypothalamic-pituitary-adrenal axis and affects immune system function.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 275,
+      "text": "These mechanisms contribute to the gut-brain axis, and disruptions are linked to alterations in stress response and neuropsychiatric conditions.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 276,
+      "text": "Mohajeri et al. provided an integrative perspective noting that gut microbiota influence tryptophan metabolism, a precursor to serotonin, thereby linking diet, microbiome, neurotransmission, and behavioral changes [25].",
+      "citations": [
+        25
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "evidence_span": "It affects tryptophan metabolism, a precursor to serotonin, thereby linking diet, microbiome, neurotransmission, and behavioral changes.",
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 277,
+      "text": "Probiotic strains can produce neurotransmitters like GABA, acetylcholine, and serotonin, directly influencing brain excitability.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 278,
+      "text": "Short-chain fatty acids impact the blood-brain barrier and can facilitate neuronal plasticity and memory formation.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 279,
+      "text": "The vagus nerve serves as a major communication route, mediating effects on GABA receptor expression and stress responses.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 280,
+      "text": "Ntranos et al. discussed the microbiome-gut-behavior axis, emphasizing crosstalk between the gut microbiome and oligodendrocytes [28].",
+      "citations": [
+        28
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "evidence_span": "crosstalk between the gut microbiome and oligodendrocytes modulates behavioral responses",
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 281,
+      "text": "This intricate network involves dynamic and bidirectional signaling pathways, with the gut microbiome's crosstalk with oligodendrocytes modulating behavioral responses through neurotransmitter-mediated signaling, linking these mechanisms to changes in cognition, mood, and motor behavior.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 282,
+      "text": "Vuong et al.'s comprehensive review discussed the gut microbiota's influence on host neurophysiology, including neurochemical metabolism across regions like the amygdala, hippocampus, frontal cortex, and hypothalamus [30].",
+      "citations": [
+        30
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "evidence_span": "We summarize effects of the microbiota on host neurophysiology, including brain microstructure, gene expression, and neurochemical metabolism across regions of the amygdala, hippocampus, frontal cortex, and hypothalamus.",
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 283,
+      "text": "The review broadly covered how microbiota modulate brain microstructure, gene expression, and neurochemical metabolism, linking these to social, stressor-induced, and learning/memory behaviors.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 284,
+      "text": "This integrative perspective reveals that the microbiota-gut-brain axis is not a single pathway but rather a complex network of interconnected mechanisms.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 285,
+      "text": "Neural, endocrine, immune, and metabolic pathways operate in parallel and interact synergistically, with redundancy providing robustness to the system.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 286,
+      "text": "Understanding these interactions is essential for developing effective therapeutic interventions targeting the gut-brain axis.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 287,
+      "text": "While the evidence for microbiota-gut-brain axis interactions is substantial, several important limitations and methodological challenges must be acknowledged [16], [17], [19], [20], [24], [25].",
+      "citations": [
+        16,
+        17,
+        19,
+        20,
+        24,
+        25
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "evidence_span": "Despite these advances, translation into clinical practice is limited by methodological heterogeneity, interindividual variability, and the challenge of distinguishing causation from correlation.",
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 288,
+      "text": "A primary limitation concerns the translation of findings from animal models to human applications.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 289,
+      "text": "Bercik and Collins noted that animal studies demonstrated anxiety-like behavior and gut function changes, while clinical studies observed malnutrition, stunting, and impaired cognitive function due to chronic gastrointestinal infections [24].",
+      "citations": [
+        24
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "evidence_span": "Clinical studies have shown that chronic gastrointestinal infections lead to malnutrition and stunting, resulting in impaired cognitive function.",
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 290,
+      "text": "However, the specific mechanisms and behavioral manifestations differ between species, complicating direct translation.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 291,
+      "text": "Shin and Kim's review noted that while a recent meta-analysis of clinical studies confirmed gut dysbiosis in several major neuropsychiatric disorders, and meta-analyses confirmed the effectiveness of microbiota-targeted interventions, the work synthesizes existing research rather than presenting new experimental data [17].",
+      "citations": [
+        17
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "evidence_span": "Recent meta-analysis on clinical studies confirmed gut dysbiosis in several major neuropsychiatric disorders. Microbiota-targeted intervention has recently been in the spotlight and meta-analyses have confirmed its effectiveness. In this chapter, we summarize the evidence",
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 292,
+      "text": "This highlights the need for more primary clinical research with rigorous methodological standards.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 293,
+      "text": "Lee et al. emphasized that ongoing research aims to elucidate causal relationships through large cohort studies incorporating microbiome data and advanced statistical techniques [19].",
+      "citations": [
+        19
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "evidence_span": "The causal relationship between gut microbiota and neuropsychiatric disorders is being elucidated through the establishment of large cohort studies incorporating microbiome data and advanced statistical techniques.",
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 294,
+      "text": "The review noted that while research links changes in the gut microbiome to various neuropsychiatric disorders including autism, depression, anxiety, schizophrenia, eating disorders, and neurocognitive disorders, establishing causality remains challenging.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 295,
+      "text": "Jain and Jain noted that preclinical models demonstrate causal links between gut microbiota and behavioral or cognitive changes, but the specific direction of these changes is not always detailed [20].",
+      "citations": [
+        20
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "medium",
+      "evidence_span": "Preclinical models using germ-free animals, faecal microbiota transplantation, and probiotic interventions demonstrate causal links between gut microbiota and behavioural or cognitive changes",
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 296,
+      "text": "The review indicated that microbial alterations influence neurodevelopment, neurotransmitter synthesis, neuroinflammation, and barrier integrity, which contribute to psychiatric and neurological disorders, but mechanistic details require further investigation.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 297,
+      "text": "Mohajeri et al.'s review synthesized findings from diverse study designs including in vitro, in vivo, and human studies [25].",
+      "citations": [
+        25
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "evidence_span": "In vitro, in vivo, and human studies reporting an association between a change in the gut microbiome and functional changes in the brain are highlighted",
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 298,
+      "text": "However, the heterogeneity in methodologies, probiotic strains, dosages, and outcome measures complicates meta-analysis and the development of standardized treatment protocols.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 299,
+      "text": "Diotaiuti et al.'s comprehensive review noted that while dysbiosis was associated with impaired neuroplasticity, altered stress responses, and disturbances in mood and cognition, and interventions like probiotics and FMT showed promise, additional research is needed to establish optimal intervention protocols [16].",
+      "citations": [
+        16
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "evidence_span": "Microbiome-based interventions represent a promising frontier in neuropsychiatric care, although further translational research is needed to define optimal therapeutic strategies and address individual variability.",
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 300,
+      "text": "1. **Microbiota complexity**: The gut microbiome comprises hundreds of species with complex interactions, making it difficult to isolate the effects of individual species or strains.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [
+        "1"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 301,
+      "text": "2. **Individual variability**: Substantial inter-individual variation in baseline microbiota composition affects response to interventions.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [
+        "2"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 302,
+      "text": "3. **Temporal dynamics**: Microbiota composition changes over time in response to diet, medications, and environmental factors, complicating longitudinal studies.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [
+        "3"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 303,
+      "text": "4. **Mechanistic uncertainty**: While associations between microbiota alterations and behavioral outcomes are well-established, the precise molecular mechanisms remain incompletely understood in many cases.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [
+        "4"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 304,
+      "text": "5. **Publication bias**: Positive findings are more likely to be published than null results, potentially overestimating effect sizes.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [
+        "5"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 305,
+      "text": "6. **Standardization challenges**: Lack of standardized protocols for microbiota analysis, probiotic preparation, and outcome assessment limits comparability across studies.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [
+        "6"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 306,
+      "text": "These limitations underscore the need for rigorous, well-controlled clinical trials with standardized methodologies, larger sample sizes, and longer follow-up periods to establish the clinical efficacy and safety of microbiota-targeted interventions for neuropsychiatric disorders.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 307,
+      "text": "The rapidly evolving field of microbiota-gut-brain axis research presents numerous opportunities for advancing our understanding of brain-behavior relationships and developing novel therapeutic approaches [16], [17], [19], [20], [29].",
+      "citations": [
+        16,
+        17,
+        19,
+        20,
+        29
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "medium",
+      "evidence_span": "Ongoing animal and human studies focused on the microbiota-gut-brain axis are promising for developing new prevention and treatment strategies for neuropsychiatric conditions.",
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 308,
+      "text": "Lee et al. emphasized that ongoing animal and human studies focused on the microbiota-gut-brain axis include large cohort studies incorporating microbiome data and advanced statistical techniques to elucidate causal relationships [19].",
+      "citations": [
+        19
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "evidence_span": "The causal relationship between gut microbiota and neuropsychiatric disorders is being elucidated through the establishment of large cohort studies incorporating microbiome data and advanced statistical techniques. Ongoing animal and human studies focused on the microbiota-gut-brain axis",
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 309,
+      "text": "The scope of these studies includes microbiome-modulating therapies like prebiotics, probiotics, synbiotics, postbiotics, and fecal microbiota transplantation.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 310,
+      "text": "Novel metagenome-wide association studies confirm microbiome variations in large samples, providing a foundation for future research.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 311,
+      "text": "Jain and Jain noted that preclinical models utilizing germ-free animals, fecal microbiota transplantation, and probiotic interventions demonstrate causal links between gut microbiota and behavioral or cognitive changes [20].",
+      "citations": [
+        20
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "evidence_span": "Preclinical models using germ-free animals, faecal microbiota transplantation, and probiotic interventions demonstrate causal links between gut microbiota and behavioural or cognitive changes",
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 312,
+      "text": "Clinical studies highlight the therapeutic potential of psychobiotics, prebiotics, synbiotics, and diet-based strategies.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 313,
+      "text": "Future research should focus on translating these preclinical findings to clinical applications.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 314,
+      "text": "Shin and Kim's review indicated that ongoing research aims to develop microbiota-targeted interventions for neuropsychiatric disorders [17].",
+      "citations": [
+        17
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "medium",
+      "evidence_span": "Microbiota-targeted intervention has recently been in the spotlight and meta-analyses have confirmed its effectiveness.",
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 315,
+      "text": "Meta-analyses have confirmed the effectiveness of such interventions, but optimization of treatment protocols, identification of responder characteristics, and long-term safety monitoring remain priorities.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 316,
+      "text": "Diotaiuti et al.'s review emphasized methodological advances including germ-free models and multi-omics approaches [16].",
+      "citations": [
+        16
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "evidence_span": "The review highlights methodological advances including germ-free models, metagenomic profiling, and neuroimaging studies",
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 317,
+      "text": "Future research should integrate genomics, metabolomics, and proteomics to comprehensively characterize microbiota-host interactions and identify biomarkers for treatment response.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 318,
+      "text": "Dinan and Cryan noted that manipulating the gut microbiota with psychobiotics, prebiotics, or antibiotics offers a novel approach to altering brain function and treating gut-brain axis disorders such as depression and autism [29].",
+      "citations": [
+        29
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "evidence_span": "Manipulating the gut microbiota with psychobiotics, prebiotics, or even antibiotics offers a novel approach to altering brain function and treating gut-brain axis disorders, such as depression and autism.",
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 319,
+      "text": "Future therapeutic development should focus on identifying specific bacterial strains or consortia with defined mechanisms of action.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 320,
+      "text": "1. **Personalized microbiome medicine**: Developing individualized interventions based on baseline microbiota composition, genetic factors, and metabolic profiles.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [
+        "1"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 321,
+      "text": "2. **Mechanistic studies**: Elucidating the precise molecular mechanisms by which specific bacterial species or metabolites influence neurotransmitter systems and behavior.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [
+        "2"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 322,
+      "text": "3. **Biomarker development**: Identifying microbiota-derived biomarkers for diagnosis, prognosis, and treatment monitoring in neuropsychiatric disorders.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [
+        "3"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 323,
+      "text": "4. **Combination therapies**: Investigating synergistic effects of microbiota-targeted interventions combined with conventional pharmacological or psychological treatments.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [
+        "4"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 324,
+      "text": "5. **Lifespan considerations**: Examining critical developmental windows for microbiota-brain interactions and age-specific intervention strategies.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [
+        "5"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 325,
+      "text": "6. **Environmental factors**: Understanding how diet, stress, medications, and other environmental factors modulate microbiota-gut-brain axis function.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [
+        "6"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 326,
+      "text": "7. **Standardization efforts**: Developing consensus protocols for microbiota analysis, intervention preparation, and outcome assessment to facilitate cross-study comparisons.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [
+        "7"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 327,
+      "text": "8. **Long-term safety**: Conducting extended follow-up studies to assess the long-term safety and durability of microbiota-targeted interventions.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [
+        "8"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 328,
+      "text": "9. **Translational research**: Bridging the gap between preclinical findings and clinical applications through well-designed translational studies.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [
+        "9"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 329,
+      "text": "10. **Multi-site collaborations**: Establishing large-scale collaborative networks to conduct adequately powered clinical trials with diverse populations.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [
+        "10"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 330,
+      "text": "The clinical implications of microbiota-gut-brain axis research are substantial.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 331,
+      "text": "Microbiota-targeted interventions offer potential advantages over conventional psychopharmacological treatments including fewer side effects, multi-target mechanisms, and the possibility of addressing root causes rather than merely managing symptoms.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 332,
+      "text": "However, realizing this therapeutic potential requires continued rigorous research to establish efficacy, optimize protocols, and identify appropriate patient populations.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 333,
+      "text": "The microbiota-gut-brain axis represents a fundamental biological system linking gastrointestinal microbiota with central nervous system function through multiple interconnected neurochemical signaling pathways.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 334,
+      "text": "This comprehensive analysis of 94 studies, with detailed examination of the 30 most relevant investigations, establishes that gut microbiota significantly influence key neurotransmitter systems including serotonin, GABA, glutamate, and dopamine, as well as neuropeptides such as oxytocin.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [
+        "94",
+        "30"
+      ],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 335,
+      "text": "These neurochemical alterations are mediated through diverse mechanisms including vagus nerve signaling, short-chain fatty acid production, tryptophan metabolism, and immune modulation [1], [2], [3], [5], [6], [7], [8], [9], [15], [25].",
+      "citations": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        8,
+        9,
+        15,
+        25
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "evidence_span": "There is a bidirectional connection between the gut and brain called the gut-brain-axis, and these connections are formed through immunological, neuronal, and neuroendocrine pathways.",
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 336,
+      "text": "The behavioral consequences of microbiota-gut-brain axis dysfunction are substantial and clinically significant.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 337,
+      "text": "Converging evidence from animal models and human studies demonstrates that gut dysbiosis is associated with mood disorders including depression and anxiety, social behavior deficits characteristic of autism spectrum disorder, cognitive impairments affecting learning and memory, and altered stress responses involving HPA axis dysregulation [2], [3], [5], [8], [9], [11], [12], [14], [15], [16], [24], [25], [27].",
+      "citations": [
+        2,
+        3,
+        5,
+        8,
+        9,
+        11,
+        12,
+        14,
+        15,
+        16,
+        24,
+        25,
+        27
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "evidence_span": "Dysbiosis has been associated with neuropsychiatric disorders such as depression, anxiety, impulsivity, cognitive decline, and addiction.",
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 338,
+      "text": "These associations are not merely correlative; mechanistic studies employing germ-free animals, antibiotic-induced dysbiosis, and targeted interventions establish causal relationships between microbiota alterations and behavioral outcomes [6], [8], [11], [13], [20], [24], [26].",
+      "citations": [
+        6,
+        8,
+        11,
+        13,
+        20,
+        24,
+        26
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "evidence_span": "Preclinical models using germ-free animals, faecal microbiota transplantation, and probiotic interventions demonstrate causal links between gut microbiota and behavioural or cognitive changes",
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 339,
+      "text": "Microbiota-targeted interventions\u2014including probiotics, prebiotics, and fecal microbiota transplantation\u2014demonstrate therapeutic potential for modulating brain function and ameliorating behavioral symptoms across multiple neuropsychiatric disorders [1], [3], [4], [8], [9], [16], [20], [23], [25], [26].",
+      "citations": [
+        1,
+        3,
+        4,
+        8,
+        9,
+        16,
+        20,
+        23,
+        25,
+        26
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "evidence_span": "Specific microbial taxa, dietary patterns, and interventions such as probiotics, prebiotics, psychobiotics, and fecal microbiota transplantation (FMT) have shown promise in modulating these outcomes.",
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 340,
+      "text": "Specific probiotic strains such as *Lactobacillus rhamnosus*, *Lactobacillus plantarum*, *Bifidobacterium longum*, and *Lactobacillus reuteri* have shown efficacy in preclinical models and preliminary clinical studies, supporting the concept of \"psychobiotics\" as a novel therapeutic class.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 341,
+      "text": "The integrative perspective emerging from this analysis reveals that the microbiota-gut-brain axis operates through parallel and synergistic pathways involving neural, endocrine, immune, and metabolic mechanisms [17], [18], [19], [20], [21], [25], [28], [30].",
+      "citations": [
+        17,
+        18,
+        19,
+        20,
+        21,
+        25,
+        28,
+        30
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "evidence_span": "This bidirectional network integrates neural pathways, endocrine signalling, immune mechanisms, and microbial metabolites, enabling dynamic communication between the gut and brain.",
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 342,
+      "text": "This complexity provides both challenges and opportunities: while it complicates mechanistic understanding and therapeutic targeting, it also offers multiple intervention points and the potential for multi-target effects that may be more effective than single-mechanism approaches.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 343,
+      "text": "Critical evaluation reveals important limitations including challenges in translating animal findings to humans, substantial inter-individual variability in microbiota composition and intervention response, and the need for standardized methodologies and larger clinical trials [16], [17], [19], [20], [24], [25].",
+      "citations": [
+        16,
+        17,
+        19,
+        20,
+        24,
+        25
+      ],
+      "kind": "cited",
+      "verdict": "SUPPORTED",
+      "confidence": "high",
+      "evidence_span": "translation into clinical practice is limited by methodological heterogeneity, interindividual variability, and the challenge of distinguishing causation from correlation",
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 344,
+      "text": "Nevertheless, the convergence of evidence across diverse experimental systems, study designs, and research groups provides strong support for the clinical relevance of microbiota-gut-brain axis interactions.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 345,
+      "text": "Future research priorities include elucidating precise molecular mechanisms, developing personalized microbiome-based interventions, identifying biomarkers for treatment response, and conducting rigorous clinical trials to establish efficacy and safety [16], [17], [19], [20], [29].",
+      "citations": [
+        16,
+        17,
+        19,
+        20,
+        29
+      ],
+      "kind": "cited",
+      "verdict": "UNSUPPORTED",
+      "confidence": "medium",
+      "evidence_span": "further translational research is needed to define optimal therapeutic strategies and address individual variability",
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": [],
+      "verified_state": "unsupported",
+      "verified_panel": {
+        "supporter_verdict": "UNSUPPORTED",
+        "skeptic_verdict": "UNSUPPORTED"
+      }
+    },
+    {
+      "idx": 346,
+      "text": "The integration of multi-omics approaches, advanced computational methods, and large-scale collaborative studies will be essential for advancing the field from mechanistic understanding to clinical application.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 347,
+      "text": "The microbiota-gut-brain axis represents a paradigm shift in neuroscience and psychiatry, expanding our understanding of the biological basis of behavior and mental health beyond the confines of the central nervous system.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 348,
+      "text": "By recognizing the gut microbiome as an integral component of the extended nervous system, we open new avenues for preventing and treating neuropsychiatric disorders through modulation of this accessible and malleable biological system.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    },
+    {
+      "idx": 349,
+      "text": "As research continues to elucidate the mechanisms and optimize interventions, microbiota-targeted therapeutics hold promise for improving outcomes for millions of individuals affected by disorders of mood, cognition, and behavior.",
+      "citations": [],
+      "kind": "uncited",
+      "verdict": null,
+      "confidence": null,
+      "evidence_span": null,
+      "numbers": [],
+      "numbers_grounded": [],
+      "numbers_missing": []
+    }
+  ]
+}

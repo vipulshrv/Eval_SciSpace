@@ -1,0 +1,63 @@
+{
+  "summary": {
+    "step": "3_criteria_identification",
+    "query_dimensions": 3,
+    "dimensions_covered": 3,
+    "coverage_rate": 1.0,
+    "uncovered_dimensions": [],
+    "columns_total": 3,
+    "spurious_columns": [],
+    "spurious_count": 0
+  },
+  "detail": {
+    "requested_dimensions": [
+      {
+        "dimension": "percent body-weight reduction",
+        "covered_by_column": "Weight Loss Outcomes",
+        "covered": true
+      },
+      {
+        "dimension": "cardiovascular outcomes",
+        "covered_by_column": "Cardiovascular Outcomes",
+        "covered": true
+      },
+      {
+        "dimension": "adverse-event rates",
+        "covered_by_column": "Adverse Events",
+        "covered": true
+      }
+    ],
+    "columns": [
+      {
+        "column": "Weight Loss Outcomes",
+        "grounded_in_query": true,
+        "rationale": "Directly operationalizes the requested percent body-weight reduction comparison."
+      },
+      {
+        "column": "Cardiovascular Outcomes",
+        "grounded_in_query": true,
+        "rationale": "Explicitly requested in the query."
+      },
+      {
+        "column": "Adverse Events",
+        "grounded_in_query": true,
+        "rationale": "Directly maps to the requested adverse-event rates."
+      }
+    ]
+  },
+  "usage": {
+    "model": "claude-opus-4-8",
+    "judge_calls": 1,
+    "input_tokens": 789,
+    "output_tokens": 291,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cost_usd": {
+      "input": 0.0039,
+      "output": 0.0073,
+      "cache_read": 0.0,
+      "cache_write": 0.0,
+      "total": 0.0112
+    }
+  }
+}

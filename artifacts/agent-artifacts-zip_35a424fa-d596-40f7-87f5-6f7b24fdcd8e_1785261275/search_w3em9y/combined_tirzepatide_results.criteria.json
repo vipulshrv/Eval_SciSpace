@@ -1,0 +1,33 @@
+{
+    "query": "tirzepatide weight loss cardiovascular outcomes adverse events clinical trials SURMOUNT",
+    "criteria": {
+        "required_relevance_criteria": [
+            {
+                "name": "Tirzepatide",
+                "description": "The paper must discuss tirzepatide.",
+                "weight": 0.2
+            },
+            {
+                "name": "Weight loss",
+                "description": "The paper must discuss weight loss in the context of tirzepatide treatment.",
+                "weight": 0.2
+            },
+            {
+                "name": "Cardiovascular outcomes",
+                "description": "The paper must discuss cardiovascular outcomes in the context of tirzepatide treatment.",
+                "weight": 0.2
+            },
+            {
+                "name": "Adverse events",
+                "description": "The paper must discuss adverse events associated with tirzepatide treatment.",
+                "weight": 0.2
+            },
+            {
+                "name": "Clinical trials / SURMOUNT",
+                "description": "The paper must discuss clinical trials of tirzepatide, specifically including or referring to the SURMOUNT trials.",
+                "weight": 0.2
+            }
+        ],
+        "nice_to_have_relevance_criteria": null
+    }
+}

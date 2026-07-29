@@ -1,0 +1,29 @@
+{
+    "query": "semaglutide weight loss percent body weight reduction clinical trials",
+    "criteria": {
+        "required_relevance_criteria": [
+            {
+                "name": "Semaglutide",
+                "description": "The paper must discuss semaglutide.",
+                "weight": 0.3
+            },
+            {
+                "name": "Weight Loss/Body Weight Reduction",
+                "description": "The paper must discuss weight loss or the reduction of body weight in relation to semaglutide.",
+                "weight": 0.4
+            },
+            {
+                "name": "Clinical Trials",
+                "description": "The paper must be based on or discuss results from clinical trials regarding semaglutide and weight loss.",
+                "weight": 0.3
+            }
+        ],
+        "nice_to_have_relevance_criteria": [
+            {
+                "name": "Percent Body Weight Reduction",
+                "description": "The paper explicitly reports or analyzes the percentage of body weight reduction.",
+                "weight": 0.5
+            }
+        ]
+    }
+}

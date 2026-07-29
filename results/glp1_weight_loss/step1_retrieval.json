@@ -1,0 +1,162 @@
+{
+  "summary": {
+    "step": "1_literature_retrieval",
+    "unique_dois_checked": 560,
+    "per_source": [
+      {
+        "source": "pubmed",
+        "rows": 60,
+        "with_doi": 60,
+        "resolved": 60,
+        "not_found": 0,
+        "errors": 0,
+        "title_match": 57,
+        "year_match": 56,
+        "year_checked": 60,
+        "not_found_titles": [],
+        "mismatch_examples": [
+          {
+            "agent_title": "Efficacy of Liraglutide for Weight Loss Among Patients With ",
+            "crossref_title": "Efficacy of Liraglutide for Weight Loss Among Patients With ",
+            "ratio": 0.77
+          },
+          {
+            "agent_title": "Tirzepatide for Weight Reduction in Chinese Adults With Obes",
+            "crossref_title": "Tirzepatide for Weight Reduction in Chinese Adults With Obes",
+            "ratio": 0.75
+          },
+          {
+            "agent_title": "Continued Treatment With Tirzepatide for Maintenance of Weig",
+            "crossref_title": "Continued Treatment With Tirzepatide for Maintenance of Weig",
+            "ratio": 0.83
+          }
+        ],
+        "doi_completeness": 1.0,
+        "resolve_rate": 1.0,
+        "title_accuracy": 0.95,
+        "year_accuracy": 0.933
+      },
+      {
+        "source": "google_scholar",
+        "rows": 60,
+        "with_doi": 39,
+        "resolved": 36,
+        "not_found": 3,
+        "errors": 0,
+        "title_match": 34,
+        "year_match": 33,
+        "year_checked": 36,
+        "not_found_titles": [
+          "Semaglutide in HFpEF across obesity class and by body weight",
+          "Clinical effectiveness of semaglutide on weight loss, body c",
+          "Liraglutide and cardiovascular outcomes in adults with overw"
+        ],
+        "mismatch_examples": [
+          {
+            "agent_title": "Efficacy of liraglutide for weight loss among patients with ",
+            "crossref_title": "Efficacy of Liraglutide for Weight Loss Among Patients With ",
+            "ratio": 0.77
+          },
+          {
+            "agent_title": "Continued treatment with tirzepatide for maintenance of weig",
+            "crossref_title": "Continued Treatment With Tirzepatide for Maintenance of Weig",
+            "ratio": 0.83
+          }
+        ],
+        "doi_completeness": 0.65,
+        "resolve_rate": 0.923,
+        "title_accuracy": 0.944,
+        "year_accuracy": 0.917
+      },
+      {
+        "source": "scispace_abstract",
+        "rows": 300,
+        "with_doi": 288,
+        "resolved": 272,
+        "not_found": 16,
+        "errors": 0,
+        "title_match": 263,
+        "year_match": 254,
+        "year_checked": 267,
+        "not_found_titles": [
+          "Efficacy and safety of semaglutide for obesity: A systematic",
+          "Semaglutide - for the treatment of obesity",
+          "Clinical effectiveness of semaglutide on weight loss, body c",
+          "Semaglutide - for the treatment of obesity",
+          "Semaglutide and weight loss \u2013 a concern for diabetics and ph"
+        ],
+        "mismatch_examples": [
+          {
+            "agent_title": "Semaglutide: Systematic Review with \u2638\ufe0fSAIMSARA",
+            "crossref_title": "Semaglutide: Scoping Review with \u2638\ufe0fSAIMSARA",
+            "ratio": 0.83
+          },
+          {
+            "agent_title": "Efficacy of Liraglutide for Weight Loss Among Patients With ",
+            "crossref_title": "Efficacy of Liraglutide for Weight Loss Among Patients With ",
+            "ratio": 0.77
+          },
+          {
+            "agent_title": "The Pharmacological Treatment Of Type 2 Diabetes And Cardiov",
+            "crossref_title": "Il trattamento farmacologico del diabete di tipo 2 e la prev",
+            "ratio": 0.53
+          },
+          {
+            "agent_title": "Liraglutide (Saxenda \u00ae ) as a Treatment for Obesity",
+            "crossref_title": "Liraglutide (Saxenda&amp;lt;sup&amp;gt;&amp;#174;&amp;lt;/su",
+            "ratio": 0.71
+          },
+          {
+            "agent_title": "Long-acting GLP-1 receptor agonists: Findings and implicatio",
+            "crossref_title": "Long-acting GLP-1 receptor agonists",
+            "ratio": 0.53
+          }
+        ],
+        "doi_completeness": 0.96,
+        "resolve_rate": 0.944,
+        "title_accuracy": 0.967,
+        "year_accuracy": 0.951
+      },
+      {
+        "source": "scispace_fulltext",
+        "rows": 295,
+        "with_doi": 293,
+        "resolved": 292,
+        "not_found": 1,
+        "errors": 0,
+        "title_match": 288,
+        "year_match": 287,
+        "year_checked": 292,
+        "not_found_titles": [
+          "Efeitos do uso da semaglutida em pacientes com obesidade: um"
+        ],
+        "mismatch_examples": [
+          {
+            "agent_title": "Obesity treatment with semaglutide",
+            "crossref_title": "Therapie der Adipositas mit Semaglutid",
+            "ratio": 0.55
+          },
+          {
+            "agent_title": "Efficacy of Liraglutide for Weight Loss Among Patients With ",
+            "crossref_title": "Efficacy of Liraglutide for Weight Loss Among Patients With ",
+            "ratio": 0.77
+          },
+          {
+            "agent_title": "Treatment of type 2 diabetes",
+            "crossref_title": "Therapie des Typ-2-Diabetes",
+            "ratio": 0.68
+          },
+          {
+            "agent_title": "Treatment of type 2 diabetes",
+            "crossref_title": "Therapie des Typ-2-Diabetes",
+            "ratio": 0.68
+          }
+        ],
+        "doi_completeness": 0.993,
+        "resolve_rate": 0.997,
+        "title_accuracy": 0.986,
+        "year_accuracy": 0.983
+      }
+    ]
+  }
+}

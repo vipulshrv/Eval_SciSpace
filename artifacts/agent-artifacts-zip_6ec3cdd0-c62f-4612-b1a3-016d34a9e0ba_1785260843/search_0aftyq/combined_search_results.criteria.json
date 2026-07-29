@@ -1,0 +1,34 @@
+{
+    "query": "deep learning CNN diabetic retinopathy screening retinal fundus images sensitivity specificity AUC comparison architectures datasets",
+    "criteria": {
+        "required_relevance_criteria": [
+            {
+                "name": "Deep Learning CNN for Diabetic Retinopathy",
+                "description": "The paper must discuss the use of deep learning, specifically Convolutional Neural Networks (CNN), for the screening or detection of diabetic retinopathy.",
+                "weight": 0.5
+            },
+            {
+                "name": "Retinal Fundus Images",
+                "description": "The paper must focus on the analysis or use of retinal fundus images in the context of diabetic retinopathy screening.",
+                "weight": 0.5
+            }
+        ],
+        "nice_to_have_relevance_criteria": [
+            {
+                "name": "Performance Metrics",
+                "description": "The paper discusses sensitivity, specificity, and AUC (Area Under the Curve) for the screening model.",
+                "weight": 0.3
+            },
+            {
+                "name": "Architecture Comparison",
+                "description": "The paper compares different CNN architectures.",
+                "weight": 0.3
+            },
+            {
+                "name": "Datasets",
+                "description": "The paper discusses the datasets used for training and testing the models.",
+                "weight": 0.3
+            }
+        ]
+    }
+}

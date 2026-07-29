@@ -1,0 +1,101 @@
+{
+  "summary": {
+    "step": "1_literature_retrieval",
+    "unique_dois_checked": 511,
+    "per_source": [
+      {
+        "source": "pubmed",
+        "rows": 60,
+        "with_doi": 60,
+        "resolved": 60,
+        "not_found": 0,
+        "errors": 0,
+        "title_match": 58,
+        "year_match": 56,
+        "year_checked": 60,
+        "not_found_titles": [],
+        "mismatch_examples": [
+          {
+            "agent_title": "Advancing Diabetic Retinopathy Diagnosis: Leveraging Optical",
+            "crossref_title": "Contrast sensitivity and aspects of binocular vision alterat",
+            "ratio": 0.21
+          },
+          {
+            "agent_title": "Screening and evaluation of diabetic retinopathy ",
+            "crossref_title": "Screening and evaluation of diabetic retinopathy <i>via</i> ",
+            "ratio": 0.65
+          }
+        ],
+        "doi_completeness": 1.0,
+        "resolve_rate": 1.0,
+        "title_accuracy": 0.967,
+        "year_accuracy": 0.933
+      },
+      {
+        "source": "google_scholar",
+        "rows": 60,
+        "with_doi": 55,
+        "resolved": 54,
+        "not_found": 1,
+        "errors": 0,
+        "title_match": 54,
+        "year_match": 50,
+        "year_checked": 50,
+        "not_found_titles": [
+          "A hybrid convolutional neural network model for automatic di"
+        ],
+        "mismatch_examples": [],
+        "doi_completeness": 0.917,
+        "resolve_rate": 0.982,
+        "title_accuracy": 1.0,
+        "year_accuracy": 1.0
+      },
+      {
+        "source": "scispace_abstract",
+        "rows": 300,
+        "with_doi": 299,
+        "resolved": 258,
+        "not_found": 41,
+        "errors": 0,
+        "title_match": 258,
+        "year_match": 227,
+        "year_checked": 231,
+        "not_found_titles": [
+          "Instant Automatic Diagnosis of Diabetic Retinopathy",
+          "\"Fundus Image Dataset for Five-Stage Diabetic Retinopathy Cl",
+          "Integrating Non-Linear Radon Transformation for Diabetic Ret",
+          "Automatic Severity Classification of Diabetic Retinopathy Ba",
+          "Automatic Severity Classification of Diabetic Retinopathy Ba"
+        ],
+        "mismatch_examples": [],
+        "doi_completeness": 0.997,
+        "resolve_rate": 0.863,
+        "title_accuracy": 1.0,
+        "year_accuracy": 0.983
+      },
+      {
+        "source": "scispace_fulltext",
+        "rows": 300,
+        "with_doi": 286,
+        "resolved": 258,
+        "not_found": 28,
+        "errors": 0,
+        "title_match": 258,
+        "year_match": 250,
+        "year_checked": 258,
+        "not_found_titles": [
+          "Deep Learning for Ophthalmology: The State-of-the-Art and Fu",
+          "XDR-LVLM: An Explainable Vision-Language Large Model for Dia",
+          "AI-Driven Diabetic Retinopathy Screening: Multicentric Valid",
+          "Personalized Medicine and Explainable AI for Diabetic Retino",
+          "Personalized Medicine and Explainable AI for Diabetic Retino"
+        ],
+        "mismatch_examples": [],
+        "doi_completeness": 0.953,
+        "resolve_rate": 0.902,
+        "title_accuracy": 1.0,
+        "year_accuracy": 0.969
+      }
+    ]
+  }
+}
