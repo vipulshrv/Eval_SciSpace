@@ -215,6 +215,32 @@ precision the sample does not support.
 | Numerical consistency | 96.3% (26/27) | 87.2% (41/47) | 80.3% (240/299) | 86.6% (116/134) |
 | Unsupported synthesis | 60.6% (212/350) | 73.6% (204/277) | 58.0% (101/174) | 54.9% (62/113) |
 
+### Verification impact — a worked example (GLP-1, Stage 4 extraction)
+
+All rates above are post-verification. To show why that qualifier matters, the table
+below reports the same metric **before and after** the two-verifier panel, on the task
+where the effect is largest (GLP-1 attribute extraction).
+
+| | First-pass judge | After adversarial verification |
+|---|---|---|
+| Cells flagged as hallucinated | 48 | 9 confirmed |
+| — contradicted (intrinsic) | 25 | 4 |
+| — unsupported (extrinsic) | 23 | 5 |
+| Extraction hallucination rate | 23.3% (48/206) | 4.6% (9/195) |
+
+The single-pass judge flagged **48 of 206 adjudicable cells** as hallucinations. The
+two-verifier panel — each verifier searching the whole source before ruling — confirmed
+only **9**. The other 39 flags (**81%**) were overturned: 28 were in fact grounded
+(the judge had checked the wrong passage of a long source), and 11 were reclassified as
+a different, non-fabrication failure — 6 as under-extraction (a recall error, reported
+separately) and 5 as not a substantive claim. This is why the adjudicable denominator
+falls from 206 to 195.
+
+Without this pass, the reported extraction hallucination rate would have been **~5×
+higher (23% vs 4.6%)** and almost entirely wrong. A single-pass LLM judge on dense
+full-text sources is not, by itself, a reliable hallucination detector; the verification
+pass is what makes the headline numbers trustworthy.
+
 ---
 
 ## D. Glossary
